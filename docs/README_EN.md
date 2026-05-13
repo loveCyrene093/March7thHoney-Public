@@ -31,7 +31,7 @@ This is a game server project aiming for one word: **perfection**.
 - Character progression: leveling and promotion core loops are available.
 - Quest system: main and common quest progression are supported.
 - Friend system: core friend interaction and display are available.
-- Apocalyptic Shadow: supports core flow including entry unlock, stage challenge, and reward claiming.
+- Anomaly Arbitration: supports core flow including entry unlock, stage challenge, and reward claiming.
 - Challenge modes: Forgotten Hall / Pure Fiction / Apocalyptic Shadow are playable.
 - Currency War: basic gameplay flow is implemented.
 - Achievement system: most achievements can be tracked and completed.
