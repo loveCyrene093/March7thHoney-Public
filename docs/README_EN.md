@@ -23,17 +23,18 @@ This is a game server project aiming for one word: **perfection**.
 
 ## Features
 
-1. Shop system: browse and purchase flow works.
-2. Team formation: lineup, slot switching, and team changes are complete.
-3. Warp/Gacha: full pull flow and result display are supported.
-4. Battle flow: you can enter battle and complete the core combat loop.
-5. Open-world scene: scene loading, interaction, and basic exploration are available.
-6. Character progression: leveling and promotion core loops are available.
-7. Quest system: main and common quest progression are supported.
-8. Friend system: core friend interaction and display are available.
-9. Challenge modes: Forgotten Hall / Pure Fiction / Apocalyptic Shadow are playable.
-10. Simulated Universe family: multiple universe-style gameplay branches are supported.
-11. Achievement system: most achievements can be tracked and completed.
+- Shop system: browse and purchase flow works.
+- Team formation: lineup, slot switching, and team changes are complete.
+- Warp/Gacha: full pull flow and result display are supported.
+- Battle flow: you can enter battle and complete the core combat loop.
+- Open-world scene: scene loading, interaction, and basic exploration are available.
+- Character progression: leveling and promotion core loops are available.
+- Quest system: main and common quest progression are supported.
+- Friend system: core friend interaction and display are available.
+- Apocalyptic Shadow: supports core flow including entry unlock, stage challenge, and reward claiming.
+- Challenge modes: Forgotten Hall / Pure Fiction / Apocalyptic Shadow are playable.
+- Currency War: basic gameplay flow is implemented.
+- Achievement system: most achievements can be tracked and completed.
 
 ## TODO
 
@@ -43,3 +44,4 @@ This is a game server project aiming for one word: **perfection**.
 4. Expand event-mode gameplay coverage.
 5. Keep fixing known minor UI/state-sync issues.
 6. Add more configurable options.
+
