@@ -1,6 +1,6 @@
 # March7thHoney-Public
 
-[简体中文](README.md) | [English](docs/README_EN.md) | [繁體中文](docs/README_CHT.md)
+[简体中文](README.md) | [English](docs/README_EN.md) | [繁體中文](docs/README_CHT.md) | [Discord](https://discord.gg/castoriceps)
 
 > 少女如春风般的吹息，挠得你耳尖与心尖一样痒痒。
 
