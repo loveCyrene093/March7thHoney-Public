@@ -1,0 +1,31 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using March7thHoney.Data.Config;
+using March7thHoney.Data.Excel;
+using March7thHoney.Database.Avatar;
+using March7thHoney.Enums.Mission;
+using March7thHoney.GameServer.Game.Player;
+
+namespace March7thHoney.GameServer.Game.Mission.FinishType.Handler;
+
+[MissionFinishType(MissionFinishTypeEnum.AvatarLevelCnt)]
+public class MissionHandlerAvatarLevelCnt : MissionFinishTypeHandler
+{
+	public override async ValueTask HandleMissionFinishType(PlayerInstance player, SubMissionInfo info, object? arg)
+	{
+		await ValueTask.CompletedTask;
+	}
+
+	public override async ValueTask HandleQuestFinishType(PlayerInstance player, QuestDataExcel quest, FinishWayExcel excel, object? arg)
+	{
+		int num = 0;
+		foreach (FormalAvatarInfo item in player.AvatarManager?.AvatarData.FormalAvatars ?? new List<FormalAvatarInfo>())
+		{
+			if (item.Level >= excel.ParamInt1)
+			{
+				num++;
+			}
+		}
+		await player.QuestManager.UpdateQuestProgress(quest.QuestID, num);
+	}
+}
