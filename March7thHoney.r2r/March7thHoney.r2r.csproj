@@ -1,0 +1,194 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>ManifestMetadata</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Azure.Core">
+      <HintPath>Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Identity">
+      <HintPath>Azure.Identity.dll</HintPath>
+    </Reference>
+    <Reference Include="EastAsianWidth">
+      <HintPath>EastAsianWidth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="McMaster.NETCore.Plugins">
+      <HintPath>McMaster.NETCore.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="McMaster.NETCore.Plugins.Mvc">
+      <HintPath>McMaster.NETCore.Plugins.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlClient">
+      <HintPath>Microsoft.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite">
+      <HintPath>Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Sqlite">
+      <HintPath>Microsoft.EntityFrameworkCore.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel">
+      <HintPath>Microsoft.Extensions.DependencyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client">
+      <HintPath>Microsoft.Identity.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client.Extensions.Msal">
+      <HintPath>Microsoft.Identity.Client.Extensions.Msal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Abstractions">
+      <HintPath>Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging">
+      <HintPath>Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols">
+      <HintPath>Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect">
+      <HintPath>Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Server">
+      <HintPath>Microsoft.SqlServer.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector">
+      <HintPath>MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oscar.Data.SqlClient">
+      <HintPath>Oscar.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Spectre.Console">
+      <HintPath>Spectre.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2">
+      <HintPath>SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core">
+      <HintPath>SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.e_sqlite3">
+      <HintPath>SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlSugar">
+      <HintPath>SqlSugar.dll</HintPath>
+    </Reference>
+    <Reference Include="DM.DmProvider">
+      <HintPath>DM.DmProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Kdbndp">
+      <HintPath>Kdbndp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ClientModel">
+      <HintPath>System.ClientModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom">
+      <HintPath>System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager">
+      <HintPath>System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.PerformanceCounter">
+      <HintPath>System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices.Protocols">
+      <HintPath>System.DirectoryServices.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory.Data">
+      <HintPath>System.Memory.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching">
+      <HintPath>System.Runtime.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData">
+      <HintPath>System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney.Command">
+      <HintPath>March7thHoney.Command.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney.Common">
+      <HintPath>March7thHoney.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney.GameServer">
+      <HintPath>March7thHoney.GameServer.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney.KcpSharp">
+      <HintPath>March7thHoney.KcpSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney.Proto">
+      <HintPath>March7thHoney.Proto.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney.ServerSideProto">
+      <HintPath>March7thHoney.ServerSideProto.dll</HintPath>
+    </Reference>
+    <Reference Include="WebServer">
+      <HintPath>WebServer.dll</HintPath>
+    </Reference>
+    <Reference Include="March7thHoney">
+      <HintPath>March7thHoney.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Diagnostics.EventLog.Messages">
+      <HintPath>System.Diagnostics.EventLog.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.EventLog">
+      <HintPath>System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs">
+      <HintPath>System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml">
+      <HintPath>System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
