@@ -1,7 +1,6 @@
 # 玩法开发进度树状图（协议全覆盖）
 
 [EN](GameplayImplementationTree.md) | [简中](GameplayImplementationTree_zh-CN.md) | [繁中](GameplayImplementationTree_zh-TW.md) | [JP](GameplayImplementationTree_ja-JP.md)
-[多语言玩法名映射表](GameplayModuleNameMap.md)
 
 说明：
 - [x] 已实现（主流程可用）

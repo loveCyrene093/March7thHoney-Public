@@ -1,7 +1,6 @@
 # Gameplay Development Progress Tree (Protocol Coverage)
 
 [EN](GameplayImplementationTree.md) | [简中](GameplayImplementationTree_zh-CN.md) | [繁中](GameplayImplementationTree_zh-TW.md) | [JP](GameplayImplementationTree_ja-JP.md)
-[Multilingual Name Mapping](GameplayModuleNameMap.md)
 
 Legend:
 - [x] Implemented (core flow works)
@@ -63,7 +62,7 @@ Legend:
   - [ ] RogueTourn (Divergent Universe) full coverage
   - [ ] RogueMagic (Unknowable Domain) full coverage
 
-- [ ] Aetherium Wars / Currency War
+- [ ] Currency War
   - [x] Core match flow
   - [x] Shop buy/refresh/sell baseline
   - [x] Orb use baseline
