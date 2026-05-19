@@ -13,7 +13,8 @@ public class PacketUpdateFloorSavedValueNotify : BasePacket
 		UpdateFloorSavedValueNotify updateFloorSavedValueNotify = new UpdateFloorSavedValueNotify
 		{
 			FloorId = (uint)player.SceneInstance.FloorId,
-			PlaneId = (uint)player.SceneInstance.PlaneId
+			PlaneId = (uint)player.SceneInstance.PlaneId,
+			DimensionId = (uint)player.SceneInstance.ResolveDimensionId()
 		};
 		updateFloorSavedValueNotify.SavedValue.Add(name, savedValue);
 		SetData(updateFloorSavedValueNotify);
@@ -25,7 +26,8 @@ public class PacketUpdateFloorSavedValueNotify : BasePacket
 		UpdateFloorSavedValueNotify updateFloorSavedValueNotify = new UpdateFloorSavedValueNotify
 		{
 			FloorId = (uint)player.SceneInstance.FloorId,
-			PlaneId = (uint)player.SceneInstance.PlaneId
+			PlaneId = (uint)player.SceneInstance.PlaneId,
+			DimensionId = (uint)player.SceneInstance.ResolveDimensionId()
 		};
 		foreach (KeyValuePair<string, int> item in update)
 		{

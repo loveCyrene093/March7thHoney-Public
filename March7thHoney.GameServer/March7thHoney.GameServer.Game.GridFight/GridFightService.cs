@@ -17,7 +17,7 @@ public sealed class GridFightService
 		base._002Ector();
 	}
 
-	public GridFightInstance EnsureOrStart(uint season = 1u, uint divisionId = 10939u, bool isOverlock = false)
+	public GridFightInstance EnsureOrStart(uint season = 1u, uint divisionId = 10940u, bool isOverlock = false)
 	{
 		return Manager.StartGamePlay(season, divisionId, isOverlock).Item2;
 	}
@@ -33,7 +33,7 @@ public sealed class GridFightService
 				PortalBuffAction = new GridFightPortalBuffActionInfo
 				{
 					FCHPJKAIBHB = 1u,
-					GridFightPortalBuffList = { 1115u, 106u, 147u }
+					GridFightPortalBuffList = { (IEnumerable<uint>)gridFightInstance.EnsurePortalBuffOffer() }
 				}
 			};
 		}
@@ -48,20 +48,21 @@ public sealed class GridFightService
 		return list;
 	}
 
-	public (uint roleId, uint roleUniqueId, uint pos, int goldDelta) BuyGoods(IList<uint> buyGoodsIndexList)
+	public (uint roleId, uint roleUniqueId, uint pos, int goldDelta, List<uint> mergedRemoved, uint mergedKeepUid, uint mergedNewStar) BuyGoods(IList<uint> buyGoodsIndexList)
 	{
 		GridFightInstance current = Current;
 		if (current == null || buyGoodsIndexList.Count == 0)
 		{
-			return (roleId: 0u, roleUniqueId: 0u, pos: 14u, goldDelta: 0);
+			return (roleId: 0u, roleUniqueId: 0u, pos: 14u, goldDelta: 0, mergedRemoved: new List<uint>(), mergedKeepUid: 0u, mergedNewStar: 0u);
 		}
 		int shopIndex = (int)buyGoodsIndexList[0];
-		var (flag, item, item2, num) = current.TryBuyGoods(shopIndex);
+		var (flag, num, num2, num3) = current.TryBuyGoods(shopIndex);
 		if (!flag)
 		{
-			return (roleId: 0u, roleUniqueId: 0u, pos: 14u, goldDelta: 0);
+			return (roleId: 0u, roleUniqueId: 0u, pos: 14u, goldDelta: 0, mergedRemoved: new List<uint>(), mergedKeepUid: 0u, mergedNewStar: 0u);
 		}
-		return (roleId: item2, roleUniqueId: item, pos: (num == 0) ? 14u : num, goldDelta: -1);
+		GridFightInstance.RoleMergeResult roleMergeResult = current.TryAutoMergeRole(num2, num);
+		return (roleId: num2, roleUniqueId: num, pos: (num3 == 0) ? 14u : num3, goldDelta: -1, mergedRemoved: roleMergeResult.RemovedUniqueIds, mergedKeepUid: roleMergeResult.KeptUniqueId, mergedNewStar: roleMergeResult.NewStar);
 	}
 
 	public bool RefreshShop()

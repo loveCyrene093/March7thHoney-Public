@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace March7thHoney.Data.Excel;
 
-[ResourceEntity("AdventurePlayer.json,ActivityAdventurePlayer.json", true)]
+[ResourceEntity("AdventurePlayer.json,ActivityAdventurePlayer.json,AdventurePlayerLD.json", true)]
 public class AdventurePlayerExcel : ExcelResource
 {
 	public int ID { get; set; }

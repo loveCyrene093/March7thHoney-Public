@@ -36,7 +36,7 @@ public class HandlerExchangeHcoinCsReq : Handler
 			return;
 		}
 		await player.InventoryManager.RemoveItem(3, (int)req.Num, 0, sync: false);
-		await player.InventoryManager.AddItem(1, (int)req.Num, notify: false, 1, 1, sync: false);
+		await player.InventoryManager.AddItem(1, (int)req.Num, notify: false, 1, 1, 0, sync: false);
 		await player.SendPacket(new PacketPlayerSyncScNotify(player.ToProto()));
 		await connection.SendPacket(new PacketExchangeHcoinScRsp(req.Num));
 	}

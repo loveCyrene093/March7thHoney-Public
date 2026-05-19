@@ -79,10 +79,11 @@ public class PacketGridFightEnterBattleStageScRsp : BasePacket
 		foreach (var item4 in inst.ResolveBackgroundRoles())
 		{
 			uint item2 = item4.RoleId;
-			SpecialAvatarInfo specialAvatarInfo = GridFightBattleProtoBuilder.ResolveTrialAvatar(player, item2);
-			if (specialAvatarInfo != null)
+			(BaseAvatarInfo, AvatarType) tuple = GridFightBattleProtoBuilder.ResolveBattleAvatar(player, item2);
+			var (baseAvatarInfo, _) = tuple;
+			if (baseAvatarInfo != null)
 			{
-				BattleAvatar battleAvatar = specialAvatarInfo.ToBattleProto(collection, AvatarType.AvatarGridFightType);
+				BattleAvatar battleAvatar = baseAvatarInfo.ToBattleProto(collection, tuple.Item2);
 				battleAvatar.Id = (GameData.GridFightRoleBasicInfoData.TryGetValue(item2, out GridFightRoleBasicInfoExcel value2) ? value2.AvatarID : item2);
 				sceneBattleInfo.AFCMOOFGBPK.PIDIGFGKAMK.Add(battleAvatar);
 			}

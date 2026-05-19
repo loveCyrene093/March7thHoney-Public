@@ -10,8 +10,8 @@ public enum CmdRelicPresetType
 	CmdGbfgabhfbcn = 9850,
 	[OriginalName("CmdRelicPresetAddPlanCsReq")]
 	CmdRelicPresetAddPlanCsReq = 9842,
-	[OriginalName("CmdAOGHKDGEFGA")]
-	CmdAoghkdgefga = 9860,
+	[OriginalName("CmdRelicPresetGetPlanScRsp")]
+	CmdRelicPresetGetPlanScRsp = 9860,
 	[OriginalName("CmdRelicPresetDeletePlanCsReq")]
 	CmdRelicPresetDeletePlanCsReq = 9855,
 	[OriginalName("CmdAIODMENCPKA")]

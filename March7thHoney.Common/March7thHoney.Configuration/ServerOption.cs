@@ -27,6 +27,8 @@ public class ServerOption
 
 	public ServerProfile ServerProfile { get; set; } = new ServerProfile();
 
+	public WatermarkConfig Watermark { get; set; } = new WatermarkConfig();
+
 	public bool AutoCreateUser { get; set; } = true;
 
 	public LogOption LogOption { get; set; } = new LogOption();
@@ -40,6 +42,8 @@ public class ServerOption
 	public bool EnableMonthCard { get; set; } = true;
 
 	public ServerTimeOption ServerTime { get; set; } = new ServerTimeOption();
+
+	public WelcomeMailConfig WelcomeMail { get; set; } = new WelcomeMailConfig();
 
 	public int ValidFarmingDropRate()
 	{

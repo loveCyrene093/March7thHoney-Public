@@ -58,7 +58,7 @@ public class CommandGiveall : ICommand
 			{
 				if (player.AvatarManager.GetFormalAvatar(avatar.AvatarID) == null)
 				{
-					await player.InventoryManager.AddItem(avatar.AvatarID, 1, notify: false, 1, 1, sync: false);
+					await player.InventoryManager.AddItem(avatar.AvatarID, 1, notify: false, 1, 1, 0, sync: false);
 				}
 				FormalAvatarInfo formalAvatar = player.AvatarManager.GetFormalAvatar(avatar.AvatarID);
 				if (formalAvatar != null)
@@ -111,7 +111,7 @@ public class CommandGiveall : ICommand
 		{
 			foreach (EquipmentConfigExcel item in lightconeList)
 			{
-				ItemData itemData = await player.InventoryManager.AddItem(item.EquipmentID, 1, notify: false, Math.Max(Math.Min(rank, 5), 0), Math.Max(Math.Min(level, 80), 0), sync: false);
+				ItemData itemData = await player.InventoryManager.AddItem(item.EquipmentID, 1, notify: false, Math.Max(Math.Min(rank, 5), 0), Math.Max(Math.Min(level, 80), 0), 0, sync: false);
 				if (itemData != null)
 				{
 					items.Add(itemData);
@@ -229,7 +229,7 @@ public class CommandGiveall : ICommand
 		{
 			foreach (RelicConfigExcel item in relicList)
 			{
-				ItemData itemData = await player.InventoryManager.AddItem(item.ID, amount, notify: false, 1, Math.Max(Math.Min(level, item.MaxLevel), 1), sync: false);
+				ItemData itemData = await player.InventoryManager.AddItem(item.ID, amount, notify: false, 1, Math.Max(Math.Min(level, item.MaxLevel), 1), 0, sync: false);
 				if (itemData != null)
 				{
 					items.Add(itemData);
@@ -252,7 +252,7 @@ public class CommandGiveall : ICommand
 		Dictionary<int, ItemConfigExcel>.ValueCollection values = GameData.ItemConfigData.Values;
 		foreach (ItemConfigExcel item in values)
 		{
-			if (item.ItemMainType == ItemMainTypeEnum.Usable && (item.ItemSubType == ItemSubTypeEnum.HeadIcon || item.ItemSubType == ItemSubTypeEnum.PhoneTheme || item.ItemSubType == ItemSubTypeEnum.ChatBubble || item.ItemSubType == ItemSubTypeEnum.PersonalCard || item.ItemSubType == ItemSubTypeEnum.PhoneCase || item.ItemSubType == ItemSubTypeEnum.AvatarSkin))
+			if (item.ItemMainType == ItemMainTypeEnum.Usable && (item.ItemSubType == ItemSubTypeEnum.HeadIcon || item.ItemSubType == ItemSubTypeEnum.PhoneTheme || item.ItemSubType == ItemSubTypeEnum.ChatBubble || item.ItemSubType == ItemSubTypeEnum.PersonalCard || item.ItemSubType == ItemSubTypeEnum.PhoneCase || item.ItemSubType == ItemSubTypeEnum.AvatarSkin || item.ItemSubType == ItemSubTypeEnum.PlayerOutfit))
 			{
 				await player.InventoryManager.AddItem(item.ID, 1, notify: false);
 			}
@@ -325,7 +325,7 @@ public class CommandGiveall : ICommand
 		{
 			if (player.AvatarManager.GetFormalAvatar(multiPathAvatar.BaseAvatarID) == null)
 			{
-				await player.InventoryManager.AddItem(multiPathAvatar.BaseAvatarID, 1, notify: false, 1, 1, sync: false);
+				await player.InventoryManager.AddItem(multiPathAvatar.BaseAvatarID, 1, notify: false, 1, 1, 0, sync: false);
 				player.AvatarManager.GetFormalAvatar(multiPathAvatar.BaseAvatarID).Level = Math.Max(Math.Min(1, 80), 0);
 				player.AvatarManager.GetFormalAvatar(multiPathAvatar.BaseAvatarID).Promotion = GameData.GetMinPromotionForLevel(Math.Max(Math.Min(1, 80), 0));
 				player.AvatarManager.GetFormalAvatar(multiPathAvatar.BaseAvatarID).GetCurPathInfo().Rank = Math.Max(Math.Min(0, 6), 0);

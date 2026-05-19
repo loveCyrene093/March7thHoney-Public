@@ -92,6 +92,8 @@ public static class GameData
 
 	public static Dictionary<int, CocoonConfigExcel> CocoonConfigData { get; private set; } = new Dictionary<int, CocoonConfigExcel>();
 
+	public static Dictionary<int, FarmElementConfigExcel> FarmElementConfigData { get; private set; } = new Dictionary<int, FarmElementConfigExcel>();
+
 	public static Dictionary<int, StageConfigExcel> StageConfigData { get; private set; } = new Dictionary<int, StageConfigExcel>();
 
 	public static Dictionary<int, RaidConfigExcel> RaidConfigData { get; private set; } = new Dictionary<int, RaidConfigExcel>();
@@ -171,6 +173,8 @@ public static class GameData
 	public static Dictionary<uint, Dictionary<uint, GridFightTraitEffectLayerPaExcel>> GridFightTraitEffectLayerPaData { get; private set; } = new Dictionary<uint, Dictionary<uint, GridFightTraitEffectLayerPaExcel>>();
 
 	public static Dictionary<uint, GridFightSeasonTalentExcel> GridFightSeasonTalentData { get; private set; } = new Dictionary<uint, GridFightSeasonTalentExcel>();
+
+	public static Dictionary<uint, List<uint>> GridFightSeasonPortalData { get; private set; } = new Dictionary<uint, List<uint>>();
 
 	public static Dictionary<uint, Dictionary<uint, GridFightStageRouteExcel>> GridFightStageRouteData { get; private set; } = new Dictionary<uint, Dictionary<uint, GridFightStageRouteExcel>>();
 

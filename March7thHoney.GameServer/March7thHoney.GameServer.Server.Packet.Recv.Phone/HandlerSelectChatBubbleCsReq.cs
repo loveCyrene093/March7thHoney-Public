@@ -12,5 +12,6 @@ public class HandlerSelectChatBubbleCsReq : Handler
 		SelectChatBubbleCsReq selectChatBubbleCsReq = SelectChatBubbleCsReq.Parser.ParseFrom(data);
 		connection.Player.Data.ChatBubble = (int)selectChatBubbleCsReq.BubbleId;
 		await connection.SendPacket(new PacketSelectChatBubbleScRsp(selectChatBubbleCsReq.BubbleId));
+		await connection.Player.TrainCakeCatchManager.BroadcastPlayerStateAsync();
 	}
 }

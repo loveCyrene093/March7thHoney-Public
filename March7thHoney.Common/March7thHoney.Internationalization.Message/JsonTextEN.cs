@@ -4,7 +4,7 @@ public class JsonTextEN
 {
 	public string Desc => "Import avatar/relic/light cone data from JSON, or clear existing relics and light cones.";
 
-	public string Usage => "Usage: /json\n\nUsage: /json [filename/index/absolute path]\n\nUsage: /json clear";
+	public string Usage => "Usage: /json\n\nUsage: /json [filename/index/absolute path]\n\nUsage: /json clear\n\nUsage：/json export <name> <格式化(true/false)>";
 
 	public string ClearInventory => "Cleared relics and light cones for the current player.";
 
@@ -33,4 +33,6 @@ public class JsonTextEN
 	public string UsageSelectHint => "Use /json [index] or /json [filename] to import.";
 
 	public string AvatarExcelNotFound => "Avatar config not found: {0}";
+
+	public string ExportSuccess => "Export successful, file: {0}";
 }

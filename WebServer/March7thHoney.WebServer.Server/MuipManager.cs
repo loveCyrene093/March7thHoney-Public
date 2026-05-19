@@ -19,7 +19,6 @@ using March7thHoney.Database.Quests;
 using March7thHoney.Enums;
 using March7thHoney.Util;
 using March7thHoney.WebServer.Response;
-using Org.BouncyCastle.Asn1.X509;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.X509;
@@ -85,8 +84,7 @@ public static class MuipManager
 				Sessions.Remove(sessionId);
 				return new AuthAdminKeyResponse(1, "Session has expired!", null);
 			}
-			string text = DecodeWithRsaFallback(key);
-			if (text != ConfigManager.Config.MuipServer.AdminKey)
+			if (DecodeWithRsaFallback(key) != ConfigManager.Config.MuipServer.AdminKey)
 			{
 				return new AuthAdminKeyResponse(2, "Admin key is invalid!", null);
 			}
@@ -137,7 +135,7 @@ public static class MuipManager
 			}
 			logger.Info($"SessionId: {sessionId}, UID: {targetUid}, ExecuteCommand: {commandStr}");
 			string returnStr = "";
-			Task task = Task.Run(delegate
+			Task.Run(delegate
 			{
 				MuipManager.OnExecuteCommand?.Invoke(commandStr, new MuipCommandSender(session, delegate(string msg)
 				{
@@ -146,8 +144,7 @@ public static class MuipManager
 				{
 					SenderUid = targetUid
 				});
-			});
-			task.Wait();
+			}).Wait();
 			return new ExecuteCommandResponse(0, "Success", new ExecuteCommandData
 			{
 				SessionId = sessionId,
@@ -171,8 +168,7 @@ public static class MuipManager
 			{
 				return new ServerInformationResponse(3, "Not authorized!");
 			}
-			Process currentProcess = Process.GetCurrentProcess();
-			long workingSet = currentProcess.WorkingSet64;
+			long workingSet = Process.GetCurrentProcess().WorkingSet64;
 			float num = -1f;
 			float num2 = -1f;
 			if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
@@ -186,11 +182,10 @@ public static class MuipManager
 				num2 = GetAvailableMemoryLinux();
 			}
 			Dictionary<int, PlayerData> result = new Dictionary<int, PlayerData>();
-			Task task = Task.Run(delegate
+			Task.Run(delegate
 			{
 				MuipManager.OnGetServerInformation?.Invoke(result);
-			});
-			task.Wait();
+			}).Wait();
 			return new ServerInformationResponse(0, "Success", new ServerInformationData
 			{
 				ServerTime = DateTime.Now.ToUnixSec(),
@@ -229,11 +224,10 @@ public static class MuipManager
 			}
 			PlayerStatusEnum status = PlayerStatusEnum.Offline;
 			PlayerSubStatusEnum subStatus = PlayerSubStatusEnum.None;
-			Task task = Task.Run(delegate
+			Task.Run(delegate
 			{
 				MuipManager.OnGetPlayerStatus?.Invoke(player.Uid, out status, out subStatus);
-			});
-			task.Wait();
+			}).Wait();
 			AvatarData instance = DatabaseHelper.Instance.GetInstance<AvatarData>(player.Uid);
 			LineupData instance2 = DatabaseHelper.Instance.GetInstance<LineupData>(player.Uid);
 			MissionData instance3 = DatabaseHelper.Instance.GetInstance<MissionData>(player.Uid);
@@ -342,11 +336,7 @@ public static class MuipManager
 		RSACryptoServiceProvider rSACryptoServiceProvider = new RSACryptoServiceProvider();
 		rSACryptoServiceProvider.FromXmlString(xmlpubkey);
 		RSAParameters rSAParameters = rSACryptoServiceProvider.ExportParameters(includePrivateParameters: false);
-		RsaKeyParameters publicKey = new RsaKeyParameters(isPrivate: false, new BigInteger(1, rSAParameters.Modulus), new BigInteger(1, rSAParameters.Exponent));
-		SubjectPublicKeyInfo subjectPublicKeyInfo = SubjectPublicKeyInfoFactory.CreateSubjectPublicKeyInfo(publicKey);
-		byte[] derEncoded = subjectPublicKeyInfo.ToAsn1Object().GetDerEncoded();
-		string key = Convert.ToBase64String(derEncoded);
-		return Format(key, type: true);
+		return Format(Convert.ToBase64String(SubjectPublicKeyInfoFactory.CreateSubjectPublicKeyInfo(new RsaKeyParameters(isPrivate: false, new BigInteger(1, rSAParameters.Modulus), new BigInteger(1, rSAParameters.Exponent))).ToAsn1Object().GetDerEncoded()), type: true);
 	}
 
 	private static string Format(string key, bool type)
@@ -372,13 +362,10 @@ public static class MuipManager
 	{
 		if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
 		{
-			ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_ComputerSystem");
-			using ManagementObjectCollection.ManagementObjectEnumerator managementObjectEnumerator = managementObjectSearcher.Get().GetEnumerator();
+			using ManagementObjectCollection.ManagementObjectEnumerator managementObjectEnumerator = new ManagementObjectSearcher("SELECT * FROM Win32_ComputerSystem").Get().GetEnumerator();
 			if (managementObjectEnumerator.MoveNext())
 			{
-				ManagementBaseObject current = managementObjectEnumerator.Current;
-				ulong num = Convert.ToUInt64(current["TotalPhysicalMemory"]);
-				return num / 1024 / 1024;
+				return Convert.ToUInt64(managementObjectEnumerator.Current["TotalPhysicalMemory"]) / 1024 / 1024;
 			}
 		}
 		return 0f;
@@ -388,8 +375,7 @@ public static class MuipManager
 	{
 		if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
 		{
-			PerformanceCounter performanceCounter = new PerformanceCounter("Memory", "Available MBytes");
-			return performanceCounter.NextValue();
+			return new PerformanceCounter("Memory", "Available MBytes").NextValue();
 		}
 		return 0f;
 	}
@@ -397,8 +383,7 @@ public static class MuipManager
 	public static float GetTotalMemoryLinux()
 	{
 		string[] array = File.ReadAllLines("/proc/meminfo");
-		string[] array2 = array;
-		foreach (string text in array2)
+		foreach (string text in array)
 		{
 			if (text.StartsWith("MemTotal"))
 			{
@@ -411,8 +396,7 @@ public static class MuipManager
 	public static float GetAvailableMemoryLinux()
 	{
 		string[] array = File.ReadAllLines("/proc/meminfo");
-		string[] array2 = array;
-		foreach (string text in array2)
+		foreach (string text in array)
 		{
 			if (text.StartsWith("MemAvailable"))
 			{
@@ -437,13 +421,12 @@ public static class MuipManager
 
 	private static float GetCpuUsageLinux()
 	{
-		string[] array = File.ReadAllLines("/proc/stat");
-		string[] array2 = array[0].Split(' ', StringSplitOptions.RemoveEmptyEntries);
-		float num = float.Parse(array2[4]);
+		string[] array = File.ReadAllLines("/proc/stat")[0].Split(' ', StringSplitOptions.RemoveEmptyEntries);
+		float num = float.Parse(array[4]);
 		float num2 = 0f;
-		for (int i = 1; i < array2.Length; i++)
+		for (int i = 1; i < array.Length; i++)
 		{
-			num2 += float.Parse(array2[i]);
+			num2 += float.Parse(array[i]);
 		}
 		return 100f * (1f - num / num2);
 	}
@@ -507,8 +490,7 @@ public static class MuipManager
 		string item = "";
 		int item2 = 0;
 		float item3 = 0f;
-		ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher("select * from Win32_Processor");
-		foreach (ManagementBaseObject item4 in managementObjectSearcher.Get())
+		foreach (ManagementBaseObject item4 in new ManagementObjectSearcher("select * from Win32_Processor").Get())
 		{
 			item = item4["Name"]?.ToString() ?? "Unknown";
 			item2 = int.Parse(item4["NumberOfCores"]?.ToString() ?? "0");
@@ -541,8 +523,7 @@ public static class MuipManager
 		if (File.Exists("/etc/os-release"))
 		{
 			string[] array = File.ReadAllLines("/etc/os-release");
-			string[] array2 = array;
-			foreach (string text in array2)
+			foreach (string text in array)
 			{
 				if (text.StartsWith("PRETTY_NAME"))
 				{

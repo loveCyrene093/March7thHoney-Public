@@ -43,4 +43,6 @@ public class CommandTextEN
 	public GridTextEN Grid { get; } = new GridTextEN();
 
 	public JsonTextEN Json { get; } = new JsonTextEN();
+
+	public CalyxTextEN Calyx { get; } = new CalyxTextEN();
 }

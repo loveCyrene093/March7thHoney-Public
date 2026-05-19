@@ -2,6 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Google.Protobuf.Collections;
+using March7thHoney.Data;
+using March7thHoney.Data.Excel;
+using March7thHoney.GameServer.Game.GridFight.Battle;
 using March7thHoney.GameServer.Server;
 using March7thHoney.GameServer.Server.Packet.Send.GridFight;
 using March7thHoney.Proto;
@@ -45,7 +48,7 @@ public static class GridFightPendingActionProcessor
 
 	private static async System.Threading.Tasks.Task HandlePortalBuffReroll(Connection connection, GridFightInstance inst, uint ackPos)
 	{
-		List<uint> values = new List<uint> { 105u, 1014u, 132u };
+		List<uint> list = inst.RollPortalBuffs(3, inst.CurrentPortalBuffOffer.ToList());
 		inst.QueuePosition = ackPos;
 		inst.PendingAction = new GridFightPendingAction
 		{
@@ -53,14 +56,17 @@ public static class GridFightPendingActionProcessor
 			PortalBuffAction = new GridFightPortalBuffActionInfo
 			{
 				FCHPJKAIBHB = 1u,
-				GridFightPortalBuffList = { (IEnumerable<uint>)values }
+				GridFightPortalBuffList = { (IEnumerable<uint>)list }
 			}
 		};
 		GridFightSeasonHandBookNotify gridFightSeasonHandBookNotify = new GridFightSeasonHandBookNotify
 		{
 			HandbookGridFightPortalInfo = new GridFightHandBookPortalInfo()
 		};
-		gridFightSeasonHandBookNotify.HandbookGridFightPortalInfo.PELJLONLDNM.Add(132u);
+		foreach (uint item in list)
+		{
+			gridFightSeasonHandBookNotify.HandbookGridFightPortalInfo.PELJLONLDNM.Add(item);
+		}
 		await connection.SendPacket(new PacketGridFightSeasonHandBookNotify(gridFightSeasonHandBookNotify));
 		await connection.SendPacket(new PacketGridFightHandlePendingActionScRsp(ackPos));
 		GridFightSyncUpdateResultScNotify gridFightSyncUpdateResultScNotify = new GridFightSyncUpdateResultScNotify();
@@ -79,8 +85,15 @@ public static class GridFightPendingActionProcessor
 		{
 			inst.ActivePortalBuffIds.Add(buffId);
 		}
-		inst.MaterializeInitialBenchTeam();
-		inst.ConfigureNextBattle(90303u, new uint[3] { 300101007u, 800102021u, 300101007u });
+		inst.ClearPortalBuffOffer();
+		uint requiredTrait = 0u;
+		if (GameData.GridFightPortalBuffData.TryGetValue(buffId, out GridFightPortalBuffExcel value) && value.PortalGameRefTrait.Count > 0)
+		{
+			requiredTrait = value.PortalGameRefTrait[0];
+		}
+		inst.MaterializeInitialBenchTeam(requiredTrait);
+		GridFightLevelEncounter gridFightLevelEncounter = GridFightLevelResolver.Resolve(inst);
+		inst.ConfigureNextBattle(gridFightLevelEncounter.StageId, gridFightLevelEncounter.Monsters.Select((GridFightMonsterSpec m) => m.MonsterId));
 		uint queuePosition = (inst.QueuePosition = ackPos + 1);
 		inst.PendingAction = new GridFightPendingAction
 		{
@@ -95,104 +108,68 @@ public static class GridFightPendingActionProcessor
 		await connection.SendPacket(new PacketGridFightSeasonHandBookNotify(gridFightSeasonHandBookNotify));
 		await connection.SendPacket(new PacketGridFightHandlePendingActionScRsp(ackPos));
 		GridFightSyncUpdateResultScNotify gridFightSyncUpdateResultScNotify = new GridFightSyncUpdateResultScNotify();
-		GridFightSyncResultData gridFightSyncResultData = new GridFightSyncResultData
+		List<uint> list = new List<uint>();
+		if (GameData.GridFightPortalBuffData.TryGetValue(buffId, out GridFightPortalBuffExcel value2))
 		{
-			GridUpdateSrc = GridFightUpdateSrcType.LnpfefkjdhpPnejelgglej
-		};
-		uint uniqueId = inst.AllocEquipUniqueId();
-		gridFightSyncResultData.SyncEffectParamList.Add(buffId);
-		gridFightSyncResultData.UpdateDynamicList.Add(new GridFightSyncData
-		{
-			AddGameItemInfo = new GridFightGameItemSyncInfo
+			foreach (uint showBonusID in value2.ShowBonusIDList)
 			{
-				GridFightEquipmentList = 
+				if (GameData.GridFightEquipmentData.ContainsKey(showBonusID))
 				{
-					new GridFightEquipmentInfo
-					{
-						GridFightEquipmentId = 350602u,
-						Source = 1u,
-						UniqueId = uniqueId
-					}
+					list.Add(showBonusID);
 				}
 			}
-		});
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData);
+		}
+		if (list.Count > 0)
+		{
+			GridFightSyncResultData gridFightSyncResultData = new GridFightSyncResultData
+			{
+				GridUpdateSrc = GridFightUpdateSrcType.LnpfefkjdhpPnejelgglej
+			};
+			gridFightSyncResultData.SyncEffectParamList.Add(buffId);
+			gridFightSyncResultData.SyncEffectParamList.Add(0u);
+			GridFightGameItemSyncInfo gridFightGameItemSyncInfo = new GridFightGameItemSyncInfo();
+			foreach (uint item5 in list)
+			{
+				gridFightGameItemSyncInfo.GridFightEquipmentList.Add(new GridFightEquipmentInfo
+				{
+					GridFightEquipmentId = item5,
+					Source = 1u,
+					UniqueId = inst.AllocEquipUniqueId()
+				});
+			}
+			gridFightSyncResultData.UpdateDynamicList.Add(new GridFightSyncData
+			{
+				AddGameItemInfo = gridFightGameItemSyncInfo
+			});
+			gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData);
+		}
 		GridFightSyncResultData gridFightSyncResultData2 = new GridFightSyncResultData
-		{
-			GridUpdateSrc = GridFightUpdateSrcType.LnpfefkjdhpPnejelgglej
-		};
-		uint uniqueId2 = inst.AllocEquipUniqueId();
-		gridFightSyncResultData2.SyncEffectParamList.Add(buffId);
-		gridFightSyncResultData2.UpdateDynamicList.Add(new GridFightSyncData
-		{
-			AddForgeInfo = new GridGameForgeItemInfo
-			{
-				ForgeItemId = 99999u,
-				Pos = 14u,
-				UniqueId = uniqueId2,
-				ForgeGoodsList = 
-				{
-					new GridFightForgeGoodsInfo
-					{
-						EquipmentGoodsInfo = new GridFightForgeEquipmentInfo
-						{
-							GridFightEquipmentId = 350204u
-						}
-					},
-					new GridFightForgeGoodsInfo
-					{
-						EquipmentGoodsInfo = new GridFightForgeEquipmentInfo
-						{
-							GridFightEquipmentId = 350205u
-						}
-					},
-					new GridFightForgeGoodsInfo
-					{
-						EquipmentGoodsInfo = new GridFightForgeEquipmentInfo
-						{
-							GridFightEquipmentId = 350208u
-						}
-					},
-					new GridFightForgeGoodsInfo
-					{
-						EquipmentGoodsInfo = new GridFightForgeEquipmentInfo
-						{
-							GridFightEquipmentId = 350207u
-						}
-					}
-				}
-			}
-		});
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData2);
-		GridFightSyncResultData gridFightSyncResultData3 = new GridFightSyncResultData
 		{
 			GridUpdateSrc = GridFightUpdateSrcType.LnpfefkjdhpHndkhmefaal
 		};
-		gridFightSyncResultData3.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncResultData2.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			PortalServerDataUpdate = new GridFightPortalServerDataUpdate
 			{
 				PortalBuffId = buffId
 			}
 		});
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData3);
-		GridFightSyncResultData gridFightSyncResultData4 = new GridFightSyncResultData
+		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData2);
+		GridFightSyncResultData gridFightSyncResultData3 = new GridFightSyncResultData
 		{
 			GridUpdateSrc = GridFightUpdateSrcType.LnpfefkjdhpBjdeaahibge
 		};
-		gridFightSyncResultData4.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncResultData3.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			ItemValue = inst.Gold
 		});
-		(uint, uint, uint, string)[] initialBenchRoles = GridFightInstance.InitialBenchRoles;
-		for (int i = 0; i < initialBenchRoles.Length; i++)
+		foreach (var rolledBenchRole in inst.RolledBenchRoles)
 		{
-			(uint, uint, uint, string) tuple = initialBenchRoles[i];
-			uint item = tuple.Item1;
-			uint item2 = tuple.Item2;
-			uint item3 = tuple.Item3;
-			string item4 = tuple.Item4;
-			RepeatedField<GridFightSyncData> updateDynamicList = gridFightSyncResultData4.UpdateDynamicList;
+			uint item = rolledBenchRole.AvatarId;
+			uint item2 = rolledBenchRole.Pos;
+			uint item3 = rolledBenchRole.UniqueId;
+			string item4 = rolledBenchRole.Component;
+			RepeatedField<GridFightSyncData> updateDynamicList = gridFightSyncResultData3.UpdateDynamicList;
 			GridFightSyncData gridFightSyncData = new GridFightSyncData();
 			GridGameRoleInfo gridGameRoleInfo = new GridGameRoleInfo();
 			gridGameRoleInfo.Id = item;
@@ -204,19 +181,19 @@ public static class GridFightPendingActionProcessor
 			gridFightSyncData.AddRoleInfo = gridGameRoleInfo;
 			updateDynamicList.Add(gridFightSyncData);
 		}
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData4);
-		GridFightSyncResultData gridFightSyncResultData5 = new GridFightSyncResultData();
-		gridFightSyncResultData5.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData3);
+		GridFightSyncResultData gridFightSyncResultData4 = new GridFightSyncResultData();
+		gridFightSyncResultData4.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			FinishPendingActionPos = ackPos
 		});
-		gridFightSyncResultData5.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncResultData4.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			SyncLockInfo = new GridFightLockInfo()
 		});
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData5);
-		GridFightSyncResultData gridFightSyncResultData6 = new GridFightSyncResultData();
-		gridFightSyncResultData6.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData4);
+		GridFightSyncResultData gridFightSyncResultData5 = new GridFightSyncResultData();
+		gridFightSyncResultData5.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			LevelSyncInfo = new GridFightLevelSyncInfo
 			{
@@ -251,9 +228,9 @@ public static class GridFightPendingActionProcessor
 				}
 			}
 		});
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData6);
-		GridFightSyncResultData gridFightSyncResultData7 = new GridFightSyncResultData();
-		gridFightSyncResultData7.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData5);
+		GridFightSyncResultData gridFightSyncResultData6 = new GridFightSyncResultData();
+		gridFightSyncResultData6.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			SyncLockInfo = new GridFightLockInfo
 			{
@@ -261,11 +238,11 @@ public static class GridFightPendingActionProcessor
 				LockType = GridFightLockType.PjbmhhnlclbEhfhdgpocnh
 			}
 		});
-		gridFightSyncResultData7.UpdateDynamicList.Add(new GridFightSyncData
+		gridFightSyncResultData6.UpdateDynamicList.Add(new GridFightSyncData
 		{
 			PendingAction = inst.PendingAction
 		});
-		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData7);
+		gridFightSyncUpdateResultScNotify.SyncResultDataList.Add(gridFightSyncResultData6);
 		await connection.SendPacket(new PacketGridFightSyncUpdateResultScNotify(gridFightSyncUpdateResultScNotify));
 	}
 
@@ -280,6 +257,7 @@ public static class GridFightPendingActionProcessor
 		};
 		await connection.SendPacket(new PacketGridFightHandlePendingActionScRsp(ackPos));
 		await connection.SendPacket(new PacketGridFightSyncUpdateResultScNotify(connection.Player, 1, (ackPos, nextPos)));
+		await connection.SendPacket(new PacketGridFightSyncUpdateResultScNotify(connection.Player, 4));
 	}
 
 	private static async System.Threading.Tasks.Task HandleReturnPreparation(Connection connection, GridFightInstance inst, uint ackPos)

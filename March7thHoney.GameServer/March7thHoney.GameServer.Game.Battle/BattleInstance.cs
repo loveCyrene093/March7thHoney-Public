@@ -11,6 +11,7 @@ using March7thHoney.Database.Lineup;
 using March7thHoney.Database.Tutorial;
 using March7thHoney.Enums.Avatar;
 using March7thHoney.GameServer.Game.Activity.Activities;
+using March7thHoney.GameServer.Game.Calyx;
 using March7thHoney.GameServer.Game.GridFight;
 using March7thHoney.GameServer.Game.GridFight.Battle;
 using March7thHoney.GameServer.Game.Lineup;
@@ -72,6 +73,8 @@ public class BattleInstance : BasePlayerManager
 	public bool IsTournRogue { get; set; }
 
 	public GridFightInstance? GridFightContext { get; set; }
+
+	public CalyxOverrideContext? CalyxOverride { get; set; }
 
 	public event OnBattleEndDelegate? OnBattleEnd;
 
@@ -440,6 +443,7 @@ public class BattleInstance : BasePlayerManager
 				num3++;
 			}
 		}
+		CalyxOverride?.Apply(this, sceneBattleInfo);
 		sceneBattleInfo.BuffList.AddRange(Buffs.Select((MazeBuff mazeBuff) => mazeBuff.ToProto(this)));
 		return sceneBattleInfo;
 	}

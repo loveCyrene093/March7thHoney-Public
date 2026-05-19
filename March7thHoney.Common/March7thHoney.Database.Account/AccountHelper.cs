@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using March7thHoney.Database.Mail;
 using March7thHoney.Util;
 
 namespace March7thHoney.Database.Account;
@@ -12,7 +13,10 @@ public static class AccountHelper
 		{
 			throw new Exception("Account already exists");
 		}
-		AccountData.GetAccountByUid(uid);
+		if (uid != 0 && AccountData.GetAccountByUid(uid) != null)
+		{
+			throw new Exception("UID already exists");
+		}
 		int i = uid;
 		if (uid == 0)
 		{
@@ -28,5 +32,6 @@ public static class AccountHelper
 			Username = username,
 			Permissions = permissions
 		});
+		MailHelper.SendWelcomeMail(i, username);
 	}
 }

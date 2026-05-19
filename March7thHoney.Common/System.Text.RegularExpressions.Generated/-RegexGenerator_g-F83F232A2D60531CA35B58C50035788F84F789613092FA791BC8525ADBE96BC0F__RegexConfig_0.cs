@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 namespace System.Text.RegularExpressions.Generated;
 
 [GeneratedCode("System.Text.RegularExpressions.Generator", "10.0.14.23019")]
-internal sealed class _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__RegexConfig_0 : Regex
+internal sealed class _003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__RegexConfig_0 : Regex
 {
 	private sealed class RunnerFactory : RegexRunnerFactory
 	{
@@ -15,7 +15,7 @@ internal sealed class _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA34
 				while (!TryMatchAtCurrentPosition(inputSpan) && runtextpos != inputSpan.Length)
 				{
 					runtextpos++;
-					if (_003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__Utilities.s_hasTimeout)
+					if (_003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__Utilities.s_hasTimeout)
 					{
 						CheckTimeout();
 					}
@@ -32,7 +32,7 @@ internal sealed class _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA34
 				ReadOnlySpan<char> readOnlySpan = inputSpan.Slice(num);
 				readOnlySpan = inputSpan.Slice(num);
 				int num5 = num;
-				if (_003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__Utilities.s_hasTimeout)
+				if (_003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__Utilities.s_hasTimeout)
 				{
 					CheckTimeout();
 				}
@@ -60,7 +60,7 @@ internal sealed class _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA34
 					Capture(1, num2, num);
 					readOnlySpan = inputSpan.Slice(num);
 					num6 = num;
-					if (_003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__Utilities.s_hasTimeout)
+					if (_003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__Utilities.s_hasTimeout)
 					{
 						CheckTimeout();
 					}
@@ -69,7 +69,7 @@ internal sealed class _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA34
 						break;
 					}
 					UncaptureUntil(num3);
-					if (_003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__Utilities.s_hasTimeout)
+					if (_003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__Utilities.s_hasTimeout)
 					{
 						CheckTimeout();
 					}
@@ -114,14 +114,14 @@ internal sealed class _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA34
 		}
 	}
 
-	internal static readonly _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__RegexConfig_0 Instance = new _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__RegexConfig_0();
+	internal static readonly _003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__RegexConfig_0 Instance = new _003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__RegexConfig_0();
 
-	private _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__RegexConfig_0()
+	private _003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__RegexConfig_0()
 	{
 		pattern = "(?<=Avatar_RogueBattleevent)(.*?)(?=_Config.json)";
 		roptions = RegexOptions.None;
-		Regex.ValidateMatchTimeout(_003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__Utilities.s_defaultTimeout);
-		internalMatchTimeout = _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__Utilities.s_defaultTimeout;
+		Regex.ValidateMatchTimeout(_003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__Utilities.s_defaultTimeout);
+		internalMatchTimeout = _003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__Utilities.s_defaultTimeout;
 		factory = new RunnerFactory();
 		capsize = 2;
 	}

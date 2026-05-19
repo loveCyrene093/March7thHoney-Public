@@ -115,7 +115,7 @@ public class ChallengeStoryInstance : BaseLegacyChallengeInstance
 		{
 			return;
 		}
-		battle.AddBattleTarget(1, 10002, GetTotalScore());
+		battle.AddBattleTarget(1, 10003, GetTotalScore());
 		foreach (int item in Config.StoryExcel.BattleTargetID)
 		{
 			battle.AddBattleTarget(5, item, GetTotalScore());

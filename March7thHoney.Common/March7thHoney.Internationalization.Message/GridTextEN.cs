@@ -4,11 +4,17 @@ public class GridTextEN
 {
 	public string Desc => "Manage Aetherium War content. Note: This part is not yet fully developed. Please report any issues promptly.\nThis command may not check if IDs exist. If it has no effect, please check if parameters are correct.";
 
-	public string Usage => "Usage: /grid gold [Gold Amount]\n\nUsage: /grid role [RoleID] [Role Star]\n\nUsage: /grid equip [EquipmentID]\n\nUsage: /grid consumable [ConsumableID]\n\nUsage: /grid orb [OrbID]";
+	public string Usage => "Usage: /grid gold [Gold Amount]\n\nUsage: /grid role [RoleID] [Role Star]\n\nUsage: /grid equip [EquipmentID]\n\nUsage: /grid consumable [ConsumableID]\n\nUsage: /grid orb [OrbID]\n\nUsage: /grid section [ChapterID] [SectionID]";
 
 	public string NotInGame => "Not in Aetherium War!";
 
 	public string InvalidRole => "Role ID or Star does not exist!";
+
+	public string InvalidEquipment => "Equipment ID does not exist!";
+
+	public string InvalidOrb => "Orb ID does not exist!";
+
+	public string InvalidConsumable => "Consumable ID does not exist!";
 
 	public string AddedRole => "Role added.";
 

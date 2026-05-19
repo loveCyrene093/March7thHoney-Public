@@ -267,7 +267,7 @@ public class GachaManager : BasePlayerManager
 			}
 			else
 			{
-				i = await base.Player.InventoryManager.AddItem(item2, 1, notify: false, 1, 1, sync: false, returnRaw: true);
+				i = await base.Player.InventoryManager.AddItem(item2, 1, notify: false, 1, 1, 0, sync: false, returnRaw: true);
 			}
 			if (i != null)
 			{
@@ -283,7 +283,7 @@ public class GachaManager : BasePlayerManager
 			ItemList tokenItem = new ItemList();
 			if (dirt > 0)
 			{
-				ItemData itemData = await base.Player.InventoryManager.AddItem(251, dirt, notify: false, 1, 1, sync: false, returnRaw: true);
+				ItemData itemData = await base.Player.InventoryManager.AddItem(251, dirt, notify: false, 1, 1, 0, sync: false, returnRaw: true);
 				if (itemData != null)
 				{
 					ItemData itemData2 = syncItems.Find((ItemData x) => x.ItemId == 251);
@@ -304,7 +304,7 @@ public class GachaManager : BasePlayerManager
 			}
 			if (star > 0)
 			{
-				ItemData itemData3 = await base.Player.InventoryManager.AddItem(252, star, notify: false, 1, 1, sync: false, returnRaw: true);
+				ItemData itemData3 = await base.Player.InventoryManager.AddItem(252, star, notify: false, 1, 1, 0, sync: false, returnRaw: true);
 				if (itemData3 != null)
 				{
 					ItemData itemData4 = syncItems.Find((ItemData x) => x.ItemId == 252);

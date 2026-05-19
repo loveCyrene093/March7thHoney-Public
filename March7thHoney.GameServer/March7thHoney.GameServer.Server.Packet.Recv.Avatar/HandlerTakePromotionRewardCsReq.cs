@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using March7thHoney.Database.Avatar;
 using March7thHoney.GameServer.Server.Packet.Send.Avatar;
@@ -13,12 +14,32 @@ public class HandlerTakePromotionRewardCsReq : Handler
 	{
 		TakePromotionRewardCsReq takePromotionRewardCsReq = TakePromotionRewardCsReq.Parser.ParseFrom(data);
 		FormalAvatarInfo avatar = connection.Player.AvatarManager.GetFormalAvatar((int)takePromotionRewardCsReq.BaseAvatarId);
-		if (avatar != null)
+		if (avatar == null)
 		{
-			avatar.TakeReward((int)takePromotionRewardCsReq.Promotion);
-			await connection.Player.InventoryManager.AddItem(101, 1, notify: false);
-			await connection.SendPacket(new PacketPlayerSyncScNotify(avatar));
-			await connection.SendPacket(new PacketTakePromotionRewardScRsp());
+			await connection.SendPacket(new PacketTakePromotionRewardScRsp(Retcode.RetAvatarNotExist));
+			return;
 		}
+		int promotion = (int)takePromotionRewardCsReq.Promotion;
+		if (promotion < 0 || promotion >= avatar.Promotion)
+		{
+			await connection.SendPacket(new PacketTakePromotionRewardScRsp(Retcode.RetPromotionRewardConfigNotExist));
+			return;
+		}
+		if (avatar.HasTakenReward(promotion))
+		{
+			await connection.SendPacket(new PacketTakePromotionRewardScRsp(Retcode.RetPromotionRewardAlreadyTaken));
+			return;
+		}
+		avatar.TakeReward((int)takePromotionRewardCsReq.Promotion);
+		await connection.Player.InventoryManager.AddItem(101, 1, notify: false);
+		await connection.SendPacket(new PacketPlayerSyncScNotify(avatar));
+		await connection.SendPacket(new PacketTakePromotionRewardScRsp(Retcode.RetSucc, new List<March7thHoney.Proto.Item>(1)
+		{
+			new March7thHoney.Proto.Item
+			{
+				ItemId = 101u,
+				Num = 1u
+			}
+		}));
 	}
 }

@@ -71,7 +71,8 @@ public class CommandManager
 				{
 					if (text.StartsWith("/"))
 					{
-						text = text.Substring(1);
+						string text2 = text;
+						text = text2.Substring(1, text2.Length - 1);
 					}
 					if (_commandHistory.Count >= 100)
 					{
@@ -162,7 +163,8 @@ public class CommandManager
 			{
 				if (text.StartsWith('@'))
 				{
-					string target = text.Substring(1);
+					string text2 = text;
+					string target = text2.Substring(1, text2.Length - 1);
 					if (March7thHoneyListener.Connections.Values.ToList().Find((March7thHoneyConnection item) => (item as Connection)?.Player?.Uid.ToString() == target) is Connection connection2)
 					{
 						Target = connection2;

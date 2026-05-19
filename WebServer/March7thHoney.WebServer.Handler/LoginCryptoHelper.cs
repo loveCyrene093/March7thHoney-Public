@@ -47,8 +47,7 @@ public static class LoginCryptoHelper
 			RSAEncryptionPadding.OaepSHA1,
 			RSAEncryptionPadding.OaepSHA256
 		};
-		RSAEncryptionPadding[] array2 = array;
-		foreach (RSAEncryptionPadding rSAEncryptionPadding in array2)
+		foreach (RSAEncryptionPadding rSAEncryptionPadding in array)
 		{
 			try
 			{

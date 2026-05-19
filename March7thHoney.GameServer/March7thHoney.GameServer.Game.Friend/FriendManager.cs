@@ -181,7 +181,7 @@ public class FriendManager : BasePlayerManager
 		await PushPrivateMessageAsync(recvUid, (uint)sendUid, data);
 		if (recvUid == ConfigManager.Config.ServerOption.ServerProfile.Uid && (message?.StartsWith('/') ?? false))
 		{
-			string cmd = message.Substring(1);
+			string cmd = message.Substring(1, message.Length - 1);
 			CommandExecutor.ExecuteCommand(new PlayerCommandSender(base.Player), cmd);
 		}
 		PlayerInstance playerInstance = Listener.GetActiveConnection(recvUid)?.Player;

@@ -105,8 +105,7 @@ internal class QueryGatewayHandler
 				["account_uid"] = req.account_uid
 			};
 			string text = string.Join("&", source.Select((KeyValuePair<string, string> kv) => kv.Key + "=" + kv.Value));
-			string url = gatewayUrlByVersion + "?" + text;
-			var (num, text2) = await HttpNetwork.SendGetRequest(url, 5);
+			var (num, text2) = await HttpNetwork.SendGetRequest(gatewayUrlByVersion + "?" + text, 5);
 			if (num == 200 && !string.IsNullOrEmpty(text2))
 			{
 				try
@@ -202,8 +201,7 @@ internal class QueryGatewayHandler
 		{
 			return "https://beta-release01-asia.starrails.com/query_gateway";
 		}
-		string text = version.Substring(0, 2);
-		if (!text.Equals("CN", StringComparison.OrdinalIgnoreCase))
+		if (!version.Substring(0, 2).Equals("CN", StringComparison.OrdinalIgnoreCase))
 		{
 			return "https://prod-official-asia-dp01.starrails.com/query_gateway";
 		}

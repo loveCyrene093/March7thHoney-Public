@@ -24,7 +24,7 @@ public class PlayerData : BaseDatabaseDataHelper
 
 	public int CurBasicType { get; set; } = 8002;
 
-	public int HeadIcon { get; set; } = 208001;
+	public int HeadIcon { get; set; } = 208002;
 
 	public int PhoneTheme { get; set; } = 221000;
 
@@ -135,7 +135,9 @@ public class PlayerData : BaseDatabaseDataHelper
 			LastActiveTime = LastActiveTime,
 			ChatBubbleId = (uint)ChatBubble,
 			PersonalCard = (uint)PersonalCard,
-			HeadFrameInfo = HeadFrame.ToProto()
+			HeadFrameInfo = HeadFrame.ToProto(),
+			PlayerOutfitData = ToPlayerOutfitProto(),
+			Gender = (uint)CurrentGender
 		};
 		int num = 0;
 		AvatarData instance = DatabaseHelper.Instance.GetInstance<AvatarData>(base.Uid);

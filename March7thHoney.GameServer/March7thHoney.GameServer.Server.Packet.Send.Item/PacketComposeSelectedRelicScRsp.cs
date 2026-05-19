@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using March7thHoney.Database.Inventory;
 using March7thHoney.Kcp;
 using March7thHoney.Proto;
@@ -28,14 +30,14 @@ public class PacketComposeSelectedRelicScRsp : BasePacket
 		SetData(data);
 	}
 
-	public PacketComposeSelectedRelicScRsp(uint composeId, ItemData item)
+	public PacketComposeSelectedRelicScRsp(uint composeId, IEnumerable<ItemData> items)
 		: base(589)
 	{
 		ComposeSelectedRelicScRsp data = new ComposeSelectedRelicScRsp
 		{
 			ReturnItemList = new ItemList
 			{
-				ItemList_ = { item.ToProto() }
+				ItemList_ = { items.Select((ItemData item) => item.ToProto()) }
 			},
 			ComposeId = composeId
 		};

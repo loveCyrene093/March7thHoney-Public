@@ -85,7 +85,7 @@ public class SceneSkillManager : BasePlayerManager
 			{
 				int avatarId = casterAvatar.AvatarInfo.BaseAvatarId;
 				List<(int, MazeBuffExcel)> source = (from kvp in GameData.MazeBuffData
-					where kvp.Key / 10 / 100 == avatarId && kvp.Value.MazeBuffType == "Character" && kvp.Value.InBattleBindingType == "CharacterSkill" && kvp.Value.InBattleBindingKey == "SkillMaze"
+					where kvp.Key / 10 / 100 == avatarId && kvp.Value.MazeBuffType == "Character" && (kvp.Value.InBattleBindingType == "CharacterSkill" || kvp.Value.InBattleBindingType == "CharacterSkillAdv") && kvp.Value.InBattleBindingKey == "SkillMaze"
 					select (BuffId: kvp.Key / 10, Excel: kvp.Value)).ToList();
 				if (!source.Any<(int, MazeBuffExcel)>(((int BuffId, MazeBuffExcel Excel) c) => casterAvatar.BuffList.Any((SceneBuff b) => b.BuffId == c.BuffId)))
 				{

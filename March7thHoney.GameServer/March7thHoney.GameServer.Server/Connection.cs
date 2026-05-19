@@ -1,6 +1,7 @@
 using System;
 using System.Buffers;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -9,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Google.Protobuf;
 using Google.Protobuf.Reflection;
+using March7thHoney.Configuration;
 using March7thHoney.Data.Custom;
 using March7thHoney.Enums.Server;
 using March7thHoney.GameServer.Game.Player;
@@ -50,6 +52,7 @@ public class Connection : March7thHoneyConnection
 
 	public override void Stop()
 	{
+		Player?.TrainCakeCatchManager?.LeaveSocialPlayRoom();
 		Player?.OnLogoutAsync();
 		March7thHoneyListener.UnregisterConnection(this);
 		base.Stop();
@@ -57,22 +60,56 @@ public class Connection : March7thHoneyConnection
 
 	public override async Task SendWatermarkLuaAsync()
 	{
-		if (Player != null)
+		if (Player == null)
 		{
-			string text = Player.Data.Name ?? "";
-			string text2 = Player.Uid.ToString();
-			string obj = (string.IsNullOrEmpty(ClientVersionCache.LatestVersion) ? "WIN4.2.0" : ClientVersionCache.LatestVersion);
-			string text3 = ApplyGradient(text + "｜March7thHoney");
-			string text4 = ApplyGradient(obj + "｜ " + text2);
-			string text5 = EscapeLuaString(text3 + "\n" + text4);
-			string s = "local function modify_texts()\n    local vGo = CS.UnityEngine.GameObject.Find(\"VersionText\")\n    if vGo == nil then return end\n    local vt = vGo:GetComponent(\"Text\")\n    vt.supportRichText = true\n    vt.text = \"" + text5 + "\"\n    vt.fontSize = 76.0\nend\n\nlocal function on_error(err)\n    local files = io.open(\"./error.txt\", \"w\")\n    files:write(err)\n    files:close()\nend\n\nlocal status, err = pcall(modify_texts)\nif not status then on_error(err) end\n";
-			HandshakePacket handshakePacket = new HandshakePacket(Encoding.UTF8.GetBytes(s));
-			await SendPacket(handshakePacket.BuildPacket());
+			return;
+		}
+		WatermarkConfig watermark = ConfigManager.Config.ServerOption.Watermark;
+		if (watermark.Enabled)
+		{
+			string nickname = Player.Data.Name ?? "";
+			string uid = Player.Uid.ToString();
+			string version = (string.IsNullOrEmpty(ClientVersionCache.LatestVersion) ? "WIN4.2.0" : ClientVersionCache.LatestVersion);
+			string text = BuildWatermarkLine(watermark.Line1Template, nickname, uid, version, watermark);
+			string text2 = BuildWatermarkLine(watermark.Line2Template, nickname, uid, version, watermark);
+			List<string> list = new List<string>();
+			if (!string.IsNullOrWhiteSpace(text))
+			{
+				list.Add(text);
+			}
+			if (!string.IsNullOrWhiteSpace(text2))
+			{
+				list.Add(text2);
+			}
+			if (list.Count != 0)
+			{
+				string text3 = EscapeLuaString(string.Join("\n", list));
+				string text4 = watermark.FontSize.ToString(CultureInfo.InvariantCulture);
+				string s = "local function modify_texts()\n    local vGo = CS.UnityEngine.GameObject.Find(\"VersionText\")\n    if vGo == nil then return end\n    local vt = vGo:GetComponent(\"Text\")\n    vt.supportRichText = true\n    vt.text = \"" + text3 + "\"\n    vt.fontSize = " + text4 + "\nend\n\nlocal function on_error(err)\n    local files = io.open(\"./error.txt\", \"w\")\n    files:write(err)\n    files:close()\nend\n\nlocal status, err = pcall(modify_texts)\nif not status then on_error(err) end\n";
+				HandshakePacket handshakePacket = new HandshakePacket(Encoding.UTF8.GetBytes(s));
+				await SendPacket(handshakePacket.BuildPacket());
+			}
 		}
 	}
 
-	private static string ApplyGradient(string line)
+	private static string BuildWatermarkLine(string template, string nickname, string uid, string version, WatermarkConfig watermark)
 	{
+		string text = template.Replace("{nickname}", nickname, StringComparison.Ordinal).Replace("{uid}", uid, StringComparison.Ordinal).Replace("{version}", version, StringComparison.Ordinal)
+			.Replace("{serverName}", ConfigManager.Config.GameServer.GameServerName, StringComparison.Ordinal)
+			.Replace("{serverId}", ConfigManager.Config.GameServer.GameServerId, StringComparison.Ordinal);
+		if (!watermark.UseGradient)
+		{
+			return text;
+		}
+		return ApplyGradient(text, watermark.GradientStartColor, watermark.GradientEndColor);
+	}
+
+	private static string ApplyGradient(string line, string startColor, string endColor)
+	{
+		if (!TryParseHexColor(startColor, out var r, out var g, out var b) || !TryParseHexColor(endColor, out var r2, out var g2, out var b2))
+		{
+			return line;
+		}
 		int num = 0;
 		string text = line;
 		for (int i = 0; i < text.Length; i++)
@@ -93,9 +130,9 @@ public class Connection : March7thHoneyConnection
 				continue;
 			}
 			double num3 = ((num <= 1) ? 0.0 : ((double)num2 / (double)(num - 1)));
-			int value = (int)(84.0 + 114.0 * num3);
-			int value2 = (int)(195.0 + -80.0 * num3);
-			int value3 = (int)(247.0 + -77.0 * num3);
+			int value = (int)((double)r + (double)(r2 - r) * num3);
+			int value2 = (int)((double)g + (double)(g2 - g) * num3);
+			int value3 = (int)((double)b + (double)(b2 - b) * num3);
 			StringBuilder stringBuilder2 = stringBuilder;
 			StringBuilder.AppendInterpolatedStringHandler handler = new StringBuilder.AppendInterpolatedStringHandler(9, 3, stringBuilder2);
 			handler.AppendLiteral("<color=#");
@@ -107,6 +144,30 @@ public class Connection : March7thHoneyConnection
 			num2++;
 		}
 		return stringBuilder.ToString();
+	}
+
+	private static bool TryParseHexColor(string value, out int r, out int g, out int b)
+	{
+		r = (g = (b = 0));
+		string text = value.Trim();
+		if (text.StartsWith("#", StringComparison.Ordinal))
+		{
+			string text2 = text;
+			text = text2.Substring(1, text2.Length - 1);
+		}
+		if (text.Length != 6)
+		{
+			return false;
+		}
+		if (!int.TryParse(text.Substring(0, 2), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out r))
+		{
+			return false;
+		}
+		if (!int.TryParse(text.Substring(2, 2), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out g))
+		{
+			return false;
+		}
+		return int.TryParse(text.Substring(4, 2), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out b);
 	}
 
 	private static string EscapeLuaString(string s)

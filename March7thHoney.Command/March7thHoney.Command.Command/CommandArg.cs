@@ -37,7 +37,10 @@ public class CommandArg
 			{
 				try
 				{
-					CharacterArgs.Add(text.Substring(0, 1), text.Substring(1));
+					Dictionary<string, string> characterArgs = CharacterArgs;
+					string key = text.Substring(0, 1);
+					string text2 = text;
+					characterArgs.Add(key, text2.Substring(1, text2.Length - 1));
 					Args.Add(text);
 				}
 				catch

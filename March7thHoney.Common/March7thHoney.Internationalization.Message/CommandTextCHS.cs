@@ -43,4 +43,6 @@ public class CommandTextCHS
 	public GridTextCHS Grid { get; } = new GridTextCHS();
 
 	public JsonTextCHS Json { get; } = new JsonTextCHS();
+
+	public CalyxTextCHS Calyx { get; } = new CalyxTextCHS();
 }

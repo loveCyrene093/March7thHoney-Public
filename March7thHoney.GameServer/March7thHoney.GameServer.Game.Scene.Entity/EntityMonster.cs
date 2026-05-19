@@ -186,9 +186,12 @@ public class EntityMonster : BaseGameEntity, IGameModifier
 		return Info.EventID;
 	}
 
-	public async ValueTask<List<ItemData>> Kill(bool sendPacket = true)
+	public async ValueTask<List<ItemData>> Kill(bool sendPacket = true, bool removeFromScene = true)
 	{
-		IsAlive = false;
+		if (removeFromScene)
+		{
+			IsAlive = false;
+		}
 		GameData.MonsterDropData.TryGetValue(MonsterData.ID * 10 + Scene.Player.Data.WorldLevel, out MonsterDropExcel value);
 		if (value == null)
 		{
@@ -197,7 +200,10 @@ public class EntityMonster : BaseGameEntity, IGameModifier
 		List<ItemData> dropItems = value.CalculateDrop();
 		await Scene.Player.InventoryManager.AddItems(dropItems, sendPacket);
 		await Scene.Player.MissionManager.HandleFinishType(MissionFinishTypeEnum.KillMonster, this);
-		await Scene.RemoveEntity(this);
+		if (removeFromScene)
+		{
+			await Scene.RemoveEntity(this);
+		}
 		return dropItems;
 	}
 }

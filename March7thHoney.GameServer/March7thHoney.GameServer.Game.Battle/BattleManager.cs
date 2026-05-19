@@ -191,6 +191,10 @@ public class BattleManager : BasePlayerManager
 		{
 			return null;
 		}
+		if (base.Player.CalyxOverrideManager?.IsActive ?? false)
+		{
+			return await base.Player.CalyxOverrideManager.BuildOverrideBattle(cocoonId, wave, worldLevel);
+		}
 		GameData.CocoonConfigData.TryGetValue(cocoonId * 100 + worldLevel, out CocoonConfigExcel value);
 		if (value == null)
 		{
@@ -231,6 +235,37 @@ public class BattleManager : BasePlayerManager
 			};
 			NextBattleStageConfig = null;
 		}
+		List<AvatarSceneInfo> avatarInfo = base.Player.LineupManager.GetCurLineup().BaseAvatars.Select((LineupAvatarInfo item) => base.Player.SceneInstance.AvatarInfo.Values.FirstOrDefault((AvatarSceneInfo x) => x.AvatarInfo.AvatarId == item.BaseAvatarId)).OfType<AvatarSceneInfo>().ToList();
+		battleInstance.AvatarInfo = avatarInfo;
+		base.Player.BattleInstance = battleInstance;
+		base.Player.QuestManager.OnBattleStart(battleInstance);
+		PluginEvent.InvokeOnPlayerEnterBattle(base.Player, battleInstance);
+		await ValueTask.CompletedTask;
+		return battleInstance;
+	}
+
+	public async ValueTask<BattleInstance?> StartFarmElementStage(FarmElementConfigExcel config)
+	{
+		if (base.Player.BattleInstance != null)
+		{
+			return null;
+		}
+		if (base.Player.Data.Stamina < config.StaminaCost)
+		{
+			return null;
+		}
+		GameData.StageConfigData.TryGetValue(config.StageID, out StageConfigExcel value);
+		if (value == null)
+		{
+			return null;
+		}
+		BattleInstance battleInstance = new BattleInstance(base.Player, base.Player.LineupManager.GetCurLineup(), new List<StageConfigExcel>(1) { value })
+		{
+			StaminaCost = config.StaminaCost,
+			WorldLevel = config.WorldLevel,
+			CocoonWave = 1,
+			MappingInfoId = config.MappingInfoID
+		};
 		List<AvatarSceneInfo> avatarInfo = base.Player.LineupManager.GetCurLineup().BaseAvatars.Select((LineupAvatarInfo item) => base.Player.SceneInstance.AvatarInfo.Values.FirstOrDefault((AvatarSceneInfo x) => x.AvatarInfo.AvatarId == item.BaseAvatarId)).OfType<AvatarSceneInfo>().ToList();
 		battleInstance.AvatarInfo = avatarInfo;
 		base.Player.BattleInstance = battleInstance;
@@ -301,20 +336,24 @@ public class BattleManager : BasePlayerManager
 		switch (req.EndStatus)
 		{
 		case BattleEndStatus.BattleEndWin:
+		{
 			if (battle.EntityMonsters.Count == 0)
 			{
 				battle.EntityMonsters = ResolveSceneMonstersByStageId(battle.StageId);
 			}
+			int farmEntityId = (int)base.Player.ActiveFarmElementEntityId;
 			foreach (EntityMonster entityMonster in battle.EntityMonsters)
 			{
+				bool flag = farmEntityId != 0 && entityMonster.EntityId == farmEntityId;
 				List<ItemData> list = dropItems;
-				list.AddRange(await entityMonster.Kill(sendPacket: false));
+				list.AddRange(await entityMonster.Kill(sendPacket: false, !flag));
 			}
 			if (battle.StaminaCost > 0)
 			{
 				await base.Player.SpendStamina(battle.StaminaCost);
 			}
 			break;
+		}
 		case BattleEndStatus.BattleEndLose:
 			minimumHp = 2000;
 			teleportToAnchor = true;
@@ -362,6 +401,10 @@ public class BattleManager : BasePlayerManager
 					await base.Player.MoveTo(anchorInfo.ToPositionProto());
 				}
 			}
+		}
+		else if (base.Player.ActiveFarmElementEntityId != 0 && base.Player.FarmElementReturnPos != null)
+		{
+			await base.Player.MoveTo(base.Player.FarmElementReturnPos, base.Player.FarmElementReturnRot ?? base.Player.Data.Rot);
 		}
 		battle.MonsterDropItems = dropItems;
 		battle.BattleResult = req;

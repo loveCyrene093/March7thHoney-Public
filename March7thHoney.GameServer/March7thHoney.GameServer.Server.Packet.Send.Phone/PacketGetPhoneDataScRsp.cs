@@ -17,11 +17,11 @@ public class PacketGetPhoneDataScRsp : BasePacket
 		};
 		foreach (int phoneTheme in player.PlayerUnlockData.PhoneThemes)
 		{
-			getPhoneDataScRsp.OwnedPhoneThemes.Add((uint)phoneTheme);
+			getPhoneDataScRsp.OwnedChatBubbles.Add((uint)phoneTheme);
 		}
 		foreach (int chatBubble in player.PlayerUnlockData.ChatBubbles)
 		{
-			getPhoneDataScRsp.OwnedChatBubbles.Add((uint)chatBubble);
+			getPhoneDataScRsp.OwnedPhoneThemes.Add((uint)chatBubble);
 		}
 		foreach (int phoneCase in player.PlayerUnlockData.PhoneCases)
 		{

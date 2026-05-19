@@ -737,7 +737,7 @@ public sealed class KcpConversation : IKcpConversation, IDisposable, IKcpExcepti
 				{
 					if (num < 0)
 					{
-						((IDisposable)_003CbufferOwner_003E5__8/*cast due to .constrained prefix*/).Dispose();
+						((IDisposable)_003CbufferOwner_003E5__8/*cast due to constrained. prefix*/).Dispose();
 					}
 				}
 			}

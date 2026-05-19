@@ -161,7 +161,8 @@ public static class IConsole
 			HistoryIndex = InputHistory.Count;
 			if (text.StartsWith('/'))
 			{
-				text = text.Substring(1).Trim();
+				string text2 = text;
+				text = text2.Substring(1, text2.Length - 1).Trim();
 			}
 			IConsole.OnConsoleExcuteCommand?.Invoke(text);
 			IsCommandValid = true;

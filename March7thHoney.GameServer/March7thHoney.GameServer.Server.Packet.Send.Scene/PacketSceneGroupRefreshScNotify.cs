@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using March7thHoney.GameServer.Game.Mission;
 using March7thHoney.GameServer.Game.Player;
 using March7thHoney.GameServer.Game.Scene;
 using March7thHoney.GameServer.Game.Scene.Entity;
@@ -21,7 +20,7 @@ public class PacketSceneGroupRefreshScNotify : BasePacket
 		SceneGroupRefreshScNotify sceneGroupRefreshScNotify = new SceneGroupRefreshScNotify
 		{
 			FloorId = (uint)player.Data.FloorId,
-			DimensionId = (uint)((player.SceneInstance.EntityLoader as StoryLineEntityLoader)?.DimensionId ?? 0)
+			DimensionId = (uint)player.SceneInstance.ResolveDimensionId()
 		};
 		Dictionary<int, GroupRefreshInfo> dictionary = new Dictionary<int, GroupRefreshInfo>();
 		foreach (BaseGameEntity item in removeEntity ?? new List<BaseGameEntity>())
@@ -103,7 +102,7 @@ public class PacketSceneGroupRefreshScNotify : BasePacket
 		SceneGroupRefreshScNotify sceneGroupRefreshScNotify = new SceneGroupRefreshScNotify
 		{
 			FloorId = (uint)scene.FloorId,
-			DimensionId = (uint)((scene.EntityLoader as StoryLineEntityLoader)?.DimensionId ?? 0)
+			DimensionId = (uint)scene.ResolveDimensionId()
 		};
 		Dictionary<int, List<GroupPropertyRefreshData>> dictionary = new Dictionary<int, List<GroupPropertyRefreshData>>();
 		foreach (GroupPropertyRefreshData refreshData in refreshDataList)

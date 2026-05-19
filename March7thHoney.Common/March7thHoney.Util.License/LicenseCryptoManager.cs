@@ -20,12 +20,14 @@ public static class LicenseCryptoManager
 		string text2 = text.Trim();
 		if (text2.StartsWith("M7H1:", StringComparison.Ordinal))
 		{
-			return DecryptAes(text2.Substring("M7H1:".Length));
+			string text3 = text2;
+			int length = "M7H1:".Length;
+			return DecryptAes(text3.Substring(length, text3.Length - length));
 		}
-		string text3 = Encoding.UTF8.GetString(Convert.FromBase64String(text2));
-		if (text3.TrimStart().StartsWith("{", StringComparison.Ordinal))
+		string text4 = Encoding.UTF8.GetString(Convert.FromBase64String(text2));
+		if (text4.TrimStart().StartsWith("{", StringComparison.Ordinal))
 		{
-			return text3;
+			return text4;
 		}
 		return DecryptAes(text2);
 	}

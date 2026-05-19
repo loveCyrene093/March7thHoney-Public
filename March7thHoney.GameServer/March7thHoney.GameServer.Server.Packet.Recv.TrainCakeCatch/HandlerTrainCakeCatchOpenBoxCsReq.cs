@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
+using March7thHoney.GameServer.Game.Player;
 using March7thHoney.Kcp;
-using March7thHoney.Proto;
 
 namespace March7thHoney.GameServer.Server.Packet.Recv.TrainCakeCatch;
 
@@ -10,7 +10,9 @@ public class HandlerTrainCakeCatchOpenBoxCsReq : Handler
 	public override async Task OnHandle(Connection connection, byte[] header, byte[] data)
 	{
 		BasePacket basePacket = new BasePacket(9657);
-		basePacket.SetData(new TrainCakeCatchOpenBoxScRsp());
+		PlayerInstance player = connection.Player;
+		basePacket.SetData(player.TrainCakeCatchManager.OpenBox());
 		await connection.SendPacket(basePacket);
+		await player.TrainCakeCatchManager.BroadcastRoomSnapshotAsync();
 	}
 }

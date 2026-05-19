@@ -48,6 +48,7 @@ public class DispatchRoutes : ControllerBase
 		{
 			return Content(string.Empty, "text/plain");
 		}
+		string publicBaseUrl = GetPublicBaseUrl();
 		try
 		{
 			HttpRequest request = base.HttpContext.Request;
@@ -93,7 +94,7 @@ public class DispatchRoutes : ControllerBase
 			{
 				Name = Config.GameServer.GameServerId,
 				Title = Config.GameServer.GameServerName,
-				DispatchUrl = Config.HttpServer.GetDisplayAddress() + "/query_gateway",
+				DispatchUrl = publicBaseUrl + "/query_gateway",
 				EnvType = "9",
 				DisplayName = Config.GameServer.GameServerName
 			});
@@ -118,6 +119,13 @@ public class DispatchRoutes : ControllerBase
 			Debug($"query_dispatch region: name={region2.Name} env={region2.EnvType} display={region2.DisplayName} url={region2.DispatchUrl}");
 		}
 		return Content(text3, "text/plain");
+	}
+
+	private string GetPublicBaseUrl()
+	{
+		HttpRequest request = base.HttpContext.Request;
+		string value = request.Host.Value;
+		return $"{request.Scheme}://{value}{request.PathBase}".TrimEnd('/');
 	}
 
 	[HttpPost("/account/risky/api/check")]

@@ -12,5 +12,6 @@ public class HandlerSetPersonalCardCsReq : Handler
 		SetPersonalCardCsReq setPersonalCardCsReq = SetPersonalCardCsReq.Parser.ParseFrom(data);
 		connection.Player.Data.PersonalCard = (int)setPersonalCardCsReq.Id;
 		await connection.SendPacket(new PacketSetPersonalCardScRsp(setPersonalCardCsReq.Id));
+		await connection.Player.TrainCakeCatchManager.BroadcastPlayerStateAsync();
 	}
 }

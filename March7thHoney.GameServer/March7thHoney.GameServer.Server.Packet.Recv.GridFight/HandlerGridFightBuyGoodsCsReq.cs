@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using March7thHoney.GameServer.Game.GridFight;
 using March7thHoney.GameServer.Game.Player;
@@ -14,14 +15,17 @@ public class HandlerGridFightBuyGoodsCsReq : Handler
 	{
 		GridFightBuyGoodsCsReq gridFightBuyGoodsCsReq = GridFightBuyGoodsCsReq.Parser.ParseFrom(data);
 		PlayerInstance player = connection.Player;
-		(uint, uint, uint, int) tuple = new GridFightService(player).BuyGoods(gridFightBuyGoodsCsReq.BuyGoodsIndexList);
+		(uint, uint, uint, int, List<uint>, uint, uint) tuple = new GridFightService(player).BuyGoods(gridFightBuyGoodsCsReq.BuyGoodsIndexList);
 		uint roleId = tuple.Item1;
 		uint roleUniqueId = tuple.Item2;
 		uint pos = tuple.Item3;
 		int goldDelta = tuple.Item4;
+		List<uint> mergedRemoved = tuple.Item5;
+		uint mergedKeepUid = tuple.Item6;
+		uint mergedNewStar = tuple.Item7;
 		BasePacket basePacket = new BasePacket(8556);
 		basePacket.SetData(new CEFIMADBIBH());
 		await connection.SendPacket(basePacket);
-		await connection.SendPacket(new PacketGridFightSyncUpdateResultScNotify(player, 3, (roleId, roleUniqueId, pos, goldDelta)));
+		await connection.SendPacket(new PacketGridFightSyncUpdateResultScNotify(player, 3, (roleId, roleUniqueId, pos, goldDelta, mergedRemoved, mergedKeepUid, mergedNewStar)));
 	}
 }

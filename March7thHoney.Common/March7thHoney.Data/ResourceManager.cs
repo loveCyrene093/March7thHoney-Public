@@ -37,13 +37,14 @@ public class ResourceManager
 		{
 			return;
 		}
-		Logger.Warn($"{itemName} 部分缺失，缺失数量: {missingCount}");
-		March7thHoney.Util.Logger.WriteToFile($"[{DateTime.Now:HH:mm:ss}] [ResMgr] WARN {itemName} missing file list start ({missingCount}):");
+		string text = ((missingFiles.Count > 0) ? missingFiles[0] : string.Empty);
+		string text2 = I18NManager.Translate("Server.ServerInfo.PartialConfigMissing", itemName, missingCount.ToString(), text);
+		Logger.Warn(text2);
+		March7thHoney.Util.Logger.WriteToFile($"[{DateTime.Now:HH:mm:ss}] [ResMgr] WARN {text2}");
 		foreach (string missingFile in missingFiles)
 		{
 			March7thHoney.Util.Logger.WriteToFile(missingFile);
 		}
-		March7thHoney.Util.Logger.WriteToFile($"[{DateTime.Now:HH:mm:ss}] [ResMgr] WARN {itemName} missing file list end");
 	}
 
 	public static void LoadGameData()
@@ -404,7 +405,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 		}
 		if (!(val is Dictionary<int, int> dictionary))
 		{
@@ -478,7 +479,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 			return default(T);
 		}
 	}
@@ -957,7 +958,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 		}
 		Logger.Info(I18NManager.Translate("Server.ServerInfo.LoadedItems", num.ToString(), I18NManager.Translate("Word.ChessRogueRoomInfo")));
 	}
@@ -995,7 +996,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 		}
 		Logger.Info(I18NManager.Translate("Server.ServerInfo.LoadedItems", num.ToString(), I18NManager.Translate("Word.RogueTournRoomInfo")));
 	}
@@ -1033,7 +1034,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 		}
 		Logger.Info(I18NManager.Translate("Server.ServerInfo.LoadedItems", num.ToString(), I18NManager.Translate("Word.RogueMagicRoomInfo")));
 	}
@@ -1059,7 +1060,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 		}
 		Logger.Info(I18NManager.Translate("Server.ServerInfo.LoadedItems", num.ToString(), I18NManager.Translate("Word.RogueDiceSurfaceInfo")));
 	}
@@ -1120,7 +1121,7 @@ public class ResourceManager
 			catch (Exception e)
 			{
 				ResourceCache.IsComplete = false;
-				Logger.Error("Error in reading " + fileInfo.Name, e);
+				Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", item.Key.Name, I18NManager.Translate("Word.Error")), e);
 			}
 		}
 		Logger.Info(I18NManager.Translate("Server.ServerInfo.LoadedItems", num.ToString(), I18NManager.Translate("Word.DialogueInfo")));
@@ -1153,7 +1154,7 @@ public class ResourceManager
 		catch (Exception e)
 		{
 			ResourceCache.IsComplete = false;
-			Logger.Error("Error in reading " + fileInfo.Name, e);
+			Logger.Error(I18NManager.Translate("Server.ServerInfo.FailedToReadItem", fileInfo.Name, I18NManager.Translate("Word.Error")), e);
 		}
 		Logger.Info(I18NManager.Translate("Server.ServerInfo.LoadedItems", num.ToString(), I18NManager.Translate("Word.GridFightRewardsInfo")));
 	}

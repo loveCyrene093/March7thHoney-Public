@@ -4,7 +4,7 @@ public class JsonTextCHS
 {
 	public string Desc => "从 JSON 导入角色、遗器、光锥数据，或清空现有遗器和光锥。";
 
-	public string Usage => "用法：/json\n\n用法：/json [文件名/序号/绝对路径]\n\n用法：/json clear";
+	public string Usage => "用法：/json\n\n用法：/json [文件名/序号/绝对路径]\n\n用法：/json clear\n\n用法：/json export <name> <格式化(true/false)>";
 
 	public string ClearInventory => "已清空当前玩家的遗器和光锥。";
 
@@ -33,4 +33,6 @@ public class JsonTextCHS
 	public string UsageSelectHint => "输入 /json [序号] 或 /json [文件名] 进行导入。";
 
 	public string AvatarExcelNotFound => "未找到角色配置：{0}";
+
+	public string ExportSuccess => "导出成功，文件：{0}";
 }

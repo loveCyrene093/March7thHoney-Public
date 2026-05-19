@@ -12,5 +12,6 @@ public class HandlerRecallPetCsReq : Handler
 		RecallPetCsReq recallPetCsReq = RecallPetCsReq.Parser.ParseFrom(data);
 		connection.Player.Data.Pet = 0;
 		await connection.SendPacket(new PacketRecallPetScRsp(recallPetCsReq.SummonedPetId));
+		await connection.Player.TrainCakeCatchManager.BroadcastPlayerStateAsync();
 	}
 }

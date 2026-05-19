@@ -11,7 +11,7 @@ public class AdventureTriggerAttack : TaskConfigInfo
 
 	public TargetEvaluator AttackRootTargetType { get; set; } = new TargetEvaluator();
 
-	public bool TriggerBattle { get; set; }
+	public bool TriggerBattle { get; set; } = true;
 
 	public float TriggerBattleDelay { get; set; }
 

@@ -8,6 +8,7 @@ using March7thHoney.Data.Config.Scene;
 using March7thHoney.Data.Excel;
 using March7thHoney.Database;
 using March7thHoney.Database.Avatar;
+using March7thHoney.Database.Calyx;
 using March7thHoney.Database.Friend;
 using March7thHoney.Database.Inventory;
 using March7thHoney.Database.Lineup;
@@ -20,6 +21,7 @@ using March7thHoney.Enums.Scene;
 using March7thHoney.GameServer.Game.Activity;
 using March7thHoney.GameServer.Game.Avatar;
 using March7thHoney.GameServer.Game.Battle;
+using March7thHoney.GameServer.Game.Calyx;
 using March7thHoney.GameServer.Game.Challenge;
 using March7thHoney.GameServer.Game.ChallengePeak;
 using March7thHoney.GameServer.Game.Drop;
@@ -67,6 +69,8 @@ public class PlayerInstance
 	public BattleManager? BattleManager { get; private set; }
 
 	public SceneSkillManager? SceneSkillManager { get; private set; }
+
+	public CalyxOverrideManager? CalyxOverrideManager { get; private set; }
 
 	public BattleInstance? BattleInstance { get; set; }
 
@@ -122,6 +126,8 @@ public class PlayerInstance
 
 	public BattleCollegeData? BattleCollegeData { get; private set; }
 
+	public CalyxOverrideData? CalyxOverrideData { get; private set; }
+
 	public ServerPrefsData? ServerPrefsData { get; private set; }
 
 	public SceneInstance? SceneInstance { get; private set; }
@@ -140,6 +146,12 @@ public class PlayerInstance
 
 	public int ChargerNum { get; set; }
 
+	public uint ActiveFarmElementEntityId { get; set; }
+
+	public Position? FarmElementReturnPos { get; set; }
+
+	public Position? FarmElementReturnRot { get; set; }
+
 	public PlayerInstance(PlayerData data)
 	{
 		Data = data;
@@ -157,6 +169,7 @@ public class PlayerInstance
 		Data.NextStaminaRecover = Extensions.GetUnixSec() + 1080;
 		Data.Level = ConfigManager.Config.ServerOption.StartTrailblazerLevel;
 		Data.Name = ConfigManager.Config.ServerOption.DefaultNickname;
+		OnLevelChange();
 		DatabaseHelper.SaveInstance(Data);
 		System.Threading.Tasks.Task.Run(async delegate
 		{
@@ -195,6 +208,7 @@ public class PlayerInstance
 		InventoryManager = new InventoryManager(this);
 		BattleManager = new BattleManager(this);
 		SceneSkillManager = new SceneSkillManager(this);
+		CalyxOverrideManager = new CalyxOverrideManager(this);
 		MissionManager = new MissionManager(this);
 		GachaManager = new GachaManager(this);
 		MessageManager = new MessageManager(this);
@@ -219,6 +233,8 @@ public class PlayerInstance
 		TutorialGuideData = InitializeDatabase<TutorialGuideData>();
 		ServerPrefsData = InitializeDatabase<ServerPrefsData>();
 		BattleCollegeData = InitializeDatabase<BattleCollegeData>();
+		CalyxOverrideData = InitializeDatabase<CalyxOverrideData>();
+		CalyxOverrideManager.AttachData(CalyxOverrideData);
 		FriendRecordData = InitializeDatabase<FriendRecordData>();
 		Components.Add(new SwitchHandComponent(this));
 		if ((int)(ServerPrefsData.Version * 1000.0) != 3200)

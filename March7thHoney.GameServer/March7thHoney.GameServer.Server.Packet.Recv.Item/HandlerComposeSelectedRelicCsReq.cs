@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using March7thHoney.Database.Inventory;
 using March7thHoney.GameServer.Game.Player;
@@ -13,19 +15,20 @@ public class HandlerComposeSelectedRelicCsReq : Handler
 	{
 		ComposeSelectedRelicCsReq req = ComposeSelectedRelicCsReq.Parser.ParseFrom(data);
 		PlayerInstance player = connection.Player;
-		if (player.InventoryManager.Data.RelicItems.Count >= 1500)
+		int num = Math.Max(1, (int)req.Count);
+		if (player.InventoryManager.Data.RelicItems.Count + num > 1500)
 		{
 			await connection.SendPacket(new PacketComposeSelectedRelicScRsp(req.ComposeId, Retcode.RetRelicExceedLimit));
 			return;
 		}
-		ItemData itemData = await player.InventoryManager.ComposeRelic(req);
-		if (itemData == null)
+		List<ItemData> list = await player.InventoryManager.ComposeRelic(req);
+		if (list.Count == 0)
 		{
 			await connection.SendPacket(new PacketComposeSelectedRelicScRsp(req.ComposeId));
 		}
 		else
 		{
-			await connection.SendPacket(new PacketComposeSelectedRelicScRsp(req.ComposeId, itemData));
+			await connection.SendPacket(new PacketComposeSelectedRelicScRsp(req.ComposeId, list));
 		}
 	}
 }

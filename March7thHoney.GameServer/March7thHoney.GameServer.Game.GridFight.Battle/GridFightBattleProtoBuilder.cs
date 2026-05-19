@@ -20,14 +20,16 @@ public static class GridFightBattleProtoBuilder
 		foreach (var item2 in inst.ResolveForegroundRoles())
 		{
 			uint item = item2.RoleId;
-			SpecialAvatarInfo specialAvatarInfo = ResolveTrialAvatar(player, item);
-			if (specialAvatarInfo != null)
+			(BaseAvatarInfo, AvatarType) tuple = ResolveBattleAvatar(player, item);
+			var (baseAvatarInfo, _) = tuple;
+			if (baseAvatarInfo != null)
 			{
-				proto.BattleAvatarList.Add(specialAvatarInfo.ToBattleProto(collection, AvatarType.AvatarTrialType));
-				list.Add(new AvatarLineupData(specialAvatarInfo, AvatarType.AvatarTrialType));
+				proto.BattleAvatarList.Add(baseAvatarInfo.ToBattleProto(collection, tuple.Item2));
+				list.Add(new AvatarLineupData(baseAvatarInfo, tuple.Item2));
 			}
 		}
 		proto.MonsterWaveList.Clear();
+		uint enemyDifficultyLevel = inst.GetEnemyDifficultyLevel();
 		SceneMonsterWave sceneMonsterWave = new SceneMonsterWave
 		{
 			BattleStageId = (uint)battle.StageId,
@@ -35,7 +37,7 @@ public static class GridFightBattleProtoBuilder
 			MonsterParam = new SceneMonsterWaveParam
 			{
 				EliteGroup = gridFightLevelEncounter.EliteGroupId,
-				BDCCEFHMFHO = 5u
+				BDCCEFHMFHO = enemyDifficultyLevel
 			}
 		};
 		foreach (GridFightMonsterSpec monster in gridFightLevelEncounter.Monsters)
@@ -77,12 +79,17 @@ public static class GridFightBattleProtoBuilder
 		return list;
 	}
 
-	internal static SpecialAvatarInfo? ResolveTrialAvatar(PlayerInstance player, uint roleId)
+	internal static (BaseAvatarInfo? Avatar, AvatarType AvatarType) ResolveBattleAvatar(PlayerInstance player, uint roleId)
 	{
 		if (!GameData.GridFightRoleBasicInfoData.TryGetValue(roleId, out GridFightRoleBasicInfoExcel value))
 		{
-			return null;
+			return (Avatar: null, AvatarType: AvatarType.AvatarTrialType);
 		}
-		return player.AvatarManager?.GetTrialAvatarByWorldLevel((int)value.SpecialAvatarID, player.Data.WorldLevel);
+		FormalAvatarInfo formalAvatarInfo = player.AvatarManager?.GetFormalAvatar((int)value.AvatarID);
+		if (formalAvatarInfo != null)
+		{
+			return (Avatar: formalAvatarInfo, AvatarType: AvatarType.AvatarFormalType);
+		}
+		return (Avatar: player.AvatarManager?.GetTrialAvatarByWorldLevel((int)value.SpecialAvatarID, player.Data.WorldLevel), AvatarType: AvatarType.AvatarTrialType);
 	}
 }

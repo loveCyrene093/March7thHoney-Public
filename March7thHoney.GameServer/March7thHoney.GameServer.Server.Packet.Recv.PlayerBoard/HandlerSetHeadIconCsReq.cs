@@ -16,6 +16,7 @@ public class HandlerSetHeadIconCsReq : Handler
 		{
 			player.Data.HeadIcon = (int)setHeadIconCsReq.Id;
 			await connection.SendPacket(new PacketSetHeadIconScRsp(player));
+			await player.TrainCakeCatchManager.BroadcastPlayerStateAsync();
 		}
 	}
 }

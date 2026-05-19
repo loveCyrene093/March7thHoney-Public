@@ -15,7 +15,7 @@ public class BattleEventDataExcel : ExcelResource
 	[GeneratedCode("System.Text.RegularExpressions.Generator", "10.0.14.23019")]
 	private static Regex RegexConfig()
 	{
-		return _003CRegexGenerator_g_003EF7291FEED6CBA9DAB563F4FB56E8DA346D7203BA81A401B837344FB9BC7068CC1__RegexConfig_0.Instance;
+		return _003CRegexGenerator_g_003EF83F232A2D60531CA35B58C50035788F84F789613092FA791BC8525ADBE96BC0F__RegexConfig_0.Instance;
 	}
 
 	public override int GetId()

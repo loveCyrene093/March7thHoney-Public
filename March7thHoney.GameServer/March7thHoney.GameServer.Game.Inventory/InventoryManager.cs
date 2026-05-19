@@ -16,6 +16,7 @@ using March7thHoney.GameServer.Game.Player;
 using March7thHoney.GameServer.Game.Scene;
 using March7thHoney.GameServer.Server.Packet.Send.Avatar;
 using March7thHoney.GameServer.Server.Packet.Send.Lineup;
+using March7thHoney.GameServer.Server.Packet.Send.Phone;
 using March7thHoney.GameServer.Server.Packet.Send.Player;
 using March7thHoney.GameServer.Server.Packet.Send.PlayerSync;
 using March7thHoney.GameServer.Server.Packet.Send.Scene;
@@ -49,7 +50,7 @@ public class InventoryManager : BasePlayerManager
 		List<ItemData> syncItems = new List<ItemData>();
 		foreach (ItemData item in items)
 		{
-			ItemData itemData = await AddItem(item.ItemId, item.Count, notify: false, 1, 1, sync: false, returnRaw: true);
+			ItemData itemData = await AddItem(item.ItemId, item.Count, notify: false, 1, 1, 0, sync: false, returnRaw: true);
 			if (itemData != null)
 			{
 				syncItems.Add(itemData);
@@ -62,7 +63,7 @@ public class InventoryManager : BasePlayerManager
 		}
 	}
 
-	public async ValueTask<ItemData?> AddItem(int itemId, int count, bool notify = true, int rank = 1, int level = 1, bool sync = true, bool returnRaw = false)
+	public async ValueTask<ItemData?> AddItem(int itemId, int count, bool notify = true, int rank = 1, int level = 1, int promotion = 0, bool sync = true, bool returnRaw = false)
 	{
 		GameData.ItemConfigData.TryGetValue(itemId, out ItemConfigExcel itemConfig);
 		if (itemConfig == null)
@@ -78,7 +79,7 @@ public class InventoryManager : BasePlayerManager
 				await base.Player.SendPacket(new PacketRetcodeNotify(Retcode.RetEquipmentExceedLimit));
 				break;
 			}
-			itemData = await PutItem(itemId, 1, rank, 0, level, 0, 0, 0, null, null, ++Data.NextUniqueId);
+			itemData = await PutItem(itemId, 1, rank, promotion, level, 0, 0, 0, null, null, ++Data.NextUniqueId);
 			if (itemConfig.Rarity == ItemRarityEnum.SuperRare)
 			{
 				base.Player.FriendRecordData.AddAndRemoveOld(new FriendDevelopmentInfoPb
@@ -96,30 +97,63 @@ public class InventoryManager : BasePlayerManager
 			switch (itemConfig.ItemSubType)
 			{
 			case ItemSubTypeEnum.HeadIcon:
-				base.Player.PlayerUnlockData.HeadIcons.Add(itemId);
+				if (!base.Player.PlayerUnlockData.HeadIcons.Contains(itemId))
+				{
+					base.Player.PlayerUnlockData.HeadIcons.Add(itemId);
+					DatabaseHelper.ToSaveUidList.SafeAdd(base.Player.Uid);
+				}
 				break;
 			case ItemSubTypeEnum.ChatBubble:
-				base.Player.PlayerUnlockData.ChatBubbles.Add(itemId);
+				if (!base.Player.PlayerUnlockData.ChatBubbles.Contains(itemId))
+				{
+					base.Player.PlayerUnlockData.ChatBubbles.Add(itemId);
+					DatabaseHelper.ToSaveUidList.SafeAdd(base.Player.Uid);
+					await base.Player.SendPacket(new PacketUnlockChatBubbleScNotify(itemId));
+				}
 				break;
 			case ItemSubTypeEnum.PhoneTheme:
-				base.Player.PlayerUnlockData.PhoneThemes.Add(itemId);
+				if (!base.Player.PlayerUnlockData.PhoneThemes.Contains(itemId))
+				{
+					base.Player.PlayerUnlockData.PhoneThemes.Add(itemId);
+					DatabaseHelper.ToSaveUidList.SafeAdd(base.Player.Uid);
+					await base.Player.SendPacket(new PacketUnlockPhoneThemeScNotify(itemId));
+				}
 				break;
 			case ItemSubTypeEnum.PersonalCard:
-				base.Player.PlayerUnlockData.PersonalCards.Add(itemId);
+				if (!base.Player.PlayerUnlockData.PersonalCards.Contains(itemId))
+				{
+					base.Player.PlayerUnlockData.PersonalCards.Add(itemId);
+					DatabaseHelper.ToSaveUidList.SafeAdd(base.Player.Uid);
+				}
 				break;
 			case ItemSubTypeEnum.PhoneCase:
-				base.Player.PlayerUnlockData.PhoneCases.Add(itemId);
+				if (!base.Player.PlayerUnlockData.PhoneCases.Contains(itemId))
+				{
+					base.Player.PlayerUnlockData.PhoneCases.Add(itemId);
+					DatabaseHelper.ToSaveUidList.SafeAdd(base.Player.Uid);
+					await base.Player.SendPacket(new PacketUnlockPhoneCaseScNotify(itemId));
+				}
+				break;
+			case ItemSubTypeEnum.PlayerOutfit:
+				itemData = await PutItem(itemId, count);
 				break;
 			case ItemSubTypeEnum.AvatarSkin:
 			{
-				int avatarID = GameData.AvatarSkinData[itemId].AvatarID;
-				if (!base.Player.PlayerUnlockData.Skins.TryGetValue(avatarID, out List<int> value))
+				if (GameData.AvatarSkinData.TryGetValue(itemId, out AvatarSkinExcel value))
 				{
-					value = new List<int>();
-					base.Player.PlayerUnlockData.Skins[avatarID] = value;
+					int avatarID = value.AvatarID;
+					if (!base.Player.PlayerUnlockData.Skins.TryGetValue(avatarID, out List<int> value2))
+					{
+						value2 = new List<int>();
+						base.Player.PlayerUnlockData.Skins[avatarID] = value2;
+					}
+					if (!value2.Contains(itemId))
+					{
+						value2.Add(itemId);
+						DatabaseHelper.ToSaveUidList.SafeAdd(base.Player.Uid);
+						await base.Player.SendPacket(new PacketUnlockAvatarSkinScNotify(itemId));
+					}
 				}
-				value.Add(itemId);
-				await base.Player.SendPacket(new PacketUnlockAvatarSkinScNotify(itemId));
 				break;
 			}
 			case ItemSubTypeEnum.Gift:
@@ -528,7 +562,7 @@ public class InventoryManager : BasePlayerManager
 		List<ItemData> items = new List<ItemData>();
 		foreach (var item in rewardData.GetItems())
 		{
-			ItemData itemData = await AddItem(item.Item1, item.Item2, notify, 1, 1, sync: false);
+			ItemData itemData = await AddItem(item.Item1, item.Item2, notify, 1, 1, 0, sync: false);
 			if (itemData != null)
 			{
 				items.Add(itemData);
@@ -538,7 +572,7 @@ public class InventoryManager : BasePlayerManager
 		{
 			await base.Player.SendPacket(new PacketPlayerSyncScNotify(items));
 		}
-		ItemData itemData2 = await AddItem(1, rewardData.Hcoin, notify, 1, 1, sync: false);
+		ItemData itemData2 = await AddItem(1, rewardData.Hcoin, notify, 1, 1, 0, sync: false);
 		if (itemData2 != null)
 		{
 			items.Add(itemData2);
@@ -657,8 +691,9 @@ public class InventoryManager : BasePlayerManager
 		return await AddItem(composeConfig.ItemID, count, notify: false);
 	}
 
-	public async ValueTask<ItemData?> ComposeRelic(ComposeSelectedRelicCsReq req)
+	public async ValueTask<List<ItemData>> ComposeRelic(ComposeSelectedRelicCsReq req)
 	{
+		int count = Math.Max(1, (int)req.Count);
 		if (req.ComposeItemList != null)
 		{
 			foreach (ItemCost item in req.ComposeItemList.ItemList)
@@ -676,33 +711,38 @@ public class InventoryManager : BasePlayerManager
 		GameData.ItemComposeConfigData.TryGetValue((int)req.ComposeId, out ItemComposeConfigExcel composeConfig);
 		if (composeConfig == null)
 		{
-			return null;
+			return new List<ItemData>();
 		}
 		foreach (MaterialItem item3 in composeConfig.MaterialCost)
 		{
-			await RemoveItem(item3.ItemID, (int)(item3.ItemNum * req.Count));
+			await RemoveItem(item3.ItemID, item3.ItemNum * count);
 		}
-		await RemoveItem(2, (int)(composeConfig.CoinCost * req.Count));
-		int composeRelicId = (int)req.ComposeRelicId;
-		GameData.RelicConfigData.TryGetValue(composeRelicId, out RelicConfigExcel value);
+		await RemoveItem(2, composeConfig.CoinCost * count);
+		int relicId = (int)req.ComposeRelicId;
+		GameData.RelicConfigData.TryGetValue(relicId, out RelicConfigExcel value);
 		GameData.RelicSubAffixData.TryGetValue(value.SubAffixGroup, out Dictionary<int, RelicSubAffixConfigExcel> subAffixConfig);
-		int mainAffixId = (int)req.MainAffixId;
-		ItemData itemData = new ItemData
+		int mainAffix = (int)req.MainAffixId;
+		List<ItemData> items = new List<ItemData>();
+		for (int i = 0; i < count; i++)
 		{
-			ItemId = composeRelicId,
-			Level = 0,
-			UniqueId = ++Data.NextUniqueId,
-			MainAffix = mainAffixId,
-			SubAffixes = req.SubAffixIdList.Select((uint subId) => new ItemSubAffix(subAffixConfig[(int)subId], 1)).ToList(),
-			Count = 1
-		};
-		if (mainAffixId == 0)
-		{
-			itemData.AddRandomRelicMainAffix();
+			ItemData itemData = new ItemData
+			{
+				ItemId = relicId,
+				Level = 0,
+				UniqueId = ++Data.NextUniqueId,
+				MainAffix = mainAffix,
+				SubAffixes = req.SubAffixIdList.Select((uint subId) => new ItemSubAffix(subAffixConfig[(int)subId], 1)).ToList(),
+				Count = 1
+			};
+			if (mainAffix == 0)
+			{
+				itemData.AddRandomRelicMainAffix();
+			}
+			itemData.AddRandomRelicSubAffix(3 - itemData.SubAffixes.Count + itemData.LuckyRelicSubAffixCount());
+			await AddItem(itemData, notify: false);
+			items.Add(itemData);
 		}
-		itemData.AddRandomRelicSubAffix(3 - itemData.SubAffixes.Count + itemData.LuckyRelicSubAffixCount());
-		await AddItem(itemData, notify: false);
-		return itemData;
+		return items;
 	}
 
 	public async ValueTask<List<ItemData>> SellItem(ItemCostData costData, bool toMaterial)

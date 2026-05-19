@@ -309,7 +309,13 @@ public class DatabaseHelper
 	public static void SaveInstance<T>(T instance) where T : class, new()
 	{
 		sqlSugarScope?.Insertable(instance).ExecuteCommand();
-		UidInstanceMap[(instance as BaseDatabaseDataHelper).Uid].Add(instance as BaseDatabaseDataHelper);
+		BaseDatabaseDataHelper baseDatabaseDataHelper = instance as BaseDatabaseDataHelper;
+		if (!UidInstanceMap.TryGetValue(baseDatabaseDataHelper.Uid, out List<BaseDatabaseDataHelper> value))
+		{
+			value = new List<BaseDatabaseDataHelper>();
+			UidInstanceMap[baseDatabaseDataHelper.Uid] = value;
+		}
+		value.Add(baseDatabaseDataHelper);
 	}
 
 	public void CalcSaveDatabase()

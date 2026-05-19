@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using March7thHoney.Kcp;
 using March7thHoney.Proto;
 
@@ -5,21 +6,21 @@ namespace March7thHoney.GameServer.Server.Packet.Send.Avatar;
 
 public class PacketTakePromotionRewardScRsp : BasePacket
 {
-	public PacketTakePromotionRewardScRsp()
+	public PacketTakePromotionRewardScRsp(Retcode retcode, List<March7thHoney.Proto.Item>? rewards = null)
 		: base(307)
 	{
-		March7thHoney.Proto.Item item = new March7thHoney.Proto.Item
+		TakePromotionRewardScRsp takePromotionRewardScRsp = new TakePromotionRewardScRsp
 		{
-			ItemId = 101u,
-			Num = 1u
+			Retcode = (uint)retcode
 		};
-		TakePromotionRewardScRsp data = new TakePromotionRewardScRsp
+		if (retcode == Retcode.RetSucc)
 		{
-			RewardList = new ItemList
+			takePromotionRewardScRsp.RewardList = new ItemList();
+			if (rewards != null)
 			{
-				ItemList_ = { item }
+				takePromotionRewardScRsp.RewardList.ItemList_.AddRange(rewards);
 			}
-		};
-		SetData(data);
+		}
+		SetData(takePromotionRewardScRsp);
 	}
 }

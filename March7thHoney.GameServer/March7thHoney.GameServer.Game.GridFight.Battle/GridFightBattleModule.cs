@@ -17,7 +17,18 @@ public static class GridFightBattleModule
 		{
 			return player.BattleInstance;
 		}
-		if (!GameData.StageConfigData.TryGetValue(70000001, out StageConfigExcel value))
+		GridFightLevelEncounter gridFightLevelEncounter = GridFightLevelResolver.Resolve(gridFightInstance);
+		StageConfigExcel value;
+		bool flag = GameData.StageConfigData.TryGetValue((int)gridFightLevelEncounter.StageId, out value);
+		if (!flag)
+		{
+			flag = GameData.StageConfigData.TryGetValue(70000001, out value);
+		}
+		if (!flag)
+		{
+			value = GameData.StageConfigData.Values.FirstOrDefault();
+		}
+		if (value == null)
 		{
 			return null;
 		}

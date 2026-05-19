@@ -19,4 +19,19 @@ public class TrainCakeCatchData : BaseDatabaseDataHelper
 
 	[SugarColumn(IsJson = true)]
 	public List<int> PerformanceIds { get; set; } = new List<int>();
+
+	[SugarColumn(IsJson = true)]
+	public List<CakeCreatureInventoryInfo> CollectedCreatures { get; set; } = new List<CakeCreatureInventoryInfo>();
+
+	[SugarColumn(IsJson = true)]
+	public List<int> SearchCreatureIds { get; set; } = new List<int>();
+
+	[SugarColumn(IsJson = true)]
+	public List<int> DiyLikeIds { get; set; } = new List<int>();
+
+	public int AvailableSearchCount { get; set; }
+
+	public long RefreshTime { get; set; }
+
+	public long DailyRefreshTime { get; set; }
 }

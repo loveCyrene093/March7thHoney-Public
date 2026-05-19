@@ -5,6 +5,7 @@ using March7thHoney.Data.Config.Scene;
 using March7thHoney.Data.Excel;
 using March7thHoney.Database.Scene;
 using March7thHoney.GameServer.Game.Player;
+using March7thHoney.GameServer.Game.Scene;
 using March7thHoney.GameServer.Game.Scene.Entity;
 using March7thHoney.Kcp;
 using March7thHoney.Proto;
@@ -24,11 +25,20 @@ public class PacketGetSceneMapInfoScRsp : BasePacket
 			SceneMapInfo sceneMapInfo = new SceneMapInfo
 			{
 				FloorId = floorId,
+				DimensionId = ((player.SceneInstance?.FloorId == floorId) ? ((uint)player.SceneInstance.ResolveDimensionId()) : 0u),
 				SceneIdentifier = new SceneIdentifier
 				{
 					FloorId = floorId
 				}
 			};
+			uint? num = player.TrainCakeCatchManager?.GetSceneTeleportRoomOwnerUid();
+			if (sceneIdentifier.TeleportInfo != null || num.HasValue)
+			{
+				sceneMapInfo.SceneIdentifier.TeleportInfo = new TeleportInfo
+				{
+					TeleportId = (num ?? sceneIdentifier.TeleportInfo?.TeleportId ?? 0)
+				};
+			}
 			List<MapEntranceExcel> list = GameData.MapEntranceData.Values.Where((MapEntranceExcel x) => x.FloorID == floorId).ToList();
 			if (list.Count == 0)
 			{
@@ -41,6 +51,10 @@ public class PacketGetSceneMapInfoScRsp : BasePacket
 			{
 				getSceneMapInfoScRsp.SceneMapInfo.Add(sceneMapInfo);
 				continue;
+			}
+			if (sceneMapInfo.DimensionId == 0)
+			{
+				sceneMapInfo.DimensionId = (uint)SceneInstance.ResolveDimensionId(outer, mapEntranceExcel.ID);
 			}
 			sceneMapInfo.ChestList.Add(new ChestInfo
 			{

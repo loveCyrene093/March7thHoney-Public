@@ -3468,7 +3468,7 @@ public class CmdIds
 
 	public const int RelicPresetGetPlanCsReq = 9841;
 
-	public const int AOGHKDGEFGA = 9860;
+	public const int RelicPresetGetPlanScRsp = 9860;
 
 	public const int RelicPresetAddPlanCsReq = 9842;
 

@@ -22,11 +22,9 @@ public class NewUsernameLoginHandler
 				retcode = -201
 			});
 		}
-		NewLoginResJson newLoginResJson = new NewLoginResJson
-		{
-			message = "OK",
-			data = new NewLoginResJson.VerifyData(loginSession.Uid, loginSession.Email, loginSession.DispatchToken)
-		};
+		NewLoginResJson newLoginResJson = new NewLoginResJson();
+		newLoginResJson.message = "OK";
+		newLoginResJson.data = new NewLoginResJson.VerifyData(loginSession.Uid, loginSession.Email, loginSession.DispatchToken);
 		newLoginResJson.data.user_info.account_name = loginSession.Username;
 		newLoginResJson.data.user_info.area_code = "**";
 		newLoginResJson.data.user_info.country = "US";

@@ -82,6 +82,48 @@ public class SceneInstance
 		return entityProp;
 	}
 
+	public int ResolveDimensionId()
+	{
+		if (EntityLoader is StoryLineEntityLoader { DimensionId: not 0 } storyLineEntityLoader)
+		{
+			return storyLineEntityLoader.DimensionId;
+		}
+		return ResolveDimensionId(FloorInfo, EntryId, Groups);
+	}
+
+	public static int ResolveDimensionId(FloorInfo? floorInfo, int entryId = 0, IEnumerable<int>? preferredGroupIds = null)
+	{
+		if (floorInfo == null)
+		{
+			return 0;
+		}
+		HashSet<int> hashSet = new HashSet<int>();
+		if (entryId != 0 && GameData.MapEntranceData.TryGetValue(entryId, out MapEntranceExcel value) && value.FloorID == floorInfo.FloorID)
+		{
+			hashSet.Add(value.StartGroupID);
+		}
+		if (floorInfo.StartGroupID != 0)
+		{
+			hashSet.Add(floorInfo.StartGroupID);
+		}
+		if (preferredGroupIds != null)
+		{
+			foreach (int item in preferredGroupIds.Where((int num) => num != 0))
+			{
+				hashSet.Add(item);
+			}
+		}
+		foreach (int groupId in hashSet)
+		{
+			FloorDimensionInfo floorDimensionInfo = floorInfo.DimensionList.FirstOrDefault((FloorDimensionInfo info) => info.GroupIDList.Contains(groupId));
+			if (floorDimensionInfo != null)
+			{
+				return floorDimensionInfo.ID;
+			}
+		}
+		return floorInfo.DimensionList.FirstOrDefault((FloorDimensionInfo info) => info.ID != 0)?.ID ?? floorInfo.DimensionList.FirstOrDefault()?.ID ?? 0;
+	}
+
 	public SceneInfo ToProto()
 	{
 		SceneInfo sceneInfo = new SceneInfo
@@ -92,7 +134,7 @@ public class SceneInstance
 			FloorId = (uint)FloorId,
 			EntryId = (uint)EntryId,
 			SceneMissionInfo = new MissionStatusBySceneInfo(),
-			DimensionId = ((EntityLoader is StoryLineEntityLoader storyLineEntityLoader) ? ((uint)storyLineEntityLoader.DimensionId) : 0u),
+			DimensionId = (uint)ResolveDimensionId(),
 			GameStoryLineId = (uint)(Player.StoryLineManager?.StoryLineData.CurStoryLineId ?? 0),
 			SceneIdentifier = new SceneIdentifier
 			{
@@ -100,6 +142,15 @@ public class SceneInstance
 				GameStoryLineId = (uint)(Player.StoryLineManager?.StoryLineData.CurStoryLineId ?? 0)
 			}
 		};
+		uint? num = Player.TrainCakeCatchManager?.GetSceneTeleportRoomOwnerUid();
+		if (num.HasValue)
+		{
+			uint valueOrDefault = num.GetValueOrDefault();
+			sceneInfo.SceneIdentifier.TeleportInfo = new TeleportInfo
+			{
+				TeleportId = valueOrDefault
+			};
+		}
 		SceneEntityGroupInfo sceneEntityGroupInfo = new SceneEntityGroupInfo();
 		foreach (KeyValuePair<int, AvatarSceneInfo> item in AvatarInfo)
 		{
@@ -129,10 +180,10 @@ public class SceneInstance
 			{
 				Dictionary<int, GroupPropertyConfigInfo> obj = FloorInfo?.Groups.GetValueOrDefault(entity.Value.GroupId)?.GroupPropertyMap ?? new Dictionary<int, GroupPropertyConfigInfo>();
 				Dictionary<string, int> dictionary = new Dictionary<string, int>();
-				Dictionary<string, int> valueOrDefault = Player.SceneData.GroupPropertyData.GetValueOrDefault(FloorId, new Dictionary<int, Dictionary<string, int>>()).GetValueOrDefault(entity.Value.GroupId, new Dictionary<string, int>());
+				Dictionary<string, int> valueOrDefault2 = Player.SceneData.GroupPropertyData.GetValueOrDefault(FloorId, new Dictionary<int, Dictionary<string, int>>()).GetValueOrDefault(entity.Value.GroupId, new Dictionary<string, int>());
 				foreach (GroupPropertyConfigInfo item2 in obj.Values.Where((GroupPropertyConfigInfo x) => x.Side != GroupPropertySideEnum.ClientOnly))
 				{
-					dictionary.Add(item2.Name, valueOrDefault.GetValueOrDefault(item2.Name, item2.DefaultValue));
+					dictionary.Add(item2.Name, valueOrDefault2.GetValueOrDefault(item2.Name, item2.DefaultValue));
 				}
 				list.Add(new SceneEntityGroupInfo
 				{
@@ -151,10 +202,10 @@ public class SceneInstance
 			}
 			Dictionary<int, GroupPropertyConfigInfo> obj2 = FloorInfo?.Groups.GetValueOrDefault(groupId)?.GroupPropertyMap ?? new Dictionary<int, GroupPropertyConfigInfo>();
 			Dictionary<string, int> dictionary2 = new Dictionary<string, int>();
-			Dictionary<string, int> valueOrDefault2 = Player.SceneData.GroupPropertyData.GetValueOrDefault(FloorId, new Dictionary<int, Dictionary<string, int>>()).GetValueOrDefault(groupId, new Dictionary<string, int>());
+			Dictionary<string, int> valueOrDefault3 = Player.SceneData.GroupPropertyData.GetValueOrDefault(FloorId, new Dictionary<int, Dictionary<string, int>>()).GetValueOrDefault(groupId, new Dictionary<string, int>());
 			foreach (GroupPropertyConfigInfo item3 in obj2.Values.Where((GroupPropertyConfigInfo x) => x.Side != GroupPropertySideEnum.ClientOnly))
 			{
-				dictionary2.Add(item3.Name, valueOrDefault2.GetValueOrDefault(item3.Name, item3.DefaultValue));
+				dictionary2.Add(item3.Name, valueOrDefault3.GetValueOrDefault(item3.Name, item3.DefaultValue));
 			}
 			list.Add(new SceneEntityGroupInfo
 			{
