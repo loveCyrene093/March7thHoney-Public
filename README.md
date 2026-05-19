@@ -36,6 +36,8 @@
 - 货币战争：已实现基础玩法流程。
 - 成就系统：大部分成就可追踪与完成。
 
+详细开发进度：[EN](docs/GameplayImplementationTree.md) | [简中](docs/GameplayImplementationTree_zh-CN.md) | [繁中](docs/GameplayImplementationTree_zh-TW.md) | [JP](docs/GameplayImplementationTree_ja-JP.md)
+
 ## 待办列表
 
 1. 完善货币战争&差分宇宙。
