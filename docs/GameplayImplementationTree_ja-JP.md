@@ -1,4 +1,4 @@
-# ゲームプレイ開発進捗ツリー（プロトコル全体）
+# ゲームプレイ開発進捗ツリー
 
 [EN](GameplayImplementationTree.md) | [简中](GameplayImplementationTree_zh-CN.md) | [繁中](GameplayImplementationTree_zh-TW.md) | [JP](GameplayImplementationTree_ja-JP.md)
 

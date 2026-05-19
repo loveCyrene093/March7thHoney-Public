@@ -1,4 +1,4 @@
-# Gameplay Development Progress Tree (Protocol Coverage)
+# Gameplay Development Progress Tree
 
 [EN](GameplayImplementationTree.md) | [简中](GameplayImplementationTree_zh-CN.md) | [繁中](GameplayImplementationTree_zh-TW.md) | [JP](GameplayImplementationTree_ja-JP.md)
 

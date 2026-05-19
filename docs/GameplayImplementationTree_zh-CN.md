@@ -1,4 +1,4 @@
-# 玩法开发进度树状图（协议全覆盖）
+# 玩法开发进度树状图
 
 [EN](GameplayImplementationTree.md) | [简中](GameplayImplementationTree_zh-CN.md) | [繁中](GameplayImplementationTree_zh-TW.md) | [JP](GameplayImplementationTree_ja-JP.md)
 
