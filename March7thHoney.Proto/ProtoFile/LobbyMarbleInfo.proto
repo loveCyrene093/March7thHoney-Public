@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LobbyMarbleInfo {
+    uint32 PJCGAJPDOBN = 1;
+    uint32 rank = 2;
+    repeated uint32 AOPJPCPNACH = 3;
+    uint32 score_id = 4;
+}

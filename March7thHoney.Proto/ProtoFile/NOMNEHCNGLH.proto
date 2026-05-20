@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum NOMNEHCNGLH {
+    NOMNEHCNGLH_PCPDHELPKEM = 0;
+    NOMNEHCNGLH_KLHDCOPPLNG = 1;
+    NOMNEHCNGLH_BMCHMAOIKDE = 2;
+}

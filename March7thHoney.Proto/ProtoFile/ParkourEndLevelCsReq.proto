@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CNNMMNKCIHP.proto";
+import "DPABAKNJAHM.proto";
+import "GLOIKLNHBLN.proto";
+import "NOMNEHCNGLH.proto";
+
+message ParkourEndLevelCsReq {
+    uint32 CIDMHHICBJJ = 2;
+    repeated DPABAKNJAHM JACOBCLKOOD = 4;
+    uint32 HHPFNDBGIIO = 5;
+    uint32 level_id = 6;
+    uint32 time = 7;
+    uint32 JFHKACLKHHC = 8;
+    GLOIKLNHBLN HKCOFDINJIN = 12;
+    uint32 rank = 13;
+    NOMNEHCNGLH end_reason = 14;
+    repeated CNNMMNKCIHP IIMGCHFFNLK = 15;
+}

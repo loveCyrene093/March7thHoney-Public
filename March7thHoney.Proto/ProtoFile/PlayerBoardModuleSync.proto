@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HeadFrameInfo.proto";
+import "HeadIconData.proto";
+
+message PlayerBoardModuleSync {
+    string signature = 1;
+    repeated HeadIconData unlocked_head_icon_list = 3;
+    HeadFrameInfo head_frame_info = 7;
+    bool DGHJLFEKMPO = 11;
+    repeated uint32 BNGJGEPGDNK = 15;
+}

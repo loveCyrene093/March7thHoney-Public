@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ChessRogueDiceType {
+    HBCOKDIJMBK_ICJLGHLOKFG = 0;
+    HBCOKDIJMBK_OHGGCKLLLEP = 1;
+}

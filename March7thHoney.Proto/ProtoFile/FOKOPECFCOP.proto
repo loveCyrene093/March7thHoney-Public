@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AEIMINCOFHF.proto";
+
+message FOKOPECFCOP {
+    uint32 level = 2;
+    repeated AEIMINCOFHF BODAPOLFADF = 5;
+    uint32 ENNGNAMEBJC = 6;
+    uint32 KDFMIFKALKH = 7;
+    uint32 area_id = 11;
+    uint32 GPONHJHHMBB = 13;
+}

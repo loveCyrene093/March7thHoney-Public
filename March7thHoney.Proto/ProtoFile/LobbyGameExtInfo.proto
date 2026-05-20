@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GCJAMHEGKGE.proto";
+import "LobbyGridFightInfo.proto";
+import "LobbyMarbleInfo.proto";
+import "LobbyMarchInfo.proto";
+import "OIFJHEPAFOO.proto";
+
+message LobbyGameExtInfo {
+    repeated string BHILEPGIFNE = 1;
+    bool HMPCFJPJDOE = 2;
+    oneof JNJJJGBCEDG {
+        LobbyMarchInfo lobby_march_info = 1001;
+        LobbyMarbleInfo lobby_marble_info = 1002;
+        OIFJHEPAFOO NIFBKKNFKEG = 1003;
+        LobbyGridFightInfo lobby_grid_fight_info = 1004;
+        GCJAMHEGKGE PCFNJJCOJED = 1005;
+    }
+}

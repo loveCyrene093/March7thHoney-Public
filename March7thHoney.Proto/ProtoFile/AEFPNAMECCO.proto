@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AEFPNAMECCO {
+    uint32 MAFMCIPAIKK = 7;
+}

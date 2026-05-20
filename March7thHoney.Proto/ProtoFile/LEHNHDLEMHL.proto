@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BCMMLADBEAM.proto";
+
+message LEHNHDLEMHL {
+    int32 NAJCPOPJGLB = 2;
+    uint32 id = 3;
+    int32 hp = 5;
+    BCMMLADBEAM MPLINCADODK = 6;
+    bool KAEBCNNAKID = 13;
+    repeated uint32 BMGABAHLGJI = 14;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ClientMail.proto";
+
+message GetMailScRsp {
+    uint32 start = 1;
+    repeated ClientMail mail_list = 7;
+    uint32 total_num = 8;
+    bool is_end = 9;
+    repeated ClientMail notice_mail_list = 10;
+    uint32 retcode = 14;
+}

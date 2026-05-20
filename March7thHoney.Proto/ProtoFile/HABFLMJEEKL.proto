@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BNDOCFACDLL.proto";
+import "BPDFEOGCAIJ.proto";
+
+message HABFLMJEEKL {
+    repeated BNDOCFACDLL JGBEBENBLAD = 1;
+    repeated BPDFEOGCAIJ DCLAKCFJCPJ = 2;
+    uint32 EHJBMNMOFLF = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ABHILGFLJNO.proto";
+
+message CMLEPLPBJCC {
+    repeated ABHILGFLJNO FGOCDCMKDML = 6;
+    uint32 floor_id = 8;
+}

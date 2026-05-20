@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DEOMNEOMPFE.proto";
+
+message GetGunPlayDataScRsp {
+    repeated DEOMNEOMPFE NBMAIDECCHJ = 5;
+    uint32 retcode = 12;
+}

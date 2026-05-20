@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneBattleInfo.proto";
+
+message QuickStartCocoonStageScRsp {
+    uint32 cocoon_id = 3;
+    uint32 wave = 4;
+    SceneBattleInfo battle_info = 5;
+    uint32 Count = 7;
+    uint32 retcode = 14;
+}

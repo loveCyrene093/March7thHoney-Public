@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TakePromotionRewardCsReq {
+    uint32 base_avatar_id = 8;
+    uint32 promotion = 10;
+}

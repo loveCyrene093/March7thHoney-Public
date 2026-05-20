@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DEEMOEKEECM {
+    uint32 PENLMEIJIFK = 1;
+    uint64 EFLLPPLCKBB = 7;
+    bool MPGFGKDBAHN = 12;
+}

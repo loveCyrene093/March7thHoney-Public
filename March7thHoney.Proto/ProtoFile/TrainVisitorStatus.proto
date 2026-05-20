@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum TrainVisitorStatus {
+    JDPJHMHOMLF_PCPDHELPKEM = 0;
+    JDPJHMHOMLF_KEIBCPANEGA = 1;
+    JDPJHMHOMLF_CJNBCNNACNJ = 2;
+    JDPJHMHOMLF_ACNNGJHLLJD = 3;
+    JDPJHMHOMLF_EACCGGLDGEL = 4;
+}

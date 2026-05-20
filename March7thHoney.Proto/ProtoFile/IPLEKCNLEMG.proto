@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IPLEKCNLEMG {
+    uint32 KPOOFBPGMLN = 1;
+    uint32 IBOPJGBFCJI = 4;
+    uint32 PNHOEDHBGNM = 5;
+    uint32 FIKFMPBHIHM = 9;
+}

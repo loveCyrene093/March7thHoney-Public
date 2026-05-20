@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EKJGGLLEELK.proto";
+import "ENIHADNBFFI.proto";
+import "GridFightAugmentActionResult.proto";
+import "GridFightAugmentRerollActionResult.proto";
+import "GridFightEliteBranchActionResult.proto";
+import "GridFightForgeRoleActionResult.proto";
+import "GridFightPortalBuffActionResult.proto";
+import "GridFightPortalBuffRerollActionResult.proto";
+import "GridFightRecommendEquipmentActionResult.proto";
+import "GridFightReturnPreparationActionResult.proto";
+import "GridFightRoundBeginActionResult.proto";
+import "GridFightSupplyActionResult.proto";
+import "GridFightSupplyRerollActionResult.proto";
+import "GridFightTraitActionResult.proto";
+import "GridFightUpgradeEquipActionResult.proto";
+import "JFKOCHAJKDG.proto";
+import "KKIPICBFJPM.proto";
+import "LFKEDPPLOKL.proto";
+import "PPCJBDHDHLL.proto";
+
+message GridFightSelectRecommendEquipCsReq {
+    uint32 queue_position = 13;
+    oneof BGGBIMBKHEI {
+        GridFightTraitActionResult trait_action = 26;
+        GridFightReturnPreparationActionResult return_preparation_action = 230;
+        ENIHADNBFFI APLEGHKNFOK = 308;
+        JFKOCHAJKDG PKCONHLNMIJ = 384;
+        KKIPICBFJPM HGKMHOOFNDA = 400;
+        GridFightSupplyRerollActionResult reroll_supply_action = 446;
+        GridFightSupplyActionResult supply_action = 562;
+        GridFightPortalBuffRerollActionResult portal_buff_reroll_action = 649;
+        GridFightEliteBranchActionResult elite_branch_action = 768;
+        GridFightRoundBeginActionResult round_begin_action = 919;
+        GridFightPortalBuffActionResult portal_buff_action = 1121;
+        GridFightAugmentRerollActionResult reroll_augment_action = 1263;
+        LFKEDPPLOKL KACDGAJHNBI = 1540;
+        GridFightRecommendEquipmentActionResult recommend_equipment_action = 1604;
+        EKJGGLLEELK DJEJJKADBCI = 1663;
+        GridFightForgeRoleActionResult forge_role_action_info = 1667;
+        GridFightUpgradeEquipActionResult upgrade_equip_action = 1677;
+        PPCJBDHDHLL HPMNOGGMKKH = 1708;
+        GridFightAugmentActionResult augment_action = 1951;
+    }
+}

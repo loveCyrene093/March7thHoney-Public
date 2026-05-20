@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BAAHIGNNCIA.proto";
+import "MEHPJKPMDAN.proto";
+
+message FIHMEHKCDAL {
+    oneof NLPPPCHGGPF {
+        MEHPJKPMDAN ELAEMOPBDLP = 1;
+        BAAHIGNNCIA GEMABHIPLGB = 2;
+    }
+}

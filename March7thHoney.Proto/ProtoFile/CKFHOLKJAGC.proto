@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CKFHOLKJAGC {
+    uint32 HHNJKINLAJH = 1;
+    uint32 DEBMOGCGMLI = 12;
+    uint32 max_score = 14;
+}

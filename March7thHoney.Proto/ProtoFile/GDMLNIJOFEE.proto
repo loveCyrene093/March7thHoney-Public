@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GDMLNIJOFEE {
+    bool FELEPKCAFPA = 4;
+    bool ADKBEOPNBIO = 7;
+    bool is_taken_reward = 8;
+    bool CEBPAJAAJPP = 10;
+    uint32 area_id = 11;
+}

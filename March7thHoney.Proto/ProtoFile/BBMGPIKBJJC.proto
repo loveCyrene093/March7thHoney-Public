@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LGLGCCJEKCL.proto";
+
+message BBMGPIKBJJC {
+    uint32 game_mode_type = 3;
+    repeated LGLGCCJEKCL HEOKGAKLFPM = 9;
+    uint32 HOHANPJNANA = 12;
+    uint32 AHKFFCIEPDG = 13;
+    repeated uint32 EGABLBJIJCK = 14;
+    uint32 JBEILMFIIGM = 15;
+}

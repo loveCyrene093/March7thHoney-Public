@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeBossStatistics.proto";
+import "ChallengeStatistics.proto";
+import "ChallengeStoryStatistics.proto";
+
+message GetChallengeGroupStatisticsScRsp {
+    uint32 group_id = 8;
+    uint32 retcode = 12;
+    oneof HIACNHNLCGL {
+        ChallengeStoryStatistics challenge_story = 1;
+        ChallengeStatistics challenge_default = 6;
+        ChallengeBossStatistics challenge_boss = 7;
+    }
+}

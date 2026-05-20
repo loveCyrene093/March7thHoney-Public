@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PBPIOFGODHC.proto";
+
+message TravelBrochureApplyPasterListScRsp {
+    uint32 retcode = 5;
+    PBPIOFGODHC MHMDIDKNCIH = 8;
+}

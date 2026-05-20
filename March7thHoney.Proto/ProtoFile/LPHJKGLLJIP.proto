@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GCHPNHBDCDO.proto";
+import "GPFMEDLLKGH.proto";
+
+message LPHJKGLLJIP {
+    GCHPNHBDCDO EGLCKGKECAJ = 4;
+    repeated GPFMEDLLKGH PMCBBMKMHNI = 6;
+    uint32 item_value = 7;
+}

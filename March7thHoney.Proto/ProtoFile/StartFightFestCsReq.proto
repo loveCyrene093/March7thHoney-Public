@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BLKGDGAPBKC.proto";
+import "FightFestType.proto";
+
+message StartFightFestCsReq {
+    repeated BLKGDGAPBKC avatar_list = 3;
+    uint32 id = 4;
+    FightFestType type = 5;
+    uint32 event_id = 8;
+    repeated uint32 GIGPHJEBDFL = 10;
+}

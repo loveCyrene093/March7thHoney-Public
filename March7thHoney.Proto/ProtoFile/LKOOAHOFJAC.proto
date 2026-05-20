@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LKOOAHOFJAC {
+    uint64 server_timestamp_ms = 4;
+    uint32 retcode = 5;
+    uint64 secret_key_seed = 6;
+    bool ALLHDAFGDCJ = 11;
+    uint32 KFMAEGNNJDL = 14;
+}

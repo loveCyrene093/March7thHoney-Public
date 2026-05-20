@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HeartDialEmotionType.proto";
+
+message ChangeScriptEmotionScRsp {
+    uint32 retcode = 2;
+    HeartDialEmotionType emotion_type = 9;
+    uint32 script_id = 14;
+}

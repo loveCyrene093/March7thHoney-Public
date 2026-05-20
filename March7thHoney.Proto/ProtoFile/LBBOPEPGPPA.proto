@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LBBOPEPGPPA {
+    LBBOPEPGPPA_HPDKAIKPOIG = 0;
+    LBBOPEPGPPA_LNFJOLBJLOE = 1;
+    LBBOPEPGPPA_DAPAJMNGHLP = 2;
+    LBBOPEPGPPA_ELJIJPJLKGP = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BBOCLMGMNEB {
+    uint32 gacha_random = 6;
+    bool NAIPLDPJHII = 9;
+}

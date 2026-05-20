@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ClientDownloadData.proto";
+
+message PlayerHeartBeatScRsp {
+    ClientDownloadData download_data = 4;
+    uint32 retcode = 8;
+    uint64 client_time_ms = 9;
+    uint64 server_time_ms = 14;
+}

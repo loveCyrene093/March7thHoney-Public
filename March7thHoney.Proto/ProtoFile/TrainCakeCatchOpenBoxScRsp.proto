@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NPLEDHFMFDM.proto";
+
+message TrainCakeCatchOpenBoxScRsp {
+    repeated NPLEDHFMFDM AFEJACMLOLH = 6;
+    int64 DHLGCEGONIB = 12;
+    uint32 retcode = 15;
+}

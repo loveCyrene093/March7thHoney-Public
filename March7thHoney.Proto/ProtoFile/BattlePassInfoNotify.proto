@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BpTierType.proto";
+
+message BattlePassInfoNotify {
+    uint64 HEBILJIIICG = 1;
+    uint64 IHMNMNBKJPG = 2;
+    uint32 EDGECHCLDHG = 3;
+    uint64 KBCPNAMDBJE = 4;
+    uint32 exp = 5;
+    uint64 OKNMGHGAEIG = 7;
+    uint64 CDKCGAKABAL = 8;
+    BpTierType BpTierType = 9;
+    uint32 level = 10;
+    uint32 GCLPLAOIJEO = 11;
+    uint64 AEGLOAAPHEB = 12;
+    uint64 GENINOGKLAP = 14;
+    uint64 KPOGAJBLDNC = 15;
+}

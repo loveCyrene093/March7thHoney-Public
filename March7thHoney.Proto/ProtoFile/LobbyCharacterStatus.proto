@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LobbyCharacterStatus {
+    JOBBKLNGANP_PCPDHELPKEM = 0;
+    JOBBKLNGANP_GHGAPOAKGAB = 1;
+    JOBBKLNGANP_BPCEKMLPJCJ = 2;
+    JOBBKLNGANP_GPJMKKADLDC = 3;
+    JOBBKLNGANP_CBBHPGAGCOE = 4;
+    JOBBKLNGANP_JNAAAIGLHHI = 5;
+    JOBBKLNGANP_IKNGBCGLMII = 6;
+    JOBBKLNGANP_BPDPIPBJEMD = 7;
+}

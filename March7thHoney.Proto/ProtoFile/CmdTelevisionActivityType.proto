@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTelevisionActivityType {
+    CPKAJFJJPED_PCPDHELPKEM = 0;
+    CmdGetTelevisionActivityDataScRsp = 6980;
+    CmdEnterTelevisionActivityStageCsReq = 6970;
+    CmdGetTelevisionActivityDataCsReq = 6961;
+    CmdMAGPKAPHFMJ = 6962;
+    CmdEnterTelevisionActivityStageScRsp = 6975;
+    CmdTelevisionActivityBattleEndScNotify = 6968;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BHEOKGAKGMA.proto";
+import "KIDALMMDIEF.proto";
+import "LDHOKGLFPKF.proto";
+import "MHPMAPGKILE.proto";
+
+message RogueAdventureRoomGameplayWolfGunTarget {
+    oneof target_impl {
+        KIDALMMDIEF target_none = 1;
+        BHEOKGAKGMA target_ruanmei = 7;
+        LDHOKGLFPKF target_coin = 12;
+        MHPMAPGKILE target_miracle = 15;
+    }
+}

@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTravelBrochureType {
+    KHHBBCAJHHN_KBCMIMMJFDO = 0;
+    CmdTravelBrochureGetDataScRsp = 6410;
+    CmdTravelBrochureApplyPasterListScRsp = 6458;
+    CmdTravelBrochureGetDataCsReq = 6491;
+    CmdKEJIIOGIHJE = 6432;
+    CmdIHGIOEHHFAO = 6438;
+    CmdTravelBrochurePageResetCsReq = 6433;
+    CmdTravelBrochureSelectMessageCsReq = 6414;
+    CmdDPPJIOPGKJI = 6401;
+    CmdCKKAHFIDJLM = 6498;
+    CmdTravelBrochureSelectMessageScRsp = 6418;
+    CmdTravelBrochureUpdatePasterPosCsReq = 6439;
+    KHHBBCAJHHN_FDKELLDPDMB = 6409;
+    CmdTravelBrochureApplyPasterListCsReq = 6407;
+    CmdTravelBrochurePageResetScRsp = 6461;
+    CmdKGJCEOFKEHA = 6426;
+    CmdTravelBrochureSetCustomValueCsReq = 6404;
+    CmdTravelBrochureRemovePasterCsReq = 6463;
+    CmdAPHOLANKEPN = 6474;
+    CmdTravelBrochureSetPageDescStatusCsReq = 6472;
+    CmdTravelBrochurePageUnlockScNotify = 6494;
+}

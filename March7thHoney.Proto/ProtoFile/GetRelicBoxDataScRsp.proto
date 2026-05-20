@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GMONEHJIKMA.proto";
+import "JHHBIOJHEGL.proto";
+import "NBIOEKILHEN.proto";
+import "OMHAOBFKIKE.proto";
+import "PGLFACHCGCB.proto";
+
+message GetRelicBoxDataScRsp {
+    PGLFACHCGCB OHEKDKJCOFD = 2;
+    GMONEHJIKMA KKHBAPABFJC = 4;
+    uint32 retcode = 5;
+    repeated NBIOEKILHEN IAHIEBCFPCD = 6;
+    uint32 GEJAPCKOHIG = 7;
+    OMHAOBFKIKE GPEAFAJGCPH = 12;
+    repeated uint32 KAIMHOJAAKP = 14;
+    JHHBIOJHEGL state = 15;
+}

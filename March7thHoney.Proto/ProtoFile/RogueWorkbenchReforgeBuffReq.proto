@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PNAMCJPNCNB.proto";
+
+message RogueWorkbenchReforgeBuffReq {
+    PNAMCJPNCNB JBGFPJLMFHH = 7;
+    uint32 prop_entity_id = 11;
+    uint32 func_id = 14;
+}

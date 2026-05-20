@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DCOKKBHKEGL.proto";
+
+message PDDEEAJIOKG {
+    DCOKKBHKEGL PAMGHMDJAJA = 4;
+    repeated uint32 AGOPFIFDJFN = 6;
+    repeated uint32 unfinished_story_line_id_list = 8;
+    repeated uint32 base_avatar_id_list = 9;
+}

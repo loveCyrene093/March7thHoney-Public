@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MBKMLJABCBE.proto";
+
+message FLLEBEICKCE {
+    uint32 level = 1;
+    uint32 exp = 3;
+    int32 NAJCPOPJGLB = 4;
+    uint32 index = 5;
+    uint32 MLLGEOINJOG = 6;
+    MBKMLJABCBE status = 7;
+    uint32 unique_id = 8;
+    uint32 LLHJAGGEGOK = 9;
+    int32 hp = 10;
+    uint32 PNCNGMFBAND = 11;
+    uint32 DDGEOOLHAPG = 12;
+    uint32 grid_fight_equipment_id = 14;
+    uint32 ELEBGNHEIML = 15;
+}

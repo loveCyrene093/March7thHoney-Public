@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message APCNLFANPEP {
+    uint32 grid_fight_equipment_id = 2;
+    map<uint32, uint32> convert_property_to_fixpoint = 4;
+    uint32 unique_id = 5;
+    map<uint32, double> BBJCMOFGBFI = 6;
+}

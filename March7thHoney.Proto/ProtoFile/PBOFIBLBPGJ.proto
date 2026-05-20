@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum PBOFIBLBPGJ {
+    PBOFIBLBPGJ_IJLJFPKIEOP = 0;
+    PBOFIBLBPGJ_ABMBOMJPMND = 1;
+    PBOFIBLBPGJ_EFLJDDBCIFD = 2;
+    PBOFIBLBPGJ_CKODLDEPEPG = 3;
+    PBOFIBLBPGJ_DCPNAILIKFM = 4;
+}

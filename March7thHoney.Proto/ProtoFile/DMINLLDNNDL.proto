@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DMINLLDNNDL {
+    uint32 id = 7;
+    uint32 ABMKKOKDAFK = 13;
+}

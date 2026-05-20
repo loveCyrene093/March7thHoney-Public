@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GIFNOKLKCGH.proto";
+import "HLLCDBLCIPK.proto";
+import "JOJLACDBPNA.proto";
+
+message PlanetFesStartMiniGameScRsp {
+    JOJLACDBPNA OIAPHBBDPHL = 4;
+    uint32 retcode = 5;
+    GIFNOKLKCGH EFBAMGJDAEH = 8;
+    HLLCDBLCIPK reward = 9;
+}

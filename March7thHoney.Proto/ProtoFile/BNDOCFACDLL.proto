@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BPDFEOGCAIJ.proto";
+
+message BNDOCFACDLL {
+    uint32 compose_relic_id = 1;
+    uint32 relic_type = 2;
+    BPDFEOGCAIJ JKNGFDMOCGC = 3;
+    repeated BPDFEOGCAIJ sub_affix_list = 4;
+}

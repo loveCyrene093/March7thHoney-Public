@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ClientDownloadData.proto";
+
+message ClientObjDownloadData {
+    bytes sc_info = 1;
+    ClientDownloadData client_obj_download_data = 2;
+    repeated ClientDownloadData dyn_code = 3;
+}

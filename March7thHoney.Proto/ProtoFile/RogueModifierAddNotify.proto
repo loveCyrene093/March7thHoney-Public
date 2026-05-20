@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DOIJNCLJGKO.proto";
+
+message RogueModifierAddNotify {
+    DOIJNCLJGKO IMIBFEHPDDI = 7;
+}

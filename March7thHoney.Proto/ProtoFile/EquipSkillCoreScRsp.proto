@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JBJIKJGEBAH.proto";
+import "KNHKBHADJGE.proto";
+
+message EquipSkillCoreScRsp {
+    KNHKBHADJGE HKOHIHCBGAA = 1;
+    JBJIKJGEBAH GCNDOIMACAN = 11;
+    uint32 retcode = 14;
+}

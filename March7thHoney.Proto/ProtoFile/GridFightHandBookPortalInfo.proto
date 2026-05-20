@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightHandBookPortalInfo {
+    repeated uint32 grid_fight_portal_buff_list = 2;
+    repeated uint32 PELJLONLDNM = 12;
+}

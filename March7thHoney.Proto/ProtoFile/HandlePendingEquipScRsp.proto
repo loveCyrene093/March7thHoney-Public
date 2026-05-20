@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IJPFIHHGNGP.proto";
+
+message HandlePendingEquipScRsp {
+    uint32 retcode = 1;
+    IJPFIHHGNGP DGKEEOEIOBB = 3;
+    bool Discarded = 13;
+}

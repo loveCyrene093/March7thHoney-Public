@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MEKCPJMGCOC {
+    uint32 group_id = 2;
+    uint32 NHGHEBJCCCO = 4;
+    uint32 COOOFFKIDMC = 5;
+    uint32 retcode = 6;
+    uint32 JCCOOAEPGED = 12;
+}

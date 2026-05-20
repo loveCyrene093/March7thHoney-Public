@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FBBMDFDOEEF.proto";
+import "HBMNFGPKECH.proto";
+
+message PlanetFesGetOfferedCardPieceScRsp {
+    int64 CAOBLDAJOHK = 3;
+    uint32 retcode = 7;
+    bool JFHMCDFDABI = 8;
+    uint64 PHALKDHHPPB = 9;
+    repeated FBBMDFDOEEF CGOMCPEBBIA = 11;
+    repeated HBMNFGPKECH CLFPBNGKLAA = 12;
+}

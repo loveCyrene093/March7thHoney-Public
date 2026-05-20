@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ACPMKPLOBEF.proto";
+import "ADHNJADIJAC.proto";
+
+message LEPAGPCIDLP {
+    uint32 retcode = 1;
+    repeated ADHNJADIJAC BIEBFHECEPM = 5;
+    ACPMKPLOBEF data = 9;
+}

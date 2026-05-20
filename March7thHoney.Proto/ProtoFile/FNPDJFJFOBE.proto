@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FNPDJFJFOBE {
+    FNPDJFJFOBE_EKEFCLJAPDP = 0;
+    FNPDJFJFOBE_NHPNNKIEGGL = 1;
+    FNPDJFJFOBE_BPEMNMKAPOO = 2;
+    FNPDJFJFOBE_JMKJDFEFIOB = 3;
+    FNPDJFJFOBE_NGELLMBHOIE = 4;
+    FNPDJFJFOBE_NANPDAKBJMO = 5;
+}

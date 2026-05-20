@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EBDPCIIFFON.proto";
+import "GJFAPKAGEED.proto";
+import "MJGHOBOEODL.proto";
+import "OAPBFNBKFHM.proto";
+import "RogueModifierSourceType.proto";
+
+message DOIJNCLJGKO {
+    RogueModifierSourceType ALFHNEHOBJA = 2;
+    uint64 PIMNEEFDAGE = 11;
+    GJFAPKAGEED IMPOEHIOCBC = 14;
+    oneof BPIHFAJCLOC {
+        EBDPCIIFFON FJNNJNHACAB = 1;
+        MJGHOBOEODL AGPGDEPJAJM = 7;
+        OAPBFNBKFHM ANGMBDBAOIH = 12;
+    }
+}

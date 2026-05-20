@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPetType {
+    AMPLNBBIBJH_PCPDHELPKEM = 0;
+    CmdRecallPetScRsp = 7608;
+    CmdGetPetDataScRsp = 7604;
+    CmdSummonPetCsReq = 7602;
+    CmdGetPetDataCsReq = 7601;
+    CmdSummonPetScRsp = 7614;
+    CmdFLNMCMNJGHO = 7610;
+    CmdRecallPetCsReq = 7603;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message ComposeSelectedRelicScRsp {
+    uint32 compose_id = 2;
+    uint32 retcode = 8;
+    ItemList return_item_list = 10;
+}

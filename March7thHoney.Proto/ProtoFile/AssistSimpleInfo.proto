@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AssistSimpleInfo {
+    uint32 pos = 2;
+    uint32 avatar_id = 3;
+    uint32 dressed_skin_id = 9;
+    uint32 level = 15;
+}

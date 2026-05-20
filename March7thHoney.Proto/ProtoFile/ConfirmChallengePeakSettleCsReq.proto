@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ConfirmChallengePeakSettleCsReq {
+    uint32 peak_id = 3;
+    bool ABHOLNJNPJM = 11;
+}

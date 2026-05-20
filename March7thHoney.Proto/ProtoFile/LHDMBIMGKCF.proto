@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LHDMBIMGKCF {
+    uint32 FLICPMGFKOK = 8;
+    uint32 role_id = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KGLOGMHODNB {
+    uint32 card_id = 2;
+    uint32 HLADJPMDOAB = 6;
+    repeated uint32 FAMFCIPLGON = 7;
+}

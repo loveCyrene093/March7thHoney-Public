@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRndOptionType {
+    EDOOKEJHPAD_PCPDHELPKEM = 0;
+    CmdDailyFirstMeetPamCsReq = 3494;
+    CmdGetRndOptionCsReq = 3491;
+    CmdEEAMBMDGIHF = 3410;
+    CmdCBEFFNAFPEL = 3495;
+}

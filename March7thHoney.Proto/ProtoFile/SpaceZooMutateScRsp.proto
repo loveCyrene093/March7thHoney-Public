@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DMNDJBPGEKG.proto";
+import "LKJMLPJEPGG.proto";
+
+message SpaceZooMutateScRsp {
+    bool BFALLCGIPOG = 1;
+    uint32 retcode = 2;
+    repeated DMNDJBPGEKG DHHMBFHKLJG = 11;
+    LKJMLPJEPGG EAMEJGFGNPA = 14;
+}

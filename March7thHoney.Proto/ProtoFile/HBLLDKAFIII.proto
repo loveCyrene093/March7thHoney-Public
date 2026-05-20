@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LKDFOOJMHIE.proto";
+
+message HBLLDKAFIII {
+    LKDFOOJMHIE EEKGGBLHNHP = 4;
+    LKDFOOJMHIE BOKMCBHOCIK = 8;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message VectorSnapshot {
+    sint32 x = 1;
+    sint32 y = 2;
+    sint32 z = 3;
+}

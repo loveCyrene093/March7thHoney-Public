@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MusicData {
+    uint32 id = 8;
+    bool IsPlayed = 10;
+    uint32 group_id = 15;
+}

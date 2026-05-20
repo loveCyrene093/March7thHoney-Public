@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GroupRefreshInfo.proto";
+
+message SceneGroupRefreshScNotify {
+    repeated GroupRefreshInfo group_refresh_list = 2;
+    uint32 dimension_id = 4;
+    uint32 floor_id = 11;
+}

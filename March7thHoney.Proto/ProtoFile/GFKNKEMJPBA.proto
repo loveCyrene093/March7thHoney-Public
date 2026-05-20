@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BBCLLNPDIAH.proto";
+import "CKPEIHOLADP.proto";
+import "FINPEANNNKB.proto";
+import "GOFFLGEJEND.proto";
+import "HKGDGAJHJPO.proto";
+import "HLEIOFJEAKC.proto";
+import "IMHNBMOMLAC.proto";
+import "OBNLNNNNFPO.proto";
+
+message GFKNKEMJPBA {
+    oneof DKPKPIEODIG {
+        FINPEANNNKB HCBGLCBLBDF = 1;
+        OBNLNNNNFPO HBHGAFJFNCJ = 2;
+        IMHNBMOMLAC LPBONPFMCOK = 3;
+        HKGDGAJHJPO AFHLJCCLHCK = 5;
+        GOFFLGEJEND CIFAFAHAFKA = 6;
+        bool GCIIMIOKFKL = 8;
+        uint32 PCNEEFIHAEK = 9;
+        BBCLLNPDIAH ALDADLDPLOH = 10;
+        uint32 ACGHNDBBJCB = 11;
+        uint32 APLLKCCEGON = 12;
+        HLEIOFJEAKC COKIGCEDDPK = 13;
+        CKPEIHOLADP OAABLJOFPGL = 14;
+    }
+}

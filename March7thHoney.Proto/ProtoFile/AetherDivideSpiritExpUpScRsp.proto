@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KNHKBHADJGE.proto";
+
+message AetherDivideSpiritExpUpScRsp {
+    KNHKBHADJGE HKOHIHCBGAA = 1;
+    uint32 FIKLLOCJBGN = 2;
+    uint32 retcode = 11;
+}

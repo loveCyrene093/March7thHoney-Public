@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridGameOrbInfo.proto";
+import "GridGameOrbInfo1.proto";
+
+message GridFightGameOrbInfo {
+    repeated GridGameOrbInfo1 grid_game_orb1_list = 10;
+    repeated GridGameOrbInfo grid_game_orb_list = 14;
+}

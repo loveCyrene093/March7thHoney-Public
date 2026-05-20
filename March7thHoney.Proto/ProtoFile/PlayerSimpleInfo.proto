@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AssistSimpleInfo.proto";
+import "FriendOnlineStatus.proto";
+import "HeadFrameInfo.proto";
+import "PlatformType.proto";
+import "PlayerOutfitInfo.proto";
+
+message PlayerSimpleInfo {
+    string nickname = 1;
+    string signature = 2;
+    string platform_uuid = 3;
+    PlayerOutfitInfo player_outfit_data = 4;
+    uint32 uid = 5;
+    string platform_nick = 6;
+    PlatformType platform = 7;
+    uint32 personal_card = 8;
+    int64 last_active_time = 9;
+    FriendOnlineStatus online_status = 10;
+    uint32 chat_bubble_id = 11;
+    uint32 head_icon = 12;
+    bool is_banned = 13;
+    uint32 level = 14;
+    repeated AssistSimpleInfo assist_simple_info_list = 15;
+    HeadFrameInfo head_frame_info = 105;
+    uint32 gender = 1403;
+}

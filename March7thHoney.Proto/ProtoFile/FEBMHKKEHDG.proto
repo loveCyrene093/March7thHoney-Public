@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FEBMHKKEHDG {
+    uint64 room_id = 1;
+    uint32 MMLKFJIAKKH = 2;
+    uint32 NDKAIAFPNBJ = 3;
+    uint32 LDKGJBALGKC = 4;
+    string HBEHKIAMGLK = 5;
+    string PEHONNHNINA = 6;
+}

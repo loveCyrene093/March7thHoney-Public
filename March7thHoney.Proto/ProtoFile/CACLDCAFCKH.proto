@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LNNFNLKACON.proto";
+
+message CACLDCAFCKH {
+    uint32 FAPFKFJIELE = 5;
+    LNNFNLKACON status = 12;
+}

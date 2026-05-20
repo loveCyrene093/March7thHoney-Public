@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ODONLHDAPKB.proto";
+
+message MonopolyDailySettleScNotify {
+    ODONLHDAPKB EOBENDPKFBO = 3;
+    uint32 LFGMMAPKDIC = 15;
+}

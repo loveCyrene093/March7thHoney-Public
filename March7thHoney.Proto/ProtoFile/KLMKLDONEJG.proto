@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ECKIDLIFAFG.proto";
+import "MPGIOHDMFCG.proto";
+import "PBKPPEAPBOM.proto";
+
+message KLMKLDONEJG {
+    uint32 energy_info = 1;
+    uint32 IHPGCAAAGBC = 2;
+    uint32 IIPDAIEBIHA = 3;
+    bool GIKABEMCFAO = 4;
+    uint32 score_id = 5;
+    uint32 KPCKLNCPPAJ = 7;
+    PBKPPEAPBOM DEMGBJCJGNO = 9;
+    uint32 JKPGACLKEEC = 11;
+    bool KHDKNKLJGOJ = 13;
+    repeated MPGIOHDMFCG item_list = 14;
+    ECKIDLIFAFG MHFHODDBOPM = 15;
+}

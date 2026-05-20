@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LNGJLLKGMNA {
+    uint32 MEAJAEBDAOI = 1;
+    map<uint32, uint32> BLJEBIJEMCH = 3;
+    uint32 KKGIEENCOIC = 8;
+    uint32 DACOKFCBMBI = 10;
+    uint32 DOMGLHIKJED = 13;
+}

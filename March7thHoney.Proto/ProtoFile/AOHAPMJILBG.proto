@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AOHAPMJILBG {
+    uint32 dress_role_unique_id = 9;
+    uint32 role_id = 12;
+    map<uint32, uint32> EEBKDEMEPJK = 14;
+}

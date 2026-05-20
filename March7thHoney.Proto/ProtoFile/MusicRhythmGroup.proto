@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MusicRhythmGroup {
+    uint32 music_group_id = 3;
+    repeated uint32 FICCPEMLMNN = 7;
+    repeated uint32 NCIIIIABFDP = 8;
+    uint32 music_group_phase = 13;
+}

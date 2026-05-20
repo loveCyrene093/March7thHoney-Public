@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LineupInfo.proto";
+import "MADEENABOKE.proto";
+import "SceneInfo.proto";
+
+message KEEDJBIEJOF {
+    SceneInfo scene = 1;
+    LineupInfo lineup = 4;
+    MADEENABOKE ENPAICNLCMK = 7;
+}

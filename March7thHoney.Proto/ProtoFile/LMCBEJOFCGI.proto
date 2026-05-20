@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MLIBLHFBAFJ.proto";
+
+message LMCBEJOFCGI {
+    uint64 DMHLLKBMHEL = 12;
+    MLIBLHFBAFJ FPHGHAPGNAE = 14;
+}

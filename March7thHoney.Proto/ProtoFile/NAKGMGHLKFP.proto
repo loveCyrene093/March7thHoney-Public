@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum NAKGMGHLKFP {
+    NAKGMGHLKFP_HPDEHDJMIBG = 0;
+    NAKGMGHLKFP_BBKJFGHJCEK = 1;
+    NAKGMGHLKFP_ADICJELFCLD = 2;
+}

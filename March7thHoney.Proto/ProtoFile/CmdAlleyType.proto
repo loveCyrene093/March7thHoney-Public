@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdAlleyType {
+    MOFLOJNJDGL_PCPDHELPKEM = 0;
+    CmdKCOBMOPKLPL = 4798;
+    CmdMCPHAPNLNIG = 4753;
+    CmdSaveLogisticsCsReq = 4796;
+    CmdActivityRaidPlacingGameCsReq = 4793;
+    CmdGetSaveLogisticsMapCsReq = 4765;
+    CmdGetAlleyInfoCsReq = 4791;
+    CmdFBDJEJDHCIO = 4789;
+    CmdGetAlleyInfoScRsp = 4710;
+    CmdAlleyShipmentEventEffectsScNotify = 4728;
+    CmdLogisticsScoreRewardSyncInfoScNotify = 4720;
+    CmdHCDIHOBPLJE = 4726;
+    MOFLOJNJDGL_HMCMLHEABKI = 4732;
+    CmdAlleyFundsScNotify = 4744;
+    CmdLOINGBNGDFO = 4717;
+    MOFLOJNJDGL_OLJIHEBEBCA = 4708;
+    CmdAlleyEventChangeNotify = 4763;
+    CmdLogisticsGameScRsp = 4795;
+    CmdAlleyPlacingGameScRsp = 4737;
+    MOFLOJNJDGL_CNGAGLKBHPK = 4772;
+    CmdAlleyOrderChangedScNotify = 4733;
+    CmdIJMICOMCFKK = 4779;
+    CmdPrestigeLevelUpScRsp = 4758;
+    CmdTakeEventRewardCsReq = 4751;
+    CmdAlleyTakeEventRewardScRsp = 4725;
+    CmdPrestigeLevelUpCsReq = 4707;
+    CmdLogisticsGameCsReq = 4794;
+    CmdLogisticsDetonateStarSkiffCsReq = 4754;
+    CmdStartAlleyEventCsReq = 4709;
+    CmdActivityRaidPlacingGameScRsp = 4702;
+    MOFLOJNJDGL_KKJPGOMOPAI = 4800;
+    CmdLogisticsInfoScNotify = 4721;
+    CmdKCHEPLKMONL = 4757;
+    CmdGetSaveLogisticsMapScRsp = 4773;
+    CmdTakePrestigeRewardCsReq = 4739;
+    CmdAlleyPlacingGameCsReq = 4774;
+    CmdTakePrestigeRewardScRsp = 4701;
+}

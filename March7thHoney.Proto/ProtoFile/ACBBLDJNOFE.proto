@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ACBBLDJNOFE {
+    uint32 role_id = 3;
+    bool NCINGDCOOGK = 4;
+    uint32 MAECCDAPKMD = 12;
+    uint32 trait_id = 14;
+}

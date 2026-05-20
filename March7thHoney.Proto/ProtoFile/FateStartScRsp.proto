@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KDJIDJBBHHE.proto";
+
+message FateStartScRsp {
+    uint32 retcode = 5;
+    KDJIDJBBHHE MODDIBHCPPD = 14;
+}

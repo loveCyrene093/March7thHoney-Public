@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdChimeraType {
+    ECGCPKLHDEC_PCPDHELPKEM = 0;
+    CmdChimeraStartEndlessCsReq = 8174;
+    CmdGetDataScRsp = 8180;
+    CmdChimeraFinishEndlessRoundScRsp = 8179;
+    CmdChimeraQuitEndlessScRsp = 8178;
+    CmdChimeraFinishRoundCsReq = 8175;
+    CmdChimeraFinishRound = 8168;
+    CmdINIELDCAGDG = 8173;
+    CmdChimeraDoFinalRoundScRsp = 8163;
+    CmdChimeraStartEndlessScRsp = 8177;
+    CmdChimeraDoFinalRoundCsReq = 8164;
+    CmdChimeraRoundWorkStartCsReq = 8169;
+    CmdChimeraGetDataCsReq = 8161;
+    ECGCPKLHDEC_AICOENEPACM = 8162;
+    CmdOIJJDMGODJP = 8170;
+    CmdChimeraFinishEndlessRoundCsReq = 8167;
+    CmdChimeraQuitEndlessCsReq = 8171;
+}

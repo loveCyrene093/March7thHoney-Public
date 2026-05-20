@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PPCJBDHDHLL {
+    uint32 EJAAPIKLMND = 10;
+    uint32 trait_id = 11;
+    uint32 effect_id = 14;
+}

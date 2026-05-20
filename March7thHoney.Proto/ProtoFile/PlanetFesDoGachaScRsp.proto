@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EIKLOCHPNBM.proto";
+import "FBBMDFDOEEF.proto";
+import "FFBDADKFPBF.proto";
+
+message PlanetFesDoGachaScRsp {
+    uint32 retcode = 4;
+    uint32 gacha_id = 11;
+    repeated FBBMDFDOEEF JIGIBLLFPKF = 14;
+    oneof FNJJNAOCOII {
+        FFBDADKFPBF MAHHENHIHDK = 1;
+        EIKLOCHPNBM BBMGOFHLEAK = 9;
+    }
+}

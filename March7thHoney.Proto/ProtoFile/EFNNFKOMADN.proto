@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EFNNFKOMADN {
+    uint32 OBAMHCIFFOC = 11;
+    uint32 ALODJFPDKAM = 15;
+}

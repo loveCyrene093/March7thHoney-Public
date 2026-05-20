@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "MultiPathAvatarType.proto";
+
+message UnlockAvatarPathScRsp {
+    MultiPathAvatarType avatar_id = 2;
+    repeated uint32 basic_type_id_list = 8;
+    ItemList reward = 9;
+    uint32 retcode = 12;
+}

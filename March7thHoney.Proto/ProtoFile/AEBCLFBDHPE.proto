@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FeverTimeBattleRank.proto";
+
+message AEBCLFBDHPE {
+    uint32 HEILKBJCAGB = 2;
+    uint32 ALDJKJGBOJG = 5;
+    FeverTimeBattleRank NHICMEMJFNI = 6;
+}

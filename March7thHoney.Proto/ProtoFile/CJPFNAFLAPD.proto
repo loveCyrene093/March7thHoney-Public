@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HIGGMLEFJNI.proto";
+import "KDBLKOGKHEE.proto";
+
+message CJPFNAFLAPD {
+    uint32 BCJMOEMDGJK = 411;
+    oneof BPIHFAJCLOC {
+        KDBLKOGKHEE DLDDJKBNLIM = 11;
+        HIGGMLEFJNI NHNHLNMJKLA = 12;
+    }
+}

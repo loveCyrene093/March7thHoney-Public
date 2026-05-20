@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BHMJAJGOJPM.proto";
+import "JKAIDKIGEGP.proto";
+
+message RogueMagicBattleFailSettleInfoScNotify {
+    JKAIDKIGEGP AFLJJJFCBIN = 1;
+    BHMJAJGOJPM EDKJMPACHNJ = 11;
+}

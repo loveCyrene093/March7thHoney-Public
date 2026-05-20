@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AMGMAIOKJLN.proto";
+import "CGDFGMMKJAH.proto";
+import "CNJHCICPAIC.proto";
+import "DFAOIALEBOH.proto";
+import "EJDFGNGBNOO.proto";
+import "EOOEGPCPHKP.proto";
+import "EPPJHNIHAFL.proto";
+import "JBEENGDECOH.proto";
+import "JMOGPMCJGLE.proto";
+import "KKFANGIJAOF.proto";
+import "MKJPDJNHNBO.proto";
+import "MPKGLGCLAID.proto";
+import "NAMGFEONKFK.proto";
+
+message ILEJGEDBEKF {
+    AMGMAIOKJLN story_info = 1;
+    CGDFGMMKJAH MODDIBHCPPD = 2;
+    NAMGFEONKFK BHOOLFGEIAA = 3;
+    MPKGLGCLAID LBNHKPPAJIM = 4;
+    EJDFGNGBNOO CGIFJAOHHAO = 5;
+    JBEENGDECOH JGHIBCLBLAG = 6;
+    repeated EOOEGPCPHKP rogue_current_game_info = 7;
+    DFAOIALEBOH PJABKDBFPIM = 8;
+    CNJHCICPAIC HKGKNEKKJHB = 9;
+    JMOGPMCJGLE IMPBELJGDJH = 12;
+    uint32 LOIDOGEENOB = 13;
+    EPPJHNIHAFL pending_action = 14;
+    KKFANGIJAOF FEILNIKNPCB = 15;
+    MKJPDJNHNBO BOCIPPBEBEA = 1635;
+}

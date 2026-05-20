@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Gender.proto";
+
+message SetPlayerInfoCsReq {
+    Gender gender = 2;
+    string nickname = 10;
+    bool is_modify = 15;
+}

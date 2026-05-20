@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakeReturnExtraHcoinRewardScRsp {
+    uint32 GEEFOKFBPDK = 4;
+    uint32 retcode = 6;
+    ItemList reward = 7;
+}

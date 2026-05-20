@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGLNLHOBDKI.proto";
+
+message SetRogueExhibitionCsReq {
+    repeated uint32 MGPNBMFJCDA = 1;
+    repeated AGLNLHOBDKI EDMCDIFHFBA = 2;
+    repeated uint32 AKECJCPOLCP = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GPIOFJJJAMF {
+    GPIOFJJJAMF_DBIHMNGLOGL = 0;
+    GPIOFJJJAMF_GHFINDIDBPI = 1;
+    GPIOFJJJAMF_MHFNENMPMBK = 2;
+    GPIOFJJJAMF_PGGAFPMGELC = 3;
+    GPIOFJJJAMF_MHMOLKOINNK = 4;
+}

@@ -1,0 +1,57 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdAvatarType {
+    OKGLHKOEJMM_PCPDHELPKEM = 0;
+    CmdGetPreAvatarGrowthInfoCsReq = 308;
+    CmdTakeOffRelicCsReq = 332;
+    CmdGetAvatarDataScRsp = 310;
+    CmdAddMultiPathAvatarScNotify = 328;
+    CmdTakePromotionRewardCsReq = 361;
+    CmdGetPreAvatarActivityListCsReq = 320;
+    CmdActiveEidolonScRsp = 304;
+    CmdUnlockSkillTreeCsReq = 314;
+    CmdAvatarExpUpCsReq = 394;
+    CmdGetAvatarDataCsReq = 391;
+    CmdUnlockAvatarPathScRsp = 371;
+    CmdSetGrowthTargetAvatarCsReq = 365;
+    CmdDressAvatarCsReq = 363;
+    CmdTakeOffEquipmentCsReq = 339;
+    CmdAddAvatarScNotify = 374;
+    CmdUnlockSkilltreeScRsp = 318;
+    CmdSetAvatarPathScRsp = 305;
+    CmdAvatarPathChangedNotify = 311;
+    CmdGetPreAvatarActivityListScRsp = 393;
+    CmdDressAvatarSkinCsReq = 358;
+    CmdMarkAvatarScRsp = 321;
+    CmdSetMultipleAvatarPathsScRsp = 303;
+    CmdUnlockAvatarPathCsReq = 330;
+    CmdTakeOffEquipmentScRsp = 301;
+    CmdSetAvatarPathCsReq = 366;
+    CmdTakeOffAvatarSkinCsReq = 400;
+    CmdGetPreAvatarGrowthInfoScRsp = 317;
+    CmdAJLCAJEKAGP = 353;
+    CmdDressRelicAvatarCsReq = 338;
+    CmdTakeOffRelicScRsp = 333;
+    CmdAvatarExpUpScRsp = 395;
+    CmdPromoteAvatarScRsp = 398;
+    CmdActiveEidolonCsReq = 337;
+    CmdTakeOffAvatarSkinScRsp = 389;
+    CmdTakePromotionRewardScRsp = 307;
+    CmdAvatarSpecialSkilltreeUnlockScNotify = 392;
+    CmdMarkAvatarCsReq = 357;
+    CmdSetGrowthTargetAvatarScRsp = 373;
+    CmdSetAvatarEnhancedIdScRsp = 379;
+    CmdSetPlayerOutfitCsReq = 302;
+    CmdSetPlayerOutfitScRsp = 349;
+    CmdSetAvatarEnhancedIdCsReq = 354;
+    CmdDressAvatarScRsp = 326;
+    CmdDressRelicAvatarScRsp = 372;
+    CmdDressAvatarSkinScRsp = 344;
+    CmdUnlockAvatarSkinScNotify = 396;
+    CmdPromoteAvatarCsReq = 309;
+    CmdSetMultipleAvatarPathsCsReq = 336;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BuffInfo.proto";
+
+message NBCOOLLEOID {
+    uint32 entity_id = 8;
+    repeated BuffInfo buff_list = 14;
+}

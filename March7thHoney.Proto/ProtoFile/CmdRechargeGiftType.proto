@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRechargeGiftType {
+    FKKDLKJDPAL_PCPDHELPKEM = 0;
+    CmdSyncRechargeBenefitInfoScNotify = 8374;
+    CmdTakeRechargeBenefitRewardCsReq = 8377;
+    CmdTakeRechargeGiftRewardScRsp = 8370;
+    CmdGetRechargeBenefitInfoScRsp = 8368;
+    CmdGetRechargeGiftInfoScRsp = 8380;
+    CmdGetRechargeBenefitInfoCsReq = 8375;
+    CmdGetRechargeGiftInfoCsReq = 8361;
+    CmdTakeRechargeBenefitRewardScRsp = 8367;
+    CmdTakeRechargeGiftRewardCsReq = 8362;
+}

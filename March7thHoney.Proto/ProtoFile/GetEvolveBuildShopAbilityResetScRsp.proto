@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GCHPNHBDCDO.proto";
+import "GPFMEDLLKGH.proto";
+
+message GetEvolveBuildShopAbilityResetScRsp {
+    uint32 retcode = 3;
+    repeated GPFMEDLLKGH PMCBBMKMHNI = 10;
+    uint32 item_value = 12;
+    GCHPNHBDCDO EGLCKGKECAJ = 15;
+}

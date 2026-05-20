@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakeTalkRewardScRsp {
+    uint32 JHOAMILHAIC = 1;
+    uint32 retcode = 7;
+    ItemList reward = 8;
+}

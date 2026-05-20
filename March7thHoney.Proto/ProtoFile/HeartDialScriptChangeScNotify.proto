@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HeartDialDialogueInfo.proto";
+import "HeartDialScriptInfo.proto";
+import "HeartDialUnlockStatus.proto";
+import "PICILIIFKBE.proto";
+
+message HeartDialScriptChangeScNotify {
+    repeated HeartDialDialogueInfo changed_dialogue_info_list = 2;
+    repeated HeartDialScriptInfo changed_script_info_list = 5;
+    HeartDialUnlockStatus unlock_status = 10;
+    repeated PICILIIFKBE OOGJAKIPFDJ = 11;
+}

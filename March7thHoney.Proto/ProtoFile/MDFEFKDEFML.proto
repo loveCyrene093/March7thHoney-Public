@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MDFEFKDEFML {
+    uint32 stage_id = 12;
+    uint32 BPNBNPGPFJK = 13;
+}

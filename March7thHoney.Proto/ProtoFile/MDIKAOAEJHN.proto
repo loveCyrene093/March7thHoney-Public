@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum MDIKAOAEJHN {
+    MDIKAOAEJHN_IHPFCMLEKCG = 0;
+    MDIKAOAEJHN_JLAHFIDKOMG = 1;
+}

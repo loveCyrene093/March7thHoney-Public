@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HDKDHKPLBJC.proto";
+
+message NpcMonsterRogueInfo {
+    uint32 level = 1;
+    uint32 elite_group = 5;
+    HDKDHKPLBJC MCBPLGAEGDJ = 8;
+    uint32 OPJAFNEFJDC = 10;
+    uint32 rogue_monster_id = 12;
+    uint32 hard_level_group = 15;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BIBLMLDGCOB.proto";
+
+message IdleLiveGetFriendAssistListScRsp {
+    uint32 retcode = 1;
+    uint32 target_side = 14;
+    repeated BIBLMLDGCOB FMMNAIAKEGL = 15;
+}

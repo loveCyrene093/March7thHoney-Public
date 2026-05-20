@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FateBuffData.proto";
+
+message BNPJCNDIPOM {
+    repeated uint32 DBPNDCDECKD = 3;
+    repeated FateBuffData GDCGBIEFIGO = 5;
+}

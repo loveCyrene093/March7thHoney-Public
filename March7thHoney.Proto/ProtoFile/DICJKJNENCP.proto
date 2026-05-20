@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DICJKJNENCP {
+    DICJKJNENCP_GEBOHOLBJPH = 0;
+    DICJKJNENCP_BGKLOEMEHBA = 1;
+    DICJKJNENCP_EDBAKOPABPF = 2;
+}

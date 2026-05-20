@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BIDGPELJPJK {
+    uint32 state = 9;
+    uint32 JHDLNBPNEKG = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MAGFKFCMLJM.proto";
+
+message TrainPartySettleNotify {
+    uint32 GDFPBHMMFEA = 5;
+    MAGFKFCMLJM OFCKHGLINAG = 8;
+}

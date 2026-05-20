@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DIMFOAAJNGN {
+    DIMFOAAJNGN_CMBCCLIAIIK = 0;
+    DIMFOAAJNGN_JHPDGKKLLBI = 1;
+    DIMFOAAJNGN_HCNHAPBAPGD = 2;
+    DIMFOAAJNGN_DOJOHGNOFFL = 3;
+    DIMFOAAJNGN_ILBPPLNFMHN = 4;
+}

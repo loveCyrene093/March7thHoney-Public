@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MonopolyMoveCsReq {
+    uint32 HCOHILBALGG = 7;
+    uint32 IFKLEGCLPEE = 9;
+}

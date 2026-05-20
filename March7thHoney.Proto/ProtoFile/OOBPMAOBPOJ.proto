@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OOBPMAOBPOJ {
+    uint32 EMLIJIBPBFL = 5;
+    bool KLHDCOPPLNG = 10;
+    uint32 progress = 14;
+}

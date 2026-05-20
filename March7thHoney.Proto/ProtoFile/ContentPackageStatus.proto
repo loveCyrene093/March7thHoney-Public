@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ContentPackageStatus {
+    ContentPackageStatus_None = 0;
+    ContentPackageStatus_Init = 1;
+    ContentPackageStatus_Doing = 2;
+    ContentPackageStatus_Finished = 3;
+    ContentPackageStatus_Release = 4;
+}

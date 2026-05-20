@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JAFPMLLOGDI.proto";
+
+message CHDHAFCLEDB {
+    repeated JAFPMLLOGDI IEGFPJFFCAM = 1;
+    uint32 MBCNAEAJMDM = 14;
+}

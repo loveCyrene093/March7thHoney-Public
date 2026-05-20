@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AEOEFOILEBP.proto";
+import "ENALOKIFDFH.proto";
+
+message GetPlayerReturnMultiDropInfoScRsp {
+    uint32 retcode = 4;
+    repeated AEOEFOILEBP JNGHGLMBPOH = 13;
+    ENALOKIFDFH BMAGGBCMDLB = 15;
+}

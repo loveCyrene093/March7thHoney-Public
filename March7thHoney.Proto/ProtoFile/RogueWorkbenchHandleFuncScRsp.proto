@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CGKBEBCCDGF.proto";
+
+message RogueWorkbenchHandleFuncScRsp {
+    uint32 retcode = 1;
+    uint32 func_id = 3;
+    CGKBEBCCDGF ACADKPJKADE = 11;
+}

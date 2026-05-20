@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MNCOPDNELMC.proto";
+
+message CALIIIHMJAC {
+    MNCOPDNELMC PPIPFOPHNHM = 6;
+    uint32 EAADBOCJNAE = 8;
+    int32 CGNOKHABCPP = 10;
+}

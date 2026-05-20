@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TutorialGuide.proto";
+
+message GetTutorialGuideScRsp {
+    uint32 retcode = 2;
+    repeated TutorialGuide tutorial_guide_list = 10;
+}

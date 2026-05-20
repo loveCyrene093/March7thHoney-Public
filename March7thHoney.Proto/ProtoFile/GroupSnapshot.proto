@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ActiveMCVKeySnapshot.proto";
+import "EntitySnapshot.proto";
+
+message GroupSnapshot {
+    uint32 group_id = 1;
+    uint32 group_state = 2;
+    repeated EntitySnapshot entity_list = 3;
+    map<string, int32> property_map = 4;
+    repeated uint32 active_submission_list = 5;
+    repeated ActiveMCVKeySnapshot active_mcv_key_list = 6;
+}

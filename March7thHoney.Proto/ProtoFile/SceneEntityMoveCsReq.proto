@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EntityMotion.proto";
+
+message SceneEntityMoveCsReq {
+    uint32 entry_id = 3;
+    uint64 interact_id = 6;
+    repeated EntityMotion entity_motion_list = 10;
+    uint64 BFBEHMAFJMC = 13;
+}

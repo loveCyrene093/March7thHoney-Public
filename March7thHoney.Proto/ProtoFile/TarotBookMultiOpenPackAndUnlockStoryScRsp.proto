@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CDHOKMAAMFD.proto";
+
+message TarotBookMultiOpenPackAndUnlockStoryScRsp {
+    uint32 retcode = 2;
+    uint32 FBOFMOPCMCD = 3;
+    CDHOKMAAMFD CPEMLIAGBKB = 4;
+    uint32 JGKCBGBGMOD = 6;
+    map<uint32, uint32> CJLGPCAOPFC = 8;
+    map<uint32, uint32> CCCKMACKLKG = 9;
+    uint32 energy_info = 12;
+    repeated uint32 MMKNNLDLDHI = 13;
+}

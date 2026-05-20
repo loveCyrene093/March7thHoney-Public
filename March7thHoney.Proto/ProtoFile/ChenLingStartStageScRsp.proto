@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FMEMPPNNKJH.proto";
+
+message ChenLingStartStageScRsp {
+    FMEMPPNNKJH KAFKPHOKDLM = 3;
+    uint32 retcode = 9;
+}

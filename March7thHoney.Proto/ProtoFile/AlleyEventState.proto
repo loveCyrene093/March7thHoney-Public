@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum AlleyEventState {
+    HEBAGHLEECH_MFDPLAOEKFE = 0;
+    HEBAGHLEECH_GKBODJFAJCE = 1;
+    HEBAGHLEECH_DOIBPFNOJFJ = 2;
+    HEBAGHLEECH_DAFADDIENIH = 3;
+}

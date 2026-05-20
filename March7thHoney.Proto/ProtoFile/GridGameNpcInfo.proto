@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridGameNpcInfo {
+    repeated uint32 update_equips_component = 2;
+    uint32 unique_id = 8;
+    uint32 id = 10;
+    uint32 pos = 13;
+}

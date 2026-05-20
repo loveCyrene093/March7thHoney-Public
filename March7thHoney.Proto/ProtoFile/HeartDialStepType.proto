@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HeartDialStepType {
+    HeartDialStepType_COEEJALELPF = 0;
+    HeartDialStepType_BADPBGFJPNN = 1;
+    HeartDialStepType_game_lock_info = 2;
+    HeartDialStepType_CCJMKNNHKKE = 3;
+    HeartDialStepType_BEJEBBNFGPM = 4;
+    HeartDialStepType_NGNFOIHNLMJ = 5;
+}

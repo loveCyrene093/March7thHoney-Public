@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightForgeRoleInfo.proto";
+
+message BPFELBKLOCM {
+    oneof CKMEAIDKOIA {
+        uint32 gold = 4;
+        GridFightForgeRoleInfo role_goods_info = 9;
+    }
+}

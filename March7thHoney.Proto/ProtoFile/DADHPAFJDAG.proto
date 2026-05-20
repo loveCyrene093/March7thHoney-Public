@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BENODCCGBKA.proto";
+import "EKJGLIIJIBD.proto";
+
+message DADHPAFJDAG {
+    uint32 PJMIEMAONIN = 3;
+    bool ICALOODHAOJ = 8;
+    oneof JNLIOCCECBG {
+        BENODCCGBKA HEOCPFGBEDH = 2;
+        EKJGLIIJIBD KJEIJKPPNBM = 9;
+    }
+}

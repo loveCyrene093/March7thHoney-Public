@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NOFMHNNIJAN.proto";
+
+message ClientObjUploadCsReq {
+    uint32 KKCDCIJHJFA = 2;
+    NOFMHNNIJAN MKHDINDGHMD = 10;
+    bytes sc_data = 12;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ServerPrefs.proto";
+
+message GetAllServerPrefsDataScRsp {
+    uint32 retcode = 3;
+    repeated ServerPrefs server_prefs_list = 10;
+}

@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ACBBLDJNOFE.proto";
+import "ACDGMLBDJJN.proto";
+import "AFODMHGNIKF.proto";
+import "AOHAPMJILBG.proto";
+import "BFBNMHEFKIG.proto";
+import "BIMPCMFDOME.proto";
+import "BLKEEGBIDII.proto";
+import "CEELLLEIJBL.proto";
+import "DCADPJKFAJK.proto";
+import "DCGINOONGLH.proto";
+import "DLCOIEIDPKB.proto";
+import "EDCFBOMKLLP.proto";
+import "ENFNLCCOLEF.proto";
+import "FDDNDPOPOIA.proto";
+import "GEBNNLDNKGG.proto";
+import "GFFHJIHOJFL.proto";
+import "HFBFFEBOAHL.proto";
+import "HJJHNNDAEPF.proto";
+import "HMLAPDGBKJO.proto";
+import "JHKBPIEOLFB.proto";
+import "KCEBIOHPFBP.proto";
+import "KMNAKOBKPFF.proto";
+import "KPNJMMPJDKG.proto";
+import "LFFHOPOPFJD.proto";
+import "MEPLFBAKEFC.proto";
+import "MOOMPDMKKAJ.proto";
+import "NBCKKPEGLNM.proto";
+import "NBKLHLJGNGP.proto";
+import "OBAEGAGNGKA.proto";
+import "ODGNBDDFEPD.proto";
+import "OKPICJKFILN.proto";
+import "OOJKNKDOECP.proto";
+import "PCEJGBDBEDH.proto";
+
+message GridFightGameItemInfo {
+    uint32 unique_id = 3;
+    oneof HIIIMGDJELJ {
+        ACDGMLBDJJN ANAEEHCDNOK = 77;
+        KPNJMMPJDKG ONJFAJOAFOG = 215;
+        PCEJGBDBEDH BJLMCIJHGLH = 221;
+        OOJKNKDOECP LJGEGCJGBNP = 273;
+        LFFHOPOPFJD BCCLPDCLDMN = 290;
+        FDDNDPOPOIA GIPJOGOONNG = 320;
+        JHKBPIEOLFB EGIEMFBLLDC = 469;
+        DLCOIEIDPKB FLPKFGIAJJA = 677;
+        OKPICJKFILN BOAIGAIEONI = 680;
+        AFODMHGNIKF MGEMPKLCDBI = 689;
+        ODGNBDDFEPD KNAAEIHLMPH = 750;
+        HFBFFEBOAHL EBKLGLIECAL = 795;
+        OBAEGAGNGKA MENCJLIEIJK = 858;
+        MEPLFBAKEFC IFGPGILMCAG = 931;
+        EDCFBOMKLLP OOPPCDFFCKC = 1180;
+        KMNAKOBKPFF OJNNFEKNMGA = 1275;
+        ENFNLCCOLEF CMKPGOIIFHE = 1301;
+        BIMPCMFDOME KAFBOFPKMFM = 1306;
+        DCGINOONGLH LMGLPGNACLP = 1318;
+        HJJHNNDAEPF MDFGMBJONAM = 1439;
+        ACBBLDJNOFE EHMHDKFJOED = 1474;
+        NBCKKPEGLNM CKGKBDPDHGM = 1657;
+        MOOMPDMKKAJ ALPMCFFFLBF = 1677;
+        NBKLHLJGNGP GIHHCLKHPBL = 1710;
+        AOHAPMJILBG KLCJBPKLJDN = 1776;
+        HMLAPDGBKJO LCDNAPGOJLJ = 1835;
+        GFFHJIHOJFL POBFCOHLOGA = 1853;
+        KCEBIOHPFBP CMKOMDAFFNP = 1854;
+        BFBNMHEFKIG CJPMGPEIFGG = 1855;
+        CEELLLEIJBL ICHGMGIDHHC = 1874;
+        GEBNNLDNKGG DIFKACOLAFK = 1927;
+        DCADPJKFAJK BGJIFEINIAO = 1999;
+        BLKEEGBIDII BCMGMMJCEJC = 2009;
+    }
+}

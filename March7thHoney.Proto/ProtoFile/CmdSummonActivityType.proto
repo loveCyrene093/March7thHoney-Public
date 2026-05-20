@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdSummonActivityType {
+    JNJIFBCMNEG_PCPDHELPKEM = 0;
+    CmdGetSummonActivityDataCsReq = 7569;
+    CmdSummonActivityBattleEndScNotify = 7565;
+    CmdEnterSummonActivityStageScRsp = 7567;
+    CmdEnterSummonActivityStageCsReq = 7561;
+    CmdGetSummonActivityDataScRsp = 7570;
+}

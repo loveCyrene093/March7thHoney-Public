@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NFKEJJIHOCJ.proto";
+
+message GetFriendRecommendLineupCsReq {
+    NFKEJJIHOCJ type = 2;
+    uint32 key = 10;
+}

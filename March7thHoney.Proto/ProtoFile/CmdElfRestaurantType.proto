@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdElfRestaurantType {
+    PFAIIEGNMJO_PCPDHELPKEM = 0;
+    CmdElfRestaurantPlantSeedScRsp = 2569;
+    CmdElfRestaurantRecycleSeedCsReq = 2568;
+    CmdElfRestaurantUpgradeRecipeLevelCsReq = 2599;
+    CmdElfRestaurantBuyShopItemCsReq = 2558;
+    PFAIIEGNMJO_EKLMECHLELJ = 2553;
+    CmdGetElfRestaurantDataCsReq = 2563;
+    CmdIEIGLIEIJAN = 2571;
+    CmdEnterElfRestaurantNextDayCsReq = 2580;
+    CmdOIDOEJMAMDE = 2566;
+    CmdFBDOEKFPDOB = 2570;
+    CmdElfRestaurantHarvestCropScRsp = 2594;
+    CmdElfRestaurantFinishTradeOrderCsReq = 2559;
+    CmdElfRestaurantDataChangeNotify = 2588;
+    CmdElfRestaurantFinishTradeOrderScRsp = 2554;
+    CmdElfRestaurantUpgradeEmployeeLevelCsReq = 2600;
+    CmdGetElfRestaurantDataScRsp = 2557;
+    CmdElfRestaurantHarvestCropCsReq = 2552;
+    CmdElfRestaurantClientStatusCsReq = 2589;
+    CmdSettleElfRestaurantPlayCsReq = 2556;
+    CmdNIBAINNLCBG = 2593;
+    PFAIIEGNMJO_BIBKKMADLFJ = 2586;
+    CmdElfRestaurantRecycleSeedScRsp = 2595;
+    CmdJDGBALBMOHF = 2577;
+    CmdElfRestaurantBuyFieldCsReq = 2555;
+    CmdElfRestaurantBuyShopItemScRsp = 2583;
+    CmdElfRestaurantTakeVillagerRewardCsReq = 2587;
+    CmdPNDDHICKBAC = 2576;
+    CmdBHPFBLJAEBK = 2551;
+    CmdSetElfRestaurantPlayRecipeCsReq = 2579;
+    CmdElfRestaurantPlantSeedCsReq = 2597;
+    CmdNHAALOPDPOO = 2565;
+    CmdElfRestaurantUpgradeFacilityLevelCsReq = 2581;
+    CmdElfRestaurantTakeVillagerRewardScRsp = 2598;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JLFJKIDDKBG.proto";
+
+message PNDIINAHJAF {
+    uint32 unique_id = 12;
+    JLFJKIDDKBG DPELEIIAKAA = 1506;
+}

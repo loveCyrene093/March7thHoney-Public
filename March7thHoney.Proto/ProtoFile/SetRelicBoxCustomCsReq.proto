@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NBIOEKILHEN.proto";
+
+message SetRelicBoxCustomCsReq {
+    repeated NBIOEKILHEN FFJDCNKPGOO = 7;
+    NBIOEKILHEN IAHIEBCFPCD = 11;
+}

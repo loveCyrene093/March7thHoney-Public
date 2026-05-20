@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum NDHPIOFCPFN {
+    NDHPIOFCPFN_PCPDHELPKEM = 0;
+    NDHPIOFCPFN_FPOPMPCOOFE = 1;
+    NDHPIOFCPFN_GJLBGMELBHJ = 2;
+}

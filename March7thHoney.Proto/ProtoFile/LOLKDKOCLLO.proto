@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MKEINLFOAEA.proto";
+
+message LOLKDKOCLLO {
+    MKEINLFOAEA JJGLBPGNJML = 1;
+    MKEINLFOAEA NKFNEGIDKNK = 2;
+    MKEINLFOAEA GBMBBLNEGCI = 3;
+    uint32 BOMEGHGNIKF = 4;
+    uint32 HCBGLJHAGAE = 5;
+}

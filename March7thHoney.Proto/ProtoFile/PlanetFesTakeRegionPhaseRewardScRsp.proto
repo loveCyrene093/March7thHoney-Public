@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message PlanetFesTakeRegionPhaseRewardScRsp {
+    ItemList reward_list = 3;
+    uint32 HJMGGLANHML = 7;
+    uint32 retcode = 12;
+}

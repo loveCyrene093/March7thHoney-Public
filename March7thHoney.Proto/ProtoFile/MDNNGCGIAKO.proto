@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MDNNGCGIAKO {
+    uint32 level = 3;
+    uint32 rank = 4;
+    uint32 tid = 6;
+    uint32 exp = 12;
+    uint32 promotion = 14;
+}

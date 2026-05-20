@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ANIOMKDCOEP.proto";
+
+message IIJDPFOGCIN {
+    ANIOMKDCOEP JFMHILEEFCP = 15;
+}

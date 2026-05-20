@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PlayerBasicInfo.proto";
+
+message PlayerLoginScRsp {
+    PlayerBasicInfo basic_info = 1;
+    uint64 login_random = 4;
+    uint32 stamina = 7;
+    uint64 server_timestamp_ms = 8;
+    uint32 retcode = 9;
+    string PJNKEEOKGBO = 10;
+    int32 cur_timezone = 11;
+    string ICHLJDLEPNL = 12;
+    bool CIGNEJKDKJF = 13;
+    bool ALLHDAFGDCJ = 14;
+}

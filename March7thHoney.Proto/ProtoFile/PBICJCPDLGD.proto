@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DFLDACOIHKJ.proto";
+import "IDNPIHFOOAL.proto";
+import "NDBDDEAPIDP.proto";
+
+message PBICJCPDLGD {
+    oneof BGMDKLOBICM {
+        DFLDACOIHKJ lobby_grid_fight_info = 1001;
+        IDNPIHFOOAL PCFNJJCOJED = 1002;
+        NDBDDEAPIDP LKICHFPCOBO = 1003;
+    }
+}

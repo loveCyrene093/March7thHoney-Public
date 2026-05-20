@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRecommendType {
+    KEHJMOOMBBA_PCPDHELPKEM = 0;
+    CmdGetBigDataRecommendCsReq = 2405;
+    CmdGetBigDataAllRecommendScRsp = 2419;
+    CmdGetBigDataRecommendScRsp = 2401;
+    CmdGetBigDataAllRecommendCsReq = 2447;
+}

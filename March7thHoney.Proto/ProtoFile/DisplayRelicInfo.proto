@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RelicAffix.proto";
+
+message DisplayRelicInfo {
+    uint32 level = 2;
+    uint32 exp = 3;
+    uint32 main_affix_id = 5;
+    uint32 tid = 7;
+    repeated RelicAffix sub_affix_list = 13;
+    uint32 type = 15;
+}

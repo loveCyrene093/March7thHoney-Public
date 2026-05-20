@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIKJHLMOOIK.proto";
+
+message SummonPunkLordMonsterScRsp {
+    CIKJHLMOOIK FFCDPHMJJKG = 12;
+    uint32 retcode = 13;
+}

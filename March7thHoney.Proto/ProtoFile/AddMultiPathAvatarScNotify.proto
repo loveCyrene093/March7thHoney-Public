@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DPBEGBNICPG.proto";
+import "ItemList.proto";
+import "PJNEFBBLPND.proto";
+
+message AddMultiPathAvatarScNotify {
+    PJNEFBBLPND LANGJOJLEOC = 2;
+    bool is_new = 4;
+    repeated DPBEGBNICPG OIOFPADOGFC = 10;
+    uint32 avatar_id = 12;
+    ItemList reward = 14;
+}

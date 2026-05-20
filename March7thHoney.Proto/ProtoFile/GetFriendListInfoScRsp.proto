@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FriendSimpleInfo.proto";
+import "PlayerSimpleInfo.proto";
+
+message GetFriendListInfoScRsp {
+    uint32 retcode = 6;
+    repeated PlayerSimpleInfo black_list = 12;
+    repeated FriendSimpleInfo friend_list = 15;
+}

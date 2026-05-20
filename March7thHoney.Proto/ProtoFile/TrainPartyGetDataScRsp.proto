@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TrainPartyData.proto";
+
+message TrainPartyGetDataScRsp {
+    uint32 retcode = 6;
+    TrainPartyData train_party_data = 11;
+}

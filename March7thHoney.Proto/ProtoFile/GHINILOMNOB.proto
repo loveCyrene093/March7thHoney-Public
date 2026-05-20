@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GHINILOMNOB {
+    uint32 HANNDMGHBEO = 4;
+    uint32 MIHBADEPGID = 6;
+}

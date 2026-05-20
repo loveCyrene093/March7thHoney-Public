@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdJukeboxType {
+    EHPNGMCBMBF_PCPDHELPKEM = 0;
+    CmdUnlockBackGroundMusicCsReq = 3114;
+    CmdGetJukeboxDataScRsp = 3110;
+    CmdPlayBackGroundMusicCsReq = 3194;
+    CmdIDEBDGICHAJ = 3109;
+    CmdGetJukeboxDataCsReq = 3191;
+    CmdCJAPFOOONKC = 3198;
+    CmdUnlockBackGroundMusicScRsp = 3118;
+    CmdPlayBackGroundMusicScRsp = 3195;
+}

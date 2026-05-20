@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdEvolveBuildType {
+    JDDDPNDFNIH_HOJEEPOEDHC = 0;
+    CmdEvolveBuildStartLevelScRsp = 7127;
+    CmdEvolveBuildSkipTeachLevelScRsp = 7109;
+    JDDDPNDFNIH_LFHECPEAEDC = 7147;
+    CmdEvolveBuildSkipTeachLevelCsReq = 7133;
+    CmdEvolveBuildStartStageCsReq = 7135;
+    CmdEvolveBuildShopAbilityDownCsReq = 7116;
+    CmdEvolveBuildShopAbilityUpCsReq = 7103;
+    CmdGetEvolveBuildShopAbilityResetScRsp = 7106;
+    CmdGetEvolveBuildShopAbilityDownScRsp = 7131;
+    CmdGetEvolveBuildCoinNotify = 7126;
+    CmdEvolveBuildStartLevelCsReq = 7130;
+    CmdGetEvolveBuildShopAbilityUpScRsp = 7150;
+    CmdEvolveBuildGiveupCsReq = 7105;
+    CmdGetEvolveBuildQueryInfoScRsp = 7107;
+    CmdGetEvolveBuildGiveupScRsp = 7101;
+    CmdEvolveBuildShopAbilityResetCsReq = 7115;
+    CmdEvolveBuildReRandomStageCsReq = 7144;
+    CmdGetEvolveBuildFinishScNotify = 7102;
+    CmdPCKNAJOFGLD = 7119;
+    CmdEvolveBuildQueryInfoCsReq = 7113;
+    CmdEvolveBuildStartStageScRsp = 7138;
+    CmdGetEvolveBuildReRandomStageScRsp = 7118;
+}

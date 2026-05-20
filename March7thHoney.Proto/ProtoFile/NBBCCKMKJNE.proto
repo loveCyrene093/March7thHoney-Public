@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NBBCCKMKJNE {
+    uint32 OPIBBDHMCGO = 1;
+    uint32 DHNDLHLNMJB = 2;
+    uint32 FJGCNBDBMMG = 3;
+    uint32 BKAANCLCOAH = 4;
+    uint32 LBPBGNJFAIO = 5;
+    uint32 CHDNOCOLLHJ = 6;
+    uint32 IACHBBGOHLH = 7;
+    uint32 PHHLMDICENJ = 8;
+    uint32 CHODEHNFCLJ = 9;
+    uint32 PLIJJNGPEIM = 10;
+    uint32 CBKNDPBFBJL = 11;
+    uint32 IMKAOJLJIDK = 12;
+    uint32 LFBBONLCFPH = 13;
+    uint32 LMPNJDMGOBB = 14;
+    uint32 GENOMEOLOJB = 15;
+    uint32 type = 684;
+    string OLDBJILBGLD = 1376;
+    string OOPMDDKLNKP = 1508;
+    uint32 panel_id = 1645;
+    string DNGGPHPOHHD = 1893;
+    uint32 DKIACFLBEKD = 1981;
+    string FCBFCDAGFOA = 2032;
+}

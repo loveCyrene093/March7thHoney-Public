@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdSpaceZooType {
+    BGCDIJDNAGF_PCPDHELPKEM = 0;
+    CmdSpaceZooMutateScRsp = 6718;
+    CmdSpaceZooMutateCsReq = 6714;
+    CmdSpaceZooBornCsReq = 6794;
+    CmdSpaceZooDeleteCatScRsp = 6726;
+    CmdSpaceZooTakeScRsp = 6704;
+    CmdSpaceZooOpCatteryScRsp = 6798;
+    CmdSpaceZooExchangeItemCsReq = 6701;
+    CmdSpaceZooDeleteCatCsReq = 6763;
+    CmdSpaceZooBornScRsp = 6795;
+    CmdSpaceZooCatUpdateNotify = 6739;
+    CmdEICJJJFFLBI = 6774;
+    CmdSpaceZooOpCatteryCsReq = 6709;
+    CmdSpaceZooDataScRsp = 6710;
+    CmdSpaceZooTakeCsReq = 6737;
+    CmdSpaceZooDataCsReq = 6791;
+}

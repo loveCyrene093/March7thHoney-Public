@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightForgeGoodsInfo.proto";
+
+message GridGameForgeItemInfo {
+    uint32 forge_item_id = 1;
+    repeated GridFightForgeGoodsInfo forge_goods_list = 4;
+    uint32 pos = 5;
+    uint32 unique_id = 11;
+}

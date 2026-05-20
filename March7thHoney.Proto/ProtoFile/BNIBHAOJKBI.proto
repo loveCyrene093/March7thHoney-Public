@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DFAOIALEBOH.proto";
+import "ItemList.proto";
+
+message BNIBHAOJKBI {
+    ItemList DALNJFBGHHP = 1;
+    uint32 retcode = 9;
+    DFAOIALEBOH PJABKDBFPIM = 10;
+}

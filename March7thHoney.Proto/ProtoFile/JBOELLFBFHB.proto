@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message JBOELLFBFHB {
+    uint32 LGHOOKMNMCL = 4;
+    ItemList reward = 9;
+    uint32 level = 12;
+}

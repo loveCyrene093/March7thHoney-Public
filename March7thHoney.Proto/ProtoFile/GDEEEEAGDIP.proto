@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CGLANHAMOMM.proto";
+
+message GDEEEEAGDIP {
+    uint32 passenger_id = 10;
+    repeated CGLANHAMOMM IOHLDDNELBP = 11;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MainMission.proto";
+import "Mission.proto";
+
+message GetMissionDataScRsp {
+    uint32 POAAJEBFENO = 2;
+    uint32 track_mission_id = 4;
+    repeated Mission mission_list = 5;
+    repeated MainMission main_mission_list = 11;
+    repeated uint32 EIAGKFKONPE = 12;
+    uint32 retcode = 15;
+}

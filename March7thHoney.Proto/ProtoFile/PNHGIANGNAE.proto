@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PNHGIANGNAE {
+    repeated uint32 unfinished_story_line_id_list = 6;
+    repeated uint32 base_avatar_id_list = 14;
+}

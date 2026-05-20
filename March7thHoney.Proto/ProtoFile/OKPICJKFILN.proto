@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OKPICJKFILN {
+    uint32 MMBIMPGOGBK = 7;
+    uint32 EJMNPLGFFJI = 9;
+    repeated uint32 MGFMDOJFDFG = 12;
+    uint32 KACDGAJHNBI = 14;
+    uint32 PEJIFFPBLOP = 15;
+}

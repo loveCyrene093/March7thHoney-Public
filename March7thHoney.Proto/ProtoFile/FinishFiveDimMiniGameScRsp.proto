@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message FinishFiveDimMiniGameScRsp {
+    ItemList MENAAPNNKGE = 2;
+    uint32 NCODIMPANCC = 3;
+    uint32 score_id = 5;
+    ItemList ENMFKJIOEOC = 6;
+    uint32 gold = 7;
+    uint32 KEABPBONOKM = 8;
+    uint32 GCPNCEDAMAB = 10;
+    bool CHPAMPNMCOE = 11;
+    uint32 retcode = 12;
+    float PBDBJOHCJFO = 13;
+    uint32 OJIAAGJBJAF = 15;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ALBHOIEJOIN.proto";
+import "FDPFOINNLOM.proto";
+import "ILKOFGPOFIA.proto";
+import "KHOLCOMMDEB.proto";
+import "ONDOIAABCDG.proto";
+
+message PCHJABAFADH {
+    oneof MBLKGBAGBKB {
+        KHOLCOMMDEB ONBLFPHLGNB = 1;
+        ONDOIAABCDG NOCOJNOPNJG = 3;
+        ILKOFGPOFIA PFFIJEHMDHE = 5;
+        FDPFOINNLOM IEKICNFCCEP = 11;
+        ALBHOIEJOIN DPEMFGABBAB = 12;
+    }
+}

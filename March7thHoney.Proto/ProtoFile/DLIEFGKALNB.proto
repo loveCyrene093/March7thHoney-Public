@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DLIEFGKALNB {
+    repeated uint32 grid_fight_avatar_list = 2;
+    repeated uint32 grid_fight_trait_member_unique_id_list = 14;
+}

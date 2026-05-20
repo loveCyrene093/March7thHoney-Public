@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRelicSmartWearType {
+    BLFMCFMJJEE_PCPDHELPKEM = 0;
+    CmdRelicSmartWearAddPlanScRsp = 8260;
+    CmdRelicSmartWearDeletePlanScRsp = 8267;
+    CmdRelicSmartWearDeletePlanCsReq = 8264;
+    CmdRelicSmartWearUpdatePinRelicScRsp = 8255;
+    CmdRelicSmartWearUpdatePinRelicCsReq = 8263;
+    CmdRelicSmartWearDeletePinRelicCsReq = 8262;
+    CmdRelicSmartWearGetPinRelicScRsp = 8268;
+    CmdRelicSmartWearUpdatePlanCsReq = 8265;
+    CmdRelicSmartWearUpdatePlanScRsp = 8258;
+    CmdRelicSmartWearUpdatePinRelicScNotify = 8254;
+    CmdRelicSmartWearAddPlanCsReq = 8252;
+    CmdRelicSmartWearGetPlanScRsp = 8270;
+    CmdRelicSmartWearDeletePinRelicScRsp = 8256;
+    CmdRelicSmartWearGetPinRelicCsReq = 8261;
+    CmdRelicSmartWearGetPlanCsReq = 8251;
+}

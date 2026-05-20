@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CounterRecoverCsReq {
+    uint32 IAPFBGEDGAM = 11;
+    uint32 HNLADCMMJJA = 14;
+}

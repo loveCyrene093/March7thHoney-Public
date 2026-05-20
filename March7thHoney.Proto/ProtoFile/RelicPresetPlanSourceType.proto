@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RelicPresetPlanSourceType {
+    KHIMAPHKDLI_PCPDHELPKEM = 0;
+    KHIMAPHKDLI_FLFLCELFAPI = 1;
+    KHIMAPHKDLI_ONJGEAAJDLM = 2;
+    KHIMAPHKDLI_KOBKOAIDLNF = 3;
+    KHIMAPHKDLI_GBCKGOIGGHK = 4;
+}

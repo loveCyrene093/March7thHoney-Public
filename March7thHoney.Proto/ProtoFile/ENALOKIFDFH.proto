@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ENALOKIFDFH {
+    uint32 panel_id = 3;
+    uint32 FADFCMMNDDK = 5;
+    uint32 KLOBEEOJBCN = 10;
+    uint32 FHJBMBLFAFH = 15;
+}

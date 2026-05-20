@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetNicknameScRsp {
+    uint32 retcode = 1;
+    int64 set_time = 5;
+    bool is_modify = 12;
+}

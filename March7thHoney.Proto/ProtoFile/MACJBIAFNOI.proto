@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Vector.proto";
+
+message MACJBIAFNOI {
+    Vector pos = 1;
+    Vector rot = 2;
+    float GNGKNDCKKKC = 3;
+    Vector NALBEFMOKIB = 4;
+    float DCBBKFFHHDL = 5;
+    uint32 JCBGHAODNDD = 6;
+    bool MEKPIHJKJBL = 7;
+    int64 KHAJDKDHPGD = 8;
+}

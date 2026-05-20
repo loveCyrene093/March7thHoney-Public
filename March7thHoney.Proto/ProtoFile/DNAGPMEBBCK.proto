@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DNAGPMEBBCK {
+    DNAGPMEBBCK_MCDJAMMCLDO = 0;
+    DNAGPMEBBCK_CAIFILPCDBH = 1;
+    DNAGPMEBBCK_MGCLKJEKJAA = 2;
+    DNAGPMEBBCK_HCJOMCJGGHD = 3;
+    DNAGPMEBBCK_GLHDGEOKCJB = 4;
+    DNAGPMEBBCK_EEICIBOCKEA = 5;
+}

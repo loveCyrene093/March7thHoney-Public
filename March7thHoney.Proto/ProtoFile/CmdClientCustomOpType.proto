@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdClientCustomOpType {
+    ALPPHEHNPLE_BEENDIPKKNJ = 0;
+    CmdKOIPHJFENIN = 9839;
+}

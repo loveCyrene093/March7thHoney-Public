@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GLJLEEPOCDA {
+    GLJLEEPOCDA_PCPDHELPKEM = 0;
+    GLJLEEPOCDA_FCEHNMJJABE = 1;
+    GLJLEEPOCDA_FNKDIEBKOHA = 2;
+    GLJLEEPOCDA_BMCHMAOIKDE = 3;
+}

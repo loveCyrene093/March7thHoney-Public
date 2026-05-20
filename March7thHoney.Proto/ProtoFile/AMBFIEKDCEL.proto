@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AMBFIEKDCEL {
+    double max_hp = 1;
+    double attack = 2;
+    double defence = 3;
+    double MAAHELIACOJ = 4;
+    double speed = 5;
+    double left_hp = 6;
+    double KEJCBOAPDDB = 7;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarType.proto";
+
+message IGDMBAILEHI {
+    uint32 level = 7;
+    uint32 id = 11;
+    uint32 slot = 13;
+    AvatarType avatar_type = 15;
+}

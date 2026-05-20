@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FHBFFIFIPOA.proto";
+
+message BenefitData {
+    uint32 level = 2;
+    FHBFFIFIPOA ODLBOKHDANL = 3;
+    uint32 status = 4;
+    uint32 COOOFFKIDMC = 7;
+}

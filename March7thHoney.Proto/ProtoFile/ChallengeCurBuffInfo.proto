@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeBossBuffList.proto";
+import "ChallengeStoryBuffList.proto";
+
+message ChallengeCurBuffInfo {
+    oneof BPIHFAJCLOC {
+        ChallengeStoryBuffList cur_story_buffs = 3;
+        ChallengeBossBuffList cur_boss_buffs = 15;
+    }
+}

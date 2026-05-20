@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ElationActivityLevelData.proto";
+
+message ElationActivityBattleEndScNotify {
+    uint32 GGCPDPFMAEG = 1;
+    uint32 perfect_wave = 6;
+    ElationActivityLevelData level_data = 10;
+    uint32 HJAADAOGAMP = 12;
+    uint32 level_id = 15;
+}

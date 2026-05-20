@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MALGHKMBKOK.proto";
+
+message Receive {
+    uint32 retcode = 3;
+    repeated MALGHKMBKOK friend_list = 14;
+}

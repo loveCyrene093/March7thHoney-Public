@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LobbyInteractType.proto";
+
+message HKFDCBOOEIO {
+    uint32 teleport_id = 2;
+    LobbyInteractType HGIAGJMHDOB = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MazeGroup {
+    uint32 group_id = 4;
+    bool is_need_refresh = 6;
+    repeated uint32 destory_monster_config_id_list = 11;
+    map<string, int32> property_map = 12;
+    int64 modify_time = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+
+message HMJGADLIONA {
+    uint32 entity_id = 4;
+    MotionInfo motion = 14;
+}

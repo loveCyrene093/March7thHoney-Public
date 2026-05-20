@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FEDLKANFNBH.proto";
+
+message PreCheckEnterRoomReq {
+    uint32 teleport_id = 2;
+    uint32 entry_id = 5;
+    FEDLKANFNBH PLOBMBFPNFK = 14;
+}

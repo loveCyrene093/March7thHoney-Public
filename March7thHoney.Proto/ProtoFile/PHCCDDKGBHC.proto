@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IGDMBAILEHI.proto";
+import "OLJJJBCKLDK.proto";
+
+message PHCCDDKGBHC {
+    repeated OLJJJBCKLDK buff_list = 3;
+    repeated IGDMBAILEHI avatar_list = 5;
+    repeated uint32 GBHPHCMGBGK = 10;
+}

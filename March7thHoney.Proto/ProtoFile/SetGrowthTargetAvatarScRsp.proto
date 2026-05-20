@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GrowthTartgetFuncType.proto";
+
+message SetGrowthTargetAvatarScRsp {
+    uint32 retcode = 5;
+    uint32 growth_avatar_id = 6;
+    repeated GrowthTartgetFuncType DHAIJLJCJAF = 10;
+    uint32 MMOPCKLPHIO = 15;
+}

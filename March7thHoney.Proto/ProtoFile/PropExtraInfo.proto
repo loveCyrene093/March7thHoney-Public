@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGLBGFLKIME.proto";
+import "HDKIAHMLICD.proto";
+import "JIONEBIHOIP.proto";
+import "LACLGMFHPFG.proto";
+import "LKLHKLMEPCM.proto";
+import "MGBHHILKGGD.proto";
+import "PHIEHJMGGMH.proto";
+import "PropRogueInfo.proto";
+import "PropTimelineInfo.proto";
+
+message PropExtraInfo {
+    PropTimelineInfo timeline_info = 12;
+    oneof BPIHFAJCLOC {
+        LACLGMFHPFG PBDJILOJFMH = 1;
+        PHIEHJMGGMH EILNNHINJHN = 2;
+        PropRogueInfo rogue_game_info = 4;
+        MGBHHILKGGD GAJKEDLKGML = 5;
+        LKLHKLMEPCM AHEAFMNNBJH = 6;
+        HDKIAHMLICD IMPBELJGDJH = 7;
+        JIONEBIHOIP LKGJCKMJFGL = 10;
+        AGLBGFLKIME IAFMCFJPJOA = 14;
+    }
+}

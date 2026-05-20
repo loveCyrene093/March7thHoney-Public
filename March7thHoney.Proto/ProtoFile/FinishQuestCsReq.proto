@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FinishQuestCsReq {
+    uint32 prop_id = 9;
+    uint32 group_id = 14;
+    uint32 quest_id = 15;
+}

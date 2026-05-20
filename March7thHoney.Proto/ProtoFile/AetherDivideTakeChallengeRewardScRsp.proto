@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message AetherDivideTakeChallengeRewardScRsp {
+    uint32 retcode = 4;
+    uint32 challenge_id = 6;
+    ItemList reward = 13;
+}

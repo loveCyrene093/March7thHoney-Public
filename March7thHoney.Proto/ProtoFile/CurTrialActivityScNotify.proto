@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TrialActivityStatus.proto";
+
+message CurTrialActivityScNotify {
+    TrialActivityStatus status = 4;
+    uint32 activity_stage_id = 5;
+}

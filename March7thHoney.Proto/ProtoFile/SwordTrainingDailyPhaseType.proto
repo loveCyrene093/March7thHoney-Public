@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum SwordTrainingDailyPhaseType {
+    MMKJJKBONEA_PCPDHELPKEM = 0;
+    MMKJJKBONEA_FHNKFJFDCKO = 1;
+    MMKJJKBONEA_ODPDHPDMAFC = 2;
+    MMKJJKBONEA_CPADFKHKDMD = 3;
+    MMKJJKBONEA_JNLPFKALCIB = 4;
+}

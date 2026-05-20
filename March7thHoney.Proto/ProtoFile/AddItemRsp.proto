@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message AddItemRsp {
+    ItemList reward = 6;
+    int64 unlock_timestamp = 13;
+    oneof PANAJBHKAKO {
+        uint32 avatar_id = 8;
+        uint32 FLEOCMEFANH = 11;
+    }
+}

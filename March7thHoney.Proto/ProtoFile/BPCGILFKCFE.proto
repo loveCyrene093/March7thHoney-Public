@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleEndStatus.proto";
+import "BattleStatistics.proto";
+import "LOPDMEPEDFG.proto";
+
+message BPCGILFKCFE {
+    LOPDMEPEDFG retcode = 1;
+    BattleEndStatus end_status = 2;
+    BattleStatistics stt = 3;
+    bytes PLIAFNPANGN = 4;
+    map<string, uint32> JFNCMHCAGGH = 5;
+    uint32 CJAJBMAJNJP = 6;
+    uint32 BNALACMGKFJ = 7;
+}

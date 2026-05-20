@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ProductGiftType.proto";
+
+message Product {
+    int64 begin_time = 1;
+    string price_tier = 3;
+    uint32 MEMNCJLKAEE = 5;
+    ProductGiftType gift_type = 7;
+    string product_id = 8;
+    int64 end_time = 9;
+    bool double_reward = 12;
+    uint32 EEFHEBKHKAB = 14;
+    uint32 JCJGHCOEOOJ = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IFDJPDIKLDI {
+    uint32 MOOOPAMBOFK = 2;
+    uint64 MFJCDEKMNLG = 9;
+    uint32 config_id = 10;
+    uint32 level = 11;
+}

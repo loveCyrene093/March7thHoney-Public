@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HeadFrameInfo {
+    uint32 head_frame_item_id = 9;
+    int64 head_frame_expire_time = 12;
+}

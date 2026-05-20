@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BEOPDMLKGLP {
+    repeated uint32 LAGGMKGMGPB = 13;
+    uint32 level_id = 15;
+}

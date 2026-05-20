@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChatData.proto";
+import "MsgType.proto";
+
+message MessageChatData {
+    MsgType message_type = 1;
+    ChatData chat_data = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message InteractPropCsReq {
+    uint32 prop_entity_id = 8;
+    uint64 interact_id = 10;
+    uint32 interact_id2 = 15;
+}

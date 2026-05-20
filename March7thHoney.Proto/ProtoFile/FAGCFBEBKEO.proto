@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LOHKFKOOEIH.proto";
+
+message FAGCFBEBKEO {
+    uint32 PLKJCAMBAIC = 1;
+    uint32 BKKEFFGGEFA = 2;
+    uint32 MBJCCKLNIBM = 3;
+    uint32 BLDEPELAIHM = 4;
+    uint32 HEHMCANDKJK = 5;
+    uint32 DGPPEAPLMPA = 6;
+    repeated uint32 boss_info = 7;
+    repeated LOHKFKOOEIH KJFLCBDNLCF = 8;
+}

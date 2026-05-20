@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FGMPEEMAHKE {
+    FGMPEEMAHKE_PCPDHELPKEM = 0;
+    FGMPEEMAHKE_JDMOMCPFHJM = 1;
+    FGMPEEMAHKE_MNIMAFBIGGP = 2;
+    FGMPEEMAHKE_PPJOJOKOOBF = 3;
+    FGMPEEMAHKE_EDGOIAODJLH = 4;
+    FGMPEEMAHKE_PGJIAGGHBBA = 5;
+}

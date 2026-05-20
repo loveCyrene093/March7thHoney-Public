@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DACJDMPICEL.proto";
+import "ELAGCLMOFFI.proto";
+import "HHHMMJBGCNG.proto";
+
+message GridFightDamageSttInfo {
+    repeated HHHMMJBGCNG EABPCKEDDBH = 1;
+    repeated ELAGCLMOFFI MOIDLNFKAIC = 3;
+    repeated DACJDMPICEL PHDEOPEJIID = 13;
+}

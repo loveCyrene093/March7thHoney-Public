@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NBBCCKMKJNE.proto";
+
+message GetPreAvatarGrowthInfoScRsp {
+    uint32 retcode = 3;
+    repeated NBBCCKMKJNE AGGILHAONPH = 5;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ChessRogueCellSpecialType {
+    PKFEGCHGCEE_PCPDHELPKEM = 0;
+    PKFEGCHGCEE_BGIBPDPNFBC = 1;
+    PKFEGCHGCEE_CFGALAJONCP = 2;
+    PKFEGCHGCEE_HAGCLKCKGJD = 3;
+    PKFEGCHGCEE_KBHGAJCNNBM = 4;
+    PKFEGCHGCEE_PAMMDCPGAME = 5;
+}

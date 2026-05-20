@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IHGBDAGHDME.proto";
+import "ItemList.proto";
+
+message FateSettleScNotify {
+    IHGBDAGHDME ANLGOPHHHFP = 1;
+    uint32 score_id = 2;
+    ItemList reward = 7;
+}

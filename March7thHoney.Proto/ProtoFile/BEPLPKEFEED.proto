@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BEPLPKEFEED {
+    BEPLPKEFEED_PCPDHELPKEM = 0;
+    BEPLPKEFEED_FCEHNMJJABE = 1;
+    BEPLPKEFEED_IOHFFGHJOPF = 2;
+    BEPLPKEFEED_OMJICGNCOID = 3;
+}

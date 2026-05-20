@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetAssistHistoryScRsp {
+    repeated uint32 PLPDAACEKJB = 1;
+    uint32 retcode = 7;
+    uint32 OKPBNIIDCEJ = 9;
+    uint32 KLEMGGNGEHG = 13;
+    uint32 KJIDHDCPCHH = 15;
+}

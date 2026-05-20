@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FJDILEGCBHP {
+    FJDILEGCBHP_PCPDHELPKEM = 0;
+    FJDILEGCBHP_MHLJMJFDPGJ = 1;
+    FJDILEGCBHP_PJIGHNFHFKD = 2;
+    FJDILEGCBHP_KCNOKMDOPJB = 3;
+    FJDILEGCBHP_LOEHHLBJACF = 4;
+    FJDILEGCBHP_BMKAEFAKNFJ = 5;
+}

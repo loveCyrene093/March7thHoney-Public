@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeLineupList.proto";
+
+message PlayerChallengePeakRecordBossData {
+    ChallengeLineupList lineup = 1;
+    repeated uint32 OBPDENLMNII = 3;
+    uint32 best_cycle_count = 6;
+    bool EPCMADFOACA = 7;
+    uint32 buff_id = 8;
+    uint32 HEILKBJCAGB = 9;
+    bool AFFIKAAMEJE = 10;
+    uint32 peak_id = 11;
+}

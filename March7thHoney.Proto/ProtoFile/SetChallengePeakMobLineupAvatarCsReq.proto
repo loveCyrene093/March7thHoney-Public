@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengePeakLineup.proto";
+
+message SetChallengePeakMobLineupAvatarCsReq {
+    repeated ChallengePeakLineup lineup_list = 2;
+    repeated uint32 HNGPPFPOOCD = 5;
+    uint32 peak_group_id = 8;
+}

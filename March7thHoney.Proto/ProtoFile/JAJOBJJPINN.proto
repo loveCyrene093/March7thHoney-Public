@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APCNLFANPEP.proto";
+import "IFDFHPAMHCL.proto";
+
+message JAJOBJJPINN {
+    uint32 role_id = 1;
+    uint32 role_star = 2;
+    uint32 pos = 3;
+    repeated APCNLFANPEP HHIJFHKJEPL = 7;
+    uint32 avatar_id = 8;
+    map<uint32, uint32> convert_property_to_fixpoint = 10;
+    uint32 unique_id = 11;
+    IFDFHPAMHCL GJEHIGGNIAP = 12;
+}

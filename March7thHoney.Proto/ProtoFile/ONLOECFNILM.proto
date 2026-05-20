@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ONLOECFNILM {
+    uint32 entity_id = 8;
+}

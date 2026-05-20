@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LFGMADFAKHK {
+    LFGMADFAKHK_PCPDHELPKEM = 0;
+    LFGMADFAKHK_NMBCDILDGNK = 1;
+    LFGMADFAKHK_KLHDCOPPLNG = 2;
+    LFGMADFAKHK_CLPHMAJJILA = 3;
+}

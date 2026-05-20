@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DisplayAvatarDetailInfo.proto";
+import "PlayerSimpleInfo.proto";
+
+message PlayerAssistInfo {
+    DisplayAvatarDetailInfo assist_avatar = 11;
+    PlayerSimpleInfo player_info = 15;
+}

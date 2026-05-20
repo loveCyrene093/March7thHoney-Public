@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGBLLFGOBKE.proto";
+import "OBNJKBMEAOL.proto";
+
+message LDPLIJAMIOE {
+    repeated OBNJKBMEAOL DCLAKCFJCPJ = 2;
+    int32 unique_id = 5;
+    uint32 DMHLLKBMHEL = 13;
+    AGBLLFGOBKE EJCEIOMIOOP = 15;
+}

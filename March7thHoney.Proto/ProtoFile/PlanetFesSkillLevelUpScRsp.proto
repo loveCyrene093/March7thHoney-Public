@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FBBMDFDOEEF.proto";
+
+message PlanetFesSkillLevelUpScRsp {
+    uint32 skill_id = 2;
+    uint32 retcode = 3;
+    uint32 skill_level = 5;
+    FBBMDFDOEEF item_cost = 9;
+}

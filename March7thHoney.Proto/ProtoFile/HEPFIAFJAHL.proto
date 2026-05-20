@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HEPFIAFJAHL {
+    uint32 effect_id = 2;
+    repeated uint32 DJBLFGFDNCA = 3;
+    repeated uint32 BNAMECLCJAK = 6;
+    bool DOGFDDNCFOP = 9;
+    uint32 trait_id = 12;
+}

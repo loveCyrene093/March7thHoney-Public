@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CEDGNIIEIMC.proto";
+
+message TextJoinQueryScRsp {
+    uint32 retcode = 7;
+    repeated CEDGNIIEIMC text_join_list = 8;
+}

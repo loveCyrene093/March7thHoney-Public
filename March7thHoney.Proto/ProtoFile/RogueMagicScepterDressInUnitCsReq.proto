@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RogueMagicScepterDressInUnitCsReq {
+    uint32 dice_slot_id = 2;
+    uint32 NCHHOPJJDCE = 12;
+    uint32 DOAOPBBIGPO = 13;
+}

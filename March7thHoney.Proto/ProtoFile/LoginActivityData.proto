@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LoginActivityData {
+    repeated uint32 EKNCPHDGBMN = 7;
+    uint32 id = 12;
+    uint32 panel_id = 14;
+    uint32 login_days = 15;
+}

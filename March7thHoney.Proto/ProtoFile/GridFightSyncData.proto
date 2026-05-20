@@ -1,0 +1,95 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CKCKIDHMMEG.proto";
+import "CLOEPPBCKGF.proto";
+import "CMCJNKPKBEM.proto";
+import "DIBJGAKOCLO.proto";
+import "GridFightDamageSttInfo.proto";
+import "GridFightEliteBranchSyncInfo.proto";
+import "GridFightGameAugmentAdd.proto";
+import "GridFightGameAugmentUpdate.proto";
+import "GridFightGameItemInfo.proto";
+import "GridFightGameItemSyncInfo.proto";
+import "GridFightLevelSyncInfo.proto";
+import "GridFightLineupHpSyncInfo.proto";
+import "GridFightLockInfo.proto";
+import "GridFightLockType.proto";
+import "GridFightOrbSyncInfo.proto";
+import "GridFightPendingAction.proto";
+import "GridFightPlayerLevelSyncInfo.proto";
+import "GridFightPortalServerDataUpdate.proto";
+import "GridFightSectionRecordInfo.proto";
+import "GridFightShopSyncInfo.proto";
+import "GridFightTraitSyncInfo.proto";
+import "GridFightTraitTrackSyncInfo.proto";
+import "GridFightTutorialSyncInfo.proto";
+import "GridGameForgeItemInfo.proto";
+import "GridGameNpcInfo.proto";
+import "GridGameOrbInfo.proto";
+import "GridGameRoleInfo.proto";
+import "JPBCKCDEGOM.proto";
+import "RoleTrackEquipmentSyncInfo.proto";
+
+message GridFightSyncData {
+    oneof KCOCCGEOECO {
+        uint32 CJEMKCOCECG = 19;
+        uint32 remove_orb_unique_id = 53;
+        RoleTrackEquipmentSyncInfo equipment_track_sync_info = 57;
+        uint32 max_battle_role_num = 72;
+        CMCJNKPKBEM CFNPGNMPNDN = 140;
+        GridGameRoleInfo add_role_info = 210;
+        GridGameNpcInfo add_npc_info = 230;
+        uint32 HLFBBANMJDJ = 257;
+        GridFightTraitSyncInfo trait_sync_info = 258;
+        GridFightPortalServerDataUpdate portal_server_data_update = 271;
+        GridFightGameItemSyncInfo update_game_item_info = 284;
+        GridGameForgeItemInfo add_forge_info = 386;
+        GridGameRoleInfo update_role_info = 393;
+        uint32 AJIMOAMGCII = 423;
+        GridFightDamageSttInfo grid_fight_damage_stt_info = 437;
+        uint32 grid_fight_combo_win_num = 461;
+        GridFightLockInfo sync_lock_info = 468;
+        uint32 GDPBJDHGFLB = 516;
+        uint32 remove_augment_unique_id = 523;
+        uint32 grid_fight_max_avatar_count = 548;
+        GridFightGameAugmentAdd augment_sync_info = 558;
+        uint32 finish_pending_action_pos = 573;
+        GridFightPendingAction pending_action = 786;
+        GridGameOrbInfo POIPGNHONMA = 798;
+        GridFightLevelSyncInfo level_sync_info = 838;
+        uint32 grid_fight_max_interest_gold = 855;
+        GridGameForgeItemInfo update_forge_info = 909;
+        GridFightPlayerLevelSyncInfo player_level = 995;
+        uint32 KACHJHDMNLM = 996;
+        CKCKIDHMMEG JIFKOHLNHAK = 1016;
+        GridFightTutorialSyncInfo grid_fight_tutorial_sync = 1022;
+        uint32 grid_fight_off_field_max_count = 1062;
+        GridFightLockType lock_type = 1112;
+        GridFightGameItemSyncInfo remove_game_item_info = 1129;
+        GridFightLineupHpSyncInfo grid_fight_lineup_hp = 1138;
+        GridFightSectionRecordInfo section_record_sync_info = 1155;
+        GridFightGameItemInfo grid_fight_sync_game_item_info = 1182;
+        uint32 grid_fight_buy_exp_cost = 1241;
+        GridFightTraitTrackSyncInfo trait_track_sync_info = 1345;
+        CKCKIDHMMEG BAODHPCOJLH = 1444;
+        GridFightGameItemSyncInfo add_game_item_info = 1513;
+        GridGameNpcInfo update_npc_info = 1517;
+        uint32 remove_forge_unique_id = 1564;
+        uint32 remove_trait_effect_id = 1608;
+        JPBCKCDEGOM GMJLJDJDIGM = 1628;
+        uint32 FHHHEBLMOBL = 1660;
+        uint32 remove_role_unique_id = 1704;
+        GridFightEliteBranchSyncInfo elite_branch_sync_info = 1738;
+        DIBJGAKOCLO IBCEPCFFMOL = 1813;
+        CLOEPPBCKGF PGPKPMOIAIL = 1858;
+        GridFightOrbSyncInfo orb_sync_info = 1895;
+        uint32 item_value = 1943;
+        GridFightGameAugmentUpdate grid_game_augment_update = 1994;
+        GridFightShopSyncInfo shop_sync_info = 2039;
+        uint32 remove_npc_unique_id = 2040;
+    }
+}

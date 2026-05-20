@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BOOCAFOIFLF {
+    BOOCAFOIFLF_DAPCFOOOIGA = 0;
+    BOOCAFOIFLF_OCHIFCBMILE = 1;
+    BOOCAFOIFLF_PEAGCBPJPMK = 32;
+}

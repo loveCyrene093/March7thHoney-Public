@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MGFEMHKICND {
+    uint32 LCHDAPELPGO = 2;
+    uint32 JOCDMEHNLAD = 4;
+    uint32 uid = 13;
+}

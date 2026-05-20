@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RogueMagicReviveAvatarCsReq {
+    uint32 interacted_prop_entity_id = 3;
+    repeated uint32 base_avatar_id_list = 5;
+}

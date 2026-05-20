@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message FinishSectionIdScRsp {
+    uint32 retcode = 2;
+    ItemList reward = 3;
+    uint32 section_id = 12;
+}

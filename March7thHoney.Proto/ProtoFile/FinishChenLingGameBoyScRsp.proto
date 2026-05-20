@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message FinishChenLingGameBoyScRsp {
+    repeated uint32 ICMKGFLBEJP = 2;
+    uint32 GPJHJOOIJJC = 4;
+    uint64 GIAOIMOFALH = 6;
+    uint64 HHKCADKCLJC = 11;
+    ItemList reward = 12;
+    uint32 retcode = 13;
+}

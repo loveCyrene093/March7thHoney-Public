@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HOIKCKDHPGC.proto";
+
+message OJCKLCKHPLM {
+    oneof FNJJNAOCOII {
+        uint32 PBPDBJBLPGL = 1;
+        HOIKCKDHPGC EMENFKABDEK = 12;
+    }
+}

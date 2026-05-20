@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SpBarInfo {
+    uint32 cur_sp = 1;
+    uint32 max_sp = 2;
+}

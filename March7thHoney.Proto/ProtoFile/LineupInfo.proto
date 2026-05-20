@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ExtraLineupType.proto";
+import "LineupAvatar.proto";
+
+message LineupInfo {
+    repeated uint32 OBMEFOMFGFD = 1;
+    repeated LineupAvatar avatar_list = 2;
+    repeated uint32 story_line_avatar_id_list = 3;
+    uint32 max_mp = 4;
+    uint32 mp = 6;
+    bool is_virtual = 7;
+    uint32 index = 8;
+    ExtraLineupType extra_lineup_type = 9;
+    uint32 game_story_line_id = 10;
+    string name = 11;
+    bool GLLDELDFDEE = 12;
+    repeated uint32 AGOPFIFDJFN = 13;
+    uint32 leader_slot = 14;
+    uint32 plane_id = 15;
+}

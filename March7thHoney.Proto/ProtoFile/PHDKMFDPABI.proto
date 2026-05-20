@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PHDKMFDPABI {
+    uint32 maze_buff_id = 10;
+}

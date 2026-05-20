@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EENHHHMDHKH.proto";
+
+message CMNLIEKBFNJ {
+    repeated EENHHHMDHKH content_package_list = 2;
+    uint32 retcode = 4;
+}

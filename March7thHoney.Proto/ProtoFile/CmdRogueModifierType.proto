@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRogueModifierType {
+    LKOKNHLLOMF_PCPDHELPKEM = 0;
+    CmdRogueModifierUpdateNotify = 5398;
+    CmdRogueModifierAddNotify = 5394;
+    CmdRogueModifierSelectCellScRsp = 5314;
+    CmdRogueModifierDelNotify = 5363;
+    CmdRogueModifierSelectCellCsReq = 5395;
+    CmdRogueModifierStageStartNotify = 5326;
+}

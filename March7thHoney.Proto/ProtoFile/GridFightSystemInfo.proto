@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightStaticGameInfo.proto";
+import "MIGEAHDEBOE.proto";
+
+message GridFightSystemInfo {
+    GridFightStaticGameInfo EGLCKGKECAJ = 8;
+    MIGEAHDEBOE FCKKGFFLDFA = 13;
+}

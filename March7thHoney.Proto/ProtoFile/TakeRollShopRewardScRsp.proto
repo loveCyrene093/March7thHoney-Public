@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakeRollShopRewardScRsp {
+    uint32 retcode = 4;
+    uint32 group_type = 6;
+    ItemList reward = 12;
+    uint32 roll_shop_id = 13;
+}

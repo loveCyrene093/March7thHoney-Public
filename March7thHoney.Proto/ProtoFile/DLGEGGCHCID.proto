@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LHPPIAKKFME.proto";
+
+message DLGEGGCHCID {
+    uint32 role_star = 8;
+    repeated LHPPIAKKFME PGNMDJIIKJB = 14;
+}

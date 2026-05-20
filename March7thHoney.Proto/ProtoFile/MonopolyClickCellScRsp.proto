@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MonopolyClickCellScRsp {
+    uint32 map_id = 3;
+    uint32 EIIAGABAFEC = 6;
+    uint32 retcode = 7;
+}

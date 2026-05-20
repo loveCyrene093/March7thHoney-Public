@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightHandBookAugmentInfo {
+    repeated uint32 KDFBCMANFMB = 11;
+    repeated uint32 JLCDEDKPEAB = 13;
+}

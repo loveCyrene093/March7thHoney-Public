@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AMBFIEKDCEL.proto";
+import "AttackDamageProperty.proto";
+import "FBKBOKHCLLF.proto";
+import "LEPDLLJHIPL.proto";
+import "OFKHIHFBNFG.proto";
+import "PGPELNFKOMD.proto";
+import "PLDMGGBPHPB.proto";
+import "SkillUseProperty.proto";
+
+message MonsterBattleInfo {
+    uint32 entity_id = 1;
+    uint32 monster_id = 2;
+    uint32 MNBLHKKMPNP = 3;
+    uint32 HPJNJGIOHDH = 4;
+    AMBFIEKDCEL PLCHOKLFMFG = 5;
+    uint32 total_turns = 6;
+    double total_damage = 7;
+    double total_heal = 8;
+    double total_damage_taken = 9;
+    double HGPLBOCPAEG = 10;
+    double total_hp_recover = 11;
+    uint32 stage_id = 12;
+    uint32 battle_id = 13;
+    uint32 KEIDACJFFFC = 14;
+    repeated AttackDamageProperty attack_type_damage = 15;
+    repeated SkillUseProperty skill_times = 16;
+    uint32 stage_type = 17;
+    double JOJFNAMMBME = 18;
+    double delay_cumulate = 19;
+    FBKBOKHCLLF GOMECPDAKFN = 20;
+    uint32 wave = 21;
+    int32 CHBKGGOACEB = 22;
+    uint32 phase = 23;
+    uint32 PMCNNECCCPL = 24;
+    OFKHIHFBNFG MHFMAELFPLD = 25;
+    repeated PLDMGGBPHPB skill_info = 26;
+    uint32 GKDGFLCOHOA = 27;
+    repeated PGPELNFKOMD IGAFLCKJJKM = 28;
+    uint32 IOGCDGLFLCB = 29;
+    uint32 OFHLNFPMPHH = 30;
+    LEPDLLJHIPL GJCKGLLEGAE = 31;
+}

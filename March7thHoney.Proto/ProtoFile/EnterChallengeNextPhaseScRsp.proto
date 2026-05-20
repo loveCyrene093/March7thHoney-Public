@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneInfo.proto";
+
+message EnterChallengeNextPhaseScRsp {
+    uint32 retcode = 4;
+    SceneInfo scene = 9;
+}

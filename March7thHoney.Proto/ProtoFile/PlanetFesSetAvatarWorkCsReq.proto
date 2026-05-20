@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JNHCBCKHCEM.proto";
+
+message PlanetFesSetAvatarWorkCsReq {
+    repeated JNHCBCKHCEM CLKAILDCPJC = 5;
+}

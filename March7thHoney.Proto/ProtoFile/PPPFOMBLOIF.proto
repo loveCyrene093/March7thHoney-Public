@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BNDHJNDFFED.proto";
+
+message PPPFOMBLOIF {
+    uint32 index = 5;
+    BNDHJNDFFED status = 7;
+}

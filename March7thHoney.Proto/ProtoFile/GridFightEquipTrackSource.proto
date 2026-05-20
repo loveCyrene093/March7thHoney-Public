@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightEquipTrackSource {
+    HNKKNDHLOGN_HLNMMMKHEEM = 0;
+    HNKKNDHLOGN_JFCAABPNAGG = 1;
+    HNKKNDHLOGN_KMJCOPIANCG = 2;
+    HNKKNDHLOGN_HHFCNLCCGHN = 3;
+}

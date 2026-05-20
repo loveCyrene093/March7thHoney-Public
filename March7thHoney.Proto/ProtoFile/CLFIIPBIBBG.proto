@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PKJGGAPLONC.proto";
+
+message CLFIIPBIBBG {
+    repeated uint32 finished_target_list = 9;
+    repeated PKJGGAPLONC avatar_list = 15;
+}

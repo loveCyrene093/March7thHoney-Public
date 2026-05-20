@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GODHDEIPDJL.proto";
+import "HKLKGJCJJEB.proto";
+
+message GetSwitchHandUpdateScRsp {
+    GODHDEIPDJL OMHAENBIKCN = 5;
+    uint32 retcode = 8;
+    HKLKGJCJJEB CNPILGNBDNB = 14;
+}

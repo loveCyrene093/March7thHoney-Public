@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BJKAKGBONBM.proto";
+import "GMGJALHOGOG.proto";
+import "PLGOMIMNNAE.proto";
+
+message EFBIHJHMICB {
+    uint32 uid = 2;
+    uint32 DBOJCHBAHCI = 10;
+    oneof BPIHFAJCLOC {
+        PLGOMIMNNAE FECOBCLAAMA = 4;
+        GMGJALHOGOG CMBPMIHGHAK = 5;
+        BJKAKGBONBM NBFJKDONMDF = 13;
+    }
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MCACDFHCPIE.proto";
+
+message KJAGLIIDBGP {
+    MCACDFHCPIE talent_info = 8;
+    uint32 DJCAJHIMDOL = 11;
+}

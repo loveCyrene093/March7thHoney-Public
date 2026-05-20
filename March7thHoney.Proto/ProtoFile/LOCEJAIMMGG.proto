@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LOCEJAIMMGG {
+    uint32 id = 7;
+    uint32 EBIAONNLFGM = 12;
+    uint32 time = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PGHPHPGIDMB {
+    uint32 KJMJPDNMOIB = 5;
+    uint32 type = 8;
+    repeated uint32 ENFOFEAKDDK = 13;
+}

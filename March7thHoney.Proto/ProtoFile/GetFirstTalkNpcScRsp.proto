@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FirstNpcTalkInfo.proto";
+
+message GetFirstTalkNpcScRsp {
+    repeated FirstNpcTalkInfo npc_meet_status_list = 4;
+    uint32 retcode = 10;
+}

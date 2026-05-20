@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AIMHLKDEMGF.proto";
+
+message ElfRestaurantHarvestCropScRsp {
+    uint32 retcode = 3;
+    repeated AIMHLKDEMGF EMJKBKPBCIJ = 12;
+}

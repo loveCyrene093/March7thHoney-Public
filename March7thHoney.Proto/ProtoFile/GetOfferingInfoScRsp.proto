@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OfferingInfo.proto";
+
+message GetOfferingInfoScRsp {
+    uint32 retcode = 2;
+    repeated OfferingInfo offering_info_list = 3;
+}

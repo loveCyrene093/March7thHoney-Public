@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum JFFONIDPNDA {
+    JFFONIDPNDA_PCPDHELPKEM = 0;
+    JFFONIDPNDA_LMFJICJLANL = 1;
+    JFFONIDPNDA_IAMDEOIPMMD = 2;
+    JFFONIDPNDA_LCLOBPJGCME = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightDropReason {
+    IMPMLADJIND_GDKBKCFJDMG = 0;
+    IMPMLADJIND_CLACJBHJCIE = 1;
+    IMPMLADJIND_KMDIBEMFIBJ = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FriendApplySource {
+    PABBPHOIDBF_PCPDHELPKEM = 0;
+    PABBPHOIDBF_DDEBAHBEKHI = 1;
+    PABBPHOIDBF_PJEOOMBFNMA = 2;
+    PABBPHOIDBF_ILPKPBOKMEN = 3;
+    PABBPHOIDBF_OAMHNEDGEKA = 4;
+    PABBPHOIDBF_OGENAPDDIDB = 5;
+    PABBPHOIDBF_LDLMBIFNPEP = 6;
+}

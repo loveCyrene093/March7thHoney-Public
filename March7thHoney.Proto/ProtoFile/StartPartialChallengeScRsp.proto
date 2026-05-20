@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CurChallenge.proto";
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message StartPartialChallengeScRsp {
+    LineupInfo lineup = 1;
+    CurChallenge cur_challenge = 6;
+    uint32 retcode = 8;
+    SceneInfo scene = 9;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum TrainPartyMtSkillBriefType {
+    HJBFKHGAAJI_HIBOPHOHGDL = 0;
+    HJBFKHGAAJI_IHBOCFIPHII = 1;
+    HJBFKHGAAJI_KEMJCNKKAFE = 2;
+    HJBFKHGAAJI_KMAJBNFAAPB = 3;
+    HJBFKHGAAJI_IBBACLEDGFG = 4;
+}

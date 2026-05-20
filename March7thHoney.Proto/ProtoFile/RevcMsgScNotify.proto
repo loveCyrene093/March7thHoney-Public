@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChatMessageData.proto";
+import "ChatType.proto";
+
+message RevcMsgScNotify {
+    ChatType chat_type = 5;
+    uint32 source_uid = 9;
+    ChatMessageData recv_message_data = 15;
+}

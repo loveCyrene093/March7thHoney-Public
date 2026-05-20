@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AMDMHJPPCNF.proto";
+import "PLGDKFFNDIB.proto";
+
+message NNKJBNNANJK {
+    uint32 turn_counter = 1;
+    uint32 PEBGNFPGJMA = 2;
+    uint32 ILPPFOAPIIM = 3;
+    repeated PLGDKFFNDIB JFJPJIJLAOG = 4;
+    repeated AMDMHJPPCNF KDABKNDHMJL = 5;
+    uint32 GGEFGLBMMKP = 6;
+}

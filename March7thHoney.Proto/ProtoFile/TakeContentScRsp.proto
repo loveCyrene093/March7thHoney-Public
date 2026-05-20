@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "MHGDJPMEFFN.proto";
+
+message TakeContentScRsp {
+    uint32 content_id = 1;
+    uint32 retcode = 4;
+    ItemList reward = 10;
+    MHGDJPMEFFN MKHDINDGHMD = 15;
+}

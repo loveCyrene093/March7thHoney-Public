@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DKBJKODADGM {
+    uint32 unique_id = 6;
+    uint32 cur_index = 10;
+    repeated uint32 LGMDIGLEKEN = 12;
+    uint32 card_id = 15;
+}

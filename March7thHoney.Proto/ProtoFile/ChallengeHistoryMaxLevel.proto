@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ChallengeHistoryMaxLevel {
+    uint32 level = 12;
+    uint32 reward_display_type = 13;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GOFFIDNICKJ.proto";
+
+message CommonRogueQueryScRsp {
+    uint32 retcode = 2;
+    uint32 NCCLCHDDKDF = 4;
+    repeated GOFFIDNICKJ rogue_get_info = 12;
+}

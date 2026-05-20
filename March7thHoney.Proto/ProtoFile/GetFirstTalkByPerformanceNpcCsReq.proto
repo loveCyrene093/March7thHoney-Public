@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetFirstTalkByPerformanceNpcCsReq {
+    repeated uint32 performance_id_list = 10;
+}

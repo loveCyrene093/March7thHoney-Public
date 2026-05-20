@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum AGFGAPEPDJO {
+    AGFGAPEPDJO_PCPDHELPKEM = 0;
+    AGFGAPEPDJO_LEKGIIIGLKB = 1;
+    AGFGAPEPDJO_MCODIAPGFHC = 2;
+}

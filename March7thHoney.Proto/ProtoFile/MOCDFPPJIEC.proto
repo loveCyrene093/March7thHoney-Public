@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum MOCDFPPJIEC {
+    MOCDFPPJIEC_PCPDHELPKEM = 0;
+    MOCDFPPJIEC_OILBBNDNKBA = 1;
+    MOCDFPPJIEC_FFLCHLPOFNM = 2;
+    MOCDFPPJIEC_BLKCLIGKFJF = 3;
+}

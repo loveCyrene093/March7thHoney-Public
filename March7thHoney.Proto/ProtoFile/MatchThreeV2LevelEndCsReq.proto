@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+
+message MatchThreeV2LevelEndCsReq {
+    repeated GKDEKJKOIJN BIBGHICIDKP = 1;
+    uint32 BCMPFJKHDBG = 4;
+    uint32 level_id = 7;
+    uint32 PMJDNONMKIB = 9;
+    string uuid = 10;
+    uint32 NLOCDHMLGJH = 11;
+    uint32 AFMGJOLFKHJ = 13;
+    repeated uint32 CONJDDKAFKO = 15;
+}

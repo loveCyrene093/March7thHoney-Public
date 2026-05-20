@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LFGMADFAKHK.proto";
+
+message ADPDKFBHJPN {
+    uint32 DGFNOAHLCMK = 7;
+    LFGMADFAKHK status = 8;
+    uint32 progress = 12;
+}

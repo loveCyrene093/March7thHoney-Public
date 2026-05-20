@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BMOEEKGCJAD.proto";
+import "GKDEKJKOIJN.proto";
+
+message BCJFAIHEBEM {
+    repeated BMOEEKGCJAD KHHNOHPEOIA = 2;
+    repeated uint32 AHGEKIBPHLD = 6;
+    repeated GKDEKJKOIJN ADILPIMEOAD = 10;
+    repeated BMOEEKGCJAD grid_fight_equipment_list = 15;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DPBGGKCMLGM.proto";
+
+message BBCLLNPDIAH {
+    uint32 HICPAMOIFOE = 5;
+    repeated DPBGGKCMLGM BOLMNNMPMNF = 8;
+    uint32 JKCGCAMIFIA = 10;
+    uint32 KAAGHAPGLCP = 11;
+    bool ODACHADOJCB = 15;
+}

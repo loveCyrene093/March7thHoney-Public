@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FriendChallengeClearanceInfo.proto";
+import "HBNJABPHLML.proto";
+import "NCLCIIMIHDH.proto";
+import "PKECJPJCONJ.proto";
+
+message GetFriendBattleRecordDetailScRsp {
+    repeated NCLCIIMIHDH PAEEBAGOEDJ = 1;
+    HBNJABPHLML KIIONJBDKNJ = 6;
+    PKECJPJCONJ ENCPHHLDNLB = 9;
+    repeated FriendChallengeClearanceInfo BIKINNADKFK = 12;
+    uint32 retcode = 13;
+    uint32 uid = 15;
+}

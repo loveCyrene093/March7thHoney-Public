@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LimaoNewsOfficeSurveyState {
+    KMPIHHBLOAB_PCPDHELPKEM = 0;
+    KMPIHHBLOAB_IHAOKLGOKCH = 1;
+    KMPIHHBLOAB_OPNADFKBGNN = 2;
+    KMPIHHBLOAB_FFLCHLPOFNM = 3;
+    KMPIHHBLOAB_POOLAGHGCMG = 4;
+}

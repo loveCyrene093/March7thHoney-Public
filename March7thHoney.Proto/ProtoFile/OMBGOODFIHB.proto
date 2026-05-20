@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OMBGOODFIHB {
+    uint64 room_id = 1;
+    uint32 MMLKFJIAKKH = 2;
+    uint32 LDKGJBALGKC = 3;
+    uint32 type = 4;
+    uint32 reason = 5;
+    repeated uint32 IFLLEKANDCB = 6;
+    int32 EOOKCILKKNB = 7;
+    uint32 DHNEEIMLKEJ = 8;
+}

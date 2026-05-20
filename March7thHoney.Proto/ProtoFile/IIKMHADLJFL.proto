@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+
+message IIKMHADLJFL {
+    EFEGKDHEMFN CLAFNDLGDAO = 3;
+    EFEGKDHEMFN HMFCCFCKEFO = 8;
+    repeated uint32 ECAJLPAJEKF = 11;
+    EFEGKDHEMFN item_stack_count = 14;
+}

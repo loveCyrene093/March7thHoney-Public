@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FDOEMKPGHFL.proto";
+
+message ChenLingMoveEntityCsReq {
+    uint32 PENLMEIJIFK = 10;
+    FDOEMKPGHFL JDPHGEJLPPH = 14;
+}

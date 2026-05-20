@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DKDGGGCDAGM.proto";
+
+message MALGHKMBKOK {
+    uint32 score_id = 4;
+    uint32 uid = 6;
+    DKDGGGCDAGM lineup = 12;
+}

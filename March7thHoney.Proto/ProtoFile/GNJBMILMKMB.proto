@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FHBHKMFHLLO.proto";
+import "LDAAPHCJENL.proto";
+
+message GNJBMILMKMB {
+    uint32 monster_battle_type = 1;
+    uint64 GJOJLEOBJFJ = 2;
+    uint32 level_id = 3;
+    uint32 IOJKDGCFCGG = 4;
+    repeated LDAAPHCJENL HGCFFBNCBGG = 5;
+    uint32 rank = 6;
+    uint64 BEFJLFKJFJD = 7;
+    repeated LDAAPHCJENL HDFHPKEPKAF = 8;
+    uint32 PBMLDOEBDEG = 9;
+    uint32 PHFMJGBJFPH = 10;
+    int32 score_id = 11;
+    int32 EPLBCNFMLIL = 12;
+    repeated FHBHKMFHLLO EKJKLCJKLPE = 13;
+    uint32 LDKGJBALGKC = 14;
+    uint32 LHIMAFCIFAP = 15;
+    uint32 GAFCPIPKIKL = 16;
+    uint32 LPALGNILCGM = 17;
+}

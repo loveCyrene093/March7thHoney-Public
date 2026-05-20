@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+
+message StartNodeBattleScRsp {
+    uint32 GIHHBJMAGOC = 5;
+    repeated GKDEKJKOIJN OICEJIMEONG = 7;
+    uint32 retcode = 13;
+}

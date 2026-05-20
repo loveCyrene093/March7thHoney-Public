@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message StopRogueAdventureRoomCsReq {
+    uint32 KGEPGNKIIIE = 1;
+    repeated uint32 OACLIHKCNKG = 15;
+}

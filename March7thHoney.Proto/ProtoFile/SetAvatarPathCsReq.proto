@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MultiPathAvatarType.proto";
+
+message SetAvatarPathCsReq {
+    MultiPathAvatarType avatar_id = 12;
+}

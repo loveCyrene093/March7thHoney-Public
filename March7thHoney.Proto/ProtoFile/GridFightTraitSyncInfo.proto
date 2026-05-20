@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightTraitEffectInfo.proto";
+
+message GridFightTraitSyncInfo {
+    GridFightTraitEffectInfo trait_effect_info = 12;
+    uint32 trait_id = 13;
+    bool is_sync_effect = 15;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdBattleType {
+    JHHEBHOKOEK_PCPDHELPKEM = 0;
+    CmdPVEBattleResultScRsp = 110;
+    CmdSyncClientResVersionCsReq = 109;
+    CmdPDNPICPECAC = 195;
+    CmdQuitBattleScNotify = 163;
+    JHHEBHOKOEK_KAPOBGDLHGC = 126;
+    CmdServerSimulateBattleFinishScNotify = 101;
+    CmdRebattleByClientCsNotify = 137;
+    CmdBattleLogReportScRsp = 139;
+    CmdQuitBattleCsReq = 194;
+    CmdGetCurBattleInfoScRsp = 118;
+    CmdGetCurBattleInfoCsReq = 114;
+    CmdReBattleAfterBattleLoseCsNotify = 174;
+    CmdPVEBattleResultCsReq = 191;
+    CmdSyncClientResVersionScRsp = 198;
+}

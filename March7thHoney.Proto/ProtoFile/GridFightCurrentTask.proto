@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightCurrentTask {
+    uint32 progress = 6;
+    uint32 task_id = 9;
+}

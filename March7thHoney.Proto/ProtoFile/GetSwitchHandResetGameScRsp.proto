@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GODHDEIPDJL.proto";
+
+message GetSwitchHandResetGameScRsp {
+    GODHDEIPDJL LFNIPECKNDH = 4;
+    uint32 retcode = 9;
+}

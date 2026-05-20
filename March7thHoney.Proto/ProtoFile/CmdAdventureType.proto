@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdAdventureType {
+    KEGCHCIHKDM_PCPDHELPKEM = 0;
+    CmdFarmElementSweepScRsp = 1301;
+    CmdFarmElementSweepCsReq = 1339;
+    KEGCHCIHKDM_DOFMAGOGANP = 1391;
+    CmdQuickStartCocoonStageCsReq = 1314;
+    CmdGICDDNDGJJO = 1310;
+    CmdQuickStartCocoonStageScRsp = 1318;
+    CmdQuickStartFarmElementScRsp = 1398;
+    CmdCocoonSweepScRsp = 1326;
+    CmdCocoonSweepCsReq = 1363;
+    CmdQuickStartFarmElementCsReq = 1309;
+    CmdGetFarmStageGachaInfoScRsp = 1395;
+    CmdGetFarmStageGachaInfoCsReq = 1394;
+}

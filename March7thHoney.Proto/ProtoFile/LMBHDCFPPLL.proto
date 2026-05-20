@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CJPFNAFLAPD.proto";
+import "DLGLHKKIJJK.proto";
+import "JHFIFNOEMDJ.proto";
+import "KABLGALHMHN.proto";
+import "PIAJHGDIGFF.proto";
+import "PPIHPDIPLLD.proto";
+
+message LMBHDCFPPLL {
+    repeated uint32 ECNPHJBCLBD = 1;
+    KABLGALHMHN JJBEJEFDJHO = 2;
+    uint32 IMBOKGFIACA = 4;
+    JHFIFNOEMDJ ENHEIBHHAID = 6;
+    PIAJHGDIGFF pending_action = 7;
+    CJPFNAFLAPD IBCIBNHJDFE = 9;
+    PPIHPDIPLLD PKCHIMBEBPE = 10;
+    DLGLHKKIJJK skill_info = 14;
+}

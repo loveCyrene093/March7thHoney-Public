@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SwitchHandDataNodeSnapshot.proto";
+
+message SwitchHandSnapshot {
+    repeated SwitchHandDataNodeSnapshot switch_hand_list = 1;
+}

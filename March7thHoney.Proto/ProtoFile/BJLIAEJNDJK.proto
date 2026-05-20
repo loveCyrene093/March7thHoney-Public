@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BJLIAEJNDJK {
+    oneof EAGNHMILECN {
+        uint32 JPOKEADJNPI = 8;
+        uint32 extra_id = 13;
+    }
+}

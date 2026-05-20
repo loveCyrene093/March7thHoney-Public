@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetUnlockTeleportCsReq {
+    repeated uint32 entry_id_list = 15;
+}

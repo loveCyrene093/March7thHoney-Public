@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TrainPartyBuildDiyCsReq {
+    uint32 dice_slot_id = 2;
+    uint32 area_id = 10;
+    uint32 diy_dynamic_id = 11;
+    bool AFGNLDIMBGB = 12;
+}

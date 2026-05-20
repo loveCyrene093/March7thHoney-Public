@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SceneCastSkillMpUpdateScNotify {
+    uint32 cast_entity_id = 3;
+    uint32 mp = 9;
+}

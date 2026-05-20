@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message BoxingClubRewardScNotify {
+    ItemList reward = 5;
+    uint32 BKMEDGFOMKF = 6;
+    uint32 challenge_id = 11;
+    bool is_win = 13;
+}

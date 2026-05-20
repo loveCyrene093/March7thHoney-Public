@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FAEBBLFGAFF.proto";
+
+message NNJGJIJEJCL {
+    bool AJECCJKMHOG = 1;
+    map<string, FAEBBLFGAFF> PHGGPFMFBAL = 2;
+    bytes FCHAKFNDCND = 3;
+}

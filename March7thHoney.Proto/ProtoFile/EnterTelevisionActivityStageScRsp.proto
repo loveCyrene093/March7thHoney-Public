@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneBattleInfo.proto";
+
+message EnterTelevisionActivityStageScRsp {
+    uint32 DEBMOGCGMLI = 2;
+    uint32 retcode = 10;
+    SceneBattleInfo battle_info = 11;
+}

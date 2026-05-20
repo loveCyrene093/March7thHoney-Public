@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdBattlePassType {
+    FGHAGLLOPGH_PCPDHELPKEM = 0;
+    CmdBattlePassInfoNotify = 3091;
+    CmdTakeBpRewardCsReq = 3095;
+    CmdTakeBpRewardScRsp = 3014;
+    CmdTakeAllRewardScRsp = 3063;
+    CmdTakeAllRewardCsReq = 3098;
+    CmdBuyBpLevelScRsp = 3009;
+    CmdBuyBpLevelCsReq = 3018;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DelSaveRaidScNotify {
+    uint32 raid_id = 6;
+    uint32 world_level = 9;
+}

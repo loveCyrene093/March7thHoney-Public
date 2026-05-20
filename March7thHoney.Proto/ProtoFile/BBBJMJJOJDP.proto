@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EMBCNJNGMKI.proto";
+
+message BBBJMJJOJDP {
+    string room_id = 1;
+    uint32 JAFNCOMGABG = 2;
+    uint32 section_id = 3;
+    uint32 BICBJMPAAAN = 4;
+    uint32 AGOODNEGKBA = 5;
+    uint32 FCKNPGPHCEL = 6;
+    repeated EMBCNJNGMKI CONJDDKAFKO = 7;
+    uint32 LODDNBBEFKB = 8;
+    uint32 OGKNEBGDEFN = 9;
+    float ODFMPNINDEL = 10;
+    int32 AMIBFOEAJGL = 11;
+    int32 FHJFFLDHJGJ = 12;
+    int32 NGCACDGALBI = 13;
+    uint32 OEEJPPJGKDI = 14;
+    int32 AGDPOMEMMNB = 15;
+    int32 IFLBGGLOPLF = 16;
+    uint32 GFDLPEIOCOG = 17;
+}

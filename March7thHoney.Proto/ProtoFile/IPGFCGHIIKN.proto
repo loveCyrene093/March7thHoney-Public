@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum IPGFCGHIIKN {
+    IPGFCGHIIKN_KOJIHMKNJIC = 0;
+    IPGFCGHIIKN_EIKBIBAHCHI = 1;
+    IPGFCGHIIKN_FCEEJIBLHOC = 2;
+}

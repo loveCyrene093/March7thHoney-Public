@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakenChallengeRewardInfo {
+    uint32 star_count = 6;
+    ItemList reward = 8;
+}

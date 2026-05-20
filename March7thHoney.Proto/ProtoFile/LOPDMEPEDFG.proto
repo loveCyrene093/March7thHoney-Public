@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LOPDMEPEDFG {
+    LOPDMEPEDFG_EMIEDPKBPKI = 0;
+    LOPDMEPEDFG_LGHEJJGFKIM = 1;
+    LOPDMEPEDFG_GAPNMCKCJCG = 2;
+}

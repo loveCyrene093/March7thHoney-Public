@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeCurBuffInfo.proto";
+import "ChallengeStatus.proto";
+import "ExtraLineupType.proto";
+import "KillMonster.proto";
+
+message CurChallenge {
+    uint32 round_count = 1;
+    ChallengeCurBuffInfo stage_info = 2;
+    ExtraLineupType extra_lineup_type = 4;
+    uint32 score_id = 5;
+    repeated KillMonster kill_monster_list = 7;
+    ChallengeStatus status = 8;
+    uint32 challenge_id = 9;
+    uint32 dead_avatar_num = 10;
+    uint32 score_two = 13;
+}

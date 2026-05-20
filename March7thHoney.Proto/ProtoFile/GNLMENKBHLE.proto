@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GNLMENKBHLE {
+    repeated uint32 MMOJOECDMIL = 12;
+    repeated uint32 GIJOAADKDIN = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SpaceZooMutateCsReq {
+    uint32 item_id = 2;
+    uint32 unique_id = 13;
+}

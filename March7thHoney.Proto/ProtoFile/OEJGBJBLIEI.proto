@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FateBuffData.proto";
+import "JDKAJMEPECF.proto";
+
+message OEJGBJBLIEI {
+    repeated uint32 DEIFKMPAFHK = 1;
+    repeated uint32 BFDJJAPDJOH = 4;
+    repeated FateBuffData buff_list = 7;
+    map<uint32, uint32> AAELPBLPFLJ = 11;
+    uint32 LPGAKJJFLJN = 12;
+    repeated JDKAJMEPECF INPKEDEIBJN = 15;
+}

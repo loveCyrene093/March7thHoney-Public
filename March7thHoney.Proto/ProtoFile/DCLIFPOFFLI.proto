@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PHHKNAADBHA.proto";
+
+message DCLIFPOFFLI {
+    uint32 HMIBJHDMLNB = 2;
+    uint64 PPNHNDEOOLJ = 3;
+    uint32 NFPBAKBCCHG = 4;
+    repeated PHHKNAADBHA NEBGNOFPAGE = 14;
+}

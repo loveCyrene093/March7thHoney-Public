@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JFFONIDPNDA.proto";
+
+message SetStuffToAreaCsReq {
+    uint32 GKFEGIBGEGI = 2;
+    uint32 PEGELNHGMJA = 7;
+    JFFONIDPNDA pos = 8;
+}

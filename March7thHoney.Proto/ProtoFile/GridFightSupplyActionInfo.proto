@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightSupplyRoleInfo.proto";
+
+message GridFightSupplyActionInfo {
+    repeated GridFightSupplyRoleInfo supply_role_info_list = 2;
+    uint32 EOOPOFCCHAA = 5;
+    uint32 CGFLMCHMBHL = 6;
+    uint32 FCHPJKAIBHB = 11;
+    uint32 PDFICBIMHJM = 13;
+}

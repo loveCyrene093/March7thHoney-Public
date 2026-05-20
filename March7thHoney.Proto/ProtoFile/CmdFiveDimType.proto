@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdFiveDimType {
+    MKLPGBFEJMO_PCPDHELPKEM = 0;
+    CmdGetFiveDimMoneyScRsp = 2261;
+    CmdLeaveFiveDimGameScRsp = 2258;
+    MKLPGBFEJMO_DFILLFNLLAJ = 2253;
+    CmdFiveDimJumpEnergyChangeScNotify = 2265;
+    CmdUpdateFiveDimGameDataScRsp = 2259;
+    MKLPGBFEJMO_LKLOBDJINOI = 2257;
+    CmdFiveDimGameTransferScRsp = 2270;
+    MKLPGBFEJMO_CJMDBFOJPIC = 2251;
+    MKLPGBFEJMO_HKGHBAHIOMC = 2252;
+    MKLPGBFEJMO_FFBHNFPKLMD = 2269;
+    CmdFiveDimMoneyChangeScNotify = 2272;
+    CmdEnterFiveDimGameScRsp = 2264;
+    MKLPGBFEJMO_OBOBBDGHCDN = 2268;
+    CmdFiveDimGameDataUpdateScNotify = 2275;
+    CmdGetFiveDimGameDataScRsp = 2254;
+    MKLPGBFEJMO_IIDCMPNMCHM = 2260;
+    CmdGetFiveDimMoneyDataScRsp = 2274;
+}

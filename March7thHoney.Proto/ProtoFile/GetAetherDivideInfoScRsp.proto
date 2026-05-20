@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DLGFPMKPLEO.proto";
+import "JBJIKJGEBAH.proto";
+import "KNHKBHADJGE.proto";
+
+message GetAetherDivideInfoScRsp {
+    uint32 KBFFBPDDCFF = 1;
+    uint32 retcode = 2;
+    uint32 OJPJPOGDLNO = 4;
+    repeated KNHKBHADJGE GONOOOEHHLO = 5;
+    repeated DLGFPMKPLEO lineup_list = 6;
+    uint32 FIKLLOCJBGN = 8;
+    uint32 CFCFCEBNAEF = 11;
+    uint32 OAMPGNHJIGD = 12;
+    repeated JBJIKJGEBAH PHGLFHDDACM = 13;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FAOPPAFAJLO.proto";
+import "FOFNOBHLKGO.proto";
+import "LGGABHPGPDD.proto";
+import "LLKEMMMEPOB.proto";
+import "MKHIPFHEKCK.proto";
+import "NPLEDHFMFDM.proto";
+import "PKILNDNCAMI.proto";
+
+message TrainCakeCatchGetDataScRsp {
+    repeated uint32 performance_id_list = 1;
+    int64 DHLGCEGONIB = 3;
+    FOFNOBHLKGO PEOECDDANNP = 4;
+    repeated NPLEDHFMFDM AFEJACMLOLH = 6;
+    repeated PKILNDNCAMI BLEDIOOJPNL = 7;
+    repeated LGGABHPGPDD KALIBGCODNF = 8;
+    MKHIPFHEKCK FMECAHALPKG = 10;
+    FAOPPAFAJLO PEPMFGLDGOH = 13;
+    LLKEMMMEPOB HJOFGOINOAK = 14;
+    uint32 retcode = 15;
+}

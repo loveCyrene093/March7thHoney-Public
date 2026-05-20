@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DiceCombatAvatar {
+    uint32 dice_avatar_id = 1;
+    uint32 level = 2;
+    repeated uint32 dice_id_list = 3;
+    int64 unlock_time = 4;
+}

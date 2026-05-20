@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DGCGFFLKKAA.proto";
+import "SwordTrainingDailyPhaseType.proto";
+
+message KDBLKOGKHEE {
+    SwordTrainingDailyPhaseType DICCEIAFIJB = 2;
+    repeated uint32 EDKJPBBDCBG = 4;
+    repeated DGCGFFLKKAA PIGEOFBCNCN = 9;
+}

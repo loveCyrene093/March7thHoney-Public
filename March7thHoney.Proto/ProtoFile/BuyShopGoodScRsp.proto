@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IGFHFBAFDDO.proto";
+
+message BuyShopGoodScRsp {
+    uint32 retcode = 4;
+    repeated IGFHFBAFDDO OCEPFOIHLBH = 14;
+}

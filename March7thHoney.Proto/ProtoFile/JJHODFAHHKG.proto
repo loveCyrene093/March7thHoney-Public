@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LKBGOMGHGLG.proto";
+
+message JJHODFAHHKG {
+    uint32 HCAEJFMKMND = 3;
+    LKBGOMGHGLG status = 6;
+    uint32 NOFLNIMBDOF = 12;
+}

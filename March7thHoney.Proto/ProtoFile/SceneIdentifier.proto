@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TeleportInfo.proto";
+
+message SceneIdentifier {
+    uint32 floor_id = 2;
+    uint32 game_story_line_id = 6;
+    uint32 content_id = 14;
+    TeleportInfo teleport_info = 1621;
+}

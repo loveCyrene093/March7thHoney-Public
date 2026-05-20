@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EMCICPOHAAL.proto";
+import "IADMEOMIIFI.proto";
+
+message IFJEDJAFCJN {
+    oneof OAIJOPKPDGJ {
+        IADMEOMIIFI MNIOMFOAMFH = 11;
+        EMCICPOHAAL APDHGALNKEC = 14;
+    }
+}

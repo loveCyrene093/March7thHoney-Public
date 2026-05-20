@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IOBBILGOFCL {
+    uint32 slot = 1;
+    uint32 id = 5;
+    uint32 type = 9;
+}

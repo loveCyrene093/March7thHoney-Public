@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdStrongChallengeActivityType {
+    IAIFCMLMDAF_PCPDHELPKEM = 0;
+    CmdEnterActivityStrongChallengeCsReq = 6694;
+    CmdEnterStrongChallengeActivityStageScRsp = 6695;
+    CmdBMILHKCAKEA = 6691;
+    CmdLBGODAIEMFC = 6610;
+    CmdMGOMBDGDGCP = 6614;
+}

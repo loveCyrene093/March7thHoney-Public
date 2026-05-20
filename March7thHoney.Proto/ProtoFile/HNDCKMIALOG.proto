@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HNDCKMIALOG {
+    HNDCKMIALOG_OJAOGBDJCLM = 0;
+    HNDCKMIALOG_KNALIHFLIIO = 1;
+    HNDCKMIALOG_MAMPDPAHDHO = 2;
+    HNDCKMIALOG_GBFDKKBGBEO = 3;
+    HNDCKMIALOG_MGNNPFMJBED = 4;
+}

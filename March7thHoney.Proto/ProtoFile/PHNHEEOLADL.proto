@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleRecordType.proto";
+import "FriendGridFightRecord.proto";
+import "KIEEFAOCOCC.proto";
+import "KMADNGJNOOB.proto";
+
+message PHNHEEOLADL {
+    KIEEFAOCOCC NAKKOHEMJBL = 2;
+    KMADNGJNOOB BHEEDAFLEOJ = 3;
+    BattleRecordType HCPAHPCOEKK = 9;
+    FriendGridFightRecord KIIONJBDKNJ = 14;
+}

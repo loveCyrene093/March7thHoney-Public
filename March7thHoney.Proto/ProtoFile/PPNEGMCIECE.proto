@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PPNEGMCIECE {
+    int32 LMGDBBAKFDA = 1;
+    int32 MJKAHEIEDNO = 2;
+    int32 JPJGFJDHJDD = 3;
+}

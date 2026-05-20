@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PileItem.proto";
+
+message GeneralVirtualItemDataNotify {
+    repeated PileItem KCJCBBKKCGI = 3;
+    bool NONMONPHBPE = 13;
+}

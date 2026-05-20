@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HBMNFGPKECH {
+    repeated uint32 DJDEBKPGJDN = 1;
+    uint32 CDCBFHFJGMD = 6;
+    int64 time = 7;
+    bool JFHMCDFDABI = 8;
+    uint64 PHALKDHHPPB = 13;
+}

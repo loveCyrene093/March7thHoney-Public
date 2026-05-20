@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ALMCIEPOODP.proto";
+
+message OOMINGEFPAF {
+    uint32 challenge_id = 1;
+    uint32 PAAJDLBBIKG = 2;
+    repeated uint32 IGIEHEOCMJL = 4;
+    uint32 BKNPPAEOLJH = 5;
+    repeated ALMCIEPOODP IDOIDDEHIJG = 6;
+    uint32 NGBACICAAPO = 7;
+    uint32 JJOGGBIOIKB = 12;
+    bool PILPAGJEENB = 13;
+    uint32 BKMEDGFOMKF = 14;
+    repeated uint32 avatar_list = 15;
+}

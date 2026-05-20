@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LBDMFFDNFDP.proto";
+
+message AAHBECICOEN {
+    LBDMFFDNFDP DJDKAIDIAAD = 1;
+    uint32 map_id = 6;
+    uint32 EIIAGABAFEC = 10;
+    bool CPFCDOCJFBF = 15;
+}

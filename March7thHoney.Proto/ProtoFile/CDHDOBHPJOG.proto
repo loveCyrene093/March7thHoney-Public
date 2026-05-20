@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CDHDOBHPJOG {
+    uint32 COOOFFKIDMC = 3;
+    uint32 group_id = 14;
+}

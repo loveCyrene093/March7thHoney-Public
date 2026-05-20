@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum KCBDEHICICK {
+    KCBDEHICICK_PCPDHELPKEM = 0;
+    KCBDEHICICK_OCLLJAELPDM = 1;
+    KCBDEHICICK_OMNLMPAFHBB = 2;
+    KCBDEHICICK_MBOJGIHMPDM = 3;
+}

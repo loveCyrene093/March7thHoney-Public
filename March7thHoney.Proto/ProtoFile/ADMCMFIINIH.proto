@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ADMCMFIINIH {
+    uint32 MOHOBFPJPML = 1;
+    repeated uint32 EOGMIHEPCGM = 2;
+    uint32 id = 9;
+    bool is_new = 10;
+}

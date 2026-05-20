@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GIGAKCOMKOG.proto";
+import "HNDCKMIALOG.proto";
+import "JAMLHOHBIGB.proto";
+
+message DLCCOJPHBCB {
+    JAMLHOHBIGB KGKOHNAACEN = 1;
+    HNDCKMIALOG IPLEOOLCACI = 2;
+    int32 LHKDDBBIKOB = 6;
+    uint64 JKLPNOFDNAL = 10;
+    uint32 LFBIELBHOBK = 12;
+    repeated GIGAKCOMKOG DNNOFGJJMCP = 15;
+}

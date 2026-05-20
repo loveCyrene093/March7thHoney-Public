@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message FNJJCIGJIKC {
+    uint32 world_level = 1;
+    LineupInfo lineup = 9;
+    SceneInfo FHJEOAKDCBC = 11;
+    uint32 raid_id = 13;
+}

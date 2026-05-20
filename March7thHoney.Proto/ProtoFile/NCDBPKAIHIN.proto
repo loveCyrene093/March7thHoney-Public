@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CAEABHJNLMI.proto";
+import "HJGFDIKDIHO.proto";
+
+message NCDBPKAIHIN {
+    uint32 item_value = 2;
+    repeated CAEABHJNLMI GBHPHCMGBGK = 10;
+    repeated HJGFDIKDIHO buff_list = 12;
+}

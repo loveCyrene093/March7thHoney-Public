@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BEOPDMLKGLP.proto";
+import "DAPDOHOADDB.proto";
+import "ItemList.proto";
+
+message MatchThreeV2LevelEndScRsp {
+    BEOPDMLKGLP MODDIBHCPPD = 1;
+    ItemList LAEJLLCGFDM = 2;
+    uint32 AMGMADNBFIF = 7;
+    uint32 retcode = 8;
+    uint32 level_id = 9;
+    repeated ItemList HNAGOEEPBJN = 10;
+    DAPDOHOADDB EBJHKIKOLHJ = 13;
+    uint32 PKINFPGFINA = 14;
+}

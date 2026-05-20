@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EPPGPHKLHNF {
+    int64 end_time = 1;
+    uint32 season = 11;
+    int64 begin_time = 15;
+}

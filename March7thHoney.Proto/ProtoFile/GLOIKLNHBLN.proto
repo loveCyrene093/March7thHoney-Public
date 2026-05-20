@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GLEFCCGNKDE.proto";
+
+message GLOIKLNHBLN {
+    uint32 HBMJNOGHLBH = 1;
+    uint32 CFCEICJLJDH = 2;
+    uint32 AAECKPNAHJN = 3;
+    uint32 AICEKNALKBL = 4;
+    uint32 KMNHAMMLGJM = 6;
+    uint32 DMKNEIEKILN = 8;
+    uint32 BEOAPNBFOCI = 11;
+    uint32 AEDMPNIAPCJ = 12;
+    uint32 IOABJKMGIOM = 13;
+    uint32 OACBALDOFPC = 14;
+    repeated GLEFCCGNKDE FHHLKGCLHBD = 15;
+}

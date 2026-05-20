@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightDamageSttInfo.proto";
+import "GridFightSectionRecordInfo.proto";
+
+message DDJIOFONKME {
+    repeated GridFightSectionRecordInfo KILABGPMPBB = 9;
+    GridFightDamageSttInfo grid_fight_damage_stt_info = 13;
+}

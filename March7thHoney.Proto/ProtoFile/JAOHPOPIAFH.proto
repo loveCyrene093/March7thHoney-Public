@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message JAOHPOPIAFH {
+    uint32 NCFHGIBCEBG = 1;
+    uint32 HCJPDNDOHAM = 2;
+    uint32 dice_slot_id = 3;
+    int64 IBHKOGPEICN = 4;
+}

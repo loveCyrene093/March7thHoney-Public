@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MissionSyncRecord.proto";
+
+message OKEPFGMNJAO {
+    MissionSyncRecord type = 3;
+    uint32 id = 4;
+    uint32 display_value = 11;
+}

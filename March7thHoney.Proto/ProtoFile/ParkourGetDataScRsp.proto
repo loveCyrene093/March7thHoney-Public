@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LNGJCJNKPKE.proto";
+
+message ParkourGetDataScRsp {
+    repeated LNGJCJNKPKE LCPHEKPADKF = 1;
+    uint32 retcode = 14;
+}

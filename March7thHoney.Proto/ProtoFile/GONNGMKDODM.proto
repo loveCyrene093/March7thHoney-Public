@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GONNGMKDODM {
+    uint64 unique_id = 5;
+    uint32 buff_id = 12;
+    uint32 HHMGFMPICAK = 13;
+}

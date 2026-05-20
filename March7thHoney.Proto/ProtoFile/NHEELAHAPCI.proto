@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum NHEELAHAPCI {
+    NHEELAHAPCI_PCPDHELPKEM = 0;
+    NHEELAHAPCI_HLIDGDLNFHM = 1;
+    NHEELAHAPCI_EGFBGJGIEKM = 2;
+    NHEELAHAPCI_NPDCOJCAHPE = 3;
+    NHEELAHAPCI_GALGFIOMOIO = 4;
+}

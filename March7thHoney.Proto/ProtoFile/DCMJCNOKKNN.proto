@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AlleyEventState.proto";
+
+message DCMJCNOKKNN {
+    uint32 event_id = 7;
+    AlleyEventState state = 12;
+    uint32 EIAAKEGPKME = 13;
+}

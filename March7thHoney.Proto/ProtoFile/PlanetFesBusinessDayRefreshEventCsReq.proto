@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PlanetFesBusinessDayRefreshEventCsReq {
+    bool DGAHMJOBDNE = 1;
+    uint32 GAFPECGGICC = 5;
+    uint32 PHKAHAHLDAE = 7;
+}

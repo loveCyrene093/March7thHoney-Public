@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BPONIDHOFPP.proto";
+import "GOEOJEFKKMK.proto";
+import "HFEMKNKGPNF.proto";
+import "HOFLIBJHHPC.proto";
+import "HPDLFAOMIPI.proto";
+import "KPMIMEPEBHH.proto";
+
+message PEKNOBDHAKO {
+    string MGMFENIOPHO = 10;
+    oneof MFKJOHBNBJA {
+        GOEOJEFKKMK MHNBGKJLDGB = 1;
+        BPONIDHOFPP NCCNKHELPKL = 2;
+        HFEMKNKGPNF IFHGNHGAPIN = 3;
+        KPMIMEPEBHH NAOKLIALCEN = 4;
+        HOFLIBJHHPC KFPKHHAOGPP = 5;
+        HPDLFAOMIPI IIHECADEHNG = 6;
+    }
+}

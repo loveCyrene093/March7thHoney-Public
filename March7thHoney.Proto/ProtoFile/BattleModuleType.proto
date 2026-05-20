@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BattleModuleType {
+    INHPDHLOHHO_HAJDAKFIENM = 0;
+    INHPDHLOHHO_KKHLMKIPMFK = 1;
+    INHPDHLOHHO_LHGODLABEKH = 2;
+    INHPDHLOHHO_LJOPAPAKHIP = 3;
+    INHPDHLOHHO_FNJHIOCJHLO = 4;
+    INHPDHLOHHO_AENLPPAEANK = 5;
+    INHPDHLOHHO_EDLOEBEJFHN = 6;
+}

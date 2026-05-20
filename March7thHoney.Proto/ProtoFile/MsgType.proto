@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum MsgType {
+    MSG_TYPE_NONE = 0;
+    MSG_TYPE_CUSTOM_TEXT = 1;
+    MSG_TYPE_EMOJI = 2;
+    MSG_TYPE_INVITE = 3;
+    MSG_TYPE_PLANET_FES = 4;
+    MSG_TYPE_ACIELMOLELB = 5;
+    MSG_TYPE_BGDMLGDMDIF = 6;
+    MSG_TYPE_MGLPLOPECGJ = 7;
+    MSG_TYPE_PPGBFMOGAHC = 8;
+    MSG_TYPE_BAEKHOHLLKJ = 9;
+}

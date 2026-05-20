@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeLineupList.proto";
+import "PlayerSimpleInfo.proto";
+
+message FriendChallengeLineup {
+    PlayerSimpleInfo player_info = 5;
+    uint32 ABJGNBJMJJG = 7;
+    uint32 buff_one = 8;
+    uint32 score_id = 9;
+    string remark_name = 12;
+    repeated ChallengeLineupList lineup_list = 14;
+    uint32 buff_two = 15;
+}

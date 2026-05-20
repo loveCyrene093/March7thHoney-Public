@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ODEGFOPOKAD {
+    repeated uint32 GALNEOLMCPO = 2;
+    repeated uint32 LNDNPGACBJH = 4;
+}

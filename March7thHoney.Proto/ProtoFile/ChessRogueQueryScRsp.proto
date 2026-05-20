@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BABAGEDCCBG.proto";
+import "FIILPHKLFEK.proto";
+import "ILEJGEDBEKF.proto";
+import "PDAMBCFFPDI.proto";
+
+message ChessRogueQueryScRsp {
+    BABAGEDCCBG rogue_get_info = 2;
+    uint32 retcode = 3;
+    FIILPHKLFEK NDMLEGLIOGN = 5;
+    PDAMBCFFPDI OCLLADBFKHP = 6;
+    ILEJGEDBEKF LJMFGDFBLCK = 7;
+}

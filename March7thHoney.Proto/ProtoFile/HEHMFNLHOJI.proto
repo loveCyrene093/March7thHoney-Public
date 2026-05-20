@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DLPGKJLBFLI.proto";
+import "JMBNFINPHCA.proto";
+
+message HEHMFNLHOJI {
+    oneof NLPPPCHGGPF {
+        JMBNFINPHCA COHMGGPHIHN = 4;
+        DLPGKJLBFLI CICGMNHMLME = 11;
+    }
+}

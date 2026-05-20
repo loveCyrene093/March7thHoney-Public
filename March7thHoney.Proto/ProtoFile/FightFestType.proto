@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FightFestType {
+    MHKEAFAPMFP_PCPDHELPKEM = 0;
+    MHKEAFAPMFP_PEOACNPKMDP = 1;
+    MHKEAFAPMFP_FAMMLINGLDA = 2;
+    MHKEAFAPMFP_OPCGNJMGJDE = 3;
+    MHKEAFAPMFP_ENDNKKOIBHE = 4;
+}

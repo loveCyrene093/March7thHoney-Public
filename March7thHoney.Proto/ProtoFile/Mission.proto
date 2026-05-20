@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MissionStatus.proto";
+
+message Mission {
+    uint32 id = 5;
+    MissionStatus status = 12;
+    uint32 progress = 14;
+}

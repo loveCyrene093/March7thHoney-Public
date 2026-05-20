@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TrackMainMissionUpdateReasonId.proto";
+
+message UpdateTrackMainMissionCsReq {
+    TrackMainMissionUpdateReasonId NILLMKMKODP = 1;
+    uint32 track_mission_id = 3;
+    uint32 GNPDGLGBIMM = 4;
+}

@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdFateType {
+    NAAOMIGPMHE_PCPDHELPKEM = 0;
+    CmdFateStartCsReq = 5980;
+    CmdFateShopLockGoodsScRsp = 5953;
+    CmdFateSyncActionResultScNotify = 5999;
+    CmdFateBattleStartScRsp = 5988;
+    CmdFateStartScRsp = 5977;
+    CmdFateSettleScNotify = 5958;
+    CmdFateChangeLineupCsReq = 5955;
+    CmdFateShopRefreshGoodsScRsp = 5995;
+    CmdFateShopRefreshGoodsCsReq = 5968;
+    CmdFateBattleStartCsReq = 5985;
+    CmdFateTakeExpRewardScRsp = 5959;
+    CmdFateSyncPendingActionScNotify = 5965;
+    CmdFateShopBuyGoodsCsReq = 5997;
+    CmdFateChangeLineupScRsp = 5951;
+    CmdFateTakeExpRewardCsReq = 5983;
+    CmdFateShopLockGoodsCsReq = 5986;
+    CmdFateQueryCsReq = 5963;
+    CmdFateQueryScRsp = 5957;
+    CmdFateShopSellBuffCsReq = 5952;
+    CmdFateShopBuyGoodsScRsp = 5969;
+    CmdFateShopLeaveCsReq = 6000;
+    CmdFateHouguSelectReq = 5981;
+    CmdFateShopLeaveScRsp = 5966;
+    CmdFateShopSellBuffScRsp = 5994;
+    CmdEPEIBOMNEGI = 5956;
+    CmdFateHandlePendingActionScRsp = 5971;
+    CmdJFDABMJMDLD = 5976;
+}

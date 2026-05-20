@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CKPEIHOLADP {
+    uint32 KBMMGOJKAPF = 11;
+    uint32 level = 15;
+}

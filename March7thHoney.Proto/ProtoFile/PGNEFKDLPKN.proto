@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APBKAPPGPJC.proto";
+import "BABKEAFELGE.proto";
+import "DLHLNGCJKJL.proto";
+import "EJDFGNGBNOO.proto";
+import "ENEGIFOKGKL.proto";
+import "EPPJHNIHAFL.proto";
+import "GLOONOCCEFG.proto";
+import "PDDEEAJIOKG.proto";
+import "RogueStatus.proto";
+
+message PGNEFKDLPKN {
+    EPPJHNIHAFL pending_action = 1;
+    ENEGIFOKGKL AMMJECHPGPE = 2;
+    BABKEAFELGE FEILNIKNPCB = 3;
+    EJDFGNGBNOO CGIFJAOHHAO = 4;
+    APBKAPPGPJC IMPBELJGDJH = 6;
+    GLOONOCCEFG DKIFGMICGPI = 8;
+    RogueStatus status = 10;
+    PDDEEAJIOKG LBNHKPPAJIM = 12;
+    DLHLNGCJKJL HKGKNEKKJHB = 14;
+    bool FIEDLDNEMED = 15;
+}

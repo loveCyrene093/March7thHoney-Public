@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BattleGridFigntAvatarCoreRoleInfo {
+    repeated uint32 grid_fight_avatar_list = 1;
+    repeated uint32 CBDBFANJGPB = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JLPGIGPCIAG.proto";
+
+message ReviveRogueAvatarScRsp {
+    uint32 retcode = 2;
+    JLPGIGPCIAG PAMGHMDJAJA = 9;
+    repeated uint32 base_avatar_id_list = 15;
+}

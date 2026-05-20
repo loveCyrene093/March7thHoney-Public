@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NPLALEFPIEE {
+    uint32 event_id = 1;
+    uint32 AMADFJNHMFF = 14;
+    uint32 FCADJEENGML = 15;
+}

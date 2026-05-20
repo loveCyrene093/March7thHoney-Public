@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BDHENEOKMFE.proto";
+
+message KEOLEHHLHHM {
+    uint32 EDIGJGGPPON = 4;
+    BDHENEOKMFE authkey_ver = 8;
+    uint32 HMPPEEMEPMC = 15;
+}

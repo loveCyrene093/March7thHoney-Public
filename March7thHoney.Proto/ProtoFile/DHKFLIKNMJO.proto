@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EPLFOKKDFLB.proto";
+
+message DHKFLIKNMJO {
+    uint32 avatar_id = 1;
+    repeated EPLFOKKDFLB CGFLOHFDKOC = 2;
+    repeated EPLFOKKDFLB KPEGLJJNFDH = 3;
+}

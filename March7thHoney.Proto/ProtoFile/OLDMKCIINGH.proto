@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PEEDNOBMBNN.proto";
+
+message OLDMKCIINGH {
+    uint32 retcode = 6;
+    uint32 MOHHIJGHPNB = 8;
+    PEEDNOBMBNN JOGFDBPAMDP = 11;
+}

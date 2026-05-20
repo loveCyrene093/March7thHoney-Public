@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NCHLPKDHEGA {
+    uint32 DPHOAPPCBHB = 1;
+    uint32 level = 2;
+    uint32 exp = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MMAADOLHMEJ.proto";
+
+message StartLocalLegendLevelCsReq {
+    uint32 INOMFFAIEOA = 5;
+    uint32 group_id = 8;
+    repeated MMAADOLHMEJ avatar_list = 15;
+}

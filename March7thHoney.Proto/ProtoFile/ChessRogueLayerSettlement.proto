@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FIILPHKLFEK.proto";
+
+message ChessRogueLayerSettlement {
+    uint32 difficulty_level = 4;
+    FIILPHKLFEK NDMLEGLIOGN = 12;
+    uint32 INGCDIAFAFG = 15;
+}

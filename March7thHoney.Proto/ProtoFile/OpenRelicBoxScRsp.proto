@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PGLFACHCGCB.proto";
+
+message OpenRelicBoxScRsp {
+    uint32 BDCJKFPGMFL = 1;
+    uint32 retcode = 9;
+    PGLFACHCGCB CGCJLHFLEPN = 12;
+}

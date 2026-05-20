@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridGameRoleInfo {
+    uint32 id = 1;
+    uint32 pos = 2;
+    map<uint32, uint32> convert_property_to_fixpoint = 6;
+    repeated uint32 update_equips_component = 7;
+    map<string, uint32> grid_fight_value_init_component = 10;
+    uint32 role_star = 11;
+    uint32 unique_id = 12;
+}

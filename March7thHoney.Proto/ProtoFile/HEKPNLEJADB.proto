@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HEKPNLEJADB {
+    HEKPNLEJADB_GMINCMKDPNE = 0;
+    HEKPNLEJADB_LBKMMMDIADI = 1;
+    HEKPNLEJADB_ANINMMAMAHD = 2;
+}

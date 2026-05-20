@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DOAICPAMNDN.proto";
+import "EFBDKEHLCDF.proto";
+import "HKJADKLIBEH.proto";
+import "MAGFKFCMLJM.proto";
+import "ONAMJANOBOM.proto";
+
+message TrainPartyHandlePendingActionScRsp {
+    MAGFKFCMLJM OFCKHGLINAG = 1;
+    uint32 retcode = 6;
+    uint32 queue_position = 11;
+    bool KEJOPPIDNPP = 14;
+    oneof PNKPCPFBHAA {
+        DOAICPAMNDN DCCFHPBBKMD = 723;
+        HKJADKLIBEH MDKNHBDNBPP = 1271;
+        ONAMJANOBOM BNIHEKOJMND = 1357;
+        EFBDKEHLCDF LOOFPCPJPHN = 1836;
+    }
+}

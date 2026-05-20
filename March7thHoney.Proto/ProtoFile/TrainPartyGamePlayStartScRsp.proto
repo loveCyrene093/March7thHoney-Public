@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FKPMOKOJNHP.proto";
+
+message TrainPartyGamePlayStartScRsp {
+    FKPMOKOJNHP MLBJFOPPBCM = 9;
+    uint32 retcode = 10;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMultiplayerType {
+    MCMECKIBADN_PCPDHELPKEM = 0;
+    CmdMKLLLKLEEAP = 1063;
+    CmdGetMatchPlayDataCsReq = 1026;
+    CmdGetFriendRankingInfoRsp = 1037;
+    CmdGetFriendRankingInfoCsReq = 1074;
+    CmdFightGameStateCsReq = 1091;
+    CmdFCIANJKGMCH = 1098;
+    CmdPlayerGetFightGateCsReq = 1094;
+    CmdFightGiveUpCsReq = 1014;
+    CmdGetMatchPlayDataRsp = 1039;
+    CmdLOKAJGFMKAK = 1095;
+    CmdFightGameStateScRsp = 1010;
+    CmdSelfRankChangeNtf = 1004;
+    CmdMatchPlayDataChangeNtf = 1001;
+    CmdFightGameStartScNotify = 1009;
+    CmdDGEEILCMHHE = 1018;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BpRewardType.proto";
+
+message TakeBpRewardCsReq {
+    BpRewardType type = 2;
+    uint32 optional_reward_id = 5;
+    uint32 level = 13;
+}

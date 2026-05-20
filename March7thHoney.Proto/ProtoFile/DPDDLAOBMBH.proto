@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ENAKDNCEJBO.proto";
+import "RelicPresetPlanSourceType.proto";
+
+message DPDDLAOBMBH {
+    ENAKDNCEJBO HBNHKPDMGIP = 6;
+    RelicPresetPlanSourceType ALFHNEHOBJA = 13;
+    repeated uint32 relic_ids = 14;
+}

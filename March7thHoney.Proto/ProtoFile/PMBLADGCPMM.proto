@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JOJLACDBPNA.proto";
+
+message PMBLADGCPMM {
+    uint32 EDNCOAGAIJK = 1;
+    JOJLACDBPNA OIAPHBBDPHL = 4;
+    uint32 ELLELJFGDPH = 9;
+}

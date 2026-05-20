@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FBBMDFDOEEF.proto";
+import "FIGFDNBIHCF.proto";
+
+message CPIOCHHPICD {
+    FBBMDFDOEEF BIKHOEGFEFD = 3;
+    FIGFDNBIHCF LEKLKNKEBPO = 14;
+}

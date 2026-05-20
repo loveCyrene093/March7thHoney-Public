@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HJGFDIKDIHO.proto";
+
+message CADKBOKEJMD {
+    repeated HJGFDIKDIHO buff_list = 5;
+}

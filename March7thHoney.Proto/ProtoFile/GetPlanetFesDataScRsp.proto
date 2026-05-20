@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BCHDPKABMNO.proto";
+import "BKNPGKNIOMG.proto";
+import "EONNKCKPDKI.proto";
+import "GKDEKJKOIJN.proto";
+import "GKMGHIBOOFE.proto";
+import "IPBGEGBFFHK.proto";
+import "IPNPJJPPCCC.proto";
+import "JBMMIPAGDCE.proto";
+import "LLAGEIKJBJA.proto";
+import "NOAMCBLCAMH.proto";
+import "OGACFIPDECD.proto";
+import "OHLCKLEKPIN.proto";
+
+message GetPlanetFesDataScRsp {
+    uint32 retcode = 1;
+    EONNKCKPDKI KKCLNDFBPHB = 2;
+    OHLCKLEKPIN EFIMNEGGKMH = 3;
+    BKNPGKNIOMG OPELALIBCIL = 4;
+    repeated GKDEKJKOIJN custom_value_list = 6;
+    IPBGEGBFFHK FKEHOGMGLJF = 7;
+    GKMGHIBOOFE NOLBPBMHOKA = 8;
+    NOAMCBLCAMH GOFFALBLHHN = 9;
+    OGACFIPDECD PEABLDFCMIC = 10;
+    IPNPJJPPCCC skill_info = 11;
+    LLAGEIKJBJA OBOOODMPBBH = 12;
+    BCHDPKABMNO FCAPBPHLNCJ = 14;
+    JBMMIPAGDCE MODDIBHCPPD = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneBattleInfo.proto";
+
+message FightTreasureDungeonMonsterScRsp {
+    SceneBattleInfo battle_info = 6;
+    uint32 retcode = 8;
+}

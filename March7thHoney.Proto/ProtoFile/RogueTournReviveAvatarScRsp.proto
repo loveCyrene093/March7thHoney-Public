@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message RogueTournReviveAvatarScRsp {
+    uint32 retcode = 1;
+    ItemCostData EBMKBDJMAAF = 5;
+}

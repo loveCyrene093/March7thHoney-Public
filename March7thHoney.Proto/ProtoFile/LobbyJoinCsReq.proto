@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LobbyGameExtInfo.proto";
+
+message LobbyJoinCsReq {
+    LobbyGameExtInfo JHCJMKDDNNF = 5;
+    string GFFIMGEKDNL = 6;
+    uint64 room_id = 7;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KMLCENLAGMN.proto";
+
+message NHFOGDPBOHN {
+    KMLCENLAGMN NFFABMJOODE = 2;
+    repeated uint32 outside_relic_list = 6;
+    repeated uint32 inside_relic_list = 11;
+}

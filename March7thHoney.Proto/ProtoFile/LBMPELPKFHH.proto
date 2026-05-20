@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CCLGJGDLADE.proto";
+import "NNJGJIJEJCL.proto";
+import "NNKJBNNANJK.proto";
+
+message LBMPELPKFHH {
+    repeated NNKJBNNANJK NCONIGHJEDI = 1;
+    string IFCGNOFNDMA = 2;
+    string debug_extra_info = 3;
+    repeated CCLGJGDLADE BKLOAECPOED = 4;
+    uint32 plane_id = 5;
+    uint32 floor_id = 6;
+    uint32 FAPCFAHKKFO = 7;
+    uint32 BOLNNBOOIOI = 8;
+    NNJGJIJEJCL MEPDPCNHCAE = 9;
+    uint32 AOJLDOLMEGK = 10;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum SceneEntityBuffChangeType {
+    SCENE_ENTITY_BUFF_CHANGE_TYPE_DEFAULT = 0;
+    SCENE_ENTITY_BUFF_CHANGE_TYPE_ADD_MAZEBUFF = 1;
+    SCENE_ENTITY_BUFF_CHANGE_TYPE_ADD_ADV_MODIFIER = 2;
+}

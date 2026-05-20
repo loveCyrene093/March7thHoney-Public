@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RelicSmartWearPlan.proto";
+
+message RelicSmartWearGetPlanScRsp {
+    uint32 avatar_id = 3;
+    uint32 retcode = 4;
+    repeated RelicSmartWearPlan relic_plan_list = 11;
+}

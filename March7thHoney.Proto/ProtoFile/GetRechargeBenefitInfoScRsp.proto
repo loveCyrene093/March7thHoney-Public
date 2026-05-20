@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DHKCDCCHLHP.proto";
+
+message GetRechargeBenefitInfoScRsp {
+    uint32 retcode = 5;
+    repeated DHKCDCCHLHP BPOMPLDKHBL = 12;
+}

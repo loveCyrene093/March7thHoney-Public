@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DPFHPILPNON {
+    DPFHPILPNON_EIFEPOMHEKJ = 0;
+    DPFHPILPNON_CIFAGHHMLKI = 1;
+    DPFHPILPNON_PJNABHLNLEN = 2;
+    DPFHPILPNON_AKNLPKILELJ = 3;
+}

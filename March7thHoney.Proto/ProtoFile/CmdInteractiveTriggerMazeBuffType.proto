@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdInteractiveTriggerMazeBuffType {
+    COCNBMMFLII_PCPDHELPKEM = 0;
+    CmdCOEOHEBFICO = 9479;
+    CmdJHIAGLGPMBD = 9480;
+}

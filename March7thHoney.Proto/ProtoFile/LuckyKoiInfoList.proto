@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LuckyKoiInfoList {
+    uint32 head_icon = 2;
+    string IKDCFENDDOB = 3;
+    string PNFFLCLMFLO = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum JILAPGBHFJI {
+    JILAPGBHFJI_LMJLDGFJFLC = 0;
+    JILAPGBHFJI_FIOLJGNEKKI = 1;
+    JILAPGBHFJI_DPLEIGPOMCA = 2;
+    JILAPGBHFJI_NMGLEPDLEDH = 3;
+}

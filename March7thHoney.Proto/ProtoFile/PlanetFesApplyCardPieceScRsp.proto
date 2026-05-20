@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PlanetFesApplyCardPieceScRsp {
+    uint32 EPGIKGCADHM = 1;
+    uint32 retcode = 4;
+    bool CHEHAODHAOC = 5;
+    repeated uint32 DJDEBKPGJDN = 9;
+    uint32 teleport_id = 11;
+    int64 ALJIBCCDHPJ = 13;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FFFKFKHHEOG.proto";
+
+message PlanetFesGetFriendRankingInfoListScRsp {
+    uint32 retcode = 6;
+    FFFKFKHHEOG KNNIAEBMHGM = 8;
+}

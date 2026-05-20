@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EnhanceRogueBuffCsReq {
+    uint32 maze_buff_id = 1;
+}

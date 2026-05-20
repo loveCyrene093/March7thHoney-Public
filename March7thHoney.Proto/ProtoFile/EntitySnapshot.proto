@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JHNKDJMLBJD.proto";
+import "MotionInfoSnapshot.proto";
+import "PropInfoSnapshot.proto";
+
+message EntitySnapshot {
+    uint32 entity_id = 1;
+    uint32 instance_id = 2;
+    MotionInfoSnapshot motion_info = 3;
+    JHNKDJMLBJD map_object_type = 4;
+    PropInfoSnapshot prop = 5;
+}

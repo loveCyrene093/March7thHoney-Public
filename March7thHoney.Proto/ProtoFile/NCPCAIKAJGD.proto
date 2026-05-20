@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OBNLNNNNFPO.proto";
+
+message NCPCAIKAJGD {
+    bool GCIIMIOKFKL = 4;
+    repeated OBNLNNNNFPO FOPHPJNGPDE = 5;
+    repeated uint32 IFHMNCGLCKP = 9;
+}

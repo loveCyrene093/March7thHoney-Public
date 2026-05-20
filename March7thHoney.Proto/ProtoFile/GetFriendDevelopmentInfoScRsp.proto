@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OHNPAFLKHNA.proto";
+
+message GetFriendDevelopmentInfoScRsp {
+    uint32 retcode = 2;
+    repeated OHNPAFLKHNA DPLGFNNDOLB = 3;
+    uint32 uid = 7;
+}

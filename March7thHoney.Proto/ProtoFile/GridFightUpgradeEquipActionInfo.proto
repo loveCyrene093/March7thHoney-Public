@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightUpgradeEquipActionInfo {
+    repeated uint32 available_equipment_list = 15;
+}

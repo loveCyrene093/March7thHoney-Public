@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CONKDELHKGB.proto";
+import "KKNHIMGNMPG.proto";
+import "OGBJNEDMMEA.proto";
+
+message PLECMCJNPIL {
+    string room_id = 1;
+    uint32 JAFNCOMGABG = 2;
+    uint32 section_id = 3;
+    KKNHIMGNMPG player_info = 4;
+    repeated CONKDELHKGB FGDOBBBFKMN = 5;
+    repeated uint32 HFOCHINPPBB = 6;
+    repeated uint32 DMNDJKPEIJN = 7;
+    repeated uint32 FCIJGKPKDKC = 8;
+    repeated OGBJNEDMMEA MCNKBAKCAJB = 9;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NJGDKDEDBNB.proto";
+import "OMLONGNOMAI.proto";
+
+message AGAOJNNBALA {
+    repeated NJGDKDEDBNB GPONJAAPOMN = 6;
+    OMLONGNOMAI source = 7;
+    uint64 unique_id = 9;
+    uint32 config_id = 12;
+}

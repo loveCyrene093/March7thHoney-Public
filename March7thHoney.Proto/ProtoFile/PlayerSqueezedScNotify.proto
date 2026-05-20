@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BlackInfo.proto";
+import "KickType.proto";
+
+message PlayerSqueezedScNotify {
+    KickType kick_type = 2;
+    BlackInfo black_info = 4;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HADIBEMFDML {
+    HADIBEMFDML_IMKMPBMAMDG = 0;
+    HADIBEMFDML_NCOACIDDLOA = 1;
+    HADIBEMFDML_ODAKLNJKNPF = 2;
+}

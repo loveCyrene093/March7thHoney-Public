@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AFHIHMKCPNF.proto";
+
+message APDJGIIDJAA {
+    uint32 AAAGBKEHKLC = 1;
+    repeated AFHIHMKCPNF kill_monster_list = 2;
+}

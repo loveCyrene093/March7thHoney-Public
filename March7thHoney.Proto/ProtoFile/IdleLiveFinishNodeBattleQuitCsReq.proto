@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KFNFHIAEKIN.proto";
+import "KGFMBNIIPPA.proto";
+
+message IdleLiveFinishNodeBattleQuitCsReq {
+    KGFMBNIIPPA LMLFOELDMJD = 7;
+    KFNFHIAEKIN MNLBMALDPEJ = 15;
+}

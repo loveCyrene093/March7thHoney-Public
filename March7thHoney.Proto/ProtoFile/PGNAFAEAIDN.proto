@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FFKGOGNCNAJ.proto";
+
+message PGNAFAEAIDN {
+    bool HLKAFPCLMEO = 2;
+    bool GGFIJFDFGCM = 3;
+    uint32 CJOPNFDBJHD = 8;
+    bool IMLOEHHAJOI = 10;
+    uint32 PGHPKHCNPMF = 11;
+    uint32 JJNKPCBKOKB = 13;
+    bool KLONCIGADNI = 15;
+    repeated FFKGOGNCNAJ buff_list = 1748;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JEHNBDDMIEJ.proto";
+
+message ELLNDNEBHDK {
+    JEHNBDDMIEJ OCLLADBFKHP = 3;
+    uint32 LGPPFKDKHEC = 4;
+    uint32 OCINKMOAMOM = 6;
+    uint32 status = 8;
+    double IHEJOGHDPMI = 11;
+    uint32 score_id = 12;
+}

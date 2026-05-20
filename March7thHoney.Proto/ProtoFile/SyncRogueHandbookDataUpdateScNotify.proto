@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AKEKHLAEKBC.proto";
+import "JABFAOAIEIG.proto";
+import "NJINCNAGALP.proto";
+import "PHDKMFDPABI.proto";
+import "PNCBGGJKKAF.proto";
+
+message SyncRogueHandbookDataUpdateScNotify {
+    repeated NJINCNAGALP LJCKMEPACID = 1;
+    repeated PHDKMFDPABI HECHKEBKAJK = 4;
+    repeated AKEKHLAEKBC FFBNIHFGKEN = 5;
+    repeated PNCBGGJKKAF FNMJMOIIDGC = 8;
+    repeated JABFAOAIEIG FJNDFOHIJDP = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DACJDMPICEL {
+    double damage = 1;
+    uint32 trait_id = 4;
+    uint32 NKFDBEHPNLG = 15;
+}

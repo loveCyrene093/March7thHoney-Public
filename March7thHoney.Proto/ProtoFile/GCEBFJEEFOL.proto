@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NOCDBKLAKLF.proto";
+
+message GCEBFJEEFOL {
+    NOCDBKLAKLF AFLJJJFCBIN = 2;
+}

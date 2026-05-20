@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HMJGADLIONA.proto";
+import "NMHKDLJPGIL.proto";
+
+message KAIELJPMGHL {
+    uint32 NGEHILEENKC = 2;
+    uint32 JJOOHOADJMA = 3;
+    HMJGADLIONA PPPHLHADCPJ = 4;
+    string uuid = 6;
+    NMHKDLJPGIL MODDIBHCPPD = 14;
+}

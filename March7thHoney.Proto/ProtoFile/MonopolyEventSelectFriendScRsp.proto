@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AAHBECICOEN.proto";
+
+message MonopolyEventSelectFriendScRsp {
+    uint32 DHLDKLMPHNG = 2;
+    uint32 retcode = 8;
+    AAHBECICOEN LJHDOFBFNJH = 11;
+    uint32 LMIICENMOBI = 13;
+}

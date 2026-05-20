@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ABIPCNKGFNI.proto";
+import "ItemList.proto";
+
+message TakeRechargeGiftRewardScRsp {
+    uint32 retcode = 7;
+    ItemList reward = 11;
+    ABIPCNKGFNI ECDFDDEOOIO = 15;
+}

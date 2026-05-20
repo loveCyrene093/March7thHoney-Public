@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MarbleGetDataScRsp {
+    repeated uint32 CNLBNACFCJE = 2;
+    repeated uint32 JHDMGFGJMEB = 7;
+    uint32 retcode = 11;
+    repeated uint32 HIKDAMMFGDJ = 14;
+    int32 score_id = 15;
+}

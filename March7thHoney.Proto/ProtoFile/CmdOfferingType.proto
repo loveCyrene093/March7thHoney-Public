@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdOfferingType {
+    EBHGGMBCBIA_PCPDHELPKEM = 0;
+    CmdSubmitOfferingItemScRsp = 6930;
+    CmdTakeOfferingRewardScRsp = 6928;
+    CmdGetOfferingInfoScRsp = 6940;
+    CmdOfferingInfoScNotify = 6934;
+    CmdGetOfferingInfoCsReq = 6921;
+    CmdTakeOfferingRewardCsReq = 6935;
+    CmdSubmitOfferingItemCsReq = 6922;
+}

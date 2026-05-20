@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message JHNGCNHEOCB {
+    uint32 MCKAGFGLACM = 1;
+    ItemCostData cost_data = 3;
+    bool DIDLKELKEPG = 9;
+    uint32 JKIMLIPMKFH = 10;
+    int32 PIGDIFAKIGM = 13;
+}

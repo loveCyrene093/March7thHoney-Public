@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JILICANHLLC.proto";
+import "PGKNFMANPNI.proto";
+
+message APBOFCPJCAF {
+    JILICANHLLC status = 1;
+    repeated PGKNFMANPNI GJGKLFCHOFO = 3;
+    uint32 INGCDIAFAFG = 8;
+    uint32 LNODOJOOPBK = 11;
+    uint32 LMKBDICOLKO = 14;
+}

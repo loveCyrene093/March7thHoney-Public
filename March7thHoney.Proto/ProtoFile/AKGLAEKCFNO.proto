@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DAKIKKDICAN.proto";
+
+message AKGLAEKCFNO {
+    uint32 KPNNKBILLBL = 1;
+    bool CHCGMAMOBMH = 4;
+    repeated DAKIKKDICAN LOLJHLDHPPN = 7;
+}

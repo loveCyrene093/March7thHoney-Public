@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightAugmentRerollActionResult {
+    uint32 augment_id = 4;
+}

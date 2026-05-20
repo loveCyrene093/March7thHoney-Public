@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EntityBuffChangeInfo.proto";
+
+message SyncEntityBuffChangeListScNotify {
+    repeated EntityBuffChangeInfo entity_buff_change_list = 10;
+}

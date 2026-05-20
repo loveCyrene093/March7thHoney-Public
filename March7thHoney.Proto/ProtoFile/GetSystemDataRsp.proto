@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DABNCEPBKMG.proto";
+import "DiceCombatAvatar.proto";
+import "INACEGAAALJ.proto";
+
+message GetSystemDataRsp {
+    repeated uint32 DAMDPNDCACK = 3;
+    repeated DiceCombatAvatar avatar_list = 6;
+    uint32 retcode = 8;
+    repeated uint32 FKOBFPNGDCG = 9;
+    repeated INACEGAAALJ FAMFCIPLGON = 11;
+    uint32 JEBJGKACBKD = 13;
+    DABNCEPBKMG DKCGALDKDFA = 14;
+}

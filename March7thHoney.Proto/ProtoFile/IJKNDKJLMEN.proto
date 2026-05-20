@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RogueRoomStatus.proto";
+
+message IJKNDKJLMEN {
+    RogueRoomStatus BJDBOEFFIAG = 1;
+    uint32 HCMJDMFNENE = 4;
+    uint32 IOGGIAJBEPP = 10;
+    RogueRoomStatus MCEBJKDJHGP = 11;
+    uint32 room_id = 15;
+}

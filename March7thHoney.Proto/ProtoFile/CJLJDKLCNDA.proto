@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleGridFightSpecialBattleInfo.proto";
+import "BattleTarget.proto";
+import "GCHPNHBDCDO.proto";
+import "MOEDGOHOALP.proto";
+
+message CJLJDKLCNDA {
+    uint32 round_cnt = 6;
+    BattleGridFightSpecialBattleInfo battle_info = 9;
+    repeated BattleTarget battle_target_list = 10;
+    GCHPNHBDCDO EGLCKGKECAJ = 11;
+    uint32 KCOKNIJECLN = 12;
+    repeated MOEDGOHOALP avatar_list = 14;
+    repeated uint32 IEPGKLIDHEK = 15;
+}

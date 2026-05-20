@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChimeraDuelPlayerRankData.proto";
+import "DDJOEIBOELH.proto";
+
+message HOBCIOKKNKH {
+    uint32 MAPDNLBHHCD = 4;
+    DDJOEIBOELH OIAPHBBDPHL = 6;
+    ChimeraDuelPlayerRankData GEPGGGDKBNK = 9;
+    bool GILDMPKFGGC = 15;
+}

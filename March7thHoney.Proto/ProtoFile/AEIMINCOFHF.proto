@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JFFONIDPNDA.proto";
+
+message AEIMINCOFHF {
+    uint32 GKFEGIBGEGI = 2;
+    JFFONIDPNDA pos = 14;
+}

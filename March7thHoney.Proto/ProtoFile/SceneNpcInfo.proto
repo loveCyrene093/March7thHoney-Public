@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NpcExtraInfo.proto";
+
+message SceneNpcInfo {
+    uint32 npc_id = 3;
+    NpcExtraInfo extra_info = 12;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IPEEDBPJEKE.proto";
+
+message HKLKGJCJJEB {
+    uint32 NDHEAAKAPKK = 1;
+    uint32 group_id = 5;
+    IPEEDBPJEKE op_type = 8;
+    uint32 MNPPEEGEAEJ = 14;
+}

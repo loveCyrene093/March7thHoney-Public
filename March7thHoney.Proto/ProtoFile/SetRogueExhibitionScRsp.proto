@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EEBOPKJEMHK.proto";
+import "JJHODFAHHKG.proto";
+
+message SetRogueExhibitionScRsp {
+    repeated JJHODFAHHKG FJBIMHAFLEJ = 3;
+    repeated EEBOPKJEMHK OHMPBCHAPKD = 13;
+    uint32 retcode = 14;
+}

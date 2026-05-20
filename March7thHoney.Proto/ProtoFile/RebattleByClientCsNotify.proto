@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleStatistics.proto";
+import "RebattleType.proto";
+
+message RebattleByClientCsNotify {
+    BattleStatistics stt = 2;
+    RebattleType MGABMCBOHMK = 9;
+}

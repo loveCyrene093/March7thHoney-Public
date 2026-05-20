@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LGIIDENKPIG {
+    uint32 group_id = 2;
+    uint32 INOMFFAIEOA = 11;
+    uint32 star = 12;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HLLCDBLCIPK.proto";
+
+message PlanetFesGameBingoFlipScRsp {
+    uint32 NBFLCNHFEFM = 3;
+    bool JKLFMOHICMO = 4;
+    HLLCDBLCIPK reward = 8;
+    uint32 retcode = 14;
+}

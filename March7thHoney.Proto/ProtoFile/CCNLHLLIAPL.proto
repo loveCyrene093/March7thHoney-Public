@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CJMMKFHJPHJ.proto";
+import "DFAJAENKKBP.proto";
+
+message CCNLHLLIAPL {
+    uint32 trait_id = 3;
+    uint32 effect_id = 12;
+    oneof HDACCIEIJFO {
+        DFAJAENKKBP FLJNDFMGDBI = 853;
+        CJMMKFHJPHJ HAINJKLLLKF = 955;
+    }
+}

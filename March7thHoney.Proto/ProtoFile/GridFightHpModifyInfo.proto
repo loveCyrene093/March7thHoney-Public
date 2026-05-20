@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightUpdateGlobalHpReason.proto";
+
+message GridFightHpModifyInfo {
+    GridFightUpdateGlobalHpReason reason = 1;
+    uint32 PDEKDHPNCEN = 6;
+    int32 FGEDKOINMAG = 8;
+    uint32 HPOPDNGCALL = 9;
+    int32 EHMKLNEKIOE = 11;
+}

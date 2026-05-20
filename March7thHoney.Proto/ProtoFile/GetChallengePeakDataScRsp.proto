@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengePeakGroup.proto";
+
+message GetChallengePeakDataScRsp {
+    uint32 current_peak_group_id = 4;
+    repeated ChallengePeakGroup challenge_peak_groups = 11;
+    uint32 retcode = 12;
+}

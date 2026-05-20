@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FNGPALCMBKK.proto";
+
+message FightTreasureDungeonMonsterCsReq {
+    uint32 target_side = 5;
+    uint32 CJOPNFDBJHD = 9;
+    repeated FNGPALCMBKK avatar_list = 13;
+}

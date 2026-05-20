@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HHMDONEOEAK.proto";
+
+message PGMMDCCGLJD {
+    map<uint32, HHMDONEOEAK> GKAONDBBDHF = 2;
+    uint32 panel_id = 6;
+    uint32 OGHFMOALPEO = 10;
+}

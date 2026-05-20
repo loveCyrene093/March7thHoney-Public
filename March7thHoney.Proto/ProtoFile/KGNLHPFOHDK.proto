@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KGNLHPFOHDK {
+    uint32 LANHJOMCKNJ = 5;
+    uint32 max_score = 8;
+    uint32 level_id = 9;
+}

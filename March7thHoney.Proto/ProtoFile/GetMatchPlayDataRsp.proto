@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BPJDOEMBNMD.proto";
+
+message GetMatchPlayDataRsp {
+    repeated BPJDOEMBNMD DLMGKBKEFIK = 4;
+    uint32 retcode = 11;
+}

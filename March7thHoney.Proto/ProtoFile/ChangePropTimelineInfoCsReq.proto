@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PropTimelineInfo.proto";
+
+message ChangePropTimelineInfoCsReq {
+    bool is_close_map = 1;
+    uint32 prop_entity_id = 3;
+    uint64 uuid = 6;
+    PropTimelineInfo timeline_info = 11;
+    uint64 interact_id = 15;
+}

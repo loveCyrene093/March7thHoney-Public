@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TravelBrochureUpdatePasterPosCsReq {
+    uint32 item_id = 3;
+    int32 HKIOMCOCDNF = 5;
+    uint32 KPGMBKKOGJG = 6;
+    uint32 HBCJPCMJPHE = 7;
+    uint32 AEHKNGBKPBE = 11;
+    int32 CFIDMMFFBOE = 13;
+    uint64 unique_id = 14;
+}

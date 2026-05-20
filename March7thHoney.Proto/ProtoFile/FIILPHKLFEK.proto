@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CADKBOKEJMD.proto";
+import "DECAOHONNJG.proto";
+import "GCDMHAMCDHI.proto";
+import "ItemList.proto";
+import "JBEENGDECOH.proto";
+import "LineupInfo.proto";
+
+message FIILPHKLFEK {
+    uint32 DJMGKNPLBOI = 1;
+    uint32 difficulty_level = 2;
+    GCDMHAMCDHI IDPBLDHNHKB = 3;
+    uint32 BMLDPGFFIIB = 5;
+    uint32 HBFHJOIEBIE = 6;
+    uint32 AIEHGFOCPBG = 7;
+    LineupInfo DJDPILOKDKO = 8;
+    bool is_finish = 10;
+    CADKBOKEJMD HKGKNEKKJHB = 11;
+    ItemList HEEAPOIPJMP = 12;
+    repeated uint32 CKPKAPEIKIH = 13;
+    DECAOHONNJG FEILNIKNPCB = 14;
+    uint32 FAPFKFJIELE = 15;
+    uint32 score_id = 401;
+    uint32 LOIDOGEENOB = 709;
+    uint32 OINIDCCNAOM = 751;
+    uint32 NNLEHIMNDBE = 988;
+    uint32 PJINJJGOMMF = 1505;
+    JBEENGDECOH JGHIBCLBLAG = 1592;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ICHBGLCHLDP.proto";
+import "MNCOPDNELMC.proto";
+
+message JMOGPMCJGLE {
+    uint32 EAADBOCJNAE = 4;
+    int32 CGNOKHABCPP = 7;
+    MNCOPDNELMC PPIPFOPHNHM = 8;
+    ICHBGLCHLDP EPKENDEAJPB = 9;
+    repeated uint32 KJDGGNNFGGP = 14;
+}

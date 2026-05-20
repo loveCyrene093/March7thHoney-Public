@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdChenLingBattleType {
+    BELNIDIDIKO_PCPDHELPKEM = 0;
+    CmdChenLingMoveEntityCsReq = 9616;
+    CmdChenLingRefreshCardCsReq = 9620;
+    CmdChenLingUnlockGridCsReq = 9575;
+    CmdChenLingFinishPrepareCsReq = 9588;
+    CmdNNKLGPJAFPJ = 9591;
+    CmdChenLingFinishBattleCsReq = 9606;
+    CmdChenLingSellHandCardCsReq = 9572;
+    CmdChenLingFinishShopCsReq = 9613;
+    CmdHAKHGHAFNEE = 9614;
+    CmdKLJENCAEDBH = 9610;
+    CmdChenLingUseHandCardCsReq = 9617;
+    CmdChenLingQuitStageScRsp = 9608;
+    CmdChenLingBuyShopItemCsReq = 9579;
+    CmdAIIKILMNIFI = 9589;
+    CmdALGMCFBHJBI = 9603;
+    CmdAADHELLOBCC = 9609;
+    CmdMFNOEOEDFDF = 9596;
+    CmdChenLingSyncChangeScNotify = 9599;
+    CmdChenLingSelectCardCsReq = 9576;
+    CmdLAJEEAENKDI = 9585;
+    CmdKFJFCKPMDNH = 9598;
+    CmdChenLingGetDataCsReq = 9583;
+    CmdChenLingSelectPolicyCsReq = 9578;
+    CmdChenLingStartStageScRsp = 9597;
+    CmdGIPKOGLGHLB = 9574;
+    CmdChenLingRefreshShopReq = 9619;
+    CmdChenLingStartStageCsReq = 9600;
+    CmdCCEHGDPFGIN = 9586;
+    CmdOLJCELNELOH = 9615;
+    CmdFNNNKIJPMII = 9571;
+    CmdMNLKLFCDPCG = 9587;
+    CmdChenLingRefreshPolicyCsReq = 9601;
+    CmdPHGCFPNCDBE = 9592;
+    CmdChenLingHandlePendingActionsCsReq = 9590;
+    CmdCBDEPHGEPJJ = 9573;
+    CmdChenLingActivatedPrivilegeCsReq = 9607;
+    CmdChenLingQuitStageCsReq = 9605;
+    CmdChenLingActivatedPrivilegeScRsp = 9618;
+    CmdChenLingGetDataScRsp = 9577;
+}

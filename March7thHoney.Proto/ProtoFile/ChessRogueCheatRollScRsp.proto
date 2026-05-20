@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DFAOIALEBOH.proto";
+
+message ChessRogueCheatRollScRsp {
+    uint32 retcode = 1;
+    DFAOIALEBOH PJABKDBFPIM = 3;
+    uint32 CCOGFKLOFKL = 8;
+    uint32 OEFFFDCFAFC = 13;
+}

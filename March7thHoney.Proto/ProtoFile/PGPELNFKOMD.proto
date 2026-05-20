@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PGPELNFKOMD {
+    uint32 HJMGGLANHML = 1;
+    double MDFDBACCFOH = 2;
+    uint32 EEHJPPLINAE = 3;
+    uint32 break_times = 4;
+}

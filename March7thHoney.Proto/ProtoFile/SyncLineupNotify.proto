@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LineupInfo.proto";
+import "SyncLineupReason.proto";
+
+message SyncLineupNotify {
+    LineupInfo lineup = 2;
+    repeated SyncLineupReason reason_list = 9;
+}

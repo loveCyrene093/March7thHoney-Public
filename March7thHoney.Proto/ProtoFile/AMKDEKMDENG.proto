@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AMKDEKMDENG {
+    uint32 slot = 3;
+    uint32 NCHHOPJJDCE = 6;
+    uint32 type = 9;
+}

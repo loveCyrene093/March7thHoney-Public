@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DGDHBAGEOOI.proto";
+import "OFBNFNFGDFJ.proto";
+
+message NLPPCFGFFDE {
+    uint32 area_id = 6;
+    uint32 panel_id = 9;
+    OFBNFNFGDFJ BHILBIJCDOE = 10;
+    DGDHBAGEOOI BNOCEPKMPGK = 14;
+}

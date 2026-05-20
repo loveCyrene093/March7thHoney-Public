@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AEOEFOILEBP.proto";
+import "DMINLLDNNDL.proto";
+import "ENALOKIFDFH.proto";
+
+message MultipleDropInfoNotify {
+    repeated DMINLLDNNDL DFEOOEHFAAC = 1;
+    repeated ENALOKIFDFH ALDKLKHLGGP = 5;
+    repeated AEOEFOILEBP JNGHGLMBPOH = 14;
+}

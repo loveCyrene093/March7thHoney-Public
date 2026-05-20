@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMissionType {
+    IFJFCGJJMFK_PCPDHELPKEM = 0;
+    CmdGetMissionStatusCsReq = 1261;
+    CmdEPPNLNIBPNA = 1266;
+    CmdGetMissionDataScRsp = 1210;
+    CmdFinishCosumeItemMissionCsReq = 1274;
+    CmdMainMissionAcceptNotify = 1251;
+    CmdUpdateTrackMainMissionCsReq = 1254;
+    CmdSyncTaskCsReq = 1218;
+    CmdAcceptMainMissionScRsp = 1253;
+    CmdFNAPKBELIFO = 1279;
+    CmdFinishTalkMissionCsReq = 1294;
+    CmdStarPerformanceRelayCsReq = 1249;
+    CmdUpdateMainMissionCustomValueCsReq = 1293;
+    CmdGetMainMissionCustomValueScRsp = 1217;
+    CmdStartFinishMainMissionScNotify = 1265;
+    CmdMissionGroupWarnScNotify = 1201;
+    CmdTeleportToMissionResetPointCsReq = 1257;
+    CmdGetMissionStatusScRsp = 1207;
+    CmdAcceptMainMissionCsReq = 1273;
+    CmdGetMissionDataCsReq = 1291;
+    CmdMBMEMBDDJDE = 1237;
+    CmdFinishedMissionScNotify = 1220;
+    CmdOFCENAHFFEN = 1202;
+    CmdFinishTalkMissionScRsp = 1295;
+    CmdHHAHNNOIEIH = 1209;
+    CmdTeleportToMissionResetPointScRsp = 1221;
+    CmdSubMissionRewardScNotify = 1296;
+    CmdGetMainMissionCustomValueCsReq = 1208;
+    CmdMissionRewardScNotify = 1214;
+    CmdStartFinishSubMissionScNotify = 1228;
+}

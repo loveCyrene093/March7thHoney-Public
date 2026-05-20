@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightGlobalHpChangeReason {
+    FOOHMNAFKBN_EIGONMAEFPJ = 0;
+    FOOHMNAFKBN_IFNIEEAFFNE = 1;
+    FOOHMNAFKBN_KCGPJKLLFFG = 2;
+    FOOHMNAFKBN_HICPJJNIAJI = 3;
+    FOOHMNAFKBN_ALACCAFMGHE = 4;
+    FOOHMNAFKBN_FAKADNNGLCH = 5;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FDOEMKPGHFL.proto";
+
+message ChenLingUseHandCardCsReq {
+    FDOEMKPGHFL JDPHGEJLPPH = 2;
+    uint32 GDFPBHMMFEA = 15;
+}

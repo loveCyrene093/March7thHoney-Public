@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FJDILEGCBHP.proto";
+
+message MOFDANDCGHJ {
+    uint32 GFIJJNNAKGP = 5;
+    uint32 GPEMMCMJPPD = 6;
+    FJDILEGCBHP ALFHNEHOBJA = 7;
+}

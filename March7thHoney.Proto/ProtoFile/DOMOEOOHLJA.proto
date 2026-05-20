@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message DOMOEOOHLJA {
+    bool FDDHIBCEOKE = 1;
+    uint32 COOOFFKIDMC = 11;
+    ItemList item_list = 13;
+}

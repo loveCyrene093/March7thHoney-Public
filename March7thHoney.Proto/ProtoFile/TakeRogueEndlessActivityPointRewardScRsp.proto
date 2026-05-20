@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakeRogueEndlessActivityPointRewardScRsp {
+    ItemList reward = 1;
+    bool OINMENFPODP = 2;
+    uint32 NAGLJDCLGGB = 4;
+    uint32 retcode = 5;
+    repeated uint32 MOGBNJOHKLA = 9;
+    uint32 level = 13;
+}

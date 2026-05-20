@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message OLNPCLEFANN {
+    ItemCostData cost_data = 1;
+    float KCAJFLAMMAC = 6;
+    uint32 buff_id = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RefreshTriggerByClientScRsp {
+    uint32 retcode = 8;
+    string trigger_name = 9;
+    uint32 trigger_entity_id = 10;
+    bool refresh_trigger = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IMPEJAJCHPC {
+    uint32 augment_id = 1;
+    double damage = 3;
+    double BOIEGPAPHOP = 4;
+}

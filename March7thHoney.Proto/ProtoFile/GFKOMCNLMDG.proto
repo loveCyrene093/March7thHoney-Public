@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GFKOMCNLMDG {
+    map<uint32, uint32> GNKEDOEHNAI = 8;
+    uint32 cur_num = 11;
+    uint32 max_num = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightConsumableTargetInfo.proto";
+
+message GridFightUseConsumableCsReq {
+    GridFightConsumableTargetInfo display_value = 4;
+    uint32 item_id = 9;
+}

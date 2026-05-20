@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTrackPhotoActivityType {
+    IGNAEJEMBFO_PCPDHELPKEM = 0;
+    CmdStartTrackPhotoStageCsReq = 7555;
+    CmdSettleTrackPhotoStageCsReq = 7551;
+    CmdEAAHNDOHPPH = 7556;
+    CmdSettleTrackPhotoStageScRsp = 7557;
+    CmdGetTrackPhotoActivityDataCsReq = 7559;
+    CmdQuitTrackPhotoStageCsReq = 7552;
+    CmdGetTrackPhotoActivityDataScRsp = 7560;
+    CmdStartTrackPhotoStageScRsp = 7554;
+}

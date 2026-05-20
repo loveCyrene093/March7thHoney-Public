@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HMDLIBMBIHM.proto";
+
+message IHGBDAGHDME {
+    repeated uint32 GNAAKKMMODE = 2;
+    repeated HMDLIBMBIHM avatar_list = 3;
+    uint32 difficulty_level = 4;
+    uint32 BNFHLIBFLID = 5;
+    uint32 level_id = 6;
+    map<uint32, uint32> IIDPHLIMMPF = 8;
+    uint32 OMNFDNBEPLA = 9;
+    repeated uint32 HEAMACGDPEK = 10;
+    uint32 HJMGGLANHML = 11;
+    uint32 NICNELOFHOL = 12;
+    map<uint32, uint32> KDBLAHBIHDO = 14;
+    uint32 GNDEPOKFHPE = 15;
+    map<uint32, uint32> BNMOMHOCBPH = 160;
+}

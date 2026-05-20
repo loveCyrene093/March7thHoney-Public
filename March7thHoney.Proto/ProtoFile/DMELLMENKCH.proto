@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JAMLHOHBIGB.proto";
+
+message DMELLMENKCH {
+    uint32 retcode = 5;
+    uint32 use_item_id = 6;
+    JAMLHOHBIGB ENBGNLBMGFK = 15;
+}

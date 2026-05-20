@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdAiPamType {
+    JCIOGLMGOPM_FEAOLFOCPPJ = 0;
+    CmdAiPamResponseFeedbackScRsp = 9518;
+    CmdGetAiPamChatInfoScRsp = 9502;
+    CmdUpdateAiPamSettingsScRsp = 9531;
+    CmdGetAiPamNextQuestionScRsp = 9505;
+    CmdTriggerAiPamSpeakCsReq = 9503;
+    CmdTriggerAiPamSpeakScRsp = 9550;
+    CmdIPPACOOGLPK = 9506;
+    CmdGetAiPamChatHistoryScRsp = 9535;
+    CmdGetAiPamChatHistoryCsReq = 9527;
+    CmdAiPamResponseFeedbackCommentCsReq = 9545;
+    CmdUpdateAiPamSettingsCsReq = 9516;
+    CmdAiPamMotionScNotify = 9521;
+    CmdRecvAiPamChatEventScNotify = 9530;
+    CmdAIKHMIAMBIF = 9526;
+    CmdGetAiPamChatInfoCsReq = 9519;
+    CmdAiPamResponseFeedbackCsReq = 9544;
+    CmdCGPFNCNAMOP = 9549;
+    CmdAiPamSendMsgScRsp = 9507;
+    CmdIMHLIHAOCPE = 9515;
+    CmdAiPamResponseFeedbackCommentScRsp = 9536;
+    CmdGetAiPamNextQuestionCsReq = 9538;
+    CmdAiPamTeamExplainCsReq = 9513;
+}

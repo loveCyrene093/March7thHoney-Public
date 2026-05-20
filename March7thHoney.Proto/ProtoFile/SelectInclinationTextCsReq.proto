@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SelectInclinationTextCsReq {
+    uint32 talk_sentence_id = 9;
+}

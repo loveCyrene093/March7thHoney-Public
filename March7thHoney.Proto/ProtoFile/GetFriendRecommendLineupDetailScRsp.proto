@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DisplayAvatarDetailInfo.proto";
+import "NFKEJJIHOCJ.proto";
+
+message GetFriendRecommendLineupDetailScRsp {
+    uint32 key = 5;
+    repeated DisplayAvatarDetailInfo MEOFNGCFABJ = 7;
+    uint32 retcode = 10;
+    NFKEJJIHOCJ type = 11;
+    uint32 uid = 15;
+}

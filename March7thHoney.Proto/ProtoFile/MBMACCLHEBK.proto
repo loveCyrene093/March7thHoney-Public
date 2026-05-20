@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message MBMACCLHEBK {
+    uint32 chest_id = 1;
+    ItemList reward = 13;
+}

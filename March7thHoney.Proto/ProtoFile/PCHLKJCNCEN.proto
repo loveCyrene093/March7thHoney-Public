@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PCHLKJCNCEN {
+    repeated uint32 assist_monster_entity_id_list = 15;
+}

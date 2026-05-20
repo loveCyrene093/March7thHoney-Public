@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GENOHIJHCDG.proto";
+import "ItemCostData.proto";
+
+message GetRogueShopFormulaInfoScRsp {
+    GENOHIJHCDG ECJCCKFEFEJ = 5;
+    int32 NEDPNFDHIGF = 9;
+    int32 CAFBAKFBNIN = 10;
+    uint32 retcode = 13;
+    ItemCostData AKOCOALDEHC = 14;
+}

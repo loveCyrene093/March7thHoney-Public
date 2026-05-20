@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MissionCustomValue.proto";
+
+message FinishTalkMissionCsReq {
+    string talk_str = 1;
+    repeated MissionCustomValue custom_value_list = 7;
+    uint32 sub_mission_id = 10;
+}

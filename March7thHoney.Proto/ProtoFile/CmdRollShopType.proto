@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRollShopType {
+    MNCIAAAFPKK_PCPDHELPKEM = 0;
+    CmdGetRollShopInfoCsReq = 6901;
+    CmdDoGachaInRollShopCsReq = 6902;
+    CmdGetRollShopInfoScRsp = 6920;
+    CmdDoGachaInRollShopScRsp = 6910;
+    CmdTakeRollShopRewardScRsp = 6908;
+    CmdTakeRollShopRewardCsReq = 6915;
+}

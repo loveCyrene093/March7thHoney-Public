@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RebattleType {
+    REBATTLE_TYPE_NONE = 0;
+    REBATTLE_TYPE_REBATTLE_MIDWAY = 1;
+    REBATTLE_TYPE_REBATTLE_LOSE = 2;
+    REBATTLE_TYPE_REBATTLE_MIDWAY_LINEUP = 3;
+    REBATTLE_TYPE_REBATTLE_LOSE_LINEUP = 4;
+    REBATTLE_TYPE_QUIT_MIDWAY = 5;
+    REBATTLE_TYPE_QUIT_LOSE = 6;
+}

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPlanetFesExtType {
+    AIAMJBEHMMC_PCPDHELPKEM = 0;
+    CmdPlanetFesGetExtraCardPieceInfoCsReq = 8303;
+    CmdPlanetFesGetExtraCardPieceInfoScRsp = 8297;
+    CmdPlanetFesApplyCardPieceScRsp = 8291;
+    CmdPlanetFesGiveCardPieceScRsp = 8335;
+    CmdPlanetFesHandleCardPieceApplyCsReq = 8337;
+    CmdPlanetFesLargeBonusInteractScRsp = 8293;
+    CmdPlanetFesApplyCardPieceCsReq = 8295;
+    CmdPlanetFesChangeCardPieceApplyPermissionCsReq = 8325;
+    CmdPlanetFesGetOfferedCardPieceScRsp = 8334;
+    CmdPlanetFesGetOfferedCardPieceCsReq = 8292;
+    CmdPlanetFesGetFriendCardPieceScRsp = 8317;
+    CmdHCJKEDJPGHB = 8306;
+    CmdPlanetFesEnterNextBusinessDayCsReq = 8340;
+    CmdPlanetFesGetFriendCardPieceCsReq = 8320;
+    CmdPlanetFesChangeCardPieceApplyPermissionScRsp = 8328;
+    CmdPlanetFesGiveCardPieceCsReq = 8308;
+    CmdPlanetFesLargeBonusInteractCsReq = 8326;
+    CmdPlanetFesHandleCardPieceApplyScRsp = 8309;
+}

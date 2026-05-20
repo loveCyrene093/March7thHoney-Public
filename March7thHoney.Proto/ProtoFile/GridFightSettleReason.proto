@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightSettleReason {
+    CDPHDHNLHAO_FMPBHELFGEE = 0;
+    CDPHDHNLHAO_EPHJFKFFDKC = 1;
+    CDPHDHNLHAO_FLNHNHBCDKM = 2;
+    CDPHDHNLHAO_CLNLGBCMOIJ = 3;
+    CDPHDHNLHAO_BAKHAIBGPGC = 4;
+}

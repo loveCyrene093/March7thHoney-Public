@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ELEOGABGBKG.proto";
+import "GridGameTraitInfo.proto";
+
+message GridFightGameTraitInfo {
+    repeated GridGameTraitInfo grid_fight_trait_info = 5;
+    repeated ELEOGABGBKG ALIDDLBDPDH = 13;
+}

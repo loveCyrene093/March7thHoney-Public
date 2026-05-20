@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleGridFightTraitCoreRoleInfo.proto";
+import "BattleGridFigntAvatarCoreRoleInfo.proto";
+import "DFJGPODAKAM.proto";
+import "GridFightTraitEffectLevelInfo.proto";
+
+message BattleGridFightTraitEffectInfo {
+    uint32 effect_id = 1;
+    oneof HDACCIEIJFO {
+        BattleGridFightTraitCoreRoleInfo trait_core_role = 101;
+        BattleGridFigntAvatarCoreRoleInfo avatar_core_info = 102;
+        GridFightTraitEffectLevelInfo trait_effect_level_info = 103;
+        DFJGPODAKAM HAINJKLLLKF = 104;
+    }
+}

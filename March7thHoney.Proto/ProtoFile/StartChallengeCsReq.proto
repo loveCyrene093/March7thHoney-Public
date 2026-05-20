@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeBuffInfo.proto";
+import "EEBPHJCNBFO.proto";
+
+message StartChallengeCsReq {
+    repeated EEBPHJCNBFO ABNDFKFIKCI = 2;
+    uint32 challenge_id = 5;
+    ChallengeBuffInfo stage_info = 8;
+    repeated uint32 second_lineup = 10;
+    repeated uint32 first_lineup = 11;
+    repeated EEBPHJCNBFO BKNKLEOCJNO = 13;
+}

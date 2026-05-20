@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AlleyPlacingShip.proto";
+
+message ActivityRaidPlacingGameCsReq {
+    AlleyPlacingShip FCDCFAMOHAE = 11;
+    oneof DLOMKFLEEIC {
+        uint32 MFMHHAPPPJJ = 1;
+        uint32 OBPNDKPPFGG = 12;
+    }
+}

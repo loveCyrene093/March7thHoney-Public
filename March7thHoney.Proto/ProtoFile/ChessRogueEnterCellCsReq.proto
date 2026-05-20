@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ChessRogueEnterCellCsReq {
+    uint32 EIIAGABAFEC = 9;
+    uint32 JNLNMHOOEKL = 15;
+}

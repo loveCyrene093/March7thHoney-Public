@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IMMMNLEAIBH.proto";
+import "JIPACDEJKJC.proto";
+
+message AGLNDMMGFML {
+    JIPACDEJKJC DIHECIIKELE = 6;
+    IMMMNLEAIBH FHPMEPJNBBF = 14;
+}

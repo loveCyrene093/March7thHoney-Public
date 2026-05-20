@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightTraitTrackSyncInfo {
+    bool is_sync = 12;
+    repeated uint32 track_trait_id_list = 14;
+}

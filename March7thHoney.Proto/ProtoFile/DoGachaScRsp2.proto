@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GMKCFCGMJKI.proto";
+import "OJCKLCKHPLM.proto";
+
+message DoGachaScRsp2 {
+    repeated GMKCFCGMJKI JKAMHIKIBEJ = 1;
+    repeated OJCKLCKHPLM PKNILEKKIPL = 12;
+    uint32 BEDLMDHNMBJ = 14;
+    uint32 retcode = 15;
+}

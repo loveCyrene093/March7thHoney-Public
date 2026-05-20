@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum NKGNOOMGBIM {
+    NKGNOOMGBIM_ECHPONHAMCN = 0;
+    NKGNOOMGBIM_ECHEKPMLGDM = 1;
+    NKGNOOMGBIM_PJKKBFFCEHF = 2;
+    NKGNOOMGBIM_PDEAKHAKKCD = 3;
+    NKGNOOMGBIM_DAKLBGKEHAL = 4;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CGHJPDIDOBI.proto";
+
+message FEDEIOIJJJC {
+    map<uint32, uint32> PJCIONEPINE = 3;
+    repeated uint32 EDMBIKHBICG = 4;
+    map<uint32, CGHJPDIDOBI> KPNEPNELPNH = 6;
+    repeated uint32 NLBKDNKGBCK = 8;
+    uint32 CEIMNDJFDJD = 12;
+    repeated uint32 EFJLGEAAHEK = 14;
+    repeated uint32 ELGFFACNECK = 15;
+}

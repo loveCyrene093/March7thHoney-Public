@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetAetherDivideChallengeInfoScRsp {
+    repeated uint32 HPMHFDGMGGH = 2;
+    repeated uint32 JAGHEMPBMLD = 10;
+    uint32 KAGCEADCKFJ = 13;
+    uint32 retcode = 14;
+}

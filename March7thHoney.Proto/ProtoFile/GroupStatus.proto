@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MessageGroupStatus.proto";
+
+message GroupStatus {
+    MessageGroupStatus group_status = 3;
+    uint32 group_id = 5;
+    int64 refresh_time = 9;
+}

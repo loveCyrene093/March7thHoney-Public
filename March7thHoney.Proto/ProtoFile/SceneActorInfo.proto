@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarType.proto";
+
+message SceneActorInfo {
+    uint32 map_layer = 4;
+    uint32 uid = 7;
+    uint32 base_avatar_id = 14;
+    AvatarType avatar_type = 15;
+}

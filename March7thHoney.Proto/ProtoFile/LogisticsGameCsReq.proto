@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CCBKGJGNDCL.proto";
+
+message LogisticsGameCsReq {
+    bool CLPNBFOKJLJ = 1;
+    repeated CCBKGJGNDCL KDKBNMEJLFP = 8;
+}

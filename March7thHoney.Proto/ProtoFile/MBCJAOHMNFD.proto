@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MBCJAOHMNFD {
+    bool has_passed = 1;
+    uint32 event_id = 2;
+    uint32 HAAAPFLGNBM = 4;
+    uint32 BIMKHABLGMC = 10;
+    uint32 LIFNGFJDEFD = 14;
+}

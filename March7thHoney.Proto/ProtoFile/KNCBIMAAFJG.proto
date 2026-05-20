@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JCGBNPKJKHB.proto";
+
+message KNCBIMAAFJG {
+    uint32 unique_id = 1;
+    uint32 BHJPDMJDJMN = 5;
+    uint32 DDGEOOLHAPG = 7;
+    int32 CJAKEBNPGFA = 9;
+    int32 CCNJKIAOMFF = 12;
+    uint32 exp = 13;
+    JCGBNPKJKHB equipment_goods_info = 14;
+}

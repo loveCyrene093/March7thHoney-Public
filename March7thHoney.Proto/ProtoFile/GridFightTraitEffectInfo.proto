@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DLIEFGKALNB.proto";
+import "HKOMEFBODGP.proto";
+
+message GridFightTraitEffectInfo {
+    uint32 effect_id = 11;
+    oneof HDACCIEIJFO {
+        HKOMEFBODGP HAINJKLLLKF = 110;
+        uint32 EHCJJMABEOM = 157;
+        DLIEFGKALNB avatar_core_info = 768;
+        uint32 trait_core_role = 1094;
+    }
+}

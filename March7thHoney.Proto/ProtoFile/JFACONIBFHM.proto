@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OEGICCFGHJE.proto";
+
+message JFACONIBFHM {
+    repeated uint32 grid_fight_trait_info = 5;
+    repeated OEGICCFGHJE EONENLLBGEN = 12;
+}

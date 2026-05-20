@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleMonster.proto";
+import "BattleMonsterParam.proto";
+
+message BattleMonsterWave {
+    repeated BattleMonster monster_list = 1;
+    BattleMonsterParam monster_param = 2;
+    uint32 battle_stage_id = 3;
+    uint32 battle_wave_id = 4;
+}

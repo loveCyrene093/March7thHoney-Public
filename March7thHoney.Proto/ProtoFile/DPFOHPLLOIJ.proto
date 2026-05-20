@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FDCENFPKJMO.proto";
+
+message DPFOHPLLOIJ {
+    uint32 queue_position = 2;
+    FDCENFPKJMO JPPGFLJHDHK = 13;
+}

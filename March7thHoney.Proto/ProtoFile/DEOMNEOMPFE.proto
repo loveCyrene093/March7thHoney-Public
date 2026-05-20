@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DEOMNEOMPFE {
+    uint32 NJKEOGNHENK = 4;
+    uint32 level = 5;
+    bool is_perfect = 8;
+    uint32 ILHDBHMAAMO = 12;
+}

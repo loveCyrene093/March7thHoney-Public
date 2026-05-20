@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DDKHEFEBFAJ {
+    DDKHEFEBFAJ_PCPDHELPKEM = 0;
+    DDKHEFEBFAJ_JLEILOGLJNJ = 1;
+    DDKHEFEBFAJ_EHHHBIGBKPE = 2;
+    DDKHEFEBFAJ_LJMEEKHOEEF = 3;
+    DDKHEFEBFAJ_HFOAFIOFHFO = 4;
+    DDKHEFEBFAJ_HBIKPPKANCH = 5;
+}

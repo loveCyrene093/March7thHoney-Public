@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OBOKDHDOKAD {
+    uint32 CEKCLDPNFEA = 1;
+    repeated uint32 GECPCNOMFFG = 2;
+    repeated uint32 JCHFMDEPBMK = 3;
+    repeated uint32 NPBKMKIPKOH = 4;
+    repeated uint32 CBPBCDPJOKO = 5;
+    repeated uint32 IIOBBODPCKN = 6;
+    bool ELBALPJIPNK = 7;
+    uint32 JNBMENGEDFC = 8;
+    repeated uint32 BCCFDCELEKI = 9;
+    repeated uint32 FKDOIKIMHAO = 10;
+    repeated uint32 NCKJEPIODAD = 11;
+}

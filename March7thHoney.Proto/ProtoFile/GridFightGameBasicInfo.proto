@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightLockInfo.proto";
+import "GridFightLockType.proto";
+import "GridFightSyncCurrentTaskInfo.proto";
+import "RoleTrackEquipmentInfo.proto";
+
+message GridFightGameBasicInfo {
+    uint32 grid_fight_lineup_max_hp = 1;
+    GridFightLockType lock_type = 2;
+    uint32 FLEJPPKLJIC = 3;
+    uint32 gold = 4;
+    uint32 HAEOPKELNEO = 5;
+    uint32 grid_fight_max_avatar_count = 6;
+    uint32 grid_fight_cur_level_exp = 7;
+    repeated uint32 track_trait_id_list = 8;
+    uint32 grid_fight_buy_exp_cost = 9;
+    repeated RoleTrackEquipmentInfo role_track_equipment_list = 10;
+    uint32 grid_fight_max_interest_gold = 11;
+    uint32 grid_fight_lineup_hp = 12;
+    uint32 ANBBPPHBCJH = 13;
+    uint32 grid_fight_combo_win_num = 14;
+    uint32 grid_fight_off_field_max_count = 15;
+    GridFightLockInfo game_lock_info = 292;
+    string grid_fight_target_guide_code = 334;
+    GridFightSyncCurrentTaskInfo grid_fight_sync_curtask_info = 542;
+    repeated uint32 tutorial_unlock_id_list = 1741;
+}

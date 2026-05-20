@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KNHKBHADJGE.proto";
+
+message AetherDivideSpiritInfoScNotify {
+    KNHKBHADJGE HKOHIHCBGAA = 7;
+    uint32 FIKLLOCJBGN = 9;
+    repeated KNHKBHADJGE PBEEJNPMHOF = 12;
+}

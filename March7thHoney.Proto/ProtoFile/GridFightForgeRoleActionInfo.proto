@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightForgeRoleInfo.proto";
+
+message GridFightForgeRoleActionInfo {
+    repeated GridFightForgeRoleInfo forge_goods_list = 1;
+    uint32 forge_item_id = 9;
+}

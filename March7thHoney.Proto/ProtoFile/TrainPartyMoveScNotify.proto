@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ANBOFKHHDNE.proto";
+
+message TrainPartyMoveScNotify {
+    repeated ANBOFKHHDNE HACAPEDIPAB = 2;
+    uint32 DGBNFMAEMKM = 14;
+}

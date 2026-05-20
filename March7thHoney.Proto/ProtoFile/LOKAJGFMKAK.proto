@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LOKAJGFMKAK {
+    string IHJGLGCLANM = 2;
+    string ip = 6;
+    uint32 retcode = 7;
+    uint64 EIFFDNNBGMC = 9;
+    uint32 port = 14;
+}

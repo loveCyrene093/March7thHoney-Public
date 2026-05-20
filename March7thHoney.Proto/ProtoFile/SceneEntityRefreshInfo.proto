@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneEntityInfo.proto";
+
+message SceneEntityRefreshInfo {
+    oneof refresh_type {
+        uint32 HBIEDAJFELO = 4;
+        uint32 delete_entity = 12;
+        SceneEntityInfo add_entity = 14;
+    }
+}

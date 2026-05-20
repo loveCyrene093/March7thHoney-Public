@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ONJIOJDEECD {
+    uint32 level = 9;
+    uint32 queue_position = 11;
+    uint32 JODGDFEEHOP = 13;
+}

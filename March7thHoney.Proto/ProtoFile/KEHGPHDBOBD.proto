@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message KEHGPHDBOBD {
+    uint32 EIIAGABAFEC = 2;
+    ItemList AIGLOBFPEAB = 6;
+    uint32 JAFNCOMGABG = 15;
+}

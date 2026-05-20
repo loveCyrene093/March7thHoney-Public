@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HFHMIKIFLPO {
+    uint32 avatar_id = 3;
+    uint32 level = 12;
+    uint32 role_star = 13;
+    uint32 JLHPIMJPDLO = 14;
+}

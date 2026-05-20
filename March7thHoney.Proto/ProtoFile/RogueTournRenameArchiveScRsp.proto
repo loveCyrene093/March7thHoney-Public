@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RogueTournRenameArchiveScRsp {
+    uint32 KKGIEENCOIC = 5;
+    string name = 7;
+    uint32 retcode = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ClockParkPlayStatus {
+    FOGFBPODIDN_ECFAOMLDDGL = 0;
+    FOGFBPODIDN_NLJJDPFDDNG = 1;
+    FOGFBPODIDN_CPKIKJBGOLB = 2;
+    FOGFBPODIDN_CCIHCBAGIMH = 5;
+}

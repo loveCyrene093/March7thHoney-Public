@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightHandBookInfo.proto";
+import "GridFightTalentInfo.proto";
+import "JIBAKJGOPJM.proto";
+
+message GridFightStaticGameInfo {
+    JIBAKJGOPJM exp = 2;
+    uint32 EDIGFNFPBKA = 3;
+    uint32 grid_fight_combo_win_num = 6;
+    GridFightHandBookInfo EJCFDAABLOC = 8;
+    uint32 CKFIACKHNAE = 9;
+    uint32 division_id = 11;
+    GridFightTalentInfo OJLAODIALLE = 13;
+    uint32 CALIMAKGGHJ = 15;
+}

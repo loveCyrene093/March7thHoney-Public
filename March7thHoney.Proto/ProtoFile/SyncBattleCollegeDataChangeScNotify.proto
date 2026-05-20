@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message SyncBattleCollegeDataChangeScNotify {
+    ItemList reward = 4;
+    uint32 LCDALEEEDJJ = 5;
+    repeated uint32 finished_college_id_list = 7;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MJMPDGNFIKN.proto";
+
+message MatchThreeGetDataDataScRsp {
+    uint32 retcode = 12;
+    MJMPDGNFIKN DCFGOFNBLCM = 13;
+}

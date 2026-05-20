@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PileItem.proto";
+
+message DPBEGBNICPG {
+    PileItem CFEHPHAJIOD = 5;
+    repeated PileItem HKIBJPFKLLO = 14;
+}

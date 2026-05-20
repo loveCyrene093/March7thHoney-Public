@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HAMEJPGCIJI {
+    uint32 HFLIAJCNJPL = 2;
+    uint32 GHBNOAMOAND = 3;
+    uint32 total_damage = 6;
+    uint32 total_auto_turns = 7;
+    uint32 cost_time = 10;
+    uint32 total_turns = 12;
+}

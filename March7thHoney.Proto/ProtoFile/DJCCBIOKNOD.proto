@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "NHDKLMIMLKC.proto";
+
+message DJCCBIOKNOD {
+    repeated uint32 BLKACGBDAHB = 1;
+    ItemList reward = 7;
+    uint32 retcode = 8;
+    NHDKLMIMLKC IMNOJIDJBNG = 12;
+}

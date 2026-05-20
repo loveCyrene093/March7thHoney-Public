@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BFPIBIEGJGJ.proto";
+import "ItemList.proto";
+
+message GPPGPMEDJEF {
+    repeated uint32 JFJPDEPOFMO = 1;
+    BFPIBIEGJGJ KGEBJNHOLCN = 2;
+    ItemList FNLDFGLGEOA = 8;
+}

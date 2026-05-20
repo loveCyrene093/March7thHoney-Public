@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OOMINGEFPAF.proto";
+
+message GiveUpBoxingClubChallengeScRsp {
+    OOMINGEFPAF OPCGNJMGJDE = 6;
+    uint32 retcode = 12;
+}

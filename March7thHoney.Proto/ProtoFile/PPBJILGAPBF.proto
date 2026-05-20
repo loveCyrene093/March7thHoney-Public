@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Vector.proto";
+
+message PPBJILGAPBF {
+    repeated uint32 assist_monster_entity_id_list = 6;
+    Vector GGDPAAJFMJB = 15;
+}

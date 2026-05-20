@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FHCCCHJHHKL.proto";
+import "GHJIFOHJOEM.proto";
+import "LEHNHDLEMHL.proto";
+import "LHEDJAIOHOE.proto";
+
+message GetDataScRsp {
+    uint32 retcode = 1;
+    uint32 BMGAKKNAKFD = 2;
+    uint32 NJDBIEMAOAA = 3;
+    repeated uint32 GCENJMPLHMC = 4;
+    uint32 PKHBAMILIOI = 5;
+    GHJIFOHJOEM LEGMOJLDECH = 6;
+    repeated LHEDJAIOHOE HMABMKKKHNB = 7;
+    uint32 BBOJLIEALDB = 8;
+    uint32 HFJJJKEBMEP = 9;
+    uint32 BCLLCBDEPEP = 10;
+    FHCCCHJHHKL lineup = 11;
+    uint32 JIICJOKLNLG = 13;
+    uint32 FHHMACHPMGA = 14;
+    repeated LEHNHDLEMHL IJGALCOFLLA = 15;
+    uint32 ACJJCPCPFDN = 596;
+    uint32 NKBDDIDFPNE = 639;
+    uint32 NCBPOOCCCAN = 927;
+    uint32 PBAFFLDBALE = 1347;
+}

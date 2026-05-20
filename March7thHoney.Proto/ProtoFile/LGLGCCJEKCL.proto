@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LGLGCCJEKCL {
+    float KHDLMPAKEGF = 7;
+    bool NIKEEDLJHPD = 8;
+    uint32 arg_id = 11;
+    int32 BGJKBPNCNLE = 12;
+    uint32 rogue_dialogue_event_id = 13;
+}

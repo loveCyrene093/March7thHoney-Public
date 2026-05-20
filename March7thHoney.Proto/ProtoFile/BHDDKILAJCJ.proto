@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BAFDFBJHLGK.proto";
+import "BNAEFBKJOGE.proto";
+import "BattleEventBattleInfo.proto";
+import "BattleModuleType.proto";
+import "BattleOp.proto";
+import "JILAPGBHFJI.proto";
+import "LBMPELPKFHH.proto";
+import "MCKLCDAOECD.proto";
+
+message BHDDKILAJCJ {
+    uint32 version = 1;
+    uint32 logic_random_seed = 2;
+    uint32 stage_id = 3;
+    BNAEFBKJOGE lineup = 4;
+    repeated BattleOp op_list = 5;
+    bytes turn_snapshot_hash = 6;
+    uint32 KKPEEKMDJNE = 7;
+    repeated uint32 EHGEMEIKJBH = 8;
+    bool ABAIAEMNEOA = 9;
+    JILAPGBHFJI GMOAOGGMCPD = 10;
+    BattleModuleType KIOBEGHMGAE = 11;
+    repeated BattleEventBattleInfo battle_event = 12;
+    uint32 rounds_limit = 14;
+    MCKLCDAOECD ODLBOKHDANL = 15;
+    bytes PLIAFNPANGN = 16;
+    uint32 ENECPEOGEKG = 17;
+    uint32 monster_wave_length = 18;
+    BAFDFBJHLGK PJPFIIGBIAH = 19;
+    LBMPELPKFHH DGEMJCAEOJI = 100;
+}

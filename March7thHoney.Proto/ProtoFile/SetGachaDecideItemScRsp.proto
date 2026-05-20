@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OEIEJHBCOOM.proto";
+
+message SetGachaDecideItemScRsp {
+    uint32 retcode = 2;
+    OEIEJHBCOOM LECPJJAMNPF = 8;
+}

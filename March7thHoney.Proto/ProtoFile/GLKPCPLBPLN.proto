@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OLJJJBCKLDK.proto";
+
+message GLKPCPLBPLN {
+    uint32 retcode = 2;
+    OLJJJBCKLDK AGFPFODPOFA = 12;
+    bool DAIKNKALKCM = 14;
+}

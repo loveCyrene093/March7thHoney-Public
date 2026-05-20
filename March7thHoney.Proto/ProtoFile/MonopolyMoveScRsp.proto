@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AAHBECICOEN.proto";
+import "IMDPAIOOHMF.proto";
+
+message MonopolyMoveScRsp {
+    repeated AAHBECICOEN LKOIHHMBHOF = 11;
+    uint32 retcode = 12;
+    IMDPAIOOHMF AMMJECHPGPE = 15;
+}

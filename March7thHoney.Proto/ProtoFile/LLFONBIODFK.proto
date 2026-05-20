@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IAMALMLBOEI.proto";
+import "IFLOGJBONHI.proto";
+import "MLOFJFBHGLG.proto";
+
+message LLFONBIODFK {
+    repeated IAMALMLBOEI ICHMKFMAIBB = 1;
+    MLOFJFBHGLG BICBJMPAAAN = 2;
+    bool OMFKIFADFOC = 3;
+    repeated IFLOGJBONHI JMIKPCPIFCD = 5;
+    uint32 damage = 6;
+    uint32 BEEMJECDMGB = 7;
+    uint32 LNOPKMMELCC = 9;
+    uint32 IHONDJOAPBM = 11;
+    uint64 JKPGACLKEEC = 13;
+    uint32 IIAJPADOLMC = 14;
+    bool BIODAJLLINO = 15;
+}

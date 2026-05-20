@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AHPCJPMMEMN {
+    uint32 item_id = 6;
+    uint32 slot = 15;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PCAOLJLFPBA {
+    uint32 LLHJAGGEGOK = 1;
+    uint32 PNCNGMFBAND = 2;
+    uint32 DDGEOOLHAPG = 4;
+    uint32 ELEBGNHEIML = 6;
+    int32 hp = 7;
+    uint32 MLLGEOINJOG = 10;
+    uint32 index = 11;
+    int32 attack = 14;
+}

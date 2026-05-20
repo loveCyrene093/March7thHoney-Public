@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IdleLiveUpgradeSlotCsReq {
+    uint32 JNGHMOPEKJO = 12;
+    uint32 level = 13;
+}

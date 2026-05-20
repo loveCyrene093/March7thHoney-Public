@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MCACDFHCPIE.proto";
+
+message HCGEGGGLOFI {
+    MCACDFHCPIE NJONKANPJLO = 1;
+    uint32 MPGDJOGHKBH = 4;
+}

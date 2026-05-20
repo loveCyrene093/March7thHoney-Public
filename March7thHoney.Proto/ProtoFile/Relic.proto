@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RelicAffix.proto";
+
+message Relic {
+    repeated RelicAffix reforge_sub_affix_list = 1;
+    bool is_discarded = 2;
+    repeated RelicAffix sub_affix_list = 3;
+    repeated RelicAffix EBEOECJMBKN = 4;
+    uint32 dress_avatar_id = 5;
+    bool is_protected = 6;
+    uint32 level = 7;
+    uint32 tid = 8;
+    uint32 main_affix_id = 9;
+    uint32 unique_id = 10;
+    uint32 reforge_block_sub_affix_id = 12;
+    uint32 exp = 13;
+}

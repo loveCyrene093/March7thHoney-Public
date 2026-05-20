@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleEventProperty.proto";
+import "PLDMGGBPHPB.proto";
+
+message BattleEventBattleInfo {
+    uint32 battle_event_id = 1;
+    BattleEventProperty status = 2;
+    repeated PLDMGGBPHPB skill_info = 3;
+}

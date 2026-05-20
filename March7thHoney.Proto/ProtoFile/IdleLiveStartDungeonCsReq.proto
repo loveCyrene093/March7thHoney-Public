@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+
+message IdleLiveStartDungeonCsReq {
+    repeated GKDEKJKOIJN CPOMNGJDBCL = 3;
+    repeated uint32 CPMGHJFAIAB = 9;
+    repeated GKDEKJKOIJN OICEJIMEONG = 14;
+    uint32 target_side = 15;
+}

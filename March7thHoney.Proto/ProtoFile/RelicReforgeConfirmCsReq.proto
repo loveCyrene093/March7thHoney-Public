@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RelicReforgeConfirmCsReq {
+    bool is_cancel = 9;
+    uint32 relic_unique_id = 11;
+}

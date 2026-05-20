@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MPDHIFKGDCL {
+    uint32 IEMPGPCNAAH = 1;
+    uint32 progress = 6;
+    uint32 KBKLMLKDNMP = 9;
+    bool has_passed = 13;
+}

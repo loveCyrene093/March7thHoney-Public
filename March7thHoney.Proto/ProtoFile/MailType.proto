@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum MailType {
+    MAIL_TYPE_NORMAL = 0;
+    MAIL_TYPE_STAR = 1;
+}

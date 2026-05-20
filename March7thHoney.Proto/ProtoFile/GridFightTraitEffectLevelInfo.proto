@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightDropInfo.proto";
+
+message GridFightTraitEffectLevelInfo {
+    uint32 trait_effect_level_exp = 1;
+    map<uint32, GridFightDropInfo> trait_effect_level_reward = 2;
+}

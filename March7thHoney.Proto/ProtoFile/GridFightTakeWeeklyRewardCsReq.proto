@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightTakeWeeklyRewardCsReq {
+    repeated uint32 grid_fight_score_rank_list = 4;
+}

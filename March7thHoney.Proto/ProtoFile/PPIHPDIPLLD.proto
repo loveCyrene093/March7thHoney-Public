@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PPIHPDIPLLD {
+    repeated uint32 FOEKDMEALKF = 8;
+    uint32 game_story_line_id = 11;
+}

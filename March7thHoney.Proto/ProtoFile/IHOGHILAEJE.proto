@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IHOGHILAEJE {
+    uint32 NMPGNKINPLL = 7;
+    repeated uint32 IGHNAEDJBAG = 11;
+}

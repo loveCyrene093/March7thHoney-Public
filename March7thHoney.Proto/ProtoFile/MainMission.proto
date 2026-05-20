@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MissionCustomValue.proto";
+import "MissionStatus.proto";
+
+message MainMission {
+    uint32 id = 2;
+    MissionStatus status = 5;
+    repeated MissionCustomValue custom_value_list = 12;
+}

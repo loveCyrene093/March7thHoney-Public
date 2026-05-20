@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+import "PHMBJKMKMDK.proto";
+
+message GetRogueShopBuffInfoScRsp {
+    int32 CAFBAKFBNIN = 3;
+    ItemCostData AKOCOALDEHC = 4;
+    uint32 retcode = 6;
+    int32 NEDPNFDHIGF = 11;
+    PHMBJKMKMDK HKGKNEKKJHB = 14;
+}

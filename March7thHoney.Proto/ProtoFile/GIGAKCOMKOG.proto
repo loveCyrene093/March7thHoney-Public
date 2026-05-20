@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PBKPPEAPBOM.proto";
+
+message GIGAKCOMKOG {
+    uint32 rank = 1;
+    PBKPPEAPBOM state = 9;
+    uint32 JKPGACLKEEC = 11;
+    uint32 score_id = 12;
+}

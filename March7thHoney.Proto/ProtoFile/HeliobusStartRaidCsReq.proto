@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HeliobusStartRaidCsReq {
+    uint32 raid_id = 6;
+    uint32 prop_entity_id = 9;
+    bool is_save = 11;
+    uint32 skill_id = 13;
+    uint32 PKBAEBDHFDL = 14;
+    repeated uint32 avatar_list = 15;
+}

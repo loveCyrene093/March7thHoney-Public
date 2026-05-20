@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OMJLLILGAEP.proto";
+
+message KNGLMKEJBAB {
+    int32 MGNHPGHMADG = 1;
+    uint32 config_id = 4;
+    OMJLLILGAEP NDAECAPOPAI = 6;
+    OMJLLILGAEP JHPHHBJIICK = 7;
+    int32 NOJEAOJHDAL = 8;
+    uint32 interact_id = 9;
+    uint32 JBGBALEFMHH = 10;
+    uint32 IILMEIAMDNC = 11;
+    int32 PCKJPEEGDGB = 14;
+}

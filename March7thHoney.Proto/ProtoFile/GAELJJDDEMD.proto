@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GAELJJDDEMD {
+    uint32 event_id = 2;
+    uint32 retcode = 10;
+    uint32 display_value = 13;
+}

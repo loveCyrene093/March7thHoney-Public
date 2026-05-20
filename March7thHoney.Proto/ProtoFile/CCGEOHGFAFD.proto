@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CCGEOHGFAFD {
+    uint32 unique_id = 1;
+    uint32 JCMFPHMFAON = 2;
+    uint32 pos = 3;
+}

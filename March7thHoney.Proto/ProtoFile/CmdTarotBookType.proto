@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTarotBookType {
+    OELKCGADJBG_PCPDHELPKEM = 0;
+    CmdTarotBookFinishInteractionCsReq = 8159;
+    CmdTarotBookModifyEnergyScNotify = 8147;
+    CmdTarotBookSyncDataScNotify = 8143;
+    CmdTarotBookFinishStoryCsReq = 8154;
+    CmdTarotBookUnlockInteractionCsReq = 8158;
+    CmdTarotBookFinishStoryScRsp = 8157;
+    CmdTarotBookGetDataCsReq = 8141;
+    CmdTarotBookMultiOpenPackAndUnlockStoryCsReq = 8149;
+    CmdTarotBookGetDataScRsp = 8160;
+    CmdTarotBookOpenPackCsReq = 8142;
+    CmdTarotBookOpenPackScRsp = 8150;
+    CmdTarotBookUnlockStoryScRsp = 8148;
+    CmdTarotBookMultiOpenPackAndUnlockStoryScRsp = 8153;
+    CmdTarotBookFinishInteractionScRsp = 8151;
+    CmdTarotBookUnlockInteractionScRsp = 8144;
+    CmdTarotBookUnlockStoryCsReq = 8155;
+}

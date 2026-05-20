@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "StrongChallengeAvatar.proto";
+
+message JANNOEMCKOI {
+    repeated uint32 buff_list = 1;
+    repeated StrongChallengeAvatar avatar_list = 14;
+}

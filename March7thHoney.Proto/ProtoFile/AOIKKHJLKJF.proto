@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APBOFCPJCAF.proto";
+import "BEPLPKEFEED.proto";
+import "NEJMKCOKHOF.proto";
+import "RogueTournLevelStatus.proto";
+
+message AOIKKHJLKJF {
+    bool KBJAHFLOOIJ = 3;
+    uint32 APMIAKDPHJL = 4;
+    BEPLPKEFEED reason = 6;
+    bool PNNKFBILIEH = 9;
+    NEJMKCOKHOF ELIGJDHJEAC = 10;
+    repeated APBOFCPJCAF FHLJEHDHJLI = 12;
+    RogueTournLevelStatus status = 13;
+}

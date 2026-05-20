@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EPLIGJEGEMJ {
+    uint32 key = 10;
+    double damage = 14;
+}

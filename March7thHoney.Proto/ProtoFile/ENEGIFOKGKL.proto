@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IJKNDKJLMEN.proto";
+
+message ENEGIFOKGKL {
+    uint32 HEIONPDIFNM = 1;
+    uint32 map_id = 2;
+    uint32 area_id = 3;
+    repeated IJKNDKJLMEN HFDIFFBCOGJ = 6;
+    uint32 IGECGPFLGBA = 14;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightEquipCraftSource.proto";
+
+message GridFightEquipCraftCsReq {
+    repeated uint32 craft_materials = 4;
+    uint32 BGEKACPOAOP = 7;
+    GridFightEquipCraftSource source = 8;
+    uint32 EGLOACDPNLD = 12;
+}

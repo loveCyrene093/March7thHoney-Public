@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetStoryLineInfoScRsp {
+    repeated uint32 unfinished_story_line_id_list = 6;
+    uint32 retcode = 7;
+    repeated uint32 trial_avatar_id_list = 8;
+    uint32 cur_story_line_id = 12;
+}

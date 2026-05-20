@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ServerPrefs.proto";
+
+message UpdateServerPrefsDataCsReq {
+    ServerPrefs server_prefs = 13;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DisplayAvatarData.proto";
+
+message SetDisplayAvatarScRsp {
+    uint32 retcode = 1;
+    repeated DisplayAvatarData display_avatar_list = 7;
+}

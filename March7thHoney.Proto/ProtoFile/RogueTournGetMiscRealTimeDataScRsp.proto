@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CFOIFABCGAE.proto";
+import "ENEHKONPJNA.proto";
+import "KKMPEHIFMNC.proto";
+import "NAKPLIGJELP.proto";
+import "OKBFGNELFMG.proto";
+
+message RogueTournGetMiscRealTimeDataScRsp {
+    CFOIFABCGAE LOIIMDAEMIO = 6;
+    KKMPEHIFMNC NOCNEOMKFIO = 7;
+    ENEHKONPJNA PBDGFDJHIIC = 8;
+    uint32 retcode = 9;
+    OKBFGNELFMG KOCGKEAFLCB = 12;
+    NAKPLIGJELP AAPIPKPJEFM = 13;
+}

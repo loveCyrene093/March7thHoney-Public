@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum MPKJECNGFPF {
+    MPKJECNGFPF_GKJGMDAOKGN = 0;
+    MPKJECNGFPF_MDEECHOMMIJ = 1;
+    MPKJECNGFPF_IPOFFENEFNH = 2;
+    MPKJECNGFPF_CKJAJOHANMC = 3;
+    MPKJECNGFPF_DJIJIKKIJMH = 4;
+}

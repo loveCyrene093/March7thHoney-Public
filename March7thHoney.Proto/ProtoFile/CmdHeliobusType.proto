@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdHeliobusType {
+    MJNBDODPDOG_PCPDHELPKEM = 0;
+    CmdHeliobusSnsReadScRsp = 5895;
+    CmdHeliobusSnsPostCsReq = 5814;
+    CmdHeliobusEnterBattleCsReq = 5861;
+    CmdHeliobusSnsCommentCsReq = 5863;
+    CmdHeliobusSnsLikeCsReq = 5809;
+    MJNBDODPDOG_GFHGNNHOIKJ = 5838;
+    CmdHeliobusUnlockSkillScNotify = 5804;
+    CmdHeliobusSnsLikeScRsp = 5898;
+    CmdHeliobusInfoChangedScNotify = 5801;
+    CmdHeliobusSnsPostScRsp = 5818;
+    CmdHeliobusActivityDataScRsp = 5810;
+    CmdHeliobusSnsReadCsReq = 5894;
+    CmdHeliobusActivityDataCsReq = 5891;
+    CmdHeliobusSnsUpdateScNotify = 5839;
+    CmdHeliobusEnterBattleScRsp = 5807;
+    CmdHeliobusLineupUpdateScNotify = 5889;
+    CmdHeliobusChallengeUpdateScNotify = 5900;
+    CmdHeliobusUpgradeLevelCsReq = 5874;
+    CmdHeliobusStartRaidScRsp = 5844;
+    CmdHeliobusUpgradeLevelScRsp = 5837;
+    CmdHeliobusStartRaidCsReq = 5858;
+    CmdHeliobusSnsCommentScRsp = 5826;
+    CmdHeliobusSelectSkillScRsp = 5872;
+}

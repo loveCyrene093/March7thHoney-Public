@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CACLDCAFCKH.proto";
+import "DHGPCPMIFDC.proto";
+
+message GetChessRogueNousStoryInfoScRsp {
+    repeated CACLDCAFCKH OLHNBEPHHFG = 10;
+    repeated DHGPCPMIFDC DOKHDOGAPKD = 11;
+    uint32 retcode = 12;
+}

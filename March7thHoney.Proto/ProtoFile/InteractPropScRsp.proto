@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message InteractPropScRsp {
+    uint32 prop_state = 5;
+    uint32 prop_entity_id = 11;
+    uint32 retcode = 13;
+}

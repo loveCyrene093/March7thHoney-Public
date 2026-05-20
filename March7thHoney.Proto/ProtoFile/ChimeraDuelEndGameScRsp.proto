@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HOBCIOKKNKH.proto";
+
+message ChimeraDuelEndGameScRsp {
+    uint32 retcode = 3;
+    HOBCIOKKNKH CKIMOELPOAB = 8;
+}

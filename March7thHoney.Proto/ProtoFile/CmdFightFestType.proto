@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdFightFestType {
+    EIMOOOILMKC_PCPDHELPKEM = 0;
+    CmdFightFestUnlockSkillNotify = 7288;
+    CmdStartFightFestScRsp = 7277;
+    CmdFightFestUpdateChallengeRecordNotify = 7255;
+    CmdFightFestScoreUpdateNotify = 7285;
+    CmdFightFestUpdateCoinNotify = 7251;
+    CmdStartFightFestCsReq = 7280;
+    CmdGetFightFestDataCsReq = 7263;
+    CmdGetFightFestDataScRsp = 7257;
+}

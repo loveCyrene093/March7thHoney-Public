@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KEBHKHCALBO.proto";
+import "OFLEELGMBIO.proto";
+
+message UpdatePlayWithPsnOnlySettingCsReq {
+    oneof HNIKGLBIMMI {
+        KEBHKHCALBO AGJCGOHEGPL = 786;
+        OFLEELGMBIO KNOEKHPLAAN = 931;
+    }
+}

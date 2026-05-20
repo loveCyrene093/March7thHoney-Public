@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LLKEGAOLGGF.proto";
+import "LMBHDCFPPLL.proto";
+
+message GetSwordTrainingDataScRsp {
+    repeated uint32 FHNPAPAMNNE = 3;
+    uint32 retcode = 6;
+    repeated uint32 FOEKDMEALKF = 7;
+    repeated uint32 HEEHPMLAHPK = 9;
+    bool KEAFLGNLKBO = 10;
+    LMBHDCFPPLL BMKAEFAKNFJ = 12;
+    uint32 GCJFLELINJO = 13;
+    LLKEGAOLGGF FCAPBPHLNCJ = 14;
+}

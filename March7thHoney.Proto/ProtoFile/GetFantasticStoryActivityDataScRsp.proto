@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FEDEIOIJJJC.proto";
+
+message GetFantasticStoryActivityDataScRsp {
+    FEDEIOIJJJC ONAJJGCJOHA = 4;
+    uint32 retcode = 5;
+}

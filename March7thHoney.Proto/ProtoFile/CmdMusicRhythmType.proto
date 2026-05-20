@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMusicRhythmType {
+    NEMEAFLEOHK_PCPDHELPKEM = 0;
+    CmdMusicRhythmDataScRsp = 7588;
+    CmdMusicRhythmStartLevelScRsp = 7589;
+    CmdMusicRhythmFinishLevelScRsp = 7571;
+    CmdMusicRhythmUnlockSongSfxScNotify = 7595;
+    CmdMusicRhythmFinishLevelCsReq = 7573;
+    CmdMusicRhythmStartLevelCsReq = 7574;
+    CmdMusicRhythmUnlockTrackScNotify = 7578;
+    CmdMusicRhythmSaveSongConfigDataCsReq = 7594;
+    CmdMusicRhythmSaveSongConfigDataScRsp = 7600;
+    CmdMusicRhythmDataCsReq = 7572;
+    CmdHDCOOFAHMHJ = 7597;
+    CmdDMEJHILMKAH = 7585;
+}

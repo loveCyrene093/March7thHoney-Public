@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GCDILNNEKNK.proto";
+
+message BOHKJAPOIKO {
+    repeated GCDILNNEKNK area_list = 7;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AetherAvatarInfo.proto";
+import "BattleBuff.proto";
+import "SceneMonsterWave.proto";
+
+message AetherDivideBattleInfo {
+    uint32 stage_id = 1;
+    repeated BattleBuff buff_list = 2;
+    repeated AetherAvatarInfo battle_avatar_list = 5;
+    bool EODHMOBOENG = 6;
+    uint32 logic_random_seed = 7;
+    repeated SceneMonsterWave monster_wave_list = 11;
+    uint32 battle_id = 15;
+}

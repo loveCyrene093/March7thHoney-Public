@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ADHNJADIJAC.proto";
+import "FightGameMode.proto";
+import "PBICJCPDLGD.proto";
+
+message LobbyCreateScRsp {
+    uint32 CHEODMKAHJM = 1;
+    PBICJCPDLGD POFOCMIHJIA = 5;
+    FightGameMode PLOBMBFPNFK = 6;
+    uint64 room_id = 7;
+    uint32 retcode = 9;
+    repeated ADHNJADIJAC BIEBFHECEPM = 14;
+}

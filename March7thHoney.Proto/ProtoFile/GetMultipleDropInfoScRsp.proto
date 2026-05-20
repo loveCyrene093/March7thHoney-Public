@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AEOEFOILEBP.proto";
+import "DMINLLDNNDL.proto";
+
+message GetMultipleDropInfoScRsp {
+    repeated AEOEFOILEBP JNGHGLMBPOH = 2;
+    uint32 retcode = 3;
+    repeated DMINLLDNNDL DFEOOEHFAAC = 4;
+}

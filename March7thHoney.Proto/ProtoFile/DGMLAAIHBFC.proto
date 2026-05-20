@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HMEDBGAMMPN.proto";
+import "IHGBDAGHDME.proto";
+
+message DGMLAAIHBFC {
+    repeated IHGBDAGHDME MPIILLMLPJN = 1;
+    map<uint32, HMEDBGAMMPN> IIHADPGEAJB = 2;
+    HMEDBGAMMPN DNOPHJFKKHC = 9;
+    HMEDBGAMMPN IPFPDJNFMMN = 13;
+    uint32 NEEFACJBKPN = 15;
+}

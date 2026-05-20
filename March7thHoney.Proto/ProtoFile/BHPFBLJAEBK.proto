@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message BHPFBLJAEBK {
+    uint32 retcode = 13;
+    ItemCostData KBEFKONPKGJ = 14;
+}

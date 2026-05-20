@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OOLHNFNKOHN.proto";
+
+message OpenHipplenCycleScRsp {
+    uint32 retcode = 1;
+    OOLHNFNKOHN ACJHGLGHEAH = 3;
+    uint32 IPOEIGADLJN = 9;
+}

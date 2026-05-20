@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message CakeRaceLoanScRsp {
+    uint32 MFJGHLDFJPI = 6;
+    uint32 retcode = 10;
+    ItemList item_list = 12;
+}

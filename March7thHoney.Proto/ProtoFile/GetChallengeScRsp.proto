@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Challenge.proto";
+import "ChallengeGroup.proto";
+import "ChallengeHistoryMaxLevel.proto";
+
+message GetChallengeScRsp {
+    uint32 MHAPIHCJPJM = 1;
+    repeated Challenge challenge_list = 4;
+    repeated ChallengeGroup challenge_group_list = 8;
+    uint32 retcode = 11;
+    repeated ChallengeHistoryMaxLevel max_level_list = 12;
+}

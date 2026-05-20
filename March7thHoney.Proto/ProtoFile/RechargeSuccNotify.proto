@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message RechargeSuccNotify {
+    string price_tier = 3;
+    uint64 month_card_out_date_time = 4;
+    string product_id = 8;
+    ItemList item_list = 12;
+}

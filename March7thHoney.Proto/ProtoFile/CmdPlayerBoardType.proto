@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPlayerBoardType {
+    DBCNIANFMLC_PCPDHELPKEM = 0;
+    CmdSetAssistAvatarCsReq = 2801;
+    CmdSetDisplayAvatarCsReq = 2814;
+    CmdSetPersonalCardCSReq = 2837;
+    CmdSetIsOHOMDMEJLFKReq = 2809;
+    CmdSetSignatureScRsp = 2839;
+    DBCNIANFMLC_POLCOOOBBPP = 2863;
+    CmdSetHeadIconCsReq = 2894;
+    CmdGetPlayerBoardDataScRsp = 2810;
+    CmdSetDisplayAvatarScRsp = 2818;
+    CmdSetHeadIconScRsp = 2895;
+    CmdSetIsOHOMDMEJLFKScRsp = 2898;
+    CmdGetPlayerBoardDataCsReq = 2891;
+    CmdSetSignatureCsReq = 2826;
+    CmdSetAssistAvatarScRsp = 2874;
+    CmdSetPersonalCardScRsp = 2804;
+}

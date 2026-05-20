@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MACJBIAFNOI.proto";
+import "PlayerSimpleInfo.proto";
+
+message OEBJBPNNOKO {
+    MACJBIAFNOI IACKOCPGIAK = 4;
+    uint32 summoned_pet_id = 6;
+    uint32 uid = 8;
+    PlayerSimpleInfo CGLMHJFCFPH = 11;
+    int64 EKODIFJOBFB = 12;
+    bool HCJMLMIGACG = 13;
+}

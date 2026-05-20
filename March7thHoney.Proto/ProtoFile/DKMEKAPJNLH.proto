@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message DKMEKAPJNLH {
+    uint32 buff_id = 4;
+    ItemCostData cost_data = 12;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BattleAvatarGlobalBuffInfo {
+    uint32 avatar_id = 1;
+    uint32 maze_buff_id = 2;
+    uint32 ILBMFAKFDKI = 3;
+}

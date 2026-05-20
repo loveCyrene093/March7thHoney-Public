@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HeartDialDialogueInfo.proto";
+import "HeartDialScriptInfo.proto";
+import "HeartDialUnlockStatus.proto";
+import "PICILIIFKBE.proto";
+
+message GetHeartDialInfoScRsp {
+    repeated PICILIIFKBE OOGJAKIPFDJ = 1;
+    HeartDialUnlockStatus unlock_status = 2;
+    repeated HeartDialScriptInfo script_info_list = 3;
+    uint32 retcode = 5;
+    repeated HeartDialDialogueInfo dialogue_info_list = 8;
+}

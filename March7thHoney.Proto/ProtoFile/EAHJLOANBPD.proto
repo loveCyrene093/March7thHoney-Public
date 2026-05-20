@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KJAGLIIDBGP.proto";
+
+message EAHJLOANBPD {
+    KJAGLIIDBGP CLLGHDCNPOI = 14;
+    uint32 retcode = 15;
+}

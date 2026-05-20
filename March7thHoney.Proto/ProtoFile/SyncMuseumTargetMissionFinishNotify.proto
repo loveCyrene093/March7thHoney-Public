@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SyncMuseumTargetMissionFinishNotify {
+    bool EPOGEOIILNI = 3;
+    uint32 LPAGKHGCCFH = 6;
+    repeated uint32 EGEFHCFJICC = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GEOAAAOAPGK.proto";
+
+message LogisticsInfoScNotify {
+    GEOAAAOAPGK HBMJIGGBFKP = 15;
+}

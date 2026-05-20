@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GFOIOIACDCH.proto";
+import "OEBJBPNNOKO.proto";
+
+message MKHIPFHEKCK {
+    uint32 MFBDMLPDEOE = 5;
+    repeated OEBJBPNNOKO player_info = 14;
+    GFOIOIACDCH DFJBNHPAICA = 1894;
+}

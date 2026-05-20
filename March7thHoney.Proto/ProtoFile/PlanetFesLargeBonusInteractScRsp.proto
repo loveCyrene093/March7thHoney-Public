@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+import "JIPACDEJKJC.proto";
+
+message PlanetFesLargeBonusInteractScRsp {
+    JIPACDEJKJC DIHECIIKELE = 6;
+    EFEGKDHEMFN LAMFMELCEMD = 7;
+    uint32 retcode = 10;
+    uint32 HGIAGJMHDOB = 15;
+}

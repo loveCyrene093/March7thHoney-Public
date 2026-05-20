@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CNHNGLEEBKP.proto";
+
+message GetRogueAeonInfoScRsp {
+    repeated CNHNGLEEBKP OFENICFJANC = 1;
+    uint32 retcode = 7;
+}

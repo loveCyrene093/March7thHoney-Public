@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+
+message LeaveMapRotationRegionScRsp {
+    uint32 retcode = 3;
+    uint32 client_pos_version = 8;
+    MotionInfo motion = 10;
+}

@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdChimeraDuelType {
+    MNGJGGANIIP_PCPDHELPKEM = 0;
+    CmdChimeraDuelStartGameScRsp = 9211;
+    CmdChimeraDuelEndRoundShopStageScRsp = 9229;
+    CmdChimeraDuelSelectGameCsReq = 9214;
+    CmdChimeraDuelEndRoundBattleStageCsReq = 9212;
+    CmdChimeraDuelFinishMasterChallengeCsReq = 9256;
+    CmdChimeraDuelShopLockCsReq = 9241;
+    CmdChimeraDuelEndRoundShopStageCsReq = 9257;
+    CmdChimeraDuelStartGameCsReq = 9215;
+    CmdChimeraDuelGetDataCsReq = 9223;
+    CmdChimeraDuelEndGameCsReq = 9228;
+    CmdChimeraDuelShopBuyItemScRsp = 9226;
+    CmdChimeraDuelUnlockMasterCsReq = 9245;
+    CmdChimeraDuelSellChimeraScRsp = 9219;
+    CmdChimeraDuelSellChimeraCsReq = 9243;
+    CmdChimeraDuelEndRoundBattleStageScRsp = 9254;
+    CmdChimeraDuelShopBuyChimeraCsReq = 9246;
+    CmdReceive = 9232;
+    CmdChimeraDuelShopBuyChimeraScRsp = 9213;
+    CmdChimeraDuelSetFriendDefendLineupCsReq = 9253;
+    CmdChimeraDuelSaveFriendPvpLineupCsReq = 9258;
+    CmdChimeraDuelChangeLineupCsReq = 9236;
+    CmdChimeraDuelGetFriendListCsReq = 9230;
+    CmdChimeraDuelShopRefreshCsReq = 9259;
+    CmdChimeraDuelGetDataScRsp = 9217;
+    CmdChimeraDuelShopLockScRsp = 9231;
+    CmdChimeraDuelSaveFriendPvpLineupScRsp = 9239;
+    CmdChimeraDuelChangeLineupScRsp = 9218;
+    CmdChimeraDuelShopBuyItemCsReq = 9260;
+    CmdChimeraDuelSetFriendDefendLineupScRsp = 9249;
+    CmdChimeraDuelSyncChangeScNotify = 9216;
+    CmdChimeraDuelFinishMasterChallengeScRsp = 9250;
+    CmdChimeraDuelSelectGameScRsp = 9247;
+    CmdChimeraDuelShopRefreshScRsp = 9225;
+    CmdChimeraDuelEndGameScRsp = 9255;
+    CmdChimeraDuelUnlockMasterScRsp = 9248;
+}

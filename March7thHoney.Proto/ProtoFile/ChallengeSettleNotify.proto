@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeHistoryMaxLevel.proto";
+import "CurChallenge.proto";
+import "ItemList.proto";
+
+message ChallengeSettleNotify {
+    uint32 challenge_id = 1;
+    uint32 MHAPIHCJPJM = 2;
+    uint32 star = 4;
+    repeated uint32 EACKNOAFICF = 9;
+    ItemList reward = 10;
+    CurChallenge cur_challenge = 11;
+    bool is_win = 12;
+    ChallengeHistoryMaxLevel max_level = 13;
+    uint32 challenge_score = 14;
+    uint32 score_two = 15;
+}

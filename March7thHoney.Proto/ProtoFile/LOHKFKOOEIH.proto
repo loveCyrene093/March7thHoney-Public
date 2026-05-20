@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LOHKFKOOEIH {
+    string phase = 1;
+    float NPJIENCGJAH = 2;
+    float IFMAEILKJHL = 3;
+    uint32 INFGMLPIKEE = 4;
+    uint32 NGDMNDEJFJC = 5;
+    uint32 JJMCABHIHJB = 6;
+    uint32 NLCCLJKBBNJ = 7;
+    uint32 PKJKKIOBEOI = 8;
+    repeated uint32 EHALEONHDLG = 9;
+    repeated uint32 EJCAKDILHPA = 10;
+}

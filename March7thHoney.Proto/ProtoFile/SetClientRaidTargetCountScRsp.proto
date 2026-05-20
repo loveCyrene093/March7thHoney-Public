@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetClientRaidTargetCountScRsp {
+    uint32 progress = 1;
+    uint32 HJJMOOHHKMH = 4;
+    uint32 retcode = 12;
+}

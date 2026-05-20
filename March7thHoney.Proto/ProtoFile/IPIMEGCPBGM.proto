@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IPIMEGCPBGM {
+    uint32 EMLIJIBPBFL = 11;
+    uint32 progress = 15;
+}

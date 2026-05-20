@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "COKHGIMNLEK.proto";
+import "DNJFGOLLCCB.proto";
+import "LanguageType.proto";
+import "PlatformType.proto";
+
+message PlayerLoginCsReq {
+    string MCKPMFDFBGP = 1;
+    uint64 login_random = 2;
+    string GGDPMLCODPH = 3;
+    string KILCHABDDLC = 4;
+    string IBDEALLKDAM = 5;
+    PlatformType platform = 6;
+    string HFFGCAGBNLO = 7;
+    LanguageType BNPGKDAEJPB = 8;
+    uint32 client_res_version = 9;
+    uint32 IPICOGJIBAE = 10;
+    string rogue_get_info = 11;
+    string LJIMJGAHMKM = 12;
+    string JBCNGGAGFCD = 13;
+    string ENECPEOGEKG = 14;
+    string signature = 15;
+    DNJFGOLLCCB HEJKBACFHBG = 42;
+    string GNODLEJAOJP = 84;
+    string CABLACHJKID = 189;
+    string CJCFGAMHMCG = 273;
+    bool MMFJFMPNJMN = 386;
+    uint32 PEKKCPFGCCL = 416;
+    uint32 EFKCMFIJGIJ = 437;
+    string ICJIGHOMDNL = 729;
+    bool JMFANJEHDMG = 765;
+    COKHGIMNLEK ABFNMCHIIFI = 809;
+    uint32 NCHFFCBPIFB = 878;
+    string HBIDCAFOPMG = 1132;
+    string BLEGPLIACMK = 1248;
+}

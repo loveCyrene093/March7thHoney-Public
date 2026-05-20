@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LAOOIHPKMOO {
+    bool is_win = 5;
+    bool NHLGOCGMKBP = 6;
+    int32 DLCKBMLMOIP = 8;
+    uint32 GIHDGLMJMHC = 10;
+    uint32 FOOLMIADMMH = 13;
+}

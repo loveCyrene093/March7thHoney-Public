@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakeRogueMiracleHandbookRewardScRsp {
+    repeated uint32 AGFOMKOIAEB = 1;
+    uint32 retcode = 8;
+    ItemList reward = 12;
+}

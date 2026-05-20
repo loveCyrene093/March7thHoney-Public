@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+import "RotaterEnergyInfo.proto";
+
+message EnterMapRotationRegionScRsp {
+    uint32 client_pos_version = 6;
+    uint32 retcode = 7;
+    RotaterEnergyInfo energy_info = 8;
+    uint32 JHDLNBPNEKG = 10;
+    MotionInfo motion = 13;
+    uint32 BCPCBHMFIIN = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message ChallengePeakRewardGroup {
+    ItemList reward = 1;
+    uint32 reward_id = 7;
+}

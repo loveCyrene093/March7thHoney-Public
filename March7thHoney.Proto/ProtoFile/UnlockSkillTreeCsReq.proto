@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCost.proto";
+
+message UnlockSkillTreeCsReq {
+    uint32 point_id = 2;
+    repeated ItemCost item_list = 7;
+    uint32 level = 12;
+}

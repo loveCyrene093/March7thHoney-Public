@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HJKGMCHFHFM.proto";
+
+message StartStarFightLevelCsReq {
+    uint32 group_id = 9;
+    uint32 INOMFFAIEOA = 10;
+    repeated HJKGMCHFHFM avatar_list = 11;
+}

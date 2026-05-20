@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpdateTrackMainMissionScRsp {
+    uint32 prev_track_mission_id = 4;
+    uint32 retcode = 9;
+    uint32 track_mission_id = 13;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DHBCCMMHNCK.proto";
+
+message ClockParkGetInfoScRsp {
+    uint32 progress = 1;
+    repeated uint32 ADJEHBLLBNH = 2;
+    repeated DHBCCMMHNCK NIECFDLJPFI = 6;
+    uint32 CDNGKOFBHLG = 8;
+    uint32 HLNEMLMKECP = 12;
+    uint32 retcode = 13;
+}

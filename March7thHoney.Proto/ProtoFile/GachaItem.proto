@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Item.proto";
+import "ItemList.proto";
+
+message GachaItem {
+    bool is_new = 6;
+    ItemList token_item = 7;
+    ItemList transfer_item_list = 12;
+    Item gacha_item = 13;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message FinishCosumeItemMissionCsReq {
+    uint32 sub_mission_id = 4;
+    ItemList item_list = 13;
+}

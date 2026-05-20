@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MarkChestFuncInfo.proto";
+
+message GetMarkChestScRsp {
+    repeated MarkChestFuncInfo mark_chest_func_info = 1;
+    uint32 retcode = 11;
+}

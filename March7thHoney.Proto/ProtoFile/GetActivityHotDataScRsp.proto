@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GFADBCMGFFF.proto";
+
+message GetActivityHotDataScRsp {
+    uint32 retcode = 3;
+    repeated GFADBCMGFFF content_package_list = 10;
+}

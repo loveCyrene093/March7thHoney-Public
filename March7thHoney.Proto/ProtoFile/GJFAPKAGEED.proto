@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MMDNCMMOKPO.proto";
+
+message GJFAPKAGEED {
+    map<string, double> HBNHCEOKIBJ = 3;
+    MMDNCMMOKPO MKHDINDGHMD = 6;
+    uint32 PNFBHHBLAFH = 11;
+    uint32 BAMNMENGKFG = 13;
+}

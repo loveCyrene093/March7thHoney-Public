@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DLFOGJGCCGP.proto";
+
+message HeliobusInfoChangedScNotify {
+    repeated DLFOGJGCCGP HPKHBLEJBIJ = 1;
+    uint32 DKOGNOKOPKG = 6;
+    uint32 phase = 12;
+    uint32 IMBOKGFIACA = 13;
+}

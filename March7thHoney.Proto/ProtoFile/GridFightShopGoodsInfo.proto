@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightRoleGoodsInfo.proto";
+import "GridFightSpecialGoodsInfo.proto";
+
+message GridFightShopGoodsInfo {
+    uint32 shop_goods_price = 1;
+    bool is_sold_out = 12;
+    oneof FLBCMACPHMJ {
+        GridFightSpecialGoodsInfo special_goods_info = 1244;
+        GridFightRoleGoodsInfo role_goods_info = 1427;
+    }
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FightGameMode.proto";
+
+message BGKIEFCLGDF {
+    uint32 room_id = 2;
+    uint32 AONGOEAFKOC = 4;
+    FightGameMode PLOBMBFPNFK = 6;
+}

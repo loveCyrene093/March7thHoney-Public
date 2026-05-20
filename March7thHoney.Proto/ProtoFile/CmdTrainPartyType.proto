@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTrainPartyType {
+    HLDBDENFAIH_PCPDHELPKEM = 0;
+    CmdTrainPartyGetDataScRsp = 8010;
+    CmdTrainPartyBuildSelfDisplayAreaDiyScRsp = 8005;
+    CmdTrainPartyBuildStartStepScRsp = 8037;
+    CmdTrainPartySyncUpdateScNotify = 8063;
+    CmdTrainPartyHandlePendingActionScRsp = 8001;
+    CmdTrainPartyBuildStartStepCsReq = 8074;
+    CmdKOLIOJKKDCK = 8051;
+    CmdTrainPartySetBadgeAutoFillScRsp = 8071;
+    CmdTrainPartyGamePlayStartScRsp = 8021;
+    CmdHGAAPFBDGKC = 8058;
+    CmdTrainPartyBuildDiyScRsp = 8038;
+    CmdTrainPartyHandlePendingActionCsReq = 8039;
+    CmdTrainPartyBuildSelfDisplayAreaDiyScNotify = 8011;
+    CmdTrainPartyMoveScNotify = 8014;
+    CmdTrainPartyUseCardScRsp = 8095;
+    CmdTrainPartyBuildingUpdateNotify = 8072;
+    CmdTrainPartySetBadgeAutoFillCsReq = 8030;
+    CmdTrainPartyBuildDiyCsReq = 8004;
+    CmdENCAJEEEGGL = 8061;
+    CmdTrainPartyUseCardCsReq = 8094;
+    CmdTrainPartyGamePlayStartCsReq = 8057;
+    CmdTrainPartyBuildRoomScNotify = 8054;
+    CmdTrainPartyBuildSelfDisplayAreaDiyCsReq = 8066;
+    CmdDGJCELHHFLK = 8007;
+    HLDBDENFAIH_IDNPNLLCCHH = 8053;
+    CmdTrainPartyGetDataCsReq = 8091;
+    HLDBDENFAIH_LPOBADAJGNA = 8073;
+    CmdFCONNMFHEGH = 8033;
+    CmdTrainPartySettleNotify = 8009;
+    CmdTrainPartyGamePlaySettleNotify = 8028;
+    CmdTrainPartyTakeBuildLevelAwardCsReq = 8008;
+    CmdPOELOKDNAGA = 8025;
+    CmdTrainPartyTakeBuildLevelAwardScRsp = 8017;
+}

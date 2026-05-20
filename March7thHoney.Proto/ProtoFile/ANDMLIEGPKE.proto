@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DPBEGBNICPG.proto";
+
+message ANDMLIEGPKE {
+    repeated DPBEGBNICPG OIOFPADOGFC = 14;
+    uint64 time = 15;
+}

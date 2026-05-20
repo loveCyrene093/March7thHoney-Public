@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FGMPEEMAHKE.proto";
+
+message EKOIHOMFMDE {
+    FGMPEEMAHKE type = 7;
+    bool EDODCLMAFIL = 9;
+    uint32 id = 14;
+}

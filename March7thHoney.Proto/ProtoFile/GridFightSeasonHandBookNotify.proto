@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightHandBookAugmentInfo.proto";
+import "GridFightHandBookEquipInfo.proto";
+import "GridFightHandBookMonsterInfo.proto";
+import "GridFightHandBookPortalInfo.proto";
+import "GridFightHandBookRoleInfo.proto";
+
+message GridFightSeasonHandBookNotify {
+    oneof BPIHFAJCLOC {
+        GridFightHandBookMonsterInfo handbook_grid_fight_monster_info = 326;
+        GridFightHandBookAugmentInfo handbook_grid_fight_augment_info = 900;
+        GridFightHandBookRoleInfo handbook_grid_fight_role_info = 944;
+        GridFightHandBookEquipInfo handbook_grid_fight_equip_info = 1614;
+        GridFightHandBookPortalInfo handbook_grid_fight_portal_info = 1914;
+    }
+}

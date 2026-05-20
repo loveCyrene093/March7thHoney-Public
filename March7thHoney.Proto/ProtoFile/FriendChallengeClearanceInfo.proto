@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeBossStatistics.proto";
+import "ChallengeStatistics.proto";
+import "ChallengeStoryStatistics.proto";
+
+message FriendChallengeClearanceInfo {
+    uint32 group_id = 3;
+    uint32 HCHCOAPJLMG = 4;
+    oneof HIACNHNLCGL {
+        ChallengeBossStatistics challenge_boss = 1055;
+        ChallengeStoryStatistics challenge_story = 1513;
+        ChallengeStatistics challenge_default = 1929;
+    }
+}

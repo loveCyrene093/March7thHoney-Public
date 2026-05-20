@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MCPPIEJEBEF.proto";
+import "MusicData.proto";
+
+message GetJukeboxDataScRsp {
+    repeated MusicData UnlockedMusicList = 4;
+    uint32 retcode = 9;
+    MCPPIEJEBEF JILKOPINLDC = 14;
+}

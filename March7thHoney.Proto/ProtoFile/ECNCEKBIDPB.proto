@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ECNCEKBIDPB {
+    string BOINMJJEBBE = 2;
+    string name = 3;
+    uint32 dice_slot_id = 4;
+    bytes LENCLJPKDAO = 13;
+    bool CELHCDABFCL = 14;
+}

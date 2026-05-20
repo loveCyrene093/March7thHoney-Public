@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LKBGOMGHGLG.proto";
+
+message EPLGMCCNALG {
+    LKBGOMGHGLG status = 6;
+    uint32 NOFLNIMBDOF = 13;
+    uint32 MKBIOANPMKE = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BALJGODBJEC {
+    BALJGODBJEC_PCPDHELPKEM = 0;
+    BALJGODBJEC_LEDEEAHCDKI = 1;
+    BALJGODBJEC_HCEKFEENNCA = 2;
+    BALJGODBJEC_FHFMOENFLGK = 3;
+}

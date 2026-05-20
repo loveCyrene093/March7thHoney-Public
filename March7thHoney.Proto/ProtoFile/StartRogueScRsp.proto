@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JPFGHCPGHGO.proto";
+import "LineupInfo.proto";
+import "MADEENABOKE.proto";
+import "SceneInfo.proto";
+
+message StartRogueScRsp {
+    MADEENABOKE ENPAICNLCMK = 1;
+    uint32 retcode = 2;
+    SceneInfo scene = 4;
+    LineupInfo lineup = 6;
+    JPFGHCPGHGO rogue_game_info = 8;
+}

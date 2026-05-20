@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IBLHPOBOOPE {
+    bool is_win = 8;
+    uint32 battle_event_id = 9;
+    map<uint32, uint32> OHOGDBPKLFM = 15;
+}

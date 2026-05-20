@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FeverTimeBattleRank {
+    GKNLGIBCLCN_IJLJFPKIEOP = 0;
+    GKNLGIBCLCN_ABMBOMJPMND = 1;
+    GKNLGIBCLCN_EFLJDDBCIFD = 2;
+    GKNLGIBCLCN_CKODLDEPEPG = 3;
+    GKNLGIBCLCN_DCPNAILIKFM = 4;
+}

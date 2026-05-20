@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DKDGGGCDAGM.proto";
+
+message HPHMMPDFMAK {
+    uint32 slot = 3;
+    DKDGGGCDAGM lineup = 15;
+}

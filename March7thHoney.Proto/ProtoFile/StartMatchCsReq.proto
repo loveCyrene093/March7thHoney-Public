@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FightGameMode.proto";
+import "LobbyGameExtInfo.proto";
+
+message StartMatchCsReq {
+    LobbyGameExtInfo JHCJMKDDNNF = 8;
+    FightGameMode PLOBMBFPNFK = 14;
+}

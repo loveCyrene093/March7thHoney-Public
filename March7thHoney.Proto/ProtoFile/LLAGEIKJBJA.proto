@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+import "FBBMDFDOEEF.proto";
+
+message LLAGEIKJBJA {
+    EFEGKDHEMFN item_value = 2;
+    EFEGKDHEMFN MEBDLEDCGDI = 13;
+    repeated FBBMDFDOEEF item_list = 14;
+}

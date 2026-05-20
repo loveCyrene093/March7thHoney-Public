@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JCCMGOOPHBO.proto";
+
+message LogisticsGameScRsp {
+    uint32 event_id = 1;
+    uint32 retcode = 3;
+    repeated JCCMGOOPHBO OAIKIFEKFLG = 7;
+    bool CLPNBFOKJLJ = 12;
+}

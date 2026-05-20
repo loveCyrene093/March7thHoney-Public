@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message InteractTreasureDungeonGridCsReq {
+    uint32 display_value = 10;
+    uint32 target_side = 11;
+    uint32 CJOPNFDBJHD = 13;
+}

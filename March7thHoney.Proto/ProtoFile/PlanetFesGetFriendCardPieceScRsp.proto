@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PEHOCGJJMNF.proto";
+
+message PlanetFesGetFriendCardPieceScRsp {
+    uint32 retcode = 3;
+    repeated PEHOCGJJMNF NLOPOBHEEJH = 11;
+}

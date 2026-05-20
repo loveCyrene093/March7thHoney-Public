@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JNBGIDELOGF.proto";
+
+message PlanetFesTakeQuestRewardScRsp {
+    JNBGIDELOGF EAPHMPIDECI = 6;
+    uint32 quest_id = 7;
+    uint32 retcode = 13;
+}

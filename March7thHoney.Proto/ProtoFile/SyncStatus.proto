@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GroupStatus.proto";
+import "SectionStatus.proto";
+
+message SyncStatus {
+    repeated SectionStatus section_status = 3;
+    repeated uint32 CMEKBMAEHLD = 12;
+    repeated uint32 AFKCPLHIMGH = 14;
+    repeated GroupStatus message_group_status = 15;
+}

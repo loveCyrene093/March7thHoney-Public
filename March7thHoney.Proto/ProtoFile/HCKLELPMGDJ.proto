@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HCKLELPMGDJ {
+    HCKLELPMGDJ_LAJKGDHNAJJ = 0;
+    HCKLELPMGDJ_EEPCNPOANIH = 1;
+    HCKLELPMGDJ_LOININBPIBI = 2;
+    HCKLELPMGDJ_BEBJEIGPOIP = 3;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HeartDialEmotionType.proto";
+import "HeartDialStepType.proto";
+
+message HeartDialScriptInfo {
+    bool GKOALBAPIHB = 4;
+    HeartDialStepType step = 10;
+    HeartDialEmotionType cur_emotion_type = 12;
+    bool HPNINIJEOBH = 13;
+    uint32 script_id = 15;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightGlobalHpChangeReason.proto";
+
+message ILGOPHIAJIG {
+    GridFightGlobalHpChangeReason reason = 3;
+    uint32 EHMKLNEKIOE = 6;
+    uint32 FGEDKOINMAG = 7;
+}

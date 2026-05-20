@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum OBCFJPGNALP {
+    OBCFJPGNALP_PCPDHELPKEM = 0;
+    OBCFJPGNALP_LDKNPKKDKDP = 2;
+    OBCFJPGNALP_JBCOJMGBHMG = 4;
+    OBCFJPGNALP_NPBKLCHLJMG = 5;
+    OBCFJPGNALP_PBOIPJLCODJ = 6;
+    OBCFJPGNALP_BOFLIOHKPKB = 7;
+}

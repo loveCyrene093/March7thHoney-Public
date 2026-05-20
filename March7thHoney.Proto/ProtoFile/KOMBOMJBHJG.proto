@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KOMBOMJBHJG {
+    uint32 LMFCPCPKOOA = 1;
+    double JDLBMFNHBII = 2;
+    double HJLOLCGILJL = 3;
+    uint32 AODABAGNDKO = 4;
+    uint32 OELCLAOPIFH = 5;
+    uint32 CFNANPFAKEG = 6;
+    uint32 FAFOONJLCKM = 7;
+    double MECHDOHDNFP = 8;
+    uint32 JMGDPMKDOPM = 9;
+    uint32 LCAHCPNMFFK = 10;
+    double KAEMFEGJGMP = 11;
+    uint32 MBJCCKLNIBM = 12;
+    uint32 HEHMCANDKJK = 13;
+}

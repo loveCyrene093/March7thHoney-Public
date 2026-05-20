@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightHandBookAugmentInfo.proto";
+import "GridFightHandBookEquipInfo.proto";
+import "GridFightHandBookMonsterInfo.proto";
+import "GridFightHandBookPortalInfo.proto";
+import "GridFightHandBookRoleInfo.proto";
+
+message GridFightHandBookInfo {
+    GridFightHandBookMonsterInfo grid_fight_monster_info = 2;
+    GridFightHandBookRoleInfo grid_fight_role_info = 4;
+    GridFightHandBookPortalInfo grid_fight_portal_info = 5;
+    GridFightHandBookEquipInfo grid_fight_equip_info = 7;
+    GridFightHandBookAugmentInfo grid_fight_augment_info = 9;
+}

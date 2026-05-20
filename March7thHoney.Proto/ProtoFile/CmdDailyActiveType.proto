@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdDailyActiveType {
+    OMDDKHBJBGE_PCPDHELPKEM = 0;
+    CmdTakeApRewardScRsp = 3310;
+    CmdDailyActiveInfoNotify = 3314;
+    CmdTakeApRewardCsReq = 3391;
+    CmdGetDailyActiveInfoCsReq = 3394;
+    CmdTakeAllApRewardCsReq = 3318;
+    CmdTakeAllApRewardScRsp = 3309;
+    CmdGetDailyActiveInfoScRsp = 3395;
+}

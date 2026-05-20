@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdClockParkType {
+    EKDEGMMHODO_PCPDHELPKEM = 0;
+    CmdClockParkHandleWaitOperationScRsp = 7244;
+    CmdBEDFGPIFGED = 7250;
+    CmdClockParkFinishScriptScNotify = 7249;
+    CmdClockParkGetInfoCsReq = 7213;
+    CmdClockParkGetOngoingScriptInfoCsReq = 7247;
+    CmdClockParkUnlockTalentCsReq = 7235;
+    CmdNAJGIPIGCDH = 7221;
+    CmdClockParkStartScriptScRsp = 7201;
+    CmdClockParkUnlockTalentScRsp = 7238;
+    CmdClockParkQuitScriptCsReq = 7218;
+    CmdClockParkHandleWaitPlaceDiceOperationCsReq = 7202;
+    CmdClockParkGetInfoScRsp = 7207;
+    CmdClockParkStartScriptCsReq = 7205;
+    CmdClockParkGetOngoingScriptInfoScRsp = 7219;
+    CmdAPBJOBNPBAN = 7245;
+    CmdClockParkUseBuffCsReq = 7231;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message MonopolyTakeRaffleTicketRewardScRsp {
+    ItemList reward_list = 3;
+    uint32 retcode = 12;
+    uint32 MBMICCJEBJB = 13;
+    uint32 CBOMHCDNEDG = 14;
+}

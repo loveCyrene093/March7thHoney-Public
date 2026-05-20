@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message POPPEFJIAJC {
+    bool is_win = 7;
+    uint32 EFDDNMGLANF = 8;
+}

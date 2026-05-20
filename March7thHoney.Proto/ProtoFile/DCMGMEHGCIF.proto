@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DCMGMEHGCIF {
+    DCMGMEHGCIF_KJFHLPEONOH = 0;
+    DCMGMEHGCIF_ONACHMEDPIK = 1;
+    DCMGMEHGCIF_KALDKLPHGEJ = 2;
+}

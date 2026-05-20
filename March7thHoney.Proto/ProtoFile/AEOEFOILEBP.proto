@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AEOEFOILEBP {
+    uint32 DACOKFCBMBI = 1;
+    uint32 BGADLDEHIIB = 6;
+    uint32 panel_id = 8;
+    uint32 CFOFOCKJGCG = 12;
+}

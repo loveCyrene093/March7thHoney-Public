@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ElfRestaurantUpgradeEmployeeLevelCsReq {
+    uint32 ODADJILOEKO = 7;
+    uint32 MPBBIJMACLL = 11;
+}

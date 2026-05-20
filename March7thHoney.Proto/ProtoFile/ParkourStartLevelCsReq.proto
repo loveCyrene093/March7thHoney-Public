@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ParkourStartLevelCsReq {
+    uint32 level_id = 6;
+    uint32 HHPFNDBGIIO = 10;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ExpeditionInfo.proto";
+
+message GAJMDNEKPOP {
+    int64 KAMBBFDEBAM = 6;
+    uint32 total_expedition_count = 9;
+    repeated ExpeditionInfo expedition_info = 11;
+    repeated uint32 NBKFAEDOGPG = 12;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ODMJACIKEPC {
+    ODMJACIKEPC_PCPDHELPKEM = 0;
+    ODMJACIKEPC_APFFEDDKNBK = 1;
+    ODMJACIKEPC_EDGOIAODJLH = 2;
+}

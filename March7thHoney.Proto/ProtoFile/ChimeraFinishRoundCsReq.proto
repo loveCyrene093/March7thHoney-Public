@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BCMMLADBEAM.proto";
+import "ChimeraRoundWorkEndReason.proto";
+import "FHCCCHJHHKL.proto";
+import "HAMEJPGCIJI.proto";
+import "PCAOLJLFPBA.proto";
+
+message ChimeraFinishRoundCsReq {
+    ChimeraRoundWorkEndReason end_reason = 1;
+    HAMEJPGCIJI stt = 2;
+    repeated uint32 LNAOHDBGENO = 3;
+    bool PGEGMMBINID = 6;
+    FHCCCHJHHKL lineup = 10;
+    repeated PCAOLJLFPBA KMAFDFBJCJI = 11;
+    uint32 JHDKOBKNPDE = 12;
+    map<uint32, uint32> PKIPMNNDIPA = 13;
+    map<uint32, BCMMLADBEAM> KMOCHCFLDCM = 15;
+}

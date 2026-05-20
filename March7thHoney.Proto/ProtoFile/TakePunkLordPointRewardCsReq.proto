@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TakePunkLordPointRewardCsReq {
+    uint32 level = 1;
+    bool OINMENFPODP = 7;
+}

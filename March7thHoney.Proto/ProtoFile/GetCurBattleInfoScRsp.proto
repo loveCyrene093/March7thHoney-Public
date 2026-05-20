@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AetherDivideBattleInfo.proto";
+import "BattleEndStatus.proto";
+import "SceneBattleInfo.proto";
+
+message GetCurBattleInfoScRsp {
+    uint32 retcode = 4;
+    AetherDivideBattleInfo DPCNCLIBJBC = 10;
+    SceneBattleInfo battle_info = 12;
+    uint32 HMBGOPOLOJO = 13;
+    BattleEndStatus last_end_status = 15;
+}

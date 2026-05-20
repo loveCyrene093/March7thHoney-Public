@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LOCPKDNGLKM {
+    uint32 wave = 1;
+    double BPMCGKKJGPF = 2;
+    double BNFCAAPABCF = 3;
+    uint32 FHOLBJGOPGI = 4;
+    uint32 DLHLPNLIBAF = 5;
+    uint32 status = 6;
+    uint32 ODIACLIKIFP = 7;
+    uint32 FLMFHDHFIOJ = 8;
+}

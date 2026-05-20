@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MCKLCDAOECD {
+    bool KHCJONFAPMK = 1;
+    uint32 FJIKIPDJOPK = 2;
+    bool JIODDAHNMEL = 3;
+    string BPDJGGBGMMM = 4;
+    bool JOOCDKJFDBA = 5;
+    bool PCCOGCPBFLL = 6;
+    uint32 CKHIFLBFFLC = 7;
+}

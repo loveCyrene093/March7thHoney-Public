@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RogueTalentStatus {
+    JHIDLBHJPBJ_DKLPAAFFLEE = 0;
+    JHIDLBHJPBJ_NGMMICOGDFP = 1;
+    JHIDLBHJPBJ_KPAKAKOGDCM = 2;
+}

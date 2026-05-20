@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ECKIDLIFAFG.proto";
+import "FKANIBDJNKG.proto";
+
+message MKLLLKLEEAP {
+    uint32 IJDMECLJEBD = 3;
+    uint32 DKAEIDJMJCJ = 8;
+    ECKIDLIFAFG MHFHODDBOPM = 12;
+    FKANIBDJNKG reason = 15;
+}

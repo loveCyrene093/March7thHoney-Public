@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PlanetFesGetOfferedCardPieceCsReq {
+    uint64 PHALKDHHPPB = 5;
+    bool JFHMCDFDABI = 8;
+}

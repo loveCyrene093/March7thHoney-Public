@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum JCHADPPOKAD {
+    JCHADPPOKAD_MMAOONPAPDP = 0;
+    JCHADPPOKAD_HILHINGOGBB = 1;
+    JCHADPPOKAD_PLMOIBLMNFA = 2;
+    JCHADPPOKAD_OAMOGNIKBLN = 3;
+    JCHADPPOKAD_JCJLBOKHONK = 4;
+    JCHADPPOKAD_JGPKDDKMDBP = 5;
+}

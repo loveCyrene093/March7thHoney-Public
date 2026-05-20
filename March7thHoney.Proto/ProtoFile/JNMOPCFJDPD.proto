@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message JNMOPCFJDPD {
+    uint32 item_id = 2;
+    uint32 CLAFNDLGDAO = 3;
+    uint32 item_stack_count = 7;
+}

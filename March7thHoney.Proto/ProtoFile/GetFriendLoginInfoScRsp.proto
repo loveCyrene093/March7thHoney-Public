@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetFriendLoginInfoScRsp {
+    uint32 retcode = 2;
+    repeated uint32 FriendUidList = 3;
+    bool BKJJFEHPNAO = 5;
+    bool LABBELBJKII = 11;
+    repeated uint32 BHJONHOLEAA = 13;
+}

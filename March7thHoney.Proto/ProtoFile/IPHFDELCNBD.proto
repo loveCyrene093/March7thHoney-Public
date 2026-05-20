@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KFOEEPGNDOC.proto";
+import "MCAFGBPLFEH.proto";
+
+message IPHFDELCNBD {
+    KFOEEPGNDOC BPHECFNCICC = 1;
+    uint32 unique_id = 2;
+    MCAFGBPLFEH source = 3;
+    double PEILPIEKLKD = 4;
+    double HOKHMNGMHKA = 13;
+}

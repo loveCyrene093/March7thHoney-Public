@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleAvatarServantInfo.proto";
+
+message FPFFHGOKBNK {
+    repeated BattleAvatarServantInfo EKDHCCEFJGA = 1;
+    uint32 JPKDNCPELDM = 2;
+    uint32 PHJCDHKFNPJ = 3;
+}

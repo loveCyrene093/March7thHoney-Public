@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BlackInfo.proto";
+
+message PlayerGetTokenScRsp {
+    string stop_desc = 1;
+    string authkey = 2;
+    uint32 retcode = 7;
+    uint64 secret_key_seed = 8;
+    uint32 uid = 11;
+    BlackInfo black_info = 14;
+}

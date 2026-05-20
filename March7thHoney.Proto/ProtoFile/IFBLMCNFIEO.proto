@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EPNCDFBAHEA.proto";
+
+message IFBLMCNFIEO {
+    uint32 id = 4;
+    EPNCDFBAHEA custom_value_list = 1788;
+}

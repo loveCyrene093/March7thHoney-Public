@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FeverTimeBattleRank.proto";
+
+message FeverTimeActivityBattleEndScNotify {
+    FeverTimeBattleRank KIKCDKLKCPC = 5;
+    uint32 id = 11;
+    uint32 PKPIOIJPPBL = 12;
+    uint32 turn_left = 13;
+}

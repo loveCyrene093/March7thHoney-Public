@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum StatType {
+    POHDIBANGEF_PCPDHELPKEM = 0;
+    POHDIBANGEF_GNPNMGPCJDD = 1;
+    POHDIBANGEF_LJMICELEHAL = 2;
+    POHDIBANGEF_LDLFFJPOEPK = 3;
+}

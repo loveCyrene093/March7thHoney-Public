@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ElationActivityLevelData.proto";
+
+message GetElationActivityDataScRsp {
+    repeated ElationActivityLevelData level_data_list = 6;
+    uint32 retcode = 10;
+}

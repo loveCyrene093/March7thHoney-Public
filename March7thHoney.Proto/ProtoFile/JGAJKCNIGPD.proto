@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MLOFJFBHGLG.proto";
+
+message JGAJKCNIGPD {
+    MLOFJFBHGLG BICBJMPAAAN = 1;
+    bool OMFKIFADFOC = 5;
+    uint64 JKPGACLKEEC = 8;
+    bool BIODAJLLINO = 11;
+    uint32 damage = 15;
+}

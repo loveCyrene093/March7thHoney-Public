@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MGFEMHKICND.proto";
+
+message CakeRaceGetFriendRankingInfoListScRsp {
+    uint32 retcode = 7;
+    repeated uint32 HFJNDOAIDOP = 12;
+    repeated MGFEMHKICND CPBGLNGOCBA = 14;
+}

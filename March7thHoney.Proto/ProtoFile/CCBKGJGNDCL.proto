@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NHPKMMDOHIH.proto";
+
+message CCBKGJGNDCL {
+    repeated NHPKMMDOHIH FGKAOMIJJBN = 3;
+    uint32 cost_time = 8;
+    uint32 map_id = 12;
+}

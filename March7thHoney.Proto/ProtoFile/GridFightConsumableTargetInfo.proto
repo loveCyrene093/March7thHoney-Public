@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightCopyTypeTargetInfo.proto";
+import "GridFightGainRecommendEquipTypeTargetInfo.proto";
+import "GridFightRemoveTypeTargetInfo.proto";
+import "GridFightRollTypeTargetInfo.proto";
+import "GridFightUpgradeTypeTargetInfo.proto";
+
+message GridFightConsumableTargetInfo {
+    oneof HDACCIEIJFO {
+        GridFightUpgradeTypeTargetInfo upgrade_type_target_info = 186;
+        GridFightCopyTypeTargetInfo copy_type_target_info = 391;
+        GridFightGainRecommendEquipTypeTargetInfo gain_recommend_equip_type_target_info = 654;
+        GridFightRemoveTypeTargetInfo remove_type_target_info = 1308;
+        GridFightRollTypeTargetInfo roll_type_target_info = 1501;
+    }
+}

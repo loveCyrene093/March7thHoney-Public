@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OOCOMIOPINM {
+    uint32 interacted_prop_entity_id = 6;
+    repeated uint32 DCBJNILFBAG = 13;
+}

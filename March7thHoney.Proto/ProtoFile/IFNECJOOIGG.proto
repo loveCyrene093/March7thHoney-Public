@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IFNECJOOIGG {
+    uint32 group_id = 3;
+    repeated uint32 NFEJLJDLAGF = 5;
+    uint32 NBFMEMNCGMJ = 6;
+    uint32 LMGHANJCECF = 9;
+}

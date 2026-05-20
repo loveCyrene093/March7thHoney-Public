@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CIAANMCPBGF {
+    repeated uint32 NKDEMKAPNMN = 9;
+    uint32 retcode = 11;
+}

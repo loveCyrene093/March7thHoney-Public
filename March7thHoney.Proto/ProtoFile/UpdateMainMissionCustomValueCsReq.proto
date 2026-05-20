@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpdateMainMissionCustomValueCsReq {
+    string DLCLDIAOIMK = 4;
+    uint32 value = 5;
+    uint32 main_mission_id = 12;
+}

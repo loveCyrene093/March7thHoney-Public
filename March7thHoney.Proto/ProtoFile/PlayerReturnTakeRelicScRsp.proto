@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message PlayerReturnTakeRelicScRsp {
+    uint32 retcode = 6;
+    ItemList item_list = 7;
+    uint32 avatar_id = 10;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BpTierType {
+    ANMMOPCHJDI_PCPDHELPKEM = 0;
+    ANMMOPCHJDI_LBLBCLIFGNE = 1;
+    ANMMOPCHJDI_GILFHNIDKFF = 2;
+    ANMMOPCHJDI_DGNEFFILOMJ = 3;
+}

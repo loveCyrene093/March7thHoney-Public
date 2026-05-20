@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LEHNHDLEMHL.proto";
+
+message ChimeraFinishEndlessRoundScRsp {
+    uint32 NKBDDIDFPNE = 3;
+    repeated LEHNHDLEMHL IFNODKPGBJK = 4;
+    uint32 retcode = 5;
+    uint32 HFJJJKEBMEP = 7;
+    uint32 JIICJOKLNLG = 10;
+    bool OIPLJJIODIL = 11;
+    uint32 PKHBAMILIOI = 13;
+    uint32 ACDJHFNHCNP = 14;
+}

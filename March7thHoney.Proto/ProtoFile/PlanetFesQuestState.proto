@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum PlanetFesQuestState {
+    GKBAMPAGNBE_ALDGOGPGNMO = 0;
+    GKBAMPAGNBE_BIJPCHOLDCP = 1;
+    GKBAMPAGNBE_GMHJJBKDNMN = 2;
+    GKBAMPAGNBE_EFIGICJNEIM = 3;
+}

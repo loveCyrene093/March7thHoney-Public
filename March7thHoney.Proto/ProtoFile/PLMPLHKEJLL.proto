@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CPPAAIIHAGI.proto";
+import "ChessRogueBoardCellStatus.proto";
+import "OAKIPKACMJF.proto";
+import "OLDMMODMOEI.proto";
+
+message PLMPLHKEJLL {
+    OLDMMODMOEI BMKPIIGHODH = 2;
+    repeated OAKIPKACMJF IBOKGBFBKKD = 3;
+    CPPAAIIHAGI OMCINMJNPIF = 4;
+    uint32 NBEEBMJFOEA = 6;
+    ChessRogueBoardCellStatus CHHAMIKKKCI = 9;
+    repeated uint32 PNEMJFMGKJJ = 11;
+    uint32 HKBDJHLMIBF = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetHipplenInheritScRsp {
+    repeated uint32 grid_fight_trait_info = 12;
+    uint32 retcode = 14;
+}

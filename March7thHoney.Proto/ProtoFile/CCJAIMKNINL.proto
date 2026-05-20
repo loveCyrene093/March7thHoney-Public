@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ILLBNKFBNBP.proto";
+
+message CCJAIMKNINL {
+    ILLBNKFBNBP HEMOCMJABPA = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum JDKJPFGJOBI {
+    JDKJPFGJOBI_PCPDHELPKEM = 0;
+    JDKJPFGJOBI_MBJHGNHOGLG = 1;
+    JDKJPFGJOBI_LBHLHGEENKK = 2;
+}

@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMiscModuleType {
+    HFFBJODHMDL_PCPDHELPKEM = 0;
+    CmdBMPOHNCLHMF = 4132;
+    CmdCBIJJNDGPIN = 4174;
+    CmdSubmitOrigamiItemCsReq = 4104;
+    CmdDirectDeliveryScNotify = 4151;
+    CmdDifficultyAdjustmentUpdateDataCsReq = 4173;
+    CmdSwitchMascotUpdateScNotify = 4193;
+    HFFBJODHMDL_HEEEPIAAEFD = 4139;
+    CmdCancelDirectDeliveryNoticeScRsp = 4154;
+    CmdCancelDirectDeliveryNoticeCsReq = 4125;
+    CmdGetMovieRacingDataCsReq = 4107;
+    CmdLBMPPLKEBFO = 4105;
+    CmdGetSwitchMascotDataScRsp = 4120;
+    CmdGetOrigamiPropInfoCsReq = 4172;
+    CmdGetWolfBroShootingDataCsReq = 4189;
+    CmdGetUnreleasedBlockInfoCsReq = 4102;
+    CmdDifficultyAdjustmentUpdateDataScRsp = 4153;
+    CmdDifficultyAdjustmentGetDataCsReq = 4128;
+    CmdDPFENNBOBND = 4130;
+    CmdGetUnreleasedBlockInfoScRsp = 4149;
+    CmdLMCEPIDHEBL = 4101;
+    CmdUpdateWolfBroShootingDataCsReq = 4157;
+    CmdGetShareDataCsReq = 4194;
+    CmdCycleScoreRewardGetDataCsReq = 4166;
+    CmdGetGunPlayDataScRsp = 4196;
+    CmdKNDCLJNMAOC = 4114;
+    CmdCancelSyncExpiredItemCsReq = 4163;
+    CmdCycleScoreRewardTakeRewardCsReq = 4111;
+    CmdHFODKMFDMAE = 4137;
+    CmdUpdateMovieRacingDataScRsp = 4200;
+    CmdNFDLLEPHLHN = 4138;
+    CmdShareScRsp = 4110;
+    CmdDOHJCPAMAFL = 4136;
+    CmdGetMovieRacingDataScRsp = 4158;
+    CmdGetSwitchMascotDataCsReq = 4179;
+    CmdGetShareDataScRsp = 4195;
+    CmdMazeKillDirectScRsp = 4117;
+    CmdUpdateMovieRacingDataCsReq = 4144;
+    CmdALDEIBDDMON = 4103;
+    CmdEMJMLBDLMLC = 4118;
+    CmdUpdateGunPlayDataScRsp = 4121;
+    CmdLMHFPEPLIKH = 4126;
+    CmdCycleScoreRewardDestroyExceedRewardCsReq = 4171;
+    CmdDifficultyAdjustmentGetDataScRsp = 4165;
+    CmdMazeKillDirectCsReq = 4108;
+    CmdShareCsReq = 4191;
+}

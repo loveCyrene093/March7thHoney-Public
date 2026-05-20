@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FPKALFNABLG.proto";
+
+message GLPJODDJCCD {
+    repeated FPKALFNABLG JDEANJMIKML = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightPendingAugmentInfo {
+    uint32 OLDLDGCEIMF = 2;
+    uint32 augment_id = 5;
+    uint32 ALJBADEOPAH = 12;
+}

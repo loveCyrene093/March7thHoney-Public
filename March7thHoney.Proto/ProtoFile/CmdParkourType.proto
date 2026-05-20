@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdParkourType {
+    PCHEOAIBEKK_PCPDHELPKEM = 0;
+    CmdParkourGetRankingInfoCsReq = 8382;
+    CmdParkourGetDataScRsp = 8400;
+    CmdParkourStartLevelScRsp = 8388;
+    CmdParkourEndLevelScRsp = 8397;
+    CmdParkourGetDataCsReq = 8381;
+    CmdParkourStartLevelCsReq = 8395;
+    CmdParkourEndLevelCsReq = 8394;
+    CmdParkourGetRankingInfoScRsp = 8390;
+}

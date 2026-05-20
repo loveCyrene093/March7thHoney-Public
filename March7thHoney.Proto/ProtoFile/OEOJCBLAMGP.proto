@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LimaoNewsOfficeSurveyState.proto";
+
+message OEOJCBLAMGP {
+    repeated uint32 IEBFIIPBADJ = 4;
+    repeated uint32 OPFEKAKFNJM = 6;
+    repeated LimaoNewsOfficeSurveyState ANAHLHJDDDC = 13;
+}

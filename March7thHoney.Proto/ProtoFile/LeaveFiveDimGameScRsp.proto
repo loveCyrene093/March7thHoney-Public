@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LeaveFiveDimGameScRsp {
+    uint32 client_pos_version = 2;
+    uint32 retcode = 5;
+}

@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGAOJNNBALA.proto";
+import "AGLNDMMGFML.proto";
+import "BBOGAPHFIBG.proto";
+import "FFFKFKHHEOG.proto";
+import "GCACHJFLGHH.proto";
+import "GGJFDIHCFIH.proto";
+import "GHLDMADOHHF.proto";
+import "GLIFHDOLJMO.proto";
+import "GPMNBMJIFHJ.proto";
+import "HBMNFGPKECH.proto";
+import "HFHMIKIFLPO.proto";
+import "HHKHKGDAMNB.proto";
+import "HJMLNLKCOJJ.proto";
+import "IEMDAMOLKFL.proto";
+import "IIKMHADLJFL.proto";
+import "JNMOPCFJDPD.proto";
+import "LBJMGIHILGB.proto";
+import "LCEEJNOPNIB.proto";
+import "NCHLAEEOBIF.proto";
+import "OHAOFLALHBL.proto";
+import "PlanetFesUnlockChange.proto";
+
+message EOOABBDPEJJ {
+    oneof BPIHFAJCLOC {
+        LBJMGIHILGB MALOADHCLPH = 1;
+        GCACHJFLGHH KCKEMAPBCOF = 2;
+        LBJMGIHILGB JEFCNPJCPMN = 3;
+        GGJFDIHCFIH AFDGEDFKAGG = 4;
+        AGAOJNNBALA NCGPNEOILPC = 5;
+        GCACHJFLGHH APPELIAGBEE = 6;
+        IIKMHADLJFL PAJDKFMMAEO = 7;
+        JNMOPCFJDPD add_game_item_info = 8;
+        AGAOJNNBALA KFGBKEADAJG = 9;
+        JNMOPCFJDPD PPGFGHIPEPH = 10;
+        HFHMIKIFLPO CLAJDOECAHE = 11;
+        IIKMHADLJFL ECMOFEBPNGM = 12;
+        HFHMIKIFLPO FCEEEBLCBAJ = 13;
+        OHAOFLALHBL IPFOGBIFCFG = 14;
+        PlanetFesUnlockChange LBPLNAPFAIM = 15;
+        BBOGAPHFIBG FJCODOOIGKG = 77;
+        HHKHKGDAMNB FOGCABKJOLM = 127;
+        HBMNFGPKECH MLCCEEBNHOL = 128;
+        LCEEJNOPNIB NEPKHDPCKPF = 185;
+        IEMDAMOLKFL LIECNMCDHEB = 367;
+        GLIFHDOLJMO IBODBCMEJIG = 398;
+        FFFKFKHHEOG BBIEALHDKFJ = 710;
+        AGAOJNNBALA LJEMGMMJIBO = 885;
+        NCHLAEEOBIF MMDJPIBEICK = 1280;
+        GPMNBMJIFHJ IHNDGCHCNBE = 1526;
+        HJMLNLKCOJJ FHEPDALECNE = 1528;
+        GHLDMADOHHF CNPGENEOAHA = 1562;
+        AGLNDMMGFML KGAJNAHHAIJ = 1967;
+    }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpgradeTeamSlotCsRsp {
+    uint32 retcode = 4;
+    uint32 level = 6;
+    uint32 JNGHMOPEKJO = 7;
+}

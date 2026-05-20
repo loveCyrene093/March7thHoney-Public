@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EINJLBBAGDL {
+    uint32 DPBMAFBAJHD = 2;
+    uint32 map_id = 15;
+}

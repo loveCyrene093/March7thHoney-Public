@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HHIPKINNCAP.proto";
+
+message MHANIEBKGHH {
+    uint32 EKCPIKGLIJI = 1;
+    bool HLKAFPCLMEO = 2;
+    HHIPKINNCAP KBAKJDJPCOF = 3;
+}

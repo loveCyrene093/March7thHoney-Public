@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChestInfo.proto";
+import "MazeGroup.proto";
+import "MazePropState.proto";
+import "MissionStatusBySceneInfo.proto";
+import "PLDHJGAEEAE.proto";
+import "SceneIdentifier.proto";
+
+message SceneMapInfo {
+    uint32 entry_id = 1;
+    map<string, int32> floor_saved_data = 2;
+    uint32 cur_map_entry_id = 3;
+    repeated MazeGroup maze_group_list = 5;
+    repeated MazePropState maze_prop_list = 6;
+    uint32 floor_id = 7;
+    uint32 dimension_id = 9;
+    repeated uint32 lighten_section_list = 11;
+    repeated ChestInfo chest_list = 12;
+    repeated uint32 unlock_teleport_list = 13;
+    uint32 retcode = 14;
+    repeated PLDHJGAEEAE chest_monster_list = 15;
+    SceneIdentifier scene_identifier = 383;
+    repeated uint32 opened_chest_id_list = 828;
+    MissionStatusBySceneInfo client_group_mission_info = 893;
+    repeated uint32 finished_chest_monster_id_list = 1717;
+}

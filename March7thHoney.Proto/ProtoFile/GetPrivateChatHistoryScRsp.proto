@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChatMessageData.proto";
+
+message GetPrivateChatHistoryScRsp {
+    uint32 contact_side = 2;
+    uint32 target_side = 4;
+    uint32 retcode = 9;
+    repeated ChatMessageData chat_message_list = 13;
+}

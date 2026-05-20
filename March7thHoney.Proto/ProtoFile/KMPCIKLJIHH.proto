@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AAEFGPIIHLK.proto";
+import "AKEKHLAEKBC.proto";
+import "JABFAOAIEIG.proto";
+import "PHDKMFDPABI.proto";
+
+message KMPCIKLJIHH {
+    repeated AAEFGPIIHLK OFENICFJANC = 4;
+    repeated JABFAOAIEIG GBHPHCMGBGK = 5;
+    repeated AKEKHLAEKBC PADDEJDLFLA = 7;
+    repeated PHDKMFDPABI buff_list = 8;
+}

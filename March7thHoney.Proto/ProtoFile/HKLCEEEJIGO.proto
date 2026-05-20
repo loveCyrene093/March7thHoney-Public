@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IGKKFPDHJLK.proto";
+import "OMJLLILGAEP.proto";
+
+message HKLCEEEJIGO {
+    bool ICILBNDIDGP = 4;
+    int32 unique_id = 6;
+    IGKKFPDHJLK HDNGJKKLLPM = 7;
+    OMJLLILGAEP pos = 8;
+    uint32 JMIENBBMPAG = 14;
+}

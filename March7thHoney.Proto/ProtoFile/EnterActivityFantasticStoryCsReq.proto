@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OIIADJCEMKB.proto";
+
+message EnterActivityFantasticStoryCsReq {
+    uint32 battle_id = 3;
+    uint32 CEIMNDJFDJD = 5;
+    repeated uint32 buff_list = 9;
+    repeated OIIADJCEMKB avatar_list = 15;
+}

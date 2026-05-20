@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EEBPHJCNBFO.proto";
+
+message RogueTournEnterRogueCocoonSceneCsReq {
+    bool NBDHADPNGNH = 1;
+    uint32 Count = 2;
+    uint32 JOMHEIHLLDM = 3;
+    repeated EEBPHJCNBFO avatar_list = 6;
+    uint32 difficulty_level = 9;
+    uint32 LJPLIHEPGHA = 10;
+}

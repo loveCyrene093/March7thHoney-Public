@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ICOIMHLBMFI.proto";
+
+message OAHNIFMDLCJ {
+    bool PFGLKFBHGKM = 2;
+    bool ILGIANHEALF = 8;
+    uint32 NGDKBDAMEHM = 14;
+    repeated ICOIMHLBMFI JOEBAPNOLAF = 15;
+}

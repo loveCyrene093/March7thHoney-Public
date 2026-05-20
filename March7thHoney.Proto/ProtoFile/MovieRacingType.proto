@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum MovieRacingType {
+    PKHICLEHJKL_HNKDHPKCGEO = 0;
+    PKHICLEHJKL_EBABHOAODFF = 1;
+    PKHICLEHJKL_HHFIBENNEBH = 2;
+    PKHICLEHJKL_KIDIKKJNJNJ = 3;
+}

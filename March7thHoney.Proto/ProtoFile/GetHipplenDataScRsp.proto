@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JFACONIBFHM.proto";
+import "LIOLPIJOMBI.proto";
+import "OOLHNFNKOHN.proto";
+
+message GetHipplenDataScRsp {
+    OOLHNFNKOHN ACJHGLGHEAH = 1;
+    LIOLPIJOMBI CEAJNLLIBFP = 4;
+    uint32 IPOEIGADLJN = 7;
+    uint32 retcode = 9;
+    bool MPPJLFIDMLB = 10;
+    JFACONIBFHM IBHLKGIEPLG = 14;
+}

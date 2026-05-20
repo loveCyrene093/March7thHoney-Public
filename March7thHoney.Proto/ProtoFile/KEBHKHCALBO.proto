@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KFKDIEAJPCJ.proto";
+
+message KEBHKHCALBO {
+    KFKDIEAJPCJ black_list = 7;
+    bool GNDJPNBECJP = 10;
+}

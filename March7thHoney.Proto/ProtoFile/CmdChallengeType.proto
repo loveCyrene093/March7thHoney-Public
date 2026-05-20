@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdChallengeType {
+    BNLGJBKKKBK_PCPDHELPKEM = 0;
+    CmdChallengeSettleNotify = 1709;
+    CmdGetChallengeGroupStatisticsCsReq = 1772;
+    CmdLeaveChallengeCsReq = 1714;
+    CmdGetChallengeCsReq = 1791;
+    CmdStartPartialChallengeScRsp = 1761;
+    CmdGetChallengeGroupStatisticsScRsp = 1732;
+    CmdTakeChallengeRewardScRsp = 1738;
+    CmdTakeChallengeRewardCsReq = 1704;
+    CmdStartChallengeScRsp = 1795;
+    CmdGetCurChallengeScRsp = 1739;
+    CmdEnterChallengeNextPhaseCsReq = 1800;
+    CmdGetCurChallengeCsReq = 1726;
+    CmdEnterChallengeNextPhaseScRsp = 1789;
+    CmdLeaveChallengeScRsp = 1718;
+    CmdStartChallengeCsReq = 1794;
+    CmdRestartChallengePhaseScRsp = 1744;
+    CmdChallengeBossPhaseSettleNotify = 1796;
+    CmdPartialChallengeCsReq = 1733;
+    CmdGetChallengeScRsp = 1710;
+    CmdRestartChallengePhaseCsReq = 1758;
+    CmdChallengeLineupNotify = 1701;
+}

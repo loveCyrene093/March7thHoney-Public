@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeLineupList.proto";
+
+message PlayerChallengePeakRecordMobData {
+    uint32 cycles_used = 1;
+    uint32 peak_id = 3;
+    ChallengeLineupList lineup = 4;
+    repeated uint32 OBPDENLMNII = 8;
+}

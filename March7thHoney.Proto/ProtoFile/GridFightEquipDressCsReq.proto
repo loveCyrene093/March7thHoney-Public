@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightEquipDressSource.proto";
+
+message GridFightEquipDressCsReq {
+    uint32 dress_role_unique_id = 2;
+    GridFightEquipDressSource dress_source = 5;
+    uint32 dress_equipment_unique_id = 9;
+}

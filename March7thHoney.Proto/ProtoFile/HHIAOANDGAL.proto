@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TrainVisitorStatus.proto";
+
+message HHIAOANDGAL {
+    uint32 visitor_id = 8;
+    repeated uint32 AJLIIMNDPGL = 10;
+    TrainVisitorStatus status = 11;
+    uint32 LAMIOKFJMEF = 14;
+    bool OLDMKNAIDEL = 15;
+}

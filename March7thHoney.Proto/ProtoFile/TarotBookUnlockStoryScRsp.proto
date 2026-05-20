@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IPJOJKPBFGK.proto";
+
+message TarotBookUnlockStoryScRsp {
+    map<uint32, uint32> CJLGPCAOPFC = 2;
+    uint32 retcode = 4;
+    map<uint32, uint32> CCCKMACKLKG = 8;
+    IPJOJKPBFGK PFKHIIFBNDD = 9;
+    repeated uint32 LEGLOIMNPEC = 10;
+}

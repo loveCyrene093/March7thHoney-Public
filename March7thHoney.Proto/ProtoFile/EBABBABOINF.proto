@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum EBABBABOINF {
+    EBABBABOINF_PCPDHELPKEM = 0;
+    EBABBABOINF_CDPLPIBDKNN = 1;
+    EBABBABOINF_JAIAFPJODFE = 2;
+}

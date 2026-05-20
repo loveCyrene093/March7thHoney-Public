@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+message ChatMessageExtra {
+    uint32 kind = 1;
+    uint64 value = 2;
+}

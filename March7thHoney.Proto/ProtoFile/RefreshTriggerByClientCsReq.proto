@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+
+message RefreshTriggerByClientCsReq {
+    uint64 interact_id = 1;
+    repeated uint32 trigger_target_id_list = 2;
+    string trigger_name = 5;
+    uint32 trigger_entity_id = 7;
+    MotionInfo trigger_motion = 13;
+}

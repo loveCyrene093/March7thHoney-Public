@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GLEFCCGNKDE {
+    uint32 cnt = 5;
+    uint32 id = 10;
+}

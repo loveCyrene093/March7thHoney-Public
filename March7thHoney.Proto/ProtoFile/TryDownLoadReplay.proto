@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ReplayInfo.proto";
+
+message TryDownLoadReplay {
+    string replay_name = 1;
+    ReplayInfo try_down_load_replay = 2;
+}

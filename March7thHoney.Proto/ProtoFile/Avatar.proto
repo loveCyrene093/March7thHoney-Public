@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message Avatar {
+    uint64 first_met_time_stamp = 2;
+    uint32 promotion = 3;
+    bool is_marked = 5;
+    uint32 level = 8;
+    uint32 base_avatar_id = 9;
+    repeated uint32 has_taken_promotion_reward_list = 12;
+    uint32 cur_multi_path_avatar_type = 13;
+    uint32 exp = 14;
+    uint32 equipment_unique_id = 15;
+}

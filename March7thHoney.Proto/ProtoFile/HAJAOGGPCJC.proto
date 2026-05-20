@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarType.proto";
+
+message HAJAOGGPCJC {
+    AvatarType avatar_type = 1;
+    uint32 id = 2;
+}

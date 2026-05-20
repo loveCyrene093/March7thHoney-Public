@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChimeraDuelPlayerRankData.proto";
+import "HPHMMPDFMAK.proto";
+
+message NCBLOBPPIBD {
+    uint32 BEKCHIMDNJG = 1;
+    uint32 MAPDNLBHHCD = 4;
+    repeated uint32 MMIIINJDLAM = 6;
+    repeated uint32 CKJECOHKCLL = 7;
+    uint32 JNMBJHJPBOK = 8;
+    uint32 JGLKNEOCJCH = 10;
+    ChimeraDuelPlayerRankData GEPGGGDKBNK = 11;
+    repeated uint32 GLCOINHKHMM = 14;
+    repeated HPHMMPDFMAK EAPLGIOFDDG = 15;
+}

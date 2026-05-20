@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GPHODKCPCHG {
+    bool EDGEHIDLDBF = 6;
+    uint32 trait_id = 15;
+}

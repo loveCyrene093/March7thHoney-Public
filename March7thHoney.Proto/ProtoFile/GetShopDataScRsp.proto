@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IGFHFBAFDDO.proto";
+
+message GetShopDataScRsp {
+    repeated IGFHFBAFDDO OCEPFOIHLBH = 11;
+    uint32 retcode = 13;
+}

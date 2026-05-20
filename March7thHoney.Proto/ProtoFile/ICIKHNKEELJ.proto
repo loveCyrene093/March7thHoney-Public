@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ICIKHNKEELJ {
+    uint32 role_id = 3;
+    uint32 role_star = 7;
+    uint32 pos = 9;
+    repeated uint32 grid_fight_item_list = 12;
+    bool MHFDDMKMFAH = 14;
+}

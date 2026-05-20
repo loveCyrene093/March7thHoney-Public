@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTrainCakeCatchType {
+    IODFALGGBCH_PCPDHELPKEM = 0;
+    CmdSocialPlayTalkScRsp = 9751;
+    CmdIPCKGLOHJLH = 9637;
+    CmdJGECJEFKNCO = 9718;
+    CmdTrainCakeCatchDiyCsReq = 9716;
+    CmdTrainCakeCatchSearchCsReq = 9733;
+    CmdTrainCakeCatchOpenBoxScRsp = 9657;
+    CmdTrainCakeCatchGetDataScRsp = 9762;
+    CmdMKLFLKDHLIC = 9666;
+    CmdSocialPlayGameplayOperationScNotify = 9662;
+    CmdTrainCakeCatchOpenBoxCsReq = 9628;
+    CmdSocialPlayTalkCsReq = 9648;
+    CmdBBDMHAMPCJE = 9675;
+    CmdTrainCakeCatchDiyLikeCsReq = 9659;
+    CmdSocialPlayRoomPlayerMoveScNotify = 9621;
+    CmdSocialPlayPreCheckEnterRoomScRsp = 9728;
+    CmdPreCheckEnterRoomReq = 9767;
+    CmdTrainCakeCatchSearchScRsp = 9766;
+    CmdTrainCakeCatchDiyLikeScRsp = 9697;
+    CmdTrainCakeCatchGetDataCsReq = 9745;
+    IODFALGGBCH_AAMOKIIGHIP = 9676;
+    CmdSocialPlaySettingInfoScNotify = 9627;
+    CmdAHLMMDJAGOA = 9683;
+    CmdTrainCakeCatchDiyScRsp = 9649;
+}

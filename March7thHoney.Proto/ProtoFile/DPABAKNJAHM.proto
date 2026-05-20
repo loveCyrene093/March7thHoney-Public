@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IEEPGJIKEEM.proto";
+
+message DPABAKNJAHM {
+    IEEPGJIKEEM type = 1;
+    uint32 cnt = 5;
+}

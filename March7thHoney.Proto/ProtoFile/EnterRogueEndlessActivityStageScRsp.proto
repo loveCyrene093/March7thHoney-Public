@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DGDHBAGEOOI.proto";
+import "SceneBattleInfo.proto";
+
+message EnterRogueEndlessActivityStageScRsp {
+    SceneBattleInfo battle_info = 3;
+    uint32 retcode = 11;
+    DGDHBAGEOOI BNOCEPKMPGK = 12;
+}

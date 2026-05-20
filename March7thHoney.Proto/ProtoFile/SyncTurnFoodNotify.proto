@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TurnFoodSwitch.proto";
+
+message SyncTurnFoodNotify {
+    repeated TurnFoodSwitch MAODNHNHLIJ = 9;
+    repeated uint32 DBPDPHIMBDJ = 15;
+}

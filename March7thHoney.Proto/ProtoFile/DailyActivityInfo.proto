@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DailyActivityInfo {
+    uint32 level = 5;
+    bool is_has_taken = 6;
+    uint32 world_level = 7;
+    uint32 daily_active_point = 10;
+}

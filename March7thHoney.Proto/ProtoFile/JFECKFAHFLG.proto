@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum JFECKFAHFLG {
+    JFECKFAHFLG_CCLNKJBCIJN = 0;
+    JFECKFAHFLG_CHEBHCOMEDO = 1;
+    JFECKFAHFLG_AJLHOMAMBAE = 2;
+}

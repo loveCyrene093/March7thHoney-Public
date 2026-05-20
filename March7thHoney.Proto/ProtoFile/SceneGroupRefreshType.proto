@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum SceneGroupRefreshType {
+    SCENE_GROUP_REFRESH_TYPE_NONE = 0;
+    SCENE_GROUP_REFRESH_TYPE_LOADED = 1;
+    SCENE_GROUP_REFRESH_TYPE_UNLOAD = 2;
+    SCENE_GROUP_REFRESH_TYPE_AFIBFMAFNCC = 3;
+}

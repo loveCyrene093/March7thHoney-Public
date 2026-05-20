@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JMIIFOMFOGO.proto";
+
+message SyncRogueFinishScNotify {
+    JMIIFOMFOGO finish_info = 12;
+}

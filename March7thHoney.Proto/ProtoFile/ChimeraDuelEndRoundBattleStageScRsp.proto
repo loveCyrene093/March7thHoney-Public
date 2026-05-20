@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DCIFPICPJMK.proto";
+import "DDJOEIBOELH.proto";
+import "HOBCIOKKNKH.proto";
+
+message ChimeraDuelEndRoundBattleStageScRsp {
+    uint32 retcode = 12;
+    DCIFPICPJMK KGEBJNHOLCN = 14;
+    oneof BPIHFAJCLOC {
+        DDJOEIBOELH OIAPHBBDPHL = 1088;
+        HOBCIOKKNKH CKIMOELPOAB = 2013;
+    }
+}

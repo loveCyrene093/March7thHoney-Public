@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BHFAFMDHKKC.proto";
+
+message ChallengeBossStatistics {
+    BHFAFMDHKKC NCEGEKNLJCE = 9;
+    uint32 record_id = 12;
+}

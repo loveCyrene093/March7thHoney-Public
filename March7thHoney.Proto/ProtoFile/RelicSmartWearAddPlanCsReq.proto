@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RelicSmartWearPlan.proto";
+
+message RelicSmartWearAddPlanCsReq {
+    RelicSmartWearPlan relic_plan = 6;
+}

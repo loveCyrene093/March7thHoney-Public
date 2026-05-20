@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CKFHOLKJAGC.proto";
+
+message GetTelevisionActivityDataScRsp {
+    uint32 retcode = 3;
+    repeated CKFHOLKJAGC JDJCJCABFML = 4;
+}

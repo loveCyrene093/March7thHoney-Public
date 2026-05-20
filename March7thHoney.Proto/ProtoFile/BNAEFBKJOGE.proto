@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleAvatar.proto";
+import "BattleBuff.proto";
+import "BattleGridFightSpecialBattleInfo.proto";
+import "BattleMonsterWave.proto";
+import "BattleRogueMagicInfo.proto";
+import "BattleTargetList.proto";
+import "CAKGOGMEJOF.proto";
+import "KCGPMNNKIKN.proto";
+import "MLDEDCCOHBF.proto";
+import "OGEOMDJIAGI.proto";
+
+message BNAEFBKJOGE {
+    repeated BattleAvatar avatar_list = 1;
+    repeated BattleMonsterWave monster_wave_list = 2;
+    repeated BattleBuff buff_list = 3;
+    uint32 world_level = 7;
+    map<uint32, BattleTargetList> battle_target_info = 9;
+    KCGPMNNKIKN GDAGHIJADOD = 10;
+    repeated BattleAvatar LILELAAIGIK = 11;
+    BattleGridFightSpecialBattleInfo FMCJPPILPLL = 12;
+    MLDEDCCOHBF OBOFOCPCBPK = 13;
+    BattleRogueMagicInfo battle_rogue_magic_info = 14;
+    CAKGOGMEJOF IAJDCJIAHFP = 15;
+    OGEOMDJIAGI AFCMOOFGBPK = 16;
+}

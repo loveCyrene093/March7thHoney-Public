@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightSupplyActionResult {
+    repeated uint32 select_supply_indexes = 6;
+}

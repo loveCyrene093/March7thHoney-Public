@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetAssistAvatarCsReq {
+    repeated uint32 avatar_id_list = 2;
+    uint32 avatar_id = 11;
+}

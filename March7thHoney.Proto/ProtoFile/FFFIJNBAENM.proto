@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OIDHAGNGKLG.proto";
+
+message FFFIJNBAENM {
+    uint32 MAGPAONJOBD = 6;
+    uint32 item_id = 11;
+    OIDHAGNGKLG BMNDBKBHIOC = 13;
+}

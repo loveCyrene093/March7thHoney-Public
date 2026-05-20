@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTutorialType {
+    FEOFAEEBNPA_PCPDHELPKEM = 0;
+    CmdUnlockTutorialGuideScRsp = 1698;
+    CmdGetTutorialGuideCsReq = 1694;
+    CmdGetTutorialCsReq = 1691;
+    CmdUnlockTutorialGuideCsReq = 1609;
+    CmdGetTutorialGuideScRsp = 1695;
+    CmdFinishTutorialScRsp = 1626;
+    CmdGetTutorialScRsp = 1610;
+    CmdFinishTutorialGuideScRsp = 1601;
+    CmdFinishTutorialCsReq = 1663;
+    CmdFinishTutorialGuideCsReq = 1639;
+    CmdUnlockTutorialCsReq = 1614;
+    CmdUnlockTutorialScRsp = 1618;
+}

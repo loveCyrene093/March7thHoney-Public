@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FLCPAPOJBGP {
+    FLCPAPOJBGP_PCPDHELPKEM = 0;
+    FLCPAPOJBGP_PCPKFCDOJPD = 1;
+    FLCPAPOJBGP_HPJEBFFHJNP = 2;
+    FLCPAPOJBGP_KLHDCOPPLNG = 3;
+}

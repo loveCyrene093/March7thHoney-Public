@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CCKCCKHEFFB.proto";
+import "FOFNOBHLKGO.proto";
+import "GFLKDHPBAMJ.proto";
+import "HMDJNPFBOMM.proto";
+import "ICHNLLCNBCC.proto";
+import "KHCINCLHIOJ.proto";
+import "MKHIPFHEKCK.proto";
+import "OEBJBPNNOKO.proto";
+
+message SocialPlayGameplayOperationScNotify {
+    uint32 NCFHGIBCEBG = 5;
+    uint32 MFBDMLPDEOE = 6;
+    oneof DCINAIHIPOC {
+        uint32 KBPJEKKBBNO = 25;
+        uint32 JKMNPPEOIJP = 294;
+        int64 FIHMHJHGHOG = 380;
+        HMDJNPFBOMM AFCCFJOEIOH = 565;
+        CCKCCKHEFFB IACKOCPGIAK = 684;
+        GFLKDHPBAMJ NGPGKFELCED = 826;
+        FOFNOBHLKGO KANBEFELFFE = 1176;
+        MKHIPFHEKCK FHJFKLICFBE = 1322;
+        MKHIPFHEKCK INPEGNFEPAP = 1396;
+        KHCINCLHIOJ BLEDIOOJPNL = 1686;
+        ICHNLLCNBCC IHNNEJKHBHL = 1754;
+        uint32 PAIBKOMPFOE = 1763;
+        uint32 NEAIFLAADFE = 1780;
+        OEBJBPNNOKO PEFPFCINABN = 1841;
+    }
+}

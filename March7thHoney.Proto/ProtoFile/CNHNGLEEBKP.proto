@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CNHNGLEEBKP {
+    uint32 LGHOOKMNMCL = 1;
+    uint32 exp = 8;
+    uint32 level = 12;
+    uint32 MOOOPAMBOFK = 14;
+}

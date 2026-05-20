@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LBDMFFDNFDP {
+    LBDMFFDNFDP_GHGAPOAKGAB = 0;
+    LBDMFFDNFDP_CBPNONBGPIM = 1;
+    LBDMFFDNFDP_DPMJNMKGGOA = 2;
+    LBDMFFDNFDP_KLHDCOPPLNG = 3;
+}

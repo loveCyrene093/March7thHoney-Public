@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message MissionRewardScNotify {
+    uint32 sub_mission_id = 2;
+    uint32 main_mission_id = 6;
+    ItemList reward = 10;
+}

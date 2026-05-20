@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NpcStatus {
+    uint32 npc_id = 4;
+    bool is_finish = 15;
+}

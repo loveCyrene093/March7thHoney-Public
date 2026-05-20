@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ParkourStartLevelScRsp {
+    uint32 level_id = 3;
+    uint32 HHPFNDBGIIO = 4;
+    uint32 retcode = 13;
+}

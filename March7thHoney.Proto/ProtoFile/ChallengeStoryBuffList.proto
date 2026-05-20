@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ChallengeStoryBuffList {
+    repeated uint32 buff_list = 6;
+}

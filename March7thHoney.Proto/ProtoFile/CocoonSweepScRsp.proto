@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message CocoonSweepScRsp {
+    uint32 cocoon_id = 1;
+    uint32 retcode = 4;
+    ItemList drop_data = 5;
+    ItemList multiple_drop_data = 12;
+}

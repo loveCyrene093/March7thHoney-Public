@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GachaItem.proto";
+
+message DoGachaScRsp {
+    uint32 gacha_id = 2;
+    uint32 retcode = 3;
+    uint32 OKFNNHNLBOO = 5;
+    uint32 EHKFPMJCEMI = 8;
+    uint32 NJJKICNOFCL = 9;
+    uint32 gacha_num = 10;
+    repeated GachaItem gacha_item_list = 11;
+    uint32 ceiling_num = 13;
+    uint32 FJIBOAGDNDG = 14;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NpcDialogueEventParam {
+    uint32 arg_id = 9;
+    uint32 rogue_dialogue_event_id = 11;
+}

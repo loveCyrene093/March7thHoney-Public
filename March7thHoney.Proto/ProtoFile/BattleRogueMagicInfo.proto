@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FIHMEHKCDAL.proto";
+import "NGJPJANLDHI.proto";
+
+message BattleRogueMagicInfo {
+    NGJPJANLDHI IMPOEHIOCBC = 1;
+    FIHMEHKCDAL detail_info = 2;
+}

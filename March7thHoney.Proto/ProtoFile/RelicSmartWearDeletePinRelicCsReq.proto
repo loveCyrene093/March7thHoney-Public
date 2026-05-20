@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NHFOGDPBOHN.proto";
+
+message RelicSmartWearDeletePinRelicCsReq {
+    bool OPCPHICEOOF = 3;
+    uint32 avatar_id = 6;
+    repeated NHFOGDPBOHN DHCNMIAIBGF = 11;
+}

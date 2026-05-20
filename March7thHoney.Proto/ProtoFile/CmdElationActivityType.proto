@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdElationActivityType {
+    LMALBOAPKOH_PCPDHELPKEM = 0;
+    CmdElationActivityBattleEndScNotify = 9105;
+    CmdEnterElationActivityStageScRsp = 9107;
+    CmdEnterElationActivityStageCsReq = 9101;
+    CmdGetElationActivityDataScRsp = 9110;
+    CmdGetActivityElationDataCsReq = 9109;
+}

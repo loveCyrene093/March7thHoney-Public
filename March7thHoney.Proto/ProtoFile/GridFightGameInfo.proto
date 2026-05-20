@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightGameAugmentSync.proto";
+import "GridFightGameBasicInfo.proto";
+import "GridFightGameItemsInfo.proto";
+import "GridFightGameOrbInfo.proto";
+import "GridFightGameShopInfo.proto";
+import "GridFightGameTeamInfo.proto";
+import "GridFightGameTraitInfo.proto";
+import "GridFightLevelInfo.proto";
+import "LHFDOPGEOML.proto";
+
+message GridFightGameInfo {
+    oneof FHPJJJDNKIO {
+        GridFightGameItemsInfo grid_draft_info = 1;
+        GridFightGameShopInfo grid_items_info = 2;
+        GridFightGameTeamInfo grid_trait_game_info = 3;
+        GridFightGameAugmentSync grid_orb_info = 7;
+        LHFDOPGEOML grid_team_game_info = 8;
+        GridFightLevelInfo grid_shop_info = 10;
+        GridFightGameTraitInfo grid_augment_info = 12;
+        GridFightGameOrbInfo grid_level_info = 13;
+        GridFightGameBasicInfo grid_basic_info = 15;
+    }
+}

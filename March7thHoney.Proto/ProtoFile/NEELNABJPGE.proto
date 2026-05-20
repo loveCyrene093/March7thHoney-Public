@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ELLNDNEBHDK.proto";
+
+message NEELNABJPGE {
+    uint32 retcode = 6;
+    ELLNDNEBHDK FMECAHALPKG = 12;
+}

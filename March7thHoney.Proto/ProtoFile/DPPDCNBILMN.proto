@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NJBHKLCKHBK.proto";
+
+message DPPDCNBILMN {
+    NJBHKLCKHBK MAONHDCCHPE = 3;
+    uint32 retcode = 11;
+}

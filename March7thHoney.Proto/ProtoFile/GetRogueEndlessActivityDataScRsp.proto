@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NLPPCFGFFDE.proto";
+
+message GetRogueEndlessActivityDataScRsp {
+    uint32 LLHGGPJBNIN = 1;
+    repeated uint32 MOGBNJOHKLA = 3;
+    repeated NLPPCFGFFDE data = 6;
+    uint32 NAGLJDCLGGB = 7;
+    uint32 retcode = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+
+message APKPGIOLLNP {
+    repeated GKDEKJKOIJN FMPNNHDPGKD = 2;
+    repeated GKDEKJKOIJN MEKLIBAPGON = 3;
+    uint32 retcode = 7;
+    repeated GKDEKJKOIJN HEOEKAPBNIE = 13;
+}

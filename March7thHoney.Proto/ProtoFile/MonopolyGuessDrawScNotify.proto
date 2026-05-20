@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LNINNLAEANB.proto";
+
+message MonopolyGuessDrawScNotify {
+    repeated LNINNLAEANB CCGJKBOLCDL = 10;
+}

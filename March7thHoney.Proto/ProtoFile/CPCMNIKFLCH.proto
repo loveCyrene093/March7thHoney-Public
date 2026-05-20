@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CPCMNIKFLCH {
+    CPCMNIKFLCH_KBJAIKJEFBB = 0;
+    CPCMNIKFLCH_HPLLCDDBFDC = 1;
+    CPCMNIKFLCH_CBIKFPHILKB = 2;
+    CPCMNIKFLCH_FBOLJFIBBGM = 3;
+    CPCMNIKFLCH_FIEEJNPOHDE = 4;
+}

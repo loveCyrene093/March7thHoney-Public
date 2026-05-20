@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChessRogueNousDicePhase.proto";
+import "GLENEKHDKLJ.proto";
+
+message GCIMMIHKPEI {
+    repeated GLENEKHDKLJ JIKKNNOGMDB = 1;
+    repeated uint32 BMHAFFGJEJK = 6;
+    ChessRogueNousDicePhase PEBIBEMBNFA = 8;
+    map<uint32, bool> BNLMPIEEEIM = 12;
+}

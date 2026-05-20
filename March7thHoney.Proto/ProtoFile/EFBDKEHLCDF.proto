@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIPBBPHGEKJ.proto";
+import "CKHDNJGMEJC.proto";
+import "KACOOFIKHOG.proto";
+
+message EFBDKEHLCDF {
+    repeated CKHDNJGMEJC DEPLLJPKKGD = 2;
+    repeated CIPBBPHGEKJ BHABGAPJAHF = 10;
+    repeated KACOOFIKHOG CDIFGIGFLEL = 11;
+    uint32 NALLICMEEDI = 14;
+}

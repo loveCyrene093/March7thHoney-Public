@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BHHNMHDDIDD.proto";
+
+message ElfRestaurantPlantSeedCsReq {
+    repeated BHHNMHDDIDD FOPHPJNGPDE = 1;
+    uint32 IALJOJMAFLL = 10;
+}

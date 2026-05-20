@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APMHDGPDGNP.proto";
+import "CNMBIPOPOFH.proto";
+import "HDDBJIKNEPF.proto";
+import "NCDBPKAIHIN.proto";
+
+message OJKAHCEKDGN {
+    string name = 3;
+    int64 end_time = 4;
+    uint32 KKGIEENCOIC = 5;
+    APMHDGPDGNP HHDLEADBJGN = 6;
+    CNMBIPOPOFH HCEHOHDCCFE = 7;
+    NCDBPKAIHIN data = 12;
+    repeated HDDBJIKNEPF avatar_list = 13;
+    int64 time = 15;
+}

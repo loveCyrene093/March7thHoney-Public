@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message AvatarExpUpCsReq {
+    uint32 base_avatar_id = 3;
+    ItemCostData item_cost = 9;
+}

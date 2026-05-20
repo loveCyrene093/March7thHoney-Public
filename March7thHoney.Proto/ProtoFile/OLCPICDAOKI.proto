@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KGCLNMHAAMM.proto";
+
+message OLCPICDAOKI {
+    int32 attack = 1;
+    uint32 buff_id = 2;
+    bool NBEKCEIHJAC = 3;
+    uint32 KFAEMIBBPHA = 4;
+    KGCLNMHAAMM OAIMADEEEPE = 5;
+    bool NFOFIPGGJGP = 7;
+    int32 hp = 8;
+    int32 max_hp = 9;
+    KGCLNMHAAMM MBAFIOCLMAI = 10;
+    bool ABAFOPBHILK = 11;
+    uint32 level = 12;
+    uint32 id = 13;
+    bool OLKBHJNOIAD = 14;
+    float KHNNELPGKIM = 15;
+}

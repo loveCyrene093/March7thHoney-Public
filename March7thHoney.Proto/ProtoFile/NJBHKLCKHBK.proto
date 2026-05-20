@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HIBBBJBENHC.proto";
+import "Vector.proto";
+
+message NJBHKLCKHBK {
+    uint32 id = 1;
+    bool PIJMKHMDHAE = 5;
+    uint32 BIAGIFIKDNA = 9;
+    repeated Vector BLLLDCMOAAI = 10;
+    string uuid = 13;
+    HIBBBJBENHC CPEMLIAGBKB = 14;
+}

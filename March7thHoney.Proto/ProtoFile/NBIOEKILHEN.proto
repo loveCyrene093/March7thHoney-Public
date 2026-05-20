@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MGGLDHHPNBM.proto";
+
+message NBIOEKILHEN {
+    MGGLDHHPNBM AAGBLPKDJJP = 1;
+    uint32 avatar_id = 5;
+}

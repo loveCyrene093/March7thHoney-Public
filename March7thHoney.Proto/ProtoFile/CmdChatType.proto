@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdChatType {
+    HDCAHBFBODO_PCPDHELPKEM = 0;
+    CmdGetChatEmojiListScRsp = 3926;
+    CmdGetPrivateChatHistoryCsReq = 3914;
+    CmdGetPrivateChatHistoryScRsp = 3918;
+    CmdGetChatEmojiListCsReq = 3963;
+    CmdHABEIPJGPNJ = 3995;
+    CmdMarkChatEmojiScRsp = 3901;
+    CmdRevcMsgScNotify = 3994;
+    CmdGetLoginChatInfoScRsp = 3938;
+    CmdGetLoginChatInfoCsReq = 3904;
+    CmdBatchMarkChatEmojiCsReq = 3974;
+    CmdSendMsgScRsp = 3910;
+    CmdBatchMarkChatEmojiScRsp = 3937;
+    CmdGetChatFriendHistoryCsReq = 3909;
+    CmdSendMsgCsReq = 3991;
+    CmdGetChatFriendHistoryScRsp = 3998;
+    CmdMarkChatEmojiCsReq = 3939;
+}

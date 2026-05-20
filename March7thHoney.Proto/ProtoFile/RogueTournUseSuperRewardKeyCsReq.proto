@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RogueTournUseSuperRewardKeyCsReq {
+    uint32 difficulty_level = 1;
+    uint32 count = 12;
+    uint32 cocoon_id = 14;
+}

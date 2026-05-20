@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GFLKDHPBAMJ {
+    oneof AFLLICNCFDN {
+        string message_text = 1;
+        uint32 extra_id = 2;
+    }
+}

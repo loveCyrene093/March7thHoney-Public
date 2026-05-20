@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DDKHEFEBFAJ.proto";
+
+message MMGBIIDOPID {
+    uint32 CLAFNDLGDAO = 7;
+    uint32 item_stack_count = 12;
+    DDKHEFEBFAJ MJDMLOIHLPA = 15;
+}

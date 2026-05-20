@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FHBNDNNKDON.proto";
+import "LobbyCharacterStatus.proto";
+
+message PKEIDNJOLEL {
+    FHBNDNNKDON HBCMPOLIKHG = 1;
+    LobbyCharacterStatus status = 2;
+}

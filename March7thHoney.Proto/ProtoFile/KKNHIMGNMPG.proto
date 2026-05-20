@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KKNHIMGNMPG {
+    repeated uint32 PFDKKFPPAAA = 1;
+    repeated uint32 CCOAKLKBPMF = 2;
+}

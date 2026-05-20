@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GAPBBJCLMGP {
+    GAPBBJCLMGP_FHMIGJBIGFC = 0;
+    GAPBBJCLMGP_DGECGAAFDJM = 1;
+    GAPBBJCLMGP_FJIGHECANON = 2;
+}

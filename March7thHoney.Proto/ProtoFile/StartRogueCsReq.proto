@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message StartRogueCsReq {
+    uint32 LGHOOKMNMCL = 2;
+    repeated uint32 KOLBLKEDOGC = 3;
+    uint32 area_id = 5;
+    repeated uint32 unfinished_story_line_id_list = 11;
+    repeated uint32 base_avatar_id_list = 14;
+}

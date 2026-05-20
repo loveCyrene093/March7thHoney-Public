@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+import "JIPACDEJKJC.proto";
+
+message BDEMABPLPKO {
+    repeated JIPACDEJKJC BPCKFLJIGCI = 3;
+    bool CFIONKKIPJL = 4;
+    EFEGKDHEMFN BFNPCJOMGFL = 5;
+    uint32 GAFPECGGICC = 6;
+    bool has_passed = 9;
+    int64 DNNHCNCKJCM = 11;
+    map<uint32, uint32> KBHEGBCAAMG = 14;
+}

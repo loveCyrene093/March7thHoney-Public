@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FightMarbleHpChangeType {
+    AGHLHAFIAEJ_OPPEOEKLDCJ = 0;
+    AGHLHAFIAEJ_CBHGOMHNLMI = 1;
+    AGHLHAFIAEJ_DNOOPAMDACC = 2;
+}

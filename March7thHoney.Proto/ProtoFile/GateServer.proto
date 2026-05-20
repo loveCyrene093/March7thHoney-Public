@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GateServer {
+    string ip = 3;
+    string lua_url = 6;
+    uint32 port = 7;
+    string region_name = 9;
+    bool unk1 = 10;
+    string ex_resource_url = 11;
+    string asset_bundle_url = 12;
+    uint32 retcode = 14;
+    bool unk2 = 15;
+    string msg = 43;
+    bool unk3 = 67;
+    bool unk4 = 79;
+    bool unk10 = 112;
+    bool unk5 = 184;
+    bool unk6 = 200;
+    bool unk14 = 208;
+    bool unk13 = 393;
+    bool unk7 = 454;
+    bool unk8 = 529;
+    bool unk15 = 929;
+    bool unk16 = 975;
+    string ifix_version = 1178;
+    string mdk_res_version = 1238;
+    bool unk12 = 1276;
+    string asset_bundle_url_android = 1417;
+    bool unk11 = 1440;
+    string ifix_url = 1488;
+    bool unk9 = 1686;
+    string ClientSecretKey = 721;
+}

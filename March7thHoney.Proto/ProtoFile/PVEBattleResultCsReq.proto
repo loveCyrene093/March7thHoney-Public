@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleEndStatus.proto";
+import "BattleOp.proto";
+import "BattleStatistics.proto";
+
+message PVEBattleResultCsReq {
+    map<string, uint32> CGKFIKKNGJN = 1;
+    repeated BattleOp op_list = 2;
+    BattleStatistics stt = 3;
+    uint32 cost_time = 4;
+    bool KIBMEMNCCDN = 5;
+    string debug_extra_info = 6;
+    uint32 ENECPEOGEKG = 7;
+    BattleEndStatus end_status = 8;
+    bool ABAIAEMNEOA = 9;
+    uint32 DGMPDHINPKK = 10;
+    bool JIODDAHNMEL = 11;
+    uint32 client_res_version = 12;
+    bytes turn_snapshot_hash = 13;
+    uint32 stage_id = 14;
+    uint32 battle_id = 15;
+}

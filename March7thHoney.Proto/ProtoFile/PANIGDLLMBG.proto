@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DisplayAvatarInfo.proto";
+
+message PANIGDLLMBG {
+    repeated uint32 peak_avatar_id_list = 2;
+    uint32 peak_id = 8;
+    uint32 cycles_used = 9;
+    repeated DisplayAvatarInfo avatar_list = 12;
+    repeated uint32 finished_target_list = 13;
+}

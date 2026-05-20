@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IDHNJFPAEGP.proto";
+
+message LAJDNEMABIO {
+    uint32 EEIBHMPCAPK = 3;
+    repeated IDHNJFPAEGP LPJDEMOMDIE = 15;
+}

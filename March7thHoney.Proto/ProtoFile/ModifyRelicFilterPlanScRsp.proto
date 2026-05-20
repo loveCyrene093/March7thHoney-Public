@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FOFBDBJBEJE.proto";
+import "OBOKDHDOKAD.proto";
+
+message ModifyRelicFilterPlanScRsp {
+    uint32 retcode = 3;
+    uint32 KKGIEENCOIC = 8;
+    int64 EKLKHPGDPOL = 14;
+    oneof BPIHFAJCLOC {
+        FOFBDBJBEJE JHHHONJIKGL = 1;
+        string name = 2;
+        OBOKDHDOKAD HMIHLDPMPOM = 10;
+    }
+}

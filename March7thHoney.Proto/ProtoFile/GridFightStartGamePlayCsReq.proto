@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightStartGamePlayCsReq {
+    uint32 season = 3;
+    bool is_overlock = 13;
+    uint32 division_id = 15;
+}

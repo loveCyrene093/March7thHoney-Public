@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FHBNDNNKDON {
+    FHBNDNNKDON_EEBJAAFCFBF = 0;
+    FHBNDNNKDON_MJOEFCEBOOM = 1;
+    FHBNDNNKDON_BCGOLHPEPGB = 2;
+    FHBNDNNKDON_IEDFIBDEGMB = 3;
+}

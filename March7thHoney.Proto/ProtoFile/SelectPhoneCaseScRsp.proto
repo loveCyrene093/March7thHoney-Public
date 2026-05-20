@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SelectPhoneCaseScRsp {
+    uint32 retcode = 3;
+    uint32 GMHOEABHKIG = 4;
+    uint32 cur_phone_case = 10;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGKINCFGKGI.proto";
+import "JMIIFOMFOGO.proto";
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message SyncRogueSeasonFinishScNotify {
+    JMIIFOMFOGO finish_info = 2;
+    bool OIFKNJAFGDC = 5;
+    BGKINCFGKGI AHBFAAMNKNO = 6;
+    LineupInfo lineup = 10;
+    SceneInfo scene = 13;
+}

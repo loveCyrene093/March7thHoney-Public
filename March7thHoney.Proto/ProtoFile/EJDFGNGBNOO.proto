@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EJDFGNGBNOO {
+    uint32 OOMACDMBOGF = 5;
+    uint32 IDFCIBLPOKD = 8;
+    uint32 FCEDANNICIJ = 12;
+    uint32 rogue_money = 15;
+}

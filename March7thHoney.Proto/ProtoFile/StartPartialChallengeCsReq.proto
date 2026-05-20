@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message StartPartialChallengeCsReq {
+    uint32 buff_id = 4;
+    bool is_first_half = 5;
+    uint32 challenge_id = 11;
+}

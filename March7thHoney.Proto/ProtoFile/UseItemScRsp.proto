@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message UseItemScRsp {
+    uint32 retcode = 3;
+    uint32 use_item_count = 5;
+    ItemList return_data = 6;
+    uint32 use_item_id = 10;
+    uint32 formula_id = 11;
+    uint64 month_card_out_date_time = 14;
+}

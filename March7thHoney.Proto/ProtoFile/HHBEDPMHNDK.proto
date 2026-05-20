@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FLLEBEICKCE.proto";
+import "IPMPONAHFBG.proto";
+
+message HHBEDPMHNDK {
+    repeated FLLEBEICKCE AKHFEKJNPFG = 5;
+    uint32 total_damage = 7;
+    repeated FLLEBEICKCE NKIKEDHAIEN = 8;
+    IPMPONAHFBG DDEKLGHPNME = 10;
+    uint32 cost_time = 15;
+}

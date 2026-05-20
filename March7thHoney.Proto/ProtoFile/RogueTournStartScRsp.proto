@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APMHDGPDGNP.proto";
+import "BFEIPELFCDF.proto";
+
+message RogueTournStartScRsp {
+    uint32 IPOHLJBLKOA = 1;
+    BFEIPELFCDF AFLJJJFCBIN = 5;
+    uint32 retcode = 7;
+    APMHDGPDGNP HHDLEADBJGN = 15;
+}

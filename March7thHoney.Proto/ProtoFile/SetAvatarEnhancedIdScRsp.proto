@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetAvatarEnhancedIdScRsp {
+    uint32 growth_avatar_id = 5;
+    uint32 retcode = 6;
+    uint32 unk_enhanced_id = 11;
+}

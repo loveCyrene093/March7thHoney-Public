@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IdleLiveStartNodeCsReq {
+    uint32 BIMKHABLGMC = 2;
+    uint32 HAAAPFLGNBM = 9;
+}

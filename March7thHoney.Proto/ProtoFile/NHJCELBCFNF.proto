@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NHJCELBCFNF {
+    repeated uint32 BJKNLGIBCGB = 8;
+    uint32 effect_id = 9;
+    uint32 trait_id = 13;
+}

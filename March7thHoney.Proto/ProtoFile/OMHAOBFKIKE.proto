@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MDIKAOAEJHN.proto";
+import "MGGLDHHPNBM.proto";
+
+message OMHAOBFKIKE {
+    MDIKAOAEJHN HIMECMGJKOM = 2;
+    MGGLDHHPNBM AAGBLPKDJJP = 5;
+    uint32 avatar_id = 12;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPhoneType {
+    DOGMPAAJNCF_PCPDHELPKEM = 0;
+    CmdSelectPhoneThemeCsReq = 5118;
+    CmdGetPhoneDataScRsp = 5110;
+    CmdUnlockChatBubbleScNotify = 5114;
+    CmdSelectPhoneCaseScRsp = 5126;
+    CmdUnlockPhoneThemeScNotify = 5198;
+    CmdSelectChatBubbleCsReq = 5194;
+    CmdUnlockPhoneCaseScNotify = 5139;
+    CmdGetPhoneDataCsReq = 5191;
+    CmdSelectPhoneCaseCsReq = 5163;
+    CmdSelectChatBubbleScRsp = 5195;
+    CmdSelectPhoneThemeScRsp = 5109;
+}

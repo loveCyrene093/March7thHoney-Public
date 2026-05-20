@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleTarget.proto";
+
+message BattleTargetList {
+    repeated BattleTarget battle_target_list = 1;
+}

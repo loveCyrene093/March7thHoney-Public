@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GOOBKLOEKFO.proto";
+import "MCAFGBPLFEH.proto";
+
+message DIMKCEBGKKN {
+    uint64 unique_id = 1;
+    GOOBKLOEKFO BJDIGCMBDPM = 6;
+    MCAFGBPLFEH source = 8;
+    uint32 config_id = 10;
+}

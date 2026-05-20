@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DOACEKEEKLJ {
+    uint32 DCKEEAKEOLC = 1;
+    uint32 NPHLEPECMAH = 4;
+    bool PNFBOGKCMCE = 7;
+    bool has_passed = 10;
+    uint32 target_side = 11;
+    uint32 MCEKMINMJKF = 13;
+    uint32 JDFDJACPCKC = 15;
+}

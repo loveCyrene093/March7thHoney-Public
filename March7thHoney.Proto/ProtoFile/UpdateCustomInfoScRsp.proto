@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpdateCustomInfoScRsp {
+    uint32 retcode = 2;
+    oneof NLPPPCHGGPF {
+        string title = 5;
+        uint32 FCOKOGNOGCA = 11;
+    }
+}

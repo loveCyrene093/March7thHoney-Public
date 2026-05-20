@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LNNFNLKACON {
+    LNNFNLKACON_PCPDHELPKEM = 0;
+    LNNFNLKACON_NGMMICOGDFP = 1;
+    LNNFNLKACON_KLHDCOPPLNG = 2;
+    LNNFNLKACON_LJFKPDAHKHF = 3;
+}

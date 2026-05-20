@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CurChallenge.proto";
+import "LineupInfo.proto";
+
+message GetCurChallengeScRsp {
+    CurChallenge cur_challenge = 1;
+    uint32 retcode = 11;
+    repeated LineupInfo lineup_list = 14;
+}

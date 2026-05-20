@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MusicRhythmFinishLevelCsReq {
+    uint32 score_id = 1;
+    bool full_combo = 12;
+    uint32 role_star = 15;
+}

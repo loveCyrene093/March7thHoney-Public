@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ChimeraDuelShopBuyItemCsReq {
+    uint32 GCENPLKCCBA = 3;
+    uint32 HCNKAJNKGFH = 10;
+}

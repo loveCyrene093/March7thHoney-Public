@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MainMissionCustomValue.proto";
+import "Mission.proto";
+
+message GetMissionStatusScRsp {
+    repeated uint32 curversion_finished_main_mission_id_list = 1;
+    repeated Mission sub_mission_status_list = 2;
+    repeated uint32 disabled_main_mission_id_list = 6;
+    repeated uint32 unfinished_main_mission_id_list = 7;
+    repeated uint32 finished_main_mission_id_list = 9;
+    repeated MainMissionCustomValue main_mission_mcv_list = 11;
+    uint32 retcode = 14;
+}

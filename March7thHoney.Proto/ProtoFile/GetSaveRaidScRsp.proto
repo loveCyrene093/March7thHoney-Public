@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RaidTargetInfo.proto";
+
+message GetSaveRaidScRsp {
+    uint32 world_level = 1;
+    repeated RaidTargetInfo raid_target_info = 3;
+    bool is_save = 5;
+    uint32 retcode = 7;
+    uint32 raid_id = 9;
+}

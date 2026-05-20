@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CKCKIDHMMEG.proto";
+import "CLOEPPBCKGF.proto";
+import "DACJDMPICEL.proto";
+import "DIBJGAKOCLO.proto";
+import "ELAGCLMOFFI.proto";
+import "FCBEHGJBJCN.proto";
+import "GridFightBossInfo.proto";
+import "GridFightEquipmentInfo.proto";
+import "GridFightGamePortalBuffInfo.proto";
+import "GridFightSettleReason.proto";
+import "GridGameAugmentInfo.proto";
+import "GridGameNpcInfo.proto";
+import "GridGameRoleInfo.proto";
+import "GridGameTraitInfo.proto";
+import "HHHMMJBGCNG.proto";
+import "JCFJADFEOJN.proto";
+
+message GridFightFinishInfo {
+    JCFJADFEOJN NLILNONCNFC = 3;
+    repeated GridFightGamePortalBuffInfo CEAFFNCKDDD = 6;
+    uint32 HBNHKPDMGIP = 7;
+    repeated HHHMMJBGCNG EABPCKEDDBH = 10;
+    repeated GridGameAugmentInfo sync_augment_info = 14;
+    repeated GridGameTraitInfo grid_fight_trait_info = 15;
+    repeated CKCKIDHMMEG MMAJCLACOBN = 80;
+    repeated uint32 GGKCDEIDDLK = 94;
+    repeated DIBJGAKOCLO IAKFPMOEJLF = 106;
+    repeated GridGameRoleInfo grid_game_role_list = 261;
+    uint32 KIBLKCANNGI = 316;
+    repeated GridGameNpcInfo grid_game_npc_list = 501;
+    bool is_overlock = 726;
+    repeated uint32 CDLAIJCKJJN = 875;
+    repeated GridFightEquipmentInfo grid_fight_equipment_list = 968;
+    uint32 OFJNBPAMPGD = 1012;
+    repeated uint32 IONFNCECKGI = 1054;
+    CLOEPPBCKGF PGPKPMOIAIL = 1085;
+    GridFightBossInfo boss_info = 1239;
+    repeated ELAGCLMOFFI MOIDLNFKAIC = 1346;
+    repeated DACJDMPICEL PHDEOPEJIID = 1349;
+    FCBEHGJBJCN BCHPAOCOHIL = 1360;
+    GridFightSettleReason reason = 1474;
+    bool MPGFGKDBAHN = 1548;
+}

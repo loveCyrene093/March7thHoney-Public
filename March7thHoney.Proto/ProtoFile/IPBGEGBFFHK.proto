@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HFHMIKIFLPO.proto";
+
+message IPBGEGBFFHK {
+    repeated HFHMIKIFLPO avatar_list = 5;
+}

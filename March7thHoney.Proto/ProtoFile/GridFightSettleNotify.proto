@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightFinishInfo.proto";
+
+message GridFightSettleNotify {
+    uint32 IIGMOIGOELB = 3;
+    uint32 PGMJPLLNIAK = 5;
+    uint32 EDKIICIKJKL = 6;
+    uint32 EDIGFNFPBKA = 7;
+    uint32 BHLDAEKNMCD = 9;
+    uint32 OHOPKAAKOGF = 12;
+    uint32 CAMLDAJJKBO = 32;
+    GridFightFinishInfo EDKJMPACHNJ = 214;
+    uint32 HIFNCPPJFEN = 668;
+}

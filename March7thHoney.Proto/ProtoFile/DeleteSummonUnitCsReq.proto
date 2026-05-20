@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DeleteSummonUnitCsReq {
+    uint64 interact_id = 6;
+    repeated uint32 entity_id_list = 9;
+}

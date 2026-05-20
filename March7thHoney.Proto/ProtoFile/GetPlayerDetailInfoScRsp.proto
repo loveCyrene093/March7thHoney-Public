@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PlayerDetailInfo.proto";
+
+message GetPlayerDetailInfoScRsp {
+    uint32 retcode = 5;
+    PlayerDetailInfo detail_info = 9;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightEquipDressSource {
+    BLJJDJODAHH_FLLIPKCMFHH = 0;
+    BLJJDJODAHH_GNFNPHHANFA = 1;
+    BLJJDJODAHH_GMLJDAFOEIC = 2;
+}

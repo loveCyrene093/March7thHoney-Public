@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetFriendRemarkNameScRsp {
+    uint32 uid = 2;
+    string remark_name = 11;
+    uint32 retcode = 13;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KPJFOBOKKNO.proto";
+import "MPDHIFKGDCL.proto";
+import "OLMHJIHCMBB.proto";
+import "OPJCDAMNIMJ.proto";
+
+message LBBEGDELEEI {
+    oneof NLPPPCHGGPF {
+        uint32 KPFAPJLOJCL = 1;
+        uint32 PGOODEGCBFO = 2;
+        OLMHJIHCMBB CLCDMKJHCGD = 3;
+        MPDHIFKGDCL PEGKAAFHFKI = 6;
+        uint32 ADGJILHIIAB = 7;
+        KPJFOBOKKNO DOINBJJKLFP = 8;
+        uint32 ODALNGOKHMF = 10;
+        uint32 FIMNPEBOBHL = 12;
+        OPJCDAMNIMJ LFBBILEKCKC = 14;
+    }
+}

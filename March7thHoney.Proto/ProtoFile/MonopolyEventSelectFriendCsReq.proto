@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MonopolyEventSelectFriendCsReq {
+    uint32 LIPHDPLGMNP = 4;
+    bool LDJKEEPNJDC = 10;
+}

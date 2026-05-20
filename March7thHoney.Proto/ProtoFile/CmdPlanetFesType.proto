@@ -1,0 +1,59 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPlanetFesType {
+    FFBGABCGDDL_PCPDHELPKEM = 0;
+    CmdPlanetFesGetFriendRankingInfoListCsReq = 8212;
+    CmdAFKCEOKHGHF = 8235;
+    CmdPlanetFesGetBusinessDayInfoCsReq = 8221;
+    CmdPlanetFesBonusEventInteractCsReq = 8223;
+    CmdPlanetFesBuyLandCsReq = 8201;
+    CmdPlanetFesBusinessDayRefreshEventScRsp = 8206;
+    CmdPlanetFesBonusEventInteractScRsp = 8214;
+    CmdPlanetFesStartMiniGameScRsp = 8222;
+    CmdPlanetFesChooseAvatarEventOptionScRsp = 8209;
+    CmdPlanetFesTakeQuestRewardScRsp = 8231;
+    CmdPlanetFesSetAvatarWorkCsReq = 8238;
+    CmdPlanetFesDealAvatarEventOptionItemScRsp = 8237;
+    CmdPlanetFesSetCustomKeyValueCsReq = 8210;
+    CmdPlanetFesUpgradeFesLevelCsReq = 8241;
+    CmdPlanetFesTakeRegionPhaseRewardCsReq = 8243;
+    CmdPlanetFesGetAvatarStatScRsp = 8232;
+    CmdPlanetFesGetBusinessDayInfoScRsp = 8249;
+    CmdPlanetFesCollectIncomeCsReq = 8227;
+    CmdPlanetFesDoGachaScRsp = 8236;
+    CmdPlanetFesChooseAvatarEventOptionCsReq = 8233;
+    CmdPlanetFesDoGachaCsReq = 8245;
+    CmdPlanetFesDeliverPamCargoCsReq = 8226;
+    CmdGetPlanetFesDataScRsp = 8207;
+    CmdPlanetFesDealAvatarEventOptionItemCsReq = 8204;
+    CmdEMIFFPHBMEI = 8242;
+    CmdPlanetFesTakeRegionPhaseRewardScRsp = 8239;
+    CmdPlanetFesDeliverPamCargoScRsp = 8208;
+    CmdPlanetFesSetCustomKeyValueScRsp = 8224;
+    CmdPlanetFesClientStatusCsReq = 8219;
+    CmdPlanetFesGetFriendRankingInfoListScRsp = 8234;
+    CmdPlanetFesFriendRankingInfoChangeScNotify = 8225;
+    CmdPlanetFesTakeQuestRewardCsReq = 8216;
+    CmdGetPlanetFesDataCsReq = 8213;
+    CmdPlanetFesSyncChangeScNotify = 8230;
+    CmdPlanetFesSkillLevelUpScRsp = 8229;
+    CmdPlanetFesAvatarLevelUpCsReq = 8203;
+    CmdPlanetFesCollectAllIncomeCsReq = 8244;
+    CmdJOMBHCNIEMP = 8218;
+    CmdPlanetFesGetAvatarStatCsReq = 8211;
+    CmdKIJGIOKOKPF = 8247;
+    CmdPlanetFesBingoGameFlipCardCsReq = 8217;
+    CmdPlanetFesStartMiniGameCsReq = 8220;
+    CmdPlanetFesGameBingoFlipScRsp = 8228;
+    CmdMDGOBJOFODB = 8202;
+    CmdPlanetFesAvatarLevelUpScRsp = 8250;
+    CmdPlanetFesUseItemScRsp = 8240;
+    CmdNDKMGIBCAHF = 8205;
+    CmdPlanetFesUpgradeSkillLevelCsReq = 8248;
+    CmdPlanetFesBusinessDayRefreshEventCsReq = 8215;
+    CmdPlanetFesUseItemCsReq = 8246;
+}

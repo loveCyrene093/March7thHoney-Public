@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetPetDataScRsp {
+    uint32 cur_pet_id = 1;
+    repeated uint32 unlocked_pet_id = 6;
+    uint32 retcode = 11;
+}

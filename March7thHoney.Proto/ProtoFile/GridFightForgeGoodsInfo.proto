@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightForgeEquipmentInfo.proto";
+import "GridFightForgeRoleInfo.proto";
+
+message GridFightForgeGoodsInfo {
+    oneof CKMEAIDKOIA {
+        GridFightForgeRoleInfo role_goods_info = 3;
+        GridFightForgeEquipmentInfo equipment_goods_info = 9;
+    }
+}

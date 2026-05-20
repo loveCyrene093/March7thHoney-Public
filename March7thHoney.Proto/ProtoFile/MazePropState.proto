@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PropExtraInfo.proto";
+
+message MazePropState {
+    uint32 config_id = 8;
+    PropExtraInfo extra_info = 9;
+    uint32 state = 11;
+    uint32 group_id = 13;
+}

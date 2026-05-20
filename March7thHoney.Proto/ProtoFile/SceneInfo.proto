@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BuffInfo.proto";
+import "CustomSaveData.proto";
+import "DPNDJIGACFJ.proto";
+import "IAHHLIOLCDB.proto";
+import "MissionStatusBySceneInfo.proto";
+import "NBCOOLLEOID.proto";
+import "SceneEntityGroupInfo.proto";
+import "SceneEntityInfo.proto";
+import "SceneGroupState.proto";
+import "SceneIdentifier.proto";
+
+message SceneInfo {
+    uint32 game_mode_type = 1;
+    repeated NBCOOLLEOID NHOFMHMBKGK = 3;
+    uint32 client_pos_version = 4;
+    uint32 plane_id = 5;
+    map<uint32, IAHHLIOLCDB> KHHOPNJJABH = 6;
+    repeated CustomSaveData custom_data_list = 7;
+    repeated SceneEntityInfo entity_list = 9;
+    uint32 floor_id = 10;
+    repeated BuffInfo scene_buff_info_list = 11;
+    uint32 entry_id = 12;
+    uint32 leader_entity_id = 13;
+    repeated uint32 lighten_section_list = 14;
+    uint32 world_id = 15;
+    uint32 dimension_id = 531;
+    uint32 game_story_line_id = 602;
+    map<string, int32> floor_saved_data = 680;
+    repeated uint32 opened_chests_list = 719;
+    uint32 content_id = 986;
+    repeated SceneEntityGroupInfo entity_group_list = 1153;
+    DPNDJIGACFJ OCKNKCCIJAI = 1337;
+    MissionStatusBySceneInfo scene_mission_info = 1537;
+    repeated SceneGroupState group_state_list = 1553;
+    uint64 interact_id = 1744;
+    SceneIdentifier scene_identifier = 1947;
+}

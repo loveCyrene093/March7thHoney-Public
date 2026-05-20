@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BABAGEDCCBG.proto";
+import "EJCCHHAAGNH.proto";
+import "JMOGPMCJGLE.proto";
+import "PDAMBCFFPDI.proto";
+
+message ChessRogueLeaveScRsp {
+    BABAGEDCCBG rogue_get_info = 2;
+    JMOGPMCJGLE IMPBELJGDJH = 4;
+    uint32 retcode = 7;
+    EJCCHHAAGNH stage_info = 11;
+    PDAMBCFFPDI OCLLADBFKHP = 12;
+}

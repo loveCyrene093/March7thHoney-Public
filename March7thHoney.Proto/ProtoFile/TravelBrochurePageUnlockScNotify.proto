@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TravelBrochurePageUnlockScNotify {
+    uint32 HBCJPCMJPHE = 9;
+}

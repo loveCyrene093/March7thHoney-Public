@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NKNAADIGGNA.proto";
+
+message StartCocoonStageCsReq {
+    uint32 world_level = 2;
+    uint32 Count = 5;
+    NKNAADIGGNA DLACEEFJAHB = 10;
+    uint32 prop_entity_id = 12;
+    uint32 wave = 14;
+    uint32 cocoon_id = 15;
+}

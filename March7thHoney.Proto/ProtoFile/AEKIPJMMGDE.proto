@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AEKIPJMMGDE {
+    uint32 item_id = 1;
+    uint32 ODJNMLMKKFE = 2;
+    uint32 skill_id = 3;
+    int32 display_value = 4;
+}

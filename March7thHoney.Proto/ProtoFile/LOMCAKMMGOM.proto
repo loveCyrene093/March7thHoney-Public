@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "KKKOGGBFMIP.proto";
+
+message LOMCAKMMGOM {
+    uint32 HJMJIADBAOC = 6;
+    oneof FNJJNAOCOII {
+        ItemList FNLDFGLGEOA = 8;
+        KKKOGGBFMIP GEFMMOOEDJI = 9;
+    }
+}

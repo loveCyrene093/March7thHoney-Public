@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AddAvatarSrcState.proto";
+import "ItemList.proto";
+
+message AddAvatarScNotify {
+    ItemList reward = 1;
+    AddAvatarSrcState src = 6;
+    bool is_new = 7;
+    uint32 base_avatar_id = 12;
+}

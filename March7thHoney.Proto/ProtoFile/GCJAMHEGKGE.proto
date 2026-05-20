@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DiceCombatAvatar.proto";
+import "KKJHOOBJCGG.proto";
+import "NIGBBJGOJML.proto";
+
+message GCJAMHEGKGE {
+    repeated DiceCombatAvatar avatar_list = 1;
+    KKJHOOBJCGG GEPHFOKBIEO = 2;
+    NIGBBJGOJML MGGCNMLFCBI = 3;
+    uint32 FOOLMIADMMH = 4;
+    uint32 EBCAFMGMFEO = 5;
+    uint32 PIEBLJJGCMK = 6;
+    bool MHKAKBKMNFJ = 7;
+}

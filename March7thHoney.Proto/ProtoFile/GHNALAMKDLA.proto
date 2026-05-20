@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BHCMHNKONMJ.proto";
+import "OJCIJFPNPKF.proto";
+
+message GHNALAMKDLA {
+    repeated OJCIJFPNPKF GEIJDOBKNAD = 5;
+    BHCMHNKONMJ PHKAHAHLDAE = 9;
+    uint32 event_id = 10;
+}

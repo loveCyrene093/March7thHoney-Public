@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AttackDamageProperty.proto";
+import "SkillUseProperty.proto";
+
+message BattleAvatarServantInfo {
+    uint32 avatar_id = 1;
+    uint32 FIFHKNHEIBD = 2;
+    uint32 total_turns = 3;
+    double NFEHGEPLPAJ = 4;
+    repeated SkillUseProperty skill_times = 5;
+    double total_damage = 6;
+    double total_break_damage = 7;
+    repeated AttackDamageProperty attack_type_damage = 8;
+    repeated AttackDamageProperty attack_type_break_damage = 9;
+    repeated AttackDamageProperty attack_type_max_damage = 10;
+    double total_damage_taken = 11;
+    double total_heal = 12;
+    double total_hp_recover = 13;
+    double total_shield = 14;
+    double total_shield_taken = 15;
+    double total_shield_damage = 16;
+    uint32 break_times = 17;
+    uint32 CEHLLNCEMDN = 18;
+    uint32 HOOFEMEKKOB = 19;
+    uint32 DOAPBOLJOGF = 20;
+    double FJLIHMDENML = 21;
+    uint32 entity_id = 22;
+    uint32 ANMBAIFOBJP = 23;
+    double OGDGEKFJAFO = 24;
+}

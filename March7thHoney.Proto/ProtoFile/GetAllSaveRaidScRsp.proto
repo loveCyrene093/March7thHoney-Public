@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RaidData.proto";
+
+message GetAllSaveRaidScRsp {
+    repeated RaidData raid_data_list = 6;
+    uint32 retcode = 7;
+}

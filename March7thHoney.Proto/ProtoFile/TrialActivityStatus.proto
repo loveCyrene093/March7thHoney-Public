@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum TrialActivityStatus {
+    TRIAL_ACTIVITY_STATUS_NONE = 0;
+    TRIAL_ACTIVITY_STATUS_FINISH = 1;
+}

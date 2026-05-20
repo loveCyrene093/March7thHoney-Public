@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ELEOGABGBKG {
+    uint32 DMEKIFJDKFL = 9;
+    repeated uint32 CELFGCJFMPH = 10;
+}

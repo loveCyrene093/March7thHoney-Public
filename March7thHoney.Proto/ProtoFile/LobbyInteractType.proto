@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LobbyInteractType {
+    JBPDGDGAEKL_PCPDHELPKEM = 0;
+    JBPDGDGAEKL_BELJHKIOIKB = 1;
+}

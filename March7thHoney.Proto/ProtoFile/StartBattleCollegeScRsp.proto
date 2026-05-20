@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneBattleInfo.proto";
+
+message StartBattleCollegeScRsp {
+    uint32 retcode = 7;
+    uint32 id = 8;
+    SceneBattleInfo battle_info = 13;
+}

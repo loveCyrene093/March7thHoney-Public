@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GENOHIJHCDG.proto";
+
+message BuyRogueShopFormulaScRsp {
+    uint32 retcode = 3;
+    GENOHIJHCDG ECJCCKFEFEJ = 14;
+}

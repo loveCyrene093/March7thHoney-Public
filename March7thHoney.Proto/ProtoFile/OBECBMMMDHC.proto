@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KGLOGMHODNB.proto";
+
+message OBECBMMMDHC {
+    repeated KGLOGMHODNB IMKOJKJAHMM = 2;
+    repeated uint32 FAMFCIPLGON = 7;
+}

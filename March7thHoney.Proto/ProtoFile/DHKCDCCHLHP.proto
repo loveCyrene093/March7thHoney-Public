@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DHKCDCCHLHP {
+    repeated uint32 AOOMEMCCPEM = 4;
+    uint32 id = 5;
+    uint32 panel_id = 7;
+    uint32 progress = 12;
+}

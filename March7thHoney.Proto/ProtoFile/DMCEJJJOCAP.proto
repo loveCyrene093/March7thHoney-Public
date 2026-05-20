@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OBCFJPGNALP.proto";
+
+message DMCEJJJOCAP {
+    OBCFJPGNALP reason = 7;
+    uint64 JLEILOGLJNJ = 14;
+}

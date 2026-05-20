@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ECKIDLIFAFG.proto";
+import "FKANIBDJNKG.proto";
+import "FightGameMode.proto";
+import "NOJLPMLALPI.proto";
+
+message MatchThreeV2PvpFinishScNotify {
+    ECKIDLIFAFG MHFHODDBOPM = 1;
+    FightGameMode BFCBGPEICHG = 4;
+    uint32 IJDMECLJEBD = 6;
+    NOJLPMLALPI KJHGGPEMPHM = 11;
+    uint32 DKAEIDJMJCJ = 14;
+    FKANIBDJNKG reason = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PileItem.proto";
+
+message AvatarExpUpScRsp {
+    repeated PileItem return_item_list = 6;
+    uint32 retcode = 14;
+}

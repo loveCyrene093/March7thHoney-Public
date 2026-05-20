@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DPDDLAOBMBH.proto";
+
+message RelicPresetUpdatePlanCsReq {
+    uint32 unique_id = 10;
+    oneof BPIHFAJCLOC {
+        DPDDLAOBMBH relic_list = 3;
+        string name = 14;
+    }
+}

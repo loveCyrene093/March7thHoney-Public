@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MakeDrinkScRsp {
+    uint32 LPCLPHICDHG = 5;
+    uint32 retcode = 6;
+    bool DAIKNKALKCM = 14;
+}

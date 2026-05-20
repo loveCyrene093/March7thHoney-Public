@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdHeartdialType {
+    NIOFDIFADEK_PCPDHELPKEM = 0;
+    CmdSubmitEmotionItemCsReq = 6314;
+    CmdHeartDialTraceScriptCsReq = 6326;
+    CmdSubmitEmotionItemScRsp = 6318;
+    CmdHeartDialScriptChangeScNotify = 6363;
+    CmdGetHeartDialInfoCsReq = 6391;
+    CmdHeartDialTraceScriptScRsp = 6339;
+    CmdChangeScriptEmotionCsReq = 6394;
+    CmdFinishEmotionDialoguePerformanceScRsp = 6398;
+    CmdChangeScriptEmotionScRsp = 6395;
+    CmdFinishEmotionDialoguePerformanceCsReq = 6309;
+    CmdGetHeartDialInfoScRsp = 6310;
+}

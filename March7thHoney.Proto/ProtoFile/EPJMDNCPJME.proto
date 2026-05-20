@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MCAFGBPLFEH.proto";
+
+message EPJMDNCPJME {
+    uint32 FIMNPEBOBHL = 2;
+    uint32 progress = 4;
+    MCAFGBPLFEH source = 7;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CPIOCHHPICD.proto";
+
+message LLLAPNDDDKM {
+    uint32 OGHCMDFNGMF = 3;
+    uint32 NPBKLCHLJMG = 4;
+    uint32 avatar_id = 6;
+    CPIOCHHPICD NBAKHCLLEKJ = 13;
+}

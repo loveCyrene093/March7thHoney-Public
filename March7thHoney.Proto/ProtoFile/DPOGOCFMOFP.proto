@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CLHDILKAKEP.proto";
+
+message DPOGOCFMOFP {
+    uint32 COFELCKDBJE = 4;
+    repeated CLHDILKAKEP friend_recommend_list = 6;
+    uint32 EDNIACNOPMN = 7;
+    uint32 ODDFEAEEJJD = 12;
+}

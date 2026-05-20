@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+
+message SwitchHandResetTransformCsReq {
+    MotionInfo PLFAOCPBBCP = 9;
+    uint32 config_id = 13;
+}

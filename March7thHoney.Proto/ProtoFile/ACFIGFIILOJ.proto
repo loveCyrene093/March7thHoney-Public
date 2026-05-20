@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ACFIGFIILOJ {
+    uint32 exp = 3;
+    repeated uint32 POPPGIDKLMF = 9;
+    repeated uint32 GDIPEGFBLAB = 12;
+}

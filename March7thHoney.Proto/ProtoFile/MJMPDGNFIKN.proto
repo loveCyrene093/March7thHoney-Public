@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FOCHGPGGNCL.proto";
+import "HAGKBFPNPPH.proto";
+
+message MJMPDGNFIKN {
+    repeated FOCHGPGGNCL BLFPPFCADBB = 2;
+    repeated HAGKBFPNPPH LCEHDGBBDJL = 3;
+    map<uint32, uint32> KPIDJMBNCNH = 6;
+    map<uint32, uint32> KIBGNJNADDH = 15;
+}

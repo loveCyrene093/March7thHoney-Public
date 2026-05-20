@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FarmStageGachaInfo {
+    uint32 gacha_id = 4;
+    int64 begin_time = 8;
+    int64 end_time = 11;
+}

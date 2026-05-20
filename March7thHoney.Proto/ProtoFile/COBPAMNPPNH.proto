@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IPHFDELCNBD.proto";
+
+message COBPAMNPPNH {
+    uint32 PENLMEIJIFK = 5;
+    IPHFDELCNBD EMAMFJGGMAA = 7;
+}

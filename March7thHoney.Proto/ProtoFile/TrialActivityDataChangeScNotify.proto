@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NNFJAOJKKFO.proto";
+import "TrialActivityInfo.proto";
+
+message TrialActivityDataChangeScNotify {
+    repeated NNFJAOJKKFO MANGLIPKMDI = 3;
+    TrialActivityInfo trial_activity_info = 10;
+    repeated uint32 BLDLBKLAIAL = 14;
+}

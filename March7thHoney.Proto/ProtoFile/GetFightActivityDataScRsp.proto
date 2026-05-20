@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IFNECJOOIGG.proto";
+
+message GetFightActivityDataScRsp {
+    map<uint32, uint32> IMGGPMEOJAJ = 1;
+    bool IBCMLDPJGCK = 2;
+    uint32 retcode = 5;
+    repeated IFNECJOOIGG ECGLGDKDDID = 10;
+    uint32 world_level = 14;
+}

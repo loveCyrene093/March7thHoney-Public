@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleStaticticEventType.proto";
+
+message StatisticEvent {
+    BattleStaticticEventType type = 1;
+    uint32 PICEGMCCHME = 2;
+    uint32 display_value = 3;
+}

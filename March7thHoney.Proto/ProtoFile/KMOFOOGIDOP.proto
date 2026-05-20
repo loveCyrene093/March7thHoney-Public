@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightDropInfo.proto";
+
+message KMOFOOGIDOP {
+    GridFightDropInfo PIBLJLBCKJL = 8;
+    uint32 BDBFDNJFAFF = 14;
+}

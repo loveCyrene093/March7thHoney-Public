@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CLFIIPBIBBG.proto";
+import "ChallengePeakBossFriendLineupRecommendation.proto";
+import "DFGHKGDKCLB.proto";
+import "FriendChallengeLineup.proto";
+import "PlayerSimpleInfo.proto";
+
+message HBJCPIOLEIC {
+    PlayerSimpleInfo player_info = 4;
+    string remark_name = 10;
+    oneof HDOEFOCHLDA {
+        CLFIIPBIBBG DFMBOIDDHNM = 1;
+        FriendChallengeLineup KJKFCLDDBKM = 2;
+        DFGHKGDKCLB LCEBFBHALHA = 3;
+        ChallengePeakBossFriendLineupRecommendation FEACMLLOAFB = 12;
+    }
+}

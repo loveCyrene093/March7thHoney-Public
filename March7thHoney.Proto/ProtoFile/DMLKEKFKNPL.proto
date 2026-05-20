@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightDropInfo.proto";
+
+message DMLKEKFKNPL {
+    uint32 effect_id = 1;
+    repeated uint32 switch_list = 2;
+    map<uint32, GridFightDropInfo> trait_effect_level_reward = 5;
+}

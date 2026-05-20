@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FKPMOKOJNHP.proto";
+import "TrainPartyInfo.proto";
+import "TrainPartyPassengerInfo.proto";
+
+message TrainPartyData {
+    FKPMOKOJNHP GGHOAIDMOMC = 2;
+    uint32 record_id = 4;
+    TrainPartyPassengerInfo passenger_info = 5;
+    TrainPartyInfo train_party_info = 10;
+    bool HPHOMPJEDBH = 11;
+    uint32 KPCHEKDDFMG = 12;
+    uint32 unlock_area_num = 15;
+}

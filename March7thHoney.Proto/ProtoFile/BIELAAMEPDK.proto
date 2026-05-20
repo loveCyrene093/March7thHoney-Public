@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ILLBNKFBNBP.proto";
+
+message BIELAAMEPDK {
+    bool HAOPEKPKOFI = 3;
+    ILLBNKFBNBP NLKNEENFHAM = 9;
+}

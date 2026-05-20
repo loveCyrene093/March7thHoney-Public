@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MCACDFHCPIE.proto";
+
+message ChessRogueNousGetRogueTalentInfoScRsp {
+    uint32 MPGDJOGHKBH = 1;
+    uint32 retcode = 2;
+    MCACDFHCPIE talent_info = 9;
+}

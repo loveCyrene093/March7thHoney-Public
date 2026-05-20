@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DBMAAECNBKO {
+    DBMAAECNBKO_PCPDHELPKEM = 0;
+    DBMAAECNBKO_OBHOIGLIAMJ = 1;
+    DBMAAECNBKO_HMNHNAJJCKE = 2;
+}

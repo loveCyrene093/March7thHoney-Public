@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KJFFJMAMJLD {
+    uint32 role_id = 1;
+    double damage = 2;
+    double BOIEGPAPHOP = 5;
+    map<uint32, double> AFNAOIFCKFN = 6;
+}

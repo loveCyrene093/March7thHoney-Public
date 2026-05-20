@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "QuestStatus.proto";
+
+message Quest {
+    repeated uint32 LFBADOCHCDN = 1;
+    uint32 progress = 2;
+    int64 finish_time = 3;
+    QuestStatus status = 8;
+    uint32 id = 13;
+}

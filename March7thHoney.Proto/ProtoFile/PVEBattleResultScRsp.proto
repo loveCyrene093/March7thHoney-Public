@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleAvatar.proto";
+import "BattleEndStatus.proto";
+import "ItemList.proto";
+import "NNOIJJNCHJB.proto";
+
+message PVEBattleResultScRsp {
+    uint32 GGDBPDDAPDG = 1;
+    string ResVersion = 2;
+    uint32 stage_id = 3;
+    BattleEndStatus end_status = 4;
+    ItemList multiple_drop_data = 5;
+    ItemList drop_data = 6;
+    ItemList item_list_unk1 = 7;
+    bool check_identical = 8;
+    repeated BattleAvatar battle_avatar_list = 9;
+    uint32 CJAJBMAJNJP = 10;
+    uint32 NDEJJDHJBIM = 11;
+    uint32 event_id = 12;
+    uint32 battle_id = 13;
+    uint32 retcode = 14;
+    string BinVersion = 15;
+    ItemList item_list_unk2 = 460;
+    NNOIJJNCHJB HICNFJDGGGL = 1582;
+}

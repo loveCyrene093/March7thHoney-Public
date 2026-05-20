@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ChessRogueQuestFinishNotify {
+    uint32 quest_id = 7;
+    uint32 OGPIDLPHHGG = 9;
+}

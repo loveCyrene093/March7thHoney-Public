@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BAHKPEGINBB.proto";
+import "GKDEKJKOIJN.proto";
+import "OMPODELCHFD.proto";
+
+message LCFDGFOCHOJ {
+    repeated BAHKPEGINBB DBAEAHBAJPM = 2;
+    repeated GKDEKJKOIJN GOCFKLKHBDF = 6;
+    uint64 HJKAPBEMEOO = 11;
+    repeated OMPODELCHFD avatar_list = 12;
+}

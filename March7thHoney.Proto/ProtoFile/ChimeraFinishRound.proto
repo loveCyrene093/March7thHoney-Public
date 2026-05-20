@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BCMMLADBEAM.proto";
+import "ChimeraRoundWorkEndReason.proto";
+import "FMGJFLEPDBB.proto";
+import "GHJIFOHJOEM.proto";
+import "LEHNHDLEMHL.proto";
+import "LHEDJAIOHOE.proto";
+
+message ChimeraFinishRound {
+    uint32 ACJJCPCPFDN = 1;
+    ChimeraRoundWorkEndReason end_reason = 2;
+    GHJIFOHJOEM LEGMOJLDECH = 3;
+    repeated LEHNHDLEMHL MAMLPGPOHNE = 4;
+    bool PGEGMMBINID = 5;
+    bool NFLPMLGBKDF = 6;
+    uint32 BMGAKKNAKFD = 7;
+    uint32 BCLLCBDEPEP = 8;
+    repeated uint32 GCENJMPLHMC = 9;
+    uint32 BBOJLIEALDB = 10;
+    uint32 NJDBIEMAOAA = 11;
+    uint32 retcode = 12;
+    map<uint32, BCMMLADBEAM> DMLLCPJFPNF = 13;
+    map<uint32, FMGJFLEPDBB> HBMIGMJBCNG = 14;
+    repeated LHEDJAIOHOE HMABMKKKHNB = 15;
+}

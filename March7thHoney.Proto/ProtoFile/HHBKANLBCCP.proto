@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IFDJPDIKLDI.proto";
+import "IPHFDELCNBD.proto";
+
+message HHBKANLBCCP {
+    uint32 level = 1;
+    bool MPGFGKDBAHN = 2;
+    repeated IFDJPDIKLDI CIGFOLLCKKI = 3;
+    uint64 EFLLPPLCKBB = 6;
+    uint32 MOOOPAMBOFK = 8;
+    uint64 GEFGOIGJHFJ = 12;
+    repeated IPHFDELCNBD FBHGPPCKEIC = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PHIBGDFEFEE {
+    int64 stop_end_time = 2;
+    int64 stop_begin_time = 10;
+}

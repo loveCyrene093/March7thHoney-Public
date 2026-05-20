@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPunkLordType {
+    FKOEGGCGLHA_PCPDHELPKEM = 0;
+    CmdTakePunkLordPointRewardScRsp = 3237;
+    CmdGetPunkLordMonsterDataScRsp = 3210;
+    CmdPunkLordBattleResultScNotify = 3244;
+    CmdSharePunkLordMonsterCsReq = 3214;
+    CmdSharePunkLordMonsterScRsp = 3218;
+    CmdGetPunkLordBattleRecordCsReq = 3253;
+    CmdTakeKilledPunkLordMonsterScoreCsReq = 3228;
+    CmdPunkLordMonsterInfoScNotify = 3204;
+    CmdSummonPunkLordMonsterCsReq = 3209;
+    CmdPunkLordMonsterKilledNotify = 3221;
+    CmdGetPunkLordDataCsReq = 3238;
+    CmdGetKilledPunkLordMonsterDataCsReq = 3300;
+    CmdGetPunkLordDataScRsp = 3272;
+    CmdStartPunkLordRaidScRsp = 3295;
+    CmdGetKilledPunkLordMonsterDataScRsp = 3289;
+    CmdGetPunkLordMonsterDataCsReq = 3291;
+    CmdGetPunkLordBattleRecordScRsp = 3208;
+    CmdTakePunkLordPointRewardCsReq = 3274;
+    CmdSummonPunkLordMonsterScRsp = 3298;
+    CmdStartPunkLordRaidCsReq = 3294;
+    CmdPunkLordDataChangeNotify = 3273;
+    CmdPunkLordRaidTimeOutScNotify = 3233;
+    CmdTakeKilledPunkLordMonsterScoreScRsp = 3265;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIPBBPHGEKJ.proto";
+import "CKHDNJGMEJC.proto";
+import "GDKPBDAAKBH.proto";
+import "GPONAKNHLJG.proto";
+import "KACOOFIKHOG.proto";
+import "PBNLKJIEFPM.proto";
+import "PONPHHDBEJJ.proto";
+
+message DOAICPAMNDN {
+    repeated CKHDNJGMEJC DEPLLJPKKGD = 2;
+    uint32 score_id = 3;
+    GDKPBDAAKBH FHKEMCLFBON = 4;
+    uint32 EPLBCNFMLIL = 6;
+    repeated KACOOFIKHOG NENPNDKMHOM = 8;
+    repeated CIPBBPHGEKJ BHABGAPJAHF = 9;
+    uint32 FIHLNOJAKCH = 10;
+    repeated GPONAKNHLJG BHDGPLPJKAA = 11;
+    PBNLKJIEFPM DJEHDCCAJCK = 13;
+    PONPHHDBEJJ LJBHHIDILON = 14;
+}

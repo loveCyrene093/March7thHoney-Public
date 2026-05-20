@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OHLCKLEKPIN {
+    int64 ALIGEFKMMGH = 1;
+    uint32 MJIDMBJNGEI = 2;
+    uint32 BGDBCAKJMMA = 5;
+    bool has_passed = 7;
+    bool CFIONKKIPJL = 10;
+    uint32 AFDBHGCAJDB = 13;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IFDJPDIKLDI.proto";
+
+message OKFLIFAODGK {
+    uint32 PENLMEIJIFK = 6;
+    IFDJPDIKLDI PPBAAALANJB = 13;
+}

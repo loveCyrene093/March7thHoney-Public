@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APCNLFANPEP.proto";
+
+message LMMBMIKBKMB {
+    uint32 unique_id = 1;
+    uint32 npc_id = 2;
+    uint32 pos = 3;
+    repeated APCNLFANPEP grid_fight_equipment_list = 4;
+}

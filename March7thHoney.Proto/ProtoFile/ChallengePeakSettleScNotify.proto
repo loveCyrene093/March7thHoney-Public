@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengePeakRewardGroup.proto";
+
+message ChallengePeakSettleScNotify {
+    bool hard_mode_has_passed = 2;
+    bool is_unlock_easy_boss = 3;
+    repeated uint32 finished_target_list = 5;
+    uint32 peak_id = 6;
+    uint32 turn_left = 7;
+    bool is_boss_target_better = 8;
+    uint32 cycles_used = 10;
+    bool is_wait_confirm = 11;
+    bool is_win = 13;
+    repeated ChallengePeakRewardGroup peak_reward_group_list = 14;
+    bool is_first_pass = 15;
+}

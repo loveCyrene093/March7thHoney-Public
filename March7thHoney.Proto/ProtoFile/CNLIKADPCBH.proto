@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+
+message CNLIKADPCBH {
+    uint32 OEFHGDEMOML = 3;
+    uint32 OHAIEGCLPLH = 6;
+    EFEGKDHEMFN IHLDDDHPOIO = 11;
+    uint32 avatar_id = 12;
+}

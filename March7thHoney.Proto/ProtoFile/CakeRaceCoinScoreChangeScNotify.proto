@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CakeRaceCoinScoreChangeScNotify {
+    uint32 score_id = 1;
+    uint32 item_value = 5;
+    uint32 LCHDAPELPGO = 9;
+}

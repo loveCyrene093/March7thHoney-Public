@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IFNECJOOIGG.proto";
+
+message FightActivityDataChangeScNotify {
+    repeated IFNECJOOIGG ECGLGDKDDID = 4;
+    map<uint32, uint32> IMGGPMEOJAJ = 10;
+}

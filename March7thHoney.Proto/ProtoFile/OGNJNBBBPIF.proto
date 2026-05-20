@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OGNJNBBBPIF {
+    repeated uint32 BINLAPELLBO = 296;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChargerInfo.proto";
+import "RotateMapInfo.proto";
+import "RotaterData.proto";
+import "RotaterEnergyInfo.proto";
+
+message MADEENABOKE {
+    repeated ChargerInfo GPKABIBKJHF = 2;
+    RotaterEnergyInfo energy_info = 4;
+    int32 JHDLNBPNEKG = 5;
+    repeated RotaterData DJHDDOFHMCF = 6;
+    bool AOLFFOLEJLB = 11;
+    uint32 BCPCBHMFIIN = 13;
+    RotateMapInfo AMMJECHPGPE = 15;
+}

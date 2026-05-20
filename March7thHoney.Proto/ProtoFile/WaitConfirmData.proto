@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message WaitConfirmData {
+    uint32 peak_id = 1;
+    bool is_wait_confirm = 5;
+    repeated uint32 finished_target_list = 9;
+    uint32 cycles_used = 12;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FPDKBGJKPFF.proto";
+
+message ChallengeStatistics {
+    uint32 record_id = 10;
+    FPDKBGJKPFF NCEGEKNLJCE = 14;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MusicRhythmUnlockTrackScNotify {
+    repeated uint32 MMKNEGDACBO = 7;
+}

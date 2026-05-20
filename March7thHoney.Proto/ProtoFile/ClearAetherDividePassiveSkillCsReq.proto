@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ClearAetherDividePassiveSkillCsReq {
+    uint32 slot = 7;
+    uint32 IMMHJMDHDGC = 15;
+}

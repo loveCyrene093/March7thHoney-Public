@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdHipplenType {
+    OBJLNOCFBIO_PCPDHELPKEM = 0;
+    CmdSetHipplenOutfitCsReq = 9018;
+    CmdTakeHipplenEndingRewardCsReq = 9016;
+    CmdGetHipplenInheritScRsp = 9027;
+    CmdGetHipplenInheritCsReq = 9030;
+    CmdHipplenTraitUnlockScNotify = 9050;
+    CmdSetHipplenAgendaCsReq = 9035;
+    CmdSettleHipplenWorkCsReq = 9005;
+    CmdOpenHipplenCycleScRsp = 9044;
+    CmdHipplenAgendaResultScNotify = 9047;
+    CmdGetHipplenDataCsReq = 9013;
+    CmdSettleHipplenWorkScRsp = 9001;
+    CmdGetHipplenDataScRsp = 9007;
+    CmdHipplenCycleResultScNotify = 9019;
+    CmdSetHipplenOutfitScRsp = 9045;
+    CmdSetHipplenAgendaScRsp = 9038;
+    CmdTakeHipplenEndingRewardScRsp = 9031;
+    CmdHipplenChangeScNotify = 9021;
+    CmdOpenHipplenCycleCsReq = 9002;
+}

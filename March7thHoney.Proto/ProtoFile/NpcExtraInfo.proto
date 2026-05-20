@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EBFBPHIADMI.proto";
+import "NEAOBFJOMCF.proto";
+import "NpcRogueGameInfo.proto";
+
+message NpcExtraInfo {
+    oneof BPIHFAJCLOC {
+        EBFBPHIADMI JACDADCHNFL = 3;
+        NEAOBFJOMCF FPCOMNAOABD = 11;
+        NpcRogueGameInfo rogue_game_info = 15;
+    }
+}

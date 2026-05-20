@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KDOJPDKHHCD.proto";
+
+message ChenLingSyncChangeScNotify {
+    repeated KDOJPDKHHCD CJFBLHNPHAK = 15;
+}

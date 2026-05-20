@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpdateServerPrefsDataScRsp {
+    uint32 retcode = 11;
+    uint32 server_prefs_id = 13;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRedDotType {
+    HFGOFJNCEAB_PCPDHELPKEM = 0;
+    CmdEBBEGDKGOHL = 5938;
+    HFGOFJNCEAB_BLMDLKCGNGA = 5935;
+    HFGOFJNCEAB_ILHPEPLABED = 5930;
+    CmdKDFBLIPNHOL = 5927;
+    CmdGetAllRedDotDataCsReq = 5913;
+    CmdKNGEFJMKLKC = 5907;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetMissionStatusCsReq {
+    repeated uint32 main_mission_id_list = 5;
+    repeated uint32 sub_mission_id_list = 13;
+}

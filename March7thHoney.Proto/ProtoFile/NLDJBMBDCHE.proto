@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OBJGGJPFLAE.proto";
+
+message NLDJBMBDCHE {
+    OBJGGJPFLAE EMOIGPNBOOL = 8;
+    repeated uint32 PFDKKFPPAAA = 9;
+}

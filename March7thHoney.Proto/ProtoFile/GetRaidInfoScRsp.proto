@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ENDOLEJCHKP.proto";
+import "FinishedRaidInfo.proto";
+
+message GetRaidInfoScRsp {
+    repeated uint32 challenge_taken_reward_id_list = 7;
+    uint32 retcode = 9;
+    repeated ENDOLEJCHKP challenge_raid_list = 13;
+    repeated FinishedRaidInfo finished_raid_info_list = 14;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightDropType.proto";
+import "PKBBDFOOFJN.proto";
+
+message LHPPIAKKFME {
+    GridFightDropType BGKDAMDFFKH = 1;
+    uint32 JJFFLMCCCMM = 2;
+    uint32 num = 3;
+    PKBBDFOOFJN display_value = 5;
+}

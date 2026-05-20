@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdGachaType {
+    LCIOPAFIOIJ_PCPDHELPKEM = 0;
+    CmdExchangeGachaCeiling = 1998;
+    CmdDoGachaScRsp = 1995;
+    CmdGetGachaCeilingScRsp = 1918;
+    CmdGetGachaInfoCsReq = 1991;
+    LCIOPAFIOIJ_AJDKGJMNGKA = 1939;
+    CmdSetGachaDecideItemCsReq = 1963;
+    CmdDoGachaCsReq = 1994;
+    CmdExchangeGachaCeilingCsReq = 1909;
+    CmdSetGachaDecideItemScRsp = 1926;
+    CmdGetGachaCeilingCsReq = 1914;
+    CmdGetGachaInfoScRsp = 1910;
+}

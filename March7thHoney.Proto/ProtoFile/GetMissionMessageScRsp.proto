@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetMissionMessageScRsp {
+    uint32 retcode = 2;
+    map<uint32, uint32> JLOAMKGIIDK = 4;
+}

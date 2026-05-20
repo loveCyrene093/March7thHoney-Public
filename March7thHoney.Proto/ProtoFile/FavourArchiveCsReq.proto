@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FavourArchiveCsReq {
+    bool PDLBECHDJBL = 4;
+    uint32 AJMBOLHDGHK = 12;
+}

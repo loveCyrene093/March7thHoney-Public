@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum LGNEOKBPPEO {
+    LGNEOKBPPEO_PCPDHELPKEM = 0;
+    LGNEOKBPPEO_GLEMHECLMGP = 1;
+    LGNEOKBPPEO_JPAAPMNKIEF = 2;
+    LGNEOKBPPEO_JHBIKCPLFFJ = 3;
+    LGNEOKBPPEO_BCDHOFNMPNG = 4;
+    LGNEOKBPPEO_CMHHBPOHAHJ = 5;
+}

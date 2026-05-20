@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MainMission.proto";
+
+message OFCENAHFFEN {
+    uint32 retcode = 9;
+    MainMission HFLCLFLCCLK = 11;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightLineupHpSyncInfo {
+    uint32 grid_fight_lineup_max_hp = 13;
+    uint32 grid_fight_lineup_hp = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MonopolyGameBingoFlipCardScRsp {
+    bool JKLFMOHICMO = 2;
+    repeated uint32 EAOFJFAFAHO = 3;
+    uint32 retcode = 13;
+    uint32 EPLBCNFMLIL = 14;
+}

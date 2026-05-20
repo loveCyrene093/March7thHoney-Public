@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MOGDMGICIKI.proto";
+
+message MJEDAOPDIPM {
+    uint32 avatar_id = 1;
+    repeated MOGDMGICIKI BKKDHHEDLAJ = 2;
+    uint32 PCLHLNCJPHL = 3;
+    uint32 EJKPCFEPAEC = 4;
+}

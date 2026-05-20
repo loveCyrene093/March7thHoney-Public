@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DAGBCJIHJBM.proto";
+
+message GetRogueBuffEnhanceInfoScRsp {
+    uint32 retcode = 2;
+    DAGBCJIHJBM FGLJOKILKHG = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum PLIGIAFNLCB {
+    PLIGIAFNLCB_PCPDHELPKEM = 0;
+    PLIGIAFNLCB_HLLDMFKGCDA = 1;
+    PLIGIAFNLCB_KGCCCMGLGEG = 2;
+}

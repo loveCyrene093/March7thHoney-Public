@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NAKPLIGJELP {
+    uint32 KBFDOPNODBL = 9;
+    uint32 BPCEACCENPN = 13;
+}

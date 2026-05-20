@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MainMissionMcvSnapshot.proto";
+import "MainMissionSnapshot.proto";
+
+message MissionSnapshot {
+    repeated MainMissionMcvSnapshot server_mcv_list = 1;
+    repeated MainMissionMcvSnapshot client_mcv_list = 2;
+    MainMissionSnapshot tracking_main_mission = 3;
+    bool has_mission_audio_snapshot = 4;
+    string cur_audio_emotion_state = 5;
+    string cur_sound_effect_state = 6;
+}

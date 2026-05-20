@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BDDBAKBOMKP.proto";
+
+message PCKIOEGAPAI {
+    repeated BDDBAKBOMKP CIGCKKGMLID = 13;
+}

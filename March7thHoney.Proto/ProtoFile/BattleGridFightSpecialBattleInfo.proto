@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FIGHICNEPFI.proto";
+import "FIMOHHPINNB.proto";
+import "INMOMCDOPHF.proto";
+import "KFOLIJCNDBK.proto";
+import "KOILNOLKDEJ.proto";
+import "MHANIEBKGHH.proto";
+
+message BattleGridFightSpecialBattleInfo {
+    uint32 cur_level_id = 1;
+    uint32 LLLLJOFNNNK = 2;
+    uint32 rogue_money = 3;
+    repeated MHANIEBKGHH CMMLDCIACAM = 4;
+    repeated MHANIEBKGHH HLFLGAKIGMH = 5;
+    repeated uint32 EOODMDLONBD = 6;
+    FIGHICNEPFI DKLKIABDCCE = 7;
+    repeated uint32 ADJKHCOIJNK = 8;
+    uint32 grid_fight_cur_level_exp = 9;
+    uint32 PNICGJBAJIJ = 10;
+    uint32 FIPIEBKDODA = 11;
+    repeated uint32 IEPGKLIDHEK = 12;
+    uint32 JKHPFKDOKLG = 13;
+    uint32 JGOEPADOKEM = 14;
+    bool ILIIFCFHPBC = 15;
+    bool HKEJDHAHIBJ = 16;
+    repeated KOILNOLKDEJ IMKOJKJAHMM = 17;
+    repeated INMOMCDOPHF BPEOFFPJKAE = 18;
+    repeated uint32 LGMNJNHIAKA = 19;
+    bool KFLIOPGFPEJ = 20;
+    uint32 LKLCFINGNIO = 21;
+    KFOLIJCNDBK KKFPPONDKHH = 22;
+    uint32 GBBKKPCGNLA = 23;
+    uint32 MOIGAECNEIA = 24;
+    repeated uint32 POEMNNCCJHI = 25;
+    repeated FIMOHHPINNB NBAODFGCEBF = 26;
+    uint32 NPKIJFGKNNJ = 27;
+}

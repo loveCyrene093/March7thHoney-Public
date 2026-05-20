@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FEDLKANFNBH {
+    FEDLKANFNBH_LABNCGCMMLM = 0;
+    FEDLKANFNBH_JOFKHKBAPCI = 1;
+}

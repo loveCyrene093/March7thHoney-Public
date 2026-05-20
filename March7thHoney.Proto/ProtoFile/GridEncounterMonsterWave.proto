@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PJLBDMPEKFP.proto";
+
+message GridEncounterMonsterWave {
+    uint32 IGMMPDDCJIN = 1;
+    repeated PJLBDMPEKFP PPOEDDFFEKK = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MatchThreeSetBirdPosCsReq {
+    uint32 pos = 7;
+    uint32 NLOCDHMLGJH = 9;
+}

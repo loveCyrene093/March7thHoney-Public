@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "RaidStatus.proto";
+import "RaidTargetInfo.proto";
+
+message RaidInfoNotify {
+    repeated RaidTargetInfo raid_target_info = 1;
+    RaidStatus status = 3;
+    uint64 raid_finish_time = 5;
+    uint32 world_level = 8;
+    uint32 raid_id = 11;
+    ItemList item_list = 12;
+}

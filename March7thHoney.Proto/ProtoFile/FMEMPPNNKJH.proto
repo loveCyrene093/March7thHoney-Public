@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIDLPPKAJPO.proto";
+import "DIMKCEBGKKN.proto";
+import "EPJMDNCPJME.proto";
+import "GMFCNNFHMGE.proto";
+import "IFGDFHLNPGD.proto";
+import "LKDFOOJMHIE.proto";
+import "OPDMGOACIEP.proto";
+import "PNDIINAHJAF.proto";
+
+message FMEMPPNNKJH {
+    repeated uint32 CCBIEBICDME = 1;
+    PNDIINAHJAF pending_action = 2;
+    repeated uint32 AEFMENCFDMB = 3;
+    repeated DIMKCEBGKKN KDIDNELEDJD = 4;
+    uint32 stage_id = 5;
+    uint32 MHIFFAMMAGI = 6;
+    repeated EPJMDNCPJME HJFBAAHDHBH = 7;
+    IFGDFHLNPGD DJIDCABJNLA = 8;
+    uint32 hp = 9;
+    repeated CIDLPPKAJPO entity_list = 10;
+    repeated GMFCNNFHMGE EPGAPCCAEMP = 11;
+    uint32 item_value = 12;
+    uint32 JGOEPADOKEM = 13;
+    uint32 HFOEGNAMFFK = 14;
+    repeated LKDFOOJMHIE JBOCOPNEJLB = 15;
+    repeated uint64 MNIMOJDOIOK = 837;
+    OPDMGOACIEP KGLLCMIMEMF = 921;
+    uint32 max_hp = 1240;
+}

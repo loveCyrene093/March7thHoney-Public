@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ChallengeBossBuffInfo {
+    uint32 buff_two = 3;
+    uint32 buff_one = 8;
+}

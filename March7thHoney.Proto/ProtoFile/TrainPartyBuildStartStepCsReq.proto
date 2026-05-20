@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AreaDynamicInfo.proto";
+
+message TrainPartyBuildStartStepCsReq {
+    uint32 OIGHBOMFGGD = 1;
+    uint32 area_id = 3;
+    uint32 FNLNPLHOEJN = 13;
+    AreaDynamicInfo LMHIBHGINLG = 15;
+}

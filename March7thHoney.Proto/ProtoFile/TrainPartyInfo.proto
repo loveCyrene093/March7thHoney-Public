@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CBGAODCKAGB.proto";
+import "CCAIPEBCIMH.proto";
+import "GHLDNDDFEIE.proto";
+import "KJGMAEGNBKL.proto";
+import "TrainPartyArea.proto";
+
+message TrainPartyInfo {
+    repeated GHLDNDDFEIE HNFNKLHLJLG = 1;
+    bool EKLIAOBCHPI = 2;
+    KJGMAEGNBKL FCLJEACKGLE = 3;
+    repeated uint32 MPDONIKHIOB = 4;
+    uint32 NMBFMHLNPLM = 5;
+    repeated uint32 dynamic_id_list = 6;
+    repeated CCAIPEBCIMH GBDEGDGGKOL = 7;
+    uint32 cur_fund = 9;
+    uint32 OBAMHCIFFOC = 10;
+    uint32 ALODJFPDKAM = 11;
+    uint32 OLHGMPCDDKA = 12;
+    repeated CBGAODCKAGB MMFEPEBGAFC = 13;
+    uint32 HIHKGPJCDPK = 14;
+    repeated TrainPartyArea area_list = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightHandBookRoleInfo {
+    repeated uint32 grid_fight_avatar_list = 11;
+    repeated uint32 LCGHMJFAMEE = 13;
+}

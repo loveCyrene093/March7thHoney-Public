@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AMDMKFGOAPO.proto";
+import "LuckyKoiInfoList.proto";
+
+message FHBFFIFIPOA {
+    uint64 begin_time = 1;
+    uint64 end_time = 2;
+    uint32 GEPIMAEONIF = 3;
+    uint64 EOGHMOHBLNN = 10;
+    repeated LuckyKoiInfoList IMNPFJIBJFE = 13;
+    repeated AMDMKFGOAPO AHBFAAMNKNO = 14;
+}

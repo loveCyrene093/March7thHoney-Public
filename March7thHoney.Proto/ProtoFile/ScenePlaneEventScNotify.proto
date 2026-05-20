@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message ScenePlaneEventScNotify {
+    ItemList get_item_list = 2;
+    ItemList EAOMBJJHMMA = 5;
+    ItemList CIDPONMOMIO = 7;
+    ItemList KJJKHKFCPMA = 13;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message CakeRaceLikeFriendRankingInfoScRsp {
+    uint32 teleport_id = 5;
+    repeated uint32 HFJNDOAIDOP = 6;
+    uint32 retcode = 8;
+    ItemList reward_list = 15;
+}

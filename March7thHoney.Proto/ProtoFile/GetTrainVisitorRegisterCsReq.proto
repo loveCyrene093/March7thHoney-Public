@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGMKCAFEOHJ.proto";
+
+message GetTrainVisitorRegisterCsReq {
+    BGMKCAFEOHJ type = 6;
+}

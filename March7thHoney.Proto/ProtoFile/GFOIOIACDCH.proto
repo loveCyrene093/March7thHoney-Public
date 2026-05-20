@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GCOIFAHPGDF.proto";
+import "MCPPIEJEBEF.proto";
+
+message GFOIOIACDCH {
+    MCPPIEJEBEF DMGCIDGKPFF = 6;
+    uint32 PAIBKOMPFOE = 7;
+    GCOIFAHPGDF KPDHCPCCPNA = 11;
+}

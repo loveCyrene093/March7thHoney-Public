@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HMEDBGAMMPN {
+    map<uint32, uint32> BOLEHILKKAO = 6;
+    uint32 OKONFGOPOOK = 7;
+    uint32 DACOKFCBMBI = 8;
+    repeated uint32 MGCPIPCGILO = 13;
+}

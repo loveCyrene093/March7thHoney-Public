@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MarkChatEmojiScRsp {
+    uint32 retcode = 6;
+    uint32 extra_id = 9;
+    bool is_remove_id = 10;
+}

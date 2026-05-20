@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GetStuffType {
+    GAPDOPFOGEN_BLJEEHFCNCO = 0;
+    GAPDOPFOGEN_PHJHNEIOCJM = 1;
+    GAPDOPFOGEN_GKPGAEGPDNL = 2;
+    GAPDOPFOGEN_LKIKBBFNPND = 3;
+    GAPDOPFOGEN_BDBEGLAKOOG = 4;
+    GAPDOPFOGEN_HAPPBGOFALG = 5;
+    GAPDOPFOGEN_JJKHCEKDOFC = 6;
+}

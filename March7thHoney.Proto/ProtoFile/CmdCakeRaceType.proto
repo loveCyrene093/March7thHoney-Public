@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdCakeRaceType {
+    EMBLGHMFGEA_PCPDHELPKEM = 0;
+    CmdCakeRaceGetDataScRsp = 9138;
+    CmdCakeRaceLoanCsReq = 9124;
+    CmdCakeRaceGetHandbookScRsp = 9130;
+    CmdCMNLIEKBFNJ = 9133;
+    CmdCakeRaceGetDataCsReq = 9122;
+    CmdBPLDHDFDIDA = 9145;
+    CmdCakeRaceFinishPveCsReq = 9147;
+    CmdCakeRaceFinishFieldRewardScNotify = 9149;
+    CmdCakeRaceUpdatePveScRsp = 9135;
+    CmdCakeRaceGetDailyLikeCsReq = 9146;
+    CmdCakeRaceCoinScoreChangeScNotify = 9142;
+    CmdCakeRaceGetFriendRankingInfoListScRsp = 9140;
+    CmdCakeRaceLoanScRsp = 9139;
+    CmdCakeRaceGetFriendRankingInfoListCsReq = 9143;
+    CmdCakeRaceLikeFriendRankingInfoScRsp = 9134;
+    CmdCakeRaceStartPveCsReq = 9123;
+    CmdCakeRaceGetDailyLikeScRsp = 9127;
+    EMBLGHMFGEA_FGCFGNNDHOF = 9137;
+    CmdCakeRaceStartPveScRsp = 9121;
+    CmdCakeRaceUpdatePveMeetCatCsReq = 9150;
+    CmdCakeRaceGetHandbookCsReq = 9131;
+    CmdCakeRaceLikeFriendRankingInfoCsReq = 9129;
+}

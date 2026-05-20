@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BAPBJANOPLP.proto";
+
+message JMDDGOGNBEK {
+    uint32 goods_id = 10;
+    repeated BAPBJANOPLP JDFCLIFHEBE = 15;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MonsterList.proto";
+import "RelicList.proto";
+
+message ArchiveData {
+    repeated uint32 archive_avatar_id_list = 2;
+    repeated MonsterList kill_monster_list = 6;
+    repeated uint32 archive_equipment_id_list = 7;
+    repeated RelicList relic_list = 8;
+    repeated uint32 archive_missing_equipment_id_list = 12;
+}

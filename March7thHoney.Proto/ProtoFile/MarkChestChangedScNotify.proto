@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MarkChestFuncInfo.proto";
+
+message MarkChestChangedScNotify {
+    repeated MarkChestFuncInfo mark_chest_func_info = 6;
+}

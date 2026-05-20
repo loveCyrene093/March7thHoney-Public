@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightLockReason.proto";
+import "GridFightLockType.proto";
+
+message GridFightLockInfo {
+    GridFightLockReason lock_reason = 7;
+    GridFightLockType lock_type = 10;
+}

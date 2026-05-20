@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HLLCDBLCIPK.proto";
+import "JIPACDEJKJC.proto";
+
+message PlanetFesChooseAvatarEventOptionScRsp {
+    JIPACDEJKJC DIHECIIKELE = 5;
+    uint32 EEMNDGIPBIC = 6;
+    HLLCDBLCIPK reward = 8;
+    uint32 retcode = 11;
+    uint32 AAIJKIBONOO = 14;
+    uint32 COKGOPBMLPP = 15;
+}

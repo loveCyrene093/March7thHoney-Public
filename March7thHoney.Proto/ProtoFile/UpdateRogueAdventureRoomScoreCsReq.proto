@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpdateRogueAdventureRoomScoreCsReq {
+    uint32 score_id = 6;
+    uint32 NIIEKCMBENI = 8;
+}

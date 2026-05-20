@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ILOGJILOJGB.proto";
+import "NFABIIBMNPB.proto";
+
+message BGMLAAEOFOH {
+    uint32 uid = 1;
+    uint32 ANBBPPHBCJH = 2;
+    uint32 BBDOCJGAEEJ = 3;
+    uint32 MPPFOJCENPD = 4;
+    uint32 DCPKPNLKGMM = 5;
+    uint32 section_id = 6;
+    repeated NFABIIBMNPB grid_game_role_list = 7;
+    ILOGJILOJGB LHCHBABCPMI = 8;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OLCPICDAOKI.proto";
+import "OOCCLBMLECE.proto";
+
+message DKBNDPLMNCO {
+    repeated OLCPICDAOKI JPONLDDDEMI = 1;
+    bool BEPKBMGKCGB = 2;
+    uint32 CODOFDEHJCJ = 3;
+    bool IPACGBDKFNA = 4;
+    repeated uint32 FKFHMMHBIKC = 5;
+    uint32 OEDMCLBPADG = 10;
+    repeated OOCCLBMLECE CPJDHFJOIAL = 14;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetHipplenOutfitScRsp {
+    repeated uint32 MJLLOEEDJEA = 5;
+    uint32 retcode = 8;
+}

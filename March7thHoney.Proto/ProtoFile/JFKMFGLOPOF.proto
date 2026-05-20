@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IJPFIHHGNGP.proto";
+
+message JFKMFGLOPOF {
+    uint32 retcode = 9;
+    IJPFIHHGNGP DGKEEOEIOBB = 11;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneIdentifier.proto";
+import "Vector.proto";
+
+message EnterSceneCsReq {
+    bool is_close_map = 2;
+    uint32 entry_id = 4;
+    uint32 teleport_id = 6;
+    bool OMFKMGKIIKP = 8;
+    SceneIdentifier scene_identifier = 9;
+    uint64 interact_id = 12;
+    Vector BLJLBNFPHFE = 13;
+}

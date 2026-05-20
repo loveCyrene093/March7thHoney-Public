@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum COOCLIPGCEH {
+    COOCLIPGCEH_PCPDHELPKEM = 0;
+    COOCLIPGCEH_EIKGHMIEKPE = 1;
+    COOCLIPGCEH_CGDGJBLDKNP = 2;
+}

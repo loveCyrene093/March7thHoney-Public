@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIGKBDIGGOI.proto";
+
+message NCIFDEHCMBK {
+    bool AJANDPBFECK = 3;
+    repeated uint32 AGJMPNMLEGN = 4;
+    uint32 NMKJBKCEIGP = 5;
+    CIGKBDIGGOI IHDMLHFAEKH = 13;
+}

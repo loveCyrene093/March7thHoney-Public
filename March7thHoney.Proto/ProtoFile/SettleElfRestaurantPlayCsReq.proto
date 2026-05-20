@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BJMHMKBBJGH.proto";
+import "FLIPDLFKMLB.proto";
+import "KILNLEDAHOC.proto";
+import "KPNDMCHCBPI.proto";
+import "OAHNIFMDLCJ.proto";
+
+message SettleElfRestaurantPlayCsReq {
+    uint32 BEOAPNBFOCI = 1;
+    repeated OAHNIFMDLCJ PIGFMOMEPHE = 2;
+    uint32 cost_time = 5;
+    repeated KPNDMCHCBPI CNGEJMNPJPM = 6;
+    repeated BJMHMKBBJGH ALHGBBFBKJG = 7;
+    repeated KILNLEDAHOC ONGHHAPHCEM = 8;
+    repeated FLIPDLFKMLB HLKMMJLCJEC = 9;
+    uint32 DNDGPEPOLNM = 10;
+    uint32 IOIBCNHAOKG = 11;
+    uint32 AOAEKPAPHOK = 12;
+    uint32 NGJKIIIJBIB = 14;
+    uint32 DNJEEOENMAA = 15;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RogueRoomStatus {
+    LIBDGMMOILI_PCPDHELPKEM = 0;
+    LIBDGMMOILI_DKLPAAFFLEE = 1;
+    LIBDGMMOILI_NGMMICOGDFP = 2;
+    LIBDGMMOILI_LAEIDCPKLCD = 3;
+    LIBDGMMOILI_KLHDCOPPLNG = 4;
+}

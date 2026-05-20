@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightSpecialGoodsInfo {
+    uint32 special_goods_id = 4;
+}

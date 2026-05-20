@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BattleRecordType {
+    BATTLE_RECORD_NONE = 0;
+    BATTLE_RECORD_CHALLENGE = 1;
+    BATTLE_RECORD_ROGUE = 2;
+}

@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRogueType {
+    OEELNJLOKHK_PCPDHELPKEM = 0;
+    CmdStartRogueScRsp = 1895;
+    CmdGetRogueInfoScRsp = 1810;
+    CmdLeaveRogueCsReq = 1809;
+    CmdExchangeRogueRewardKeyScRsp = 1877;
+    CmdEnterRogueMapRoomScRsp = 1893;
+    CmdSyncRogueAeonScNotify = 1868;
+    CmdLOPOJDAAIPO = 1884;
+    CmdPNHGIANGNAE = 1822;
+    CmdSyncRogueGetItemScNotify = 1860;
+    CmdExchangeRogueRewardKeyCsReq = 1812;
+    CmdTakeRogueScoreRewardScRsp = 1858;
+    CmdAABFLGKCHCA = 1833;
+    CmdStartRogueCsReq = 1894;
+    CmdFinishAeonDialogueGroupScRsp = 1834;
+    CmdTakeRogueAeonLevelRewardCsReq = 1899;
+    CmdGetRogueAeonInfoScRsp = 1876;
+    OEELNJLOKHK_GIEIFOLEOEG = 1802;
+    CmdJBOELLFBFHB = 1815;
+    CmdEnterRogueCsReq = 1814;
+    CmdGLKPCPLBPLN = 1896;
+    CmdGetRogueAeonInfoCsReq = 1848;
+    CmdNLLJBGPJFIN = 1872;
+    CmdSyncRogueReviveInfoScNotify = 1873;
+    CmdQuitRogueScRsp = 1808;
+    CmdEnterRogueMapRoomCsReq = 1820;
+    CmdGJKOPKLDFGB = 1813;
+    CmdSyncRogueExploreWinScNotify = 1851;
+    CmdSyncRogueStatusScNotify = 1881;
+    CmdEnableRogueTalentCsReq = 1887;
+    CmdFinishAeonDialogueGroupCsReq = 1846;
+    CmdQuitRogueCsReq = 1853;
+    CmdKEPNGMHCNDN = 1889;
+    CmdLeaveRogueScRsp = 1898;
+    CmdGetRogueTalentInfoCsReq = 1856;
+    OEELNJLOKHK_ODEPOIGBMCB = 1807;
+    CmdBIDMHOFDCIC = 1900;
+    CmdSyncRogueSeasonFinishScNotify = 1825;
+    CmdSyncRogueAreaUnlockScNotify = 1882;
+    CmdSyncRogueFinishScNotify = 1804;
+    CmdEnableRogueTalentScRsp = 1827;
+    CmdGetRogueTalentInfoScRsp = 1845;
+    CmdGetRogueInitialScoreScRsp = 1849;
+    CmdCIGIICEJLJE = 1838;
+    CmdOpenRogueChestScRsp = 1829;
+    CmdGetRogueScoreRewardInfoScRsp = 1880;
+    CmdDJFICMCBNAE = 1861;
+    CmdEnterRogueScRsp = 1818;
+    OEELNJLOKHK_GLGPEFMALPE = 1886;
+    CmdMMIBACFNELB = 1844;
+    CmdOpenRogueChestCsReq = 1859;
+    CmdSyncRogueMapRoomScNotify = 1866;
+    CmdGetRogueInfoCsReq = 1891;
+    CmdSyncRogueVirtualItemInfoScNotify = 1847;
+}

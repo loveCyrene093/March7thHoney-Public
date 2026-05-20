@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MatchThreeLevelEndScRsp {
+    uint32 retcode = 2;
+    uint32 level_id = 4;
+    uint32 DPCFBDCEKJL = 13;
+}

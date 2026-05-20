@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+import "ItemList.proto";
+
+message HBCMBPKGBJK {
+    repeated GKDEKJKOIJN MEKLIBAPGON = 2;
+    repeated GKDEKJKOIJN HEOEKAPBNIE = 4;
+    uint32 retcode = 8;
+    bool FIIJCFJJLOO = 11;
+    repeated GKDEKJKOIJN FMPNNHDPGKD = 12;
+    ItemList reward = 14;
+}

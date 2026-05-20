@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NADCNANJLBJ {
+    uint32 visitor_id = 7;
+    bool is_meet = 13;
+}

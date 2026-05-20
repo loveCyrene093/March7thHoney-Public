@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIGKBDIGGOI.proto";
+
+message MakeMissionDrinkCsReq {
+    uint32 JACCJGBGJOA = 1;
+    CIGKBDIGGOI IHDMLHFAEKH = 11;
+    bool is_save = 14;
+}

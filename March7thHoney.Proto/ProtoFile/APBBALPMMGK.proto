@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum APBBALPMMGK {
+    APBBALPMMGK_PCPDHELPKEM = 0;
+    APBBALPMMGK_GHGAPOAKGAB = 1;
+    APBBALPMMGK_BPCEKMLPJCJ = 2;
+    APBBALPMMGK_GPJMKKADLDC = 3;
+    APBBALPMMGK_CBBHPGAGCOE = 4;
+    APBBALPMMGK_JNAAAIGLHHI = 5;
+}

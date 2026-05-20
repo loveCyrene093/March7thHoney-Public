@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message BuyGoodsScRsp {
+    uint32 goods_id = 3;
+    uint32 goods_buy_times = 4;
+    ItemList return_item_list = 6;
+    uint32 retcode = 7;
+    uint32 shop_id = 11;
+}

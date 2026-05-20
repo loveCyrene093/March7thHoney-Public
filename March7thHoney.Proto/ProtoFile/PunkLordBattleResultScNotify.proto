@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PHOCECJOBHH.proto";
+import "PunkLordMonsterBasicInfo.proto";
+
+message PunkLordBattleResultScNotify {
+    PunkLordMonsterBasicInfo FFCDPHMJJKG = 2;
+    PHOCECJOBHH FHPOILIMKII = 8;
+    uint32 PDBNGNABDJI = 11;
+    uint32 GGHCFMOLDNI = 12;
+    uint32 MHDJJDNHILK = 15;
+}

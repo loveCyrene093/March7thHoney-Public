@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ACPMKPLOBEF.proto";
+import "MFJBNCDAHJK.proto";
+
+message DLLGKJNKANJ {
+    MFJBNCDAHJK reason = 5;
+    ACPMKPLOBEF data = 8;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message ExpUpRelicCsReq {
+    uint32 relic_unique_id = 1;
+    ItemCostData cost_data = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AetherDivideBattleInfo.proto";
+
+message StartAetherDivideStageBattleScRsp {
+    uint32 retcode = 5;
+    AetherDivideBattleInfo battle_info = 12;
+}

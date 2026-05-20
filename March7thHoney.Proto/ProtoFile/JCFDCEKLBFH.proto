@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message JCFDCEKLBFH {
+    uint32 cnt = 9;
+    uint32 buff_id = 12;
+    bool FAOIKIDDCFF = 13;
+    uint32 shop_goods_price = 15;
+}

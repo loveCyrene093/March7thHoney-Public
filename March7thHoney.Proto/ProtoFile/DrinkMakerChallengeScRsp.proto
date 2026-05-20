@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message DrinkMakerChallengeScRsp {
+    uint32 retcode = 3;
+    ItemList reward = 8;
+    bool DAIKNKALKCM = 12;
+    uint32 challenge_id = 15;
+}

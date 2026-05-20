@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EnterSceneReason.proto";
+import "LineupInfo.proto";
+import "SceneInfo.proto";
+
+message EnterSceneByServerScNotify {
+    LineupInfo lineup = 3;
+    SceneInfo scene = 9;
+    EnterSceneReason reason = 12;
+}

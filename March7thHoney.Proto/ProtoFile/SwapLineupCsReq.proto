@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ExtraLineupType.proto";
+
+message SwapLineupCsReq {
+    bool is_virtual = 1;
+    uint32 NHNHEJELCMM = 2;
+    uint32 index = 10;
+    uint32 plane_id = 11;
+    ExtraLineupType extra_lineup_type = 13;
+    uint32 IIFNABKHAEG = 15;
+}

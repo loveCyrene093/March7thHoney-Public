@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Tutorial.proto";
+
+message UnlockTutorialScRsp {
+    uint32 retcode = 1;
+    Tutorial tutorial = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridGameOrbInfo1 {
+    uint32 FKPNNOGPCNA = 5;
+    uint32 FCFDDBCAJOD = 11;
+    uint32 unique_id = 12;
+}

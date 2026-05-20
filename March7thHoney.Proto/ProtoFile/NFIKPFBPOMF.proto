@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NFIKPFBPOMF {
+    uint32 ACCLBAGKGEL = 1;
+    uint32 KEDAEABLGAB = 2;
+    uint32 ECIJEKJAMPK = 5;
+}

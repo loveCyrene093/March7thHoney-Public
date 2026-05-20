@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LockRelicCsReq {
+    repeated uint32 relic_ids = 1;
+    bool is_locked = 9;
+    bool KIPBINBIDAE = 11;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PJLBDMPEKFP.proto";
+
+message GridFightBossInfo {
+    repeated PJLBDMPEKFP IJOPBPABPPM = 6;
+}

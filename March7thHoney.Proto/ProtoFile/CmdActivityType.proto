@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdActivityType {
+    FPLEHFOAEKF_PCPDHELPKEM = 0;
+    CmdGINDKJGLPJM = 2688;
+    CmdTakeMaterialSubmitActivityRewardScRsp = 2658;
+    CmdGetLoginActivityScRsp = 2610;
+    CmdGetMaterialSubmitActivityDataCsReq = 2672;
+    CmdGetMaterialSubmitActivityDataScRsp = 2632;
+    CmdTakeTrialActivityRewardCsReq = 2629;
+    CmdGetLoginActivityCsReq = 2691;
+    CmdGetActivityScheduleConfigCsReq = 2614;
+    CmdSubmitMaterialSubmitActivityMaterialCsReq = 2633;
+    CmdGetTrialActivityDataCsReq = 2692;
+    CmdTrialActivityNotify = 2652;
+    CmdTakeLoginActivityRewardCsReq = 2694;
+    CmdStartTrialActivity = 2616;
+    CmdGetAvatarRewardDataScRsp = 2669;
+    CmdTakeLoginActivityRewardScRsp = 2695;
+    CmdGetAvatarRewardDataCsReq = 2690;
+    CmdChooseAvatarCsReq = 2641;
+    CmdEnterTrialActivityStageScRsp = 2659;
+    CmdSubmitMaterialSubmitActivityMaterialScRsp = 2661;
+    CmdStartTrialActivityCsReq = 2677;
+    CmdTakeRewardCsReq = 2670;
+    FPLEHFOAEKF_BMNCDAJDLPA = 2642;
+    CmdLeaveTrialActivityCsReq = 2606;
+    CmdChooseAvatarScRsp = 2662;
+    CmdTrialActivityDataChangeScNotify = 2678;
+    CmdGetTrialActivityDataScRsp = 2624;
+    CmdTakeTrialActivityRewardScRsp = 2612;
+    CmdGetActivityScheduleConfigScRsp = 2618;
+    CmdTakeRewardScRsp = 2668;
+    CmdTakeMaterialSubmitActivityRewardCsReq = 2607;
+}

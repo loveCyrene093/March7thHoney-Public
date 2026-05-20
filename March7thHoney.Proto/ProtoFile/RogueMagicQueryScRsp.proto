@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AHNGIOFDJNL.proto";
+import "AHOLOHCLLKD.proto";
+
+message RogueMagicQueryScRsp {
+    uint32 retcode = 4;
+    AHOLOHCLLKD HHDLEADBJGN = 9;
+    AHNGIOFDJNL rogue_get_info = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IdleLiveCollectIncomeCsReq {
+    uint32 IHAOPPMCJLB = 3;
+    bool FIIJCFJJLOO = 6;
+}

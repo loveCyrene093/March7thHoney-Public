@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdBenefitActivityType {
+    DLJPALHAPPL_PCPDHELPKEM = 0;
+    CmdGetBenefitActivityInfo = 4857;
+    CmdCDFGBPOPNAL = 4888;
+    CmdJoinBenefitActivityCsReq = 4885;
+    CmdGetBenefitActivityInfoCsReq = 4863;
+    CmdTakeBenefitActivityRewardCsReq = 4880;
+    CmdTakeBenefitActivityRewardScRsp = 4877;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRelicBoxType {
+    EOICCPKPFPB_PCPDHELPKEM = 0;
+    CmdSetRelicBoxTargetScRsp = 8958;
+    CmdSetRelicBoxCustomCsReq = 8952;
+    CmdSetRelicBoxCustomScRsp = 8960;
+    CmdRelicBoxRegularScNotify = 8963;
+    CmdSetRelicBoxTargetCsReq = 8965;
+    CmdConfirmRelicBoxScRsp = 8968;
+    CmdConfirmRelicBoxCsReq = 8961;
+    CmdOpenRelicBoxScRsp = 8969;
+    CmdOpenRelicBoxCsReq = 8957;
+    CmdGetRelicBoxDataScRsp = 8970;
+    CmdReportRelicBoxActionScRsp = 8959;
+    CmdGetRelicBoxDataCsReq = 8951;
+    CmdReportRelicBoxActionCsReq = 8953;
+}

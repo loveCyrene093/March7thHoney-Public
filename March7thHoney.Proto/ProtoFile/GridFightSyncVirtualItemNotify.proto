@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PIIABEHNMDD.proto";
+
+message GridFightSyncVirtualItemNotify {
+    repeated PIIABEHNMDD item_list = 8;
+}

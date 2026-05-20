@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KAONKHLDGPB {
+    uint32 AIKMPMKFMPH = 1;
+    uint32 IKKFDOHMCGM = 7;
+    uint32 area_id = 10;
+}

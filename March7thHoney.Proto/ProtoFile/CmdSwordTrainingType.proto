@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdSwordTrainingType {
+    KKPPJENPAJC_PCPDHELPKEM = 0;
+    CmdSwordTrainingGiveUpGameScRsp = 7456;
+    CmdSwordTrainingMarkEndingViewedScRsp = 7461;
+    CmdSwordTrainingTurnActionScRsp = 7485;
+    CmdSwordTrainingLearnSkillCsReq = 7453;
+    CmdSwordTrainingGameSyncChangeScNotify = 7463;
+    CmdGetSwordTrainingDataCsReq = 7457;
+    CmdSwordTrainingSelectEndingCsReq = 7487;
+    CmdSwordTrainingSetSkillTraceCsReq = 7474;
+    CmdSwordTrainingActionTurnSettleScNotify = 7472;
+    CmdSwordTrainingResumeGameScRsp = 7484;
+    CmdSwordTrainingStoryBattleCsReq = 7473;
+    CmdSwordTrainingGiveUpGameCsReq = 7465;
+    CmdSwordTrainingLearnSkillScRsp = 7500;
+    CmdEnterSwordTrainingExamCsReq = 7495;
+    CmdSwordTrainingDialogueSelectOptionScRsp = 7497;
+    CmdSwordTrainingStoryConfirmScRsp = 7499;
+    CmdSwordTrainingStoryBattleScRsp = 7464;
+    CmdSwordTrainingExamResultConfirmScRsp = 7490;
+    CmdSwordTrainingStoryConfirmCsReq = 7471;
+    CmdSwordTrainingTurnActionCsReq = 7477;
+    CmdSwordTrainingExamResultConfirmCsReq = 7496;
+    CmdSwordTrainingSetSkillTraceScRsp = 7491;
+    CmdSwordTrainingRestoreGameScRsp = 7470;
+    CmdSwordTrainingSelectEndingScRsp = 7498;
+    CmdEnterSwordTrainingExamScRsp = 7486;
+    CmdSwordTrainingResumeGameCsReq = 7462;
+    CmdSwordTrainingStartGameScRsp = 7481;
+    CmdSwordTrainingDialogueSelectOptionCsReq = 7451;
+    CmdSwordTrainingDailyPhaseConfirmScRsp = 7455;
+    CmdSwordTrainingUnlockSyncScNotify = 7483;
+    CmdSwordTrainingStartGameCsReq = 7466;
+    CmdSwordTrainingDailyPhaseConfirmCsReq = 7488;
+    CmdSwordTrainingRestoreGameCsReq = 7489;
+    CmdGetSwordTrainingDataScRsp = 7480;
+    CmdSwordTrainingGameSettleScNotify = 7458;
+    CmdSwordTrainingMarkEndingViewedCsReq = 7492;
+}

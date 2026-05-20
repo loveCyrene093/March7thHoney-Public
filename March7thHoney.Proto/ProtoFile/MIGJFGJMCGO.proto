@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MIGJFGJMCGO {
+    uint32 avatar_id = 1;
+    repeated uint32 KFINACEFCNJ = 2;
+    uint32 source = 3;
+    double damage = 4;
+    repeated uint32 COIHNJCHNMJ = 5;
+    int32 IIKAMPCHBLN = 6;
+    double MEPKKFLKPGM = 7;
+    uint32 KPKHJJAHHEM = 8;
+    uint32 wave = 9;
+    uint32 enhanced_id = 10;
+}

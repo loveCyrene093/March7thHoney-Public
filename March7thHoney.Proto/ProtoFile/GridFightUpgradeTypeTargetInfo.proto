@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightUpgradeTypeTargetInfo {
+    uint32 dress_equipment_unique_id = 1;
+}

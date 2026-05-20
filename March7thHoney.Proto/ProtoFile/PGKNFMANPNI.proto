@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FLCPAPOJBGP.proto";
+import "LGMIBLCAEFA.proto";
+
+message PGKNFMANPNI {
+    uint32 OBOJOIHDCGK = 1;
+    uint32 PMMDFFFNFIO = 2;
+    uint32 room_id = 3;
+    LGMIBLCAEFA ELIGJDHJEAC = 4;
+    uint32 LHENDOOGBCK = 7;
+    FLCPAPOJBGP status = 11;
+}

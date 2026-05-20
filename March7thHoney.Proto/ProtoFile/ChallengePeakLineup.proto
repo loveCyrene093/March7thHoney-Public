@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EEBPHJCNBFO.proto";
+
+message ChallengePeakLineup {
+    repeated EEBPHJCNBFO FMFGOJHCCNL = 1;
+    uint32 peak_id = 3;
+    repeated uint32 peak_avatar_id_list = 12;
+}

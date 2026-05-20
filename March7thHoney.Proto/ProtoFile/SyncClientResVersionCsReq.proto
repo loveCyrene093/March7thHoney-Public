@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SyncClientResVersionCsReq {
+    uint32 client_res_version = 8;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FCIMCHDEPPJ.proto";
+
+message EnterRogueEndlessActivityStageCsReq {
+    uint32 PJMBJBMBKCE = 3;
+    repeated FCIMCHDEPPJ avatar_list = 15;
+}

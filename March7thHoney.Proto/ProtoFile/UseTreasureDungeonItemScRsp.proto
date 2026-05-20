@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KPBGMOCCMLA.proto";
+
+message UseTreasureDungeonItemScRsp {
+    KPBGMOCCMLA IKHJLMAKNCD = 4;
+    uint32 retcode = 6;
+}

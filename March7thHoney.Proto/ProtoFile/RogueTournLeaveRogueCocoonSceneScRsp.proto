@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BFEIPELFCDF.proto";
+
+message RogueTournLeaveRogueCocoonSceneScRsp {
+    BFEIPELFCDF AFLJJJFCBIN = 12;
+    uint32 retcode = 14;
+}

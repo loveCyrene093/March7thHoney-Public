@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetGachaDecideItemCsReq {
+    uint32 gacha_id = 2;
+    uint32 MBOEFLAHLEM = 4;
+    repeated uint32 DGOMHDMJHEK = 12;
+}

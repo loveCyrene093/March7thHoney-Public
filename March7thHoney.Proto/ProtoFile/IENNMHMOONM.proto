@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGNGLHHBGMI.proto";
+import "BattleGridFightTraitEffectInfo.proto";
+
+message IENNMHMOONM {
+    uint32 trait_id = 1;
+    uint32 NKFDBEHPNLG = 2;
+    repeated BattleGridFightTraitEffectInfo trait_effect_list = 3;
+    repeated BGNGLHHBGMI MEEPFKLLIJB = 5;
+    uint32 JJFNMAIPDEB = 6;
+    uint32 KINIKFCKGDF = 7;
+}

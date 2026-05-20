@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NpcMonsterExtraInfo.proto";
+import "PECMFBCBLHH.proto";
+
+message SceneNpcMonsterInfo {
+    NpcMonsterExtraInfo extra_info = 2;
+    bool DKGCLLLIFNH = 4;
+    uint32 world_level = 7;
+    uint32 monster_id = 11;
+    PECMFBCBLHH JJAPBFGDPLA = 12;
+    uint32 event_id = 13;
+    bool FDIHGHGEIOH = 14;
+}

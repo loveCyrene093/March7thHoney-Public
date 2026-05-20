@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LineupInfo.proto";
+import "MADEENABOKE.proto";
+import "SceneInfo.proto";
+
+message EnterRogueMapRoomScRsp {
+    LineupInfo lineup = 1;
+    uint32 retcode = 3;
+    SceneInfo scene = 8;
+    uint32 HEIONPDIFNM = 9;
+    MADEENABOKE ENPAICNLCMK = 10;
+}

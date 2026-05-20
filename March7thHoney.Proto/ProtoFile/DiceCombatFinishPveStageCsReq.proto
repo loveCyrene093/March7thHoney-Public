@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DiceCombatFinishPveStageCsReq {
+    uint32 MMLKFJIAKKH = 2;
+    bool is_win = 5;
+    uint32 damage = 7;
+    bool BIODAJLLINO = 10;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AreaDynamicInfo.proto";
+import "PPECMOMNAMG.proto";
+
+message TrainPartyBuildDiyScRsp {
+    uint32 area_id = 4;
+    repeated PPECMOMNAMG update_dynamic_list = 7;
+    uint32 retcode = 8;
+    bool AFGNLDIMBGB = 9;
+    repeated AreaDynamicInfo dynamic_info = 13;
+}

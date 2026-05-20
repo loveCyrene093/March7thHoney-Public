@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetChallengePeakBossHardModeCsReq {
+    uint32 peak_group_id = 4;
+    bool is_hard_mode = 6;
+}

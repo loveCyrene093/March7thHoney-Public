@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum PFNAOGJDEMN {
+    PFNAOGJDEMN_PCPDHELPKEM = 0;
+    PFNAOGJDEMN_APFFEDDKNBK = 1;
+    PFNAOGJDEMN_HMLIPLGIEEC = 2;
+    PFNAOGJDEMN_FOMMFEMIBKO = 3;
+}

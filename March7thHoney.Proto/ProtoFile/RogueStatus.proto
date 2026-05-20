@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RogueStatus {
+    JBFMHGKNEGL_PCPDHELPKEM = 0;
+    JBFMHGKNEGL_NMBCDILDGNK = 1;
+    JBFMHGKNEGL_OPNADFKBGNN = 2;
+    JBFMHGKNEGL_OEKFLGEFGPP = 3;
+    JBFMHGKNEGL_KLHDCOPPLNG = 4;
+}

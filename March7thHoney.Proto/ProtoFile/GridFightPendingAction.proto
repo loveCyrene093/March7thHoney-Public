@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EEJAJMNKAMI.proto";
+import "GridFightAugmentActionInfo.proto";
+import "GridFightEliteBranchActionInfo.proto";
+import "GridFightForgeRoleActionInfo.proto";
+import "GridFightPortalBuffActionInfo.proto";
+import "GridFightRecommendEquipmentActionInfo.proto";
+import "GridFightReturnPreparationActionInfo.proto";
+import "GridFightRoundBeginActionInfo.proto";
+import "GridFightSupplyActionInfo.proto";
+import "GridFightTraitActionInfo.proto";
+import "GridFightUpgradeEquipActionInfo.proto";
+import "HEPFIAFJAHL.proto";
+import "KIKMJKNHJGA.proto";
+import "NHJCELBCFNF.proto";
+import "NJJFPLFEEFC.proto";
+
+message GridFightPendingAction {
+    uint32 queue_position = 5;
+    oneof BGGBIMBKHEI {
+        GridFightSupplyActionInfo supply_action = 21;
+        GridFightReturnPreparationActionInfo return_preparation_action = 38;
+        KIKMJKNHJGA DJEJJKADBCI = 164;
+        NHJCELBCFNF HPMNOGGMKKH = 284;
+        GridFightAugmentActionInfo augment_action = 482;
+        GridFightRoundBeginActionInfo round_begin_action = 872;
+        GridFightRecommendEquipmentActionInfo recommend_equipment_action = 980;
+        GridFightUpgradeEquipActionInfo upgrade_equip_action = 1063;
+        GridFightForgeRoleActionInfo forge_role_action_info = 1151;
+        NJJFPLFEEFC KACDGAJHNBI = 1211;
+        HEPFIAFJAHL APLEGHKNFOK = 1446;
+        EEJAJMNKAMI PKCONHLNMIJ = 1540;
+        GridFightTraitActionInfo trait_action = 1800;
+        GridFightPortalBuffActionInfo portal_buff_action = 1843;
+        GridFightEliteBranchActionInfo elite_branch_action = 1893;
+    }
+}

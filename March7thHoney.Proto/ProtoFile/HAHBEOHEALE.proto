@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HAHBEOHEALE {
+    uint32 queue_position = 2;
+    uint32 level = 3;
+}

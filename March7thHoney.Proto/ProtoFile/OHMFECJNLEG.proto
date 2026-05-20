@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ENDOLEJCHKP.proto";
+
+message OHMFECJNLEG {
+    repeated uint32 EOGMIHEPCGM = 2;
+    repeated ENDOLEJCHKP BFMNAKCPGNN = 3;
+    uint32 retcode = 14;
+}

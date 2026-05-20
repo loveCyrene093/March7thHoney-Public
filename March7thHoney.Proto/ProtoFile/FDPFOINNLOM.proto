@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FDPFOINNLOM {
+    uint32 CGOABGKCBEF = 7;
+    uint32 DDBHACOPEGG = 13;
+    uint32 LLEEFDGJBKA = 15;
+}

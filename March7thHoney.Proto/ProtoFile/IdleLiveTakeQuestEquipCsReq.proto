@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IdleLiveTakeQuestEquipCsReq {
+    bool Discarded = 1;
+    uint32 quest_id = 14;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LobbyInviteCsReq {
+    repeated uint32 uid_list = 3;
+}

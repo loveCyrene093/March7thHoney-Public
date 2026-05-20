@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GLJLEEPOCDA.proto";
+import "LKFNDAOGMMO.proto";
+
+message DCEBJIGAPEI {
+    repeated LKFNDAOGMMO HAIOHANDIKI = 4;
+    uint32 wave = 6;
+    uint32 max_hp = 7;
+    uint32 cur_hp = 9;
+    uint32 stage_id = 10;
+    GLJLEEPOCDA reason = 15;
+}

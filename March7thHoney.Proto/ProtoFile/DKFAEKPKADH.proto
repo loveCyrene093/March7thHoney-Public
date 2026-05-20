@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+import "JBDGHPCBHPO.proto";
+
+message DKFAEKPKADH {
+    repeated JBDGHPCBHPO MNJNFMKIKMH = 1;
+    uint32 BFNLCFMDDJH = 4;
+    uint32 DKHLLGOIHKH = 6;
+    uint32 FGAAPCNNMIP = 12;
+    uint32 MEAJAEBDAOI = 13;
+    ItemCostData OLNOIIEDKEP = 14;
+    bool AFHBNKOHHHB = 15;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APBOFCPJCAF.proto";
+import "BEPLPKEFEED.proto";
+import "RogueTournLevelStatus.proto";
+
+message RogueTournLevelInfoUpdateScNotify {
+    repeated APBOFCPJCAF FHLJEHDHJLI = 6;
+    RogueTournLevelStatus status = 7;
+    uint32 APMIAKDPHJL = 11;
+    BEPLPKEFEED reason = 15;
+}

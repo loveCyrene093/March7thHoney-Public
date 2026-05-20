@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FriendOnlineStatus {
+    FRIEND_ONLINE_STATUS_OFFLINE = 0;
+    FRIEND_ONLINE_STATUS_ONLINE = 1;
+}

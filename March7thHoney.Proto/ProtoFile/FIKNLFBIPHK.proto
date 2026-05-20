@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LHJCFNLPFIL.proto";
+
+message FIKNLFBIPHK {
+    uint32 KICMNNPFEGK = 1;
+    bool JIFPGDCFDEK = 2;
+    LHJCFNLPFIL EAMDICNBNIL = 3;
+}

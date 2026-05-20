@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FDMMAAHEFPK.proto";
+
+message EEBOPKJEMHK {
+    uint32 HCAEJFMKMND = 7;
+    FDMMAAHEFPK status = 12;
+}

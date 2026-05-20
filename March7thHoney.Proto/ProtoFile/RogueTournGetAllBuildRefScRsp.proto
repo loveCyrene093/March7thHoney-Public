@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BKNMOOFGGKH.proto";
+
+message RogueTournGetAllBuildRefScRsp {
+    uint32 retcode = 4;
+    repeated BKNMOOFGGKH MEMEDBGJPHO = 5;
+}

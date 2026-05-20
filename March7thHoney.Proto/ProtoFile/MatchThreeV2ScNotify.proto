@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NOJLPMLALPI.proto";
+
+message MatchThreeV2ScNotify {
+    NOJLPMLALPI KJHGGPEMPHM = 6;
+}

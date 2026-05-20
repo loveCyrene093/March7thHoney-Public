@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IPMPONAHFBG {
+    uint32 JFJJLGFCOMO = 2;
+    uint32 total_auto_turns = 10;
+    uint32 GHBNOAMOAND = 11;
+    uint32 IEDPBIABBCK = 12;
+    uint32 total_turns = 14;
+    uint32 HFLIAJCNJPL = 15;
+}

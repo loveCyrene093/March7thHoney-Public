@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightDamageSttInfo.proto";
+import "GridFightDropInfo.proto";
+import "GridFightHpModifyInfo.proto";
+import "ILGOPHIAJIG.proto";
+import "MIOMFOAEHEC.proto";
+
+message GridFightEndBattleStageNotify {
+    GridFightDamageSttInfo grid_fight_damage_stt_info = 1;
+    uint32 NDOCIKPLKIF = 2;
+    uint32 FHHPDFKLJKC = 3;
+    uint32 PNOJLNNHBIH = 4;
+    uint32 DCPKPNLKGMM = 5;
+    uint32 MKCHLGOGJNB = 6;
+    uint32 KDOINLGKMBI = 7;
+    uint32 JGLEDADBNGP = 8;
+    uint32 section_id = 9;
+    uint32 PACIAIJBOHO = 11;
+    uint32 KIAFMFGAONA = 12;
+    bool HPOACJCPJHN = 13;
+    map<uint32, GridFightDropInfo> DHMBKAPKJFN = 14;
+    uint32 MAGCGPMHHEA = 15;
+    uint32 BCOLJFHDLLD = 69;
+    uint32 IJEIEJLPGGJ = 370;
+    repeated ILGOPHIAJIG DHHPEBDPKJJ = 654;
+    uint32 IDEAAPCCFPF = 904;
+    uint32 IPCFJBAKLCG = 1029;
+    repeated GridFightHpModifyInfo NNFAFGCGMBB = 1413;
+    uint32 FGEDKOINMAG = 1735;
+    MIOMFOAEHEC GCBBEEGANEG = 1785;
+    uint32 EJEIBPEKHLD = 2044;
+}

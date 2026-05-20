@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BLLDKABGKLF.proto";
+
+message FloorCustomValueSnapshot {
+    string name = 1;
+    BLLDKABGKLF type = 2;
+    bool bool_val = 3;
+    float float_val = 4;
+    string str_val = 5;
+}

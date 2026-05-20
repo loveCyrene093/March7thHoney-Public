@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CENOIEMJPKK.proto";
+
+message UpdateFeatureSwitchScNotify {
+    repeated CENOIEMJPKK switch_info_list = 6;
+}

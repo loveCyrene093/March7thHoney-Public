@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightSyncData.proto";
+import "GridFightUpdateSrcType.proto";
+
+message GridFightSyncResultData {
+    repeated GridFightSyncData update_dynamic_list = 4;
+    repeated uint32 sync_effect_param_list = 7;
+    GridFightUpdateSrcType grid_update_src = 13;
+}

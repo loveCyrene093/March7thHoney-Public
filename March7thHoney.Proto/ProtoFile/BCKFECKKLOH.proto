@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BCKFECKKLOH {
+    BCKFECKKLOH_JOKEMPELIIB = 0;
+    BCKFECKKLOH_FKDMMLBCENB = 1;
+    BCKFECKKLOH_PJOMGMJEGFD = 2;
+}

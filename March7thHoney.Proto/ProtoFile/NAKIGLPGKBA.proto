@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "COFDJFIBPDM.proto";
+import "ChessRogueBoardCellStatus.proto";
+import "ChessRogueCellSpecialType.proto";
+
+message NAKIGLPGKBA {
+    uint32 id = 1;
+    ChessRogueBoardCellStatus EHNCLFLKMFA = 2;
+    uint32 EOOIGCCKGFB = 3;
+    ChessRogueCellSpecialType GELDILBFGBM = 4;
+    COFDJFIBPDM stage_info = 6;
+    uint32 GKBENCDFCEJ = 8;
+    bool CKIHBDKDOEJ = 9;
+    uint32 PPEPAPCEPCM = 10;
+    uint32 room_id = 11;
+    bool CEBPAJAAJPP = 14;
+    uint32 MFNIOBKFBKF = 15;
+}

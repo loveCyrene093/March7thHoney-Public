@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EvolveBuildStartStageCsReq {
+    uint32 level_id = 9;
+}

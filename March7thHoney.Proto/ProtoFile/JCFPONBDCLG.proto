@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GPFMEDLLKGH.proto";
+import "KGNLHPFOHDK.proto";
+import "LPHJKGLLJIP.proto";
+import "OKIBFKOOEKJ.proto";
+
+message JCFPONBDCLG {
+    repeated uint32 EDOIIGJJCIF = 1;
+    uint32 player_level = 3;
+    repeated OKIBFKOOEKJ NJMAPFMPPNA = 5;
+    uint32 item_value = 7;
+    uint32 exp = 9;
+    repeated uint32 HAFMANOLMED = 12;
+    repeated GPFMEDLLKGH PMCBBMKMHNI = 13;
+    repeated LPHJKGLLJIP HCEHOHDCCFE = 14;
+    repeated KGNLHPFOHDK EGLPNDHLHPA = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PPDPDGCBDEH.proto";
+
+message SwordTrainingUnlockSyncScNotify {
+    repeated PPDPDGCBDEH NKJHKMBLIBL = 3;
+    repeated uint32 IFEJLJCINCI = 10;
+}

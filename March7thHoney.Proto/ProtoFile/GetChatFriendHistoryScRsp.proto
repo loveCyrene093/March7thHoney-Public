@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FriendHistoryInfo.proto";
+
+message GetChatFriendHistoryScRsp {
+    uint32 retcode = 5;
+    repeated FriendHistoryInfo friend_history_info = 13;
+}

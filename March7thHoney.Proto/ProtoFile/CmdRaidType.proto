@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRaidType {
+    AFOEMKIDMJI_PCPDHELPKEM = 0;
+    CmdLeaveRaidScRsp = 2227;
+    CmdDelSaveRaidScNotify = 2231;
+    CmdRaidKickByServer = 2221;
+    AFOEMKIDMJI_MLCKKOMGBJE = 2238;
+    CmdGetAllSaveRaidScRsp = 2216;
+    CmdTakeChallengeRaidRewardCsReq = 2201;
+    CmdSetClientRaidTargetCountCsReq = 2218;
+    CmdStartRaidCsReq = 2213;
+    CmdTakeChallengeRaidRewardScRsp = 2247;
+    CmdLeaveRaidCsReq = 2230;
+    CmdStartRaidScRsp = 2207;
+    CmdGetSaveRaidScRsp = 2203;
+    CmdGetRaidInfoCsReq = 2202;
+    CmdChallengeRaidNotify = 2219;
+    CmdOHMFECJNLEG = 2205;
+    CmdGetSaveRaidCsReq = 2236;
+    CmdGetAllSaveRaidCsReq = 2250;
+    CmdRaidInfoNotify = 2235;
+    CmdGetRaidInfoScRsp = 2244;
+    CmdSetClientRaidTargetCountScRsp = 2245;
+}

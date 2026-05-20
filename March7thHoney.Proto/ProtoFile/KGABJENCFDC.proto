@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EDIKJLBEAEA.proto";
+import "EPPJHNIHAFL.proto";
+import "OAMOHFJKCAA.proto";
+
+message KGABJENCFDC {
+    OAMOHFJKCAA MAEFNEBLIJM = 1;
+    uint32 FHDPEMCABIE = 2;
+    EPPJHNIHAFL pending_action = 4;
+    uint32 EHNEEMCKIBK = 8;
+    string MDILDJMPNGH = 11;
+    uint32 BNODOMPMCBE = 12;
+    uint32 LOIDOGEENOB = 14;
+    EDIKJLBEAEA IMIBFEHPDDI = 15;
+}

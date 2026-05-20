@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DPFHPILPNON.proto";
+
+message IDHNJFPAEGP {
+    DPFHPILPNON status = 3;
+    uint32 FNLNPLHOEJN = 11;
+    uint32 ANAMOLBDCOL = 14;
+}

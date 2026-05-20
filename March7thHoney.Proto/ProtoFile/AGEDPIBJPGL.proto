@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AGEDPIBJPGL {
+    uint32 monster_id = 1;
+    uint32 IBFBGEFLOJK = 2;
+    uint32 FHOLBJGOPGI = 3;
+    uint32 DLHLPNLIBAF = 4;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPamSkinType {
+    KCDBONKPLPC_PCPDHELPKEM = 0;
+    CmdSelectPamSkinCsReq = 8122;
+    CmdGetPamSkinDataScRsp = 8140;
+    CmdSelectPamSkinScRsp = 8130;
+    CmdGetPamSkinDataCsReq = 8121;
+    CmdUnlockPamSkinScNotify = 8135;
+}

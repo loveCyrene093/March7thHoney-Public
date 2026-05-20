@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdChallengePeakType {
+    CKHPDGPGBJO_PCPDHELPKEM = 0;
+    CmdSetChallengePeakBossHardModeCsReq = 8918;
+    CmdGFGIIALGLIM = 8938;
+    CmdAMOAAIOFEDF = 8935;
+    CmdMCFEDAPHDLC = 8930;
+    CmdGetChallengePeakDataCsReq = 8913;
+    CmdTakeChallengePeakRewardScRsp = 8919;
+    CmdFAAAGAGDMNH = 8921;
+    CmdGetChallengePeakDataScRsp = 8907;
+    CmdSetChallengePeakBossHardModeScRsp = 8945;
+    CmdGetCurChallengePeakScRsp = 8944;
+    CmdKIDBGJCMMOG = 8906;
+    CmdBFLFDMFDMCL = 8936;
+    CmdChallengePeakSettleScNotify = 8905;
+    CmdGPAOIDIKLLN = 8903;
+    CmdMJPPCNAMMKP = 8927;
+    CmdNNPGJJPKOGL = 8931;
+    CmdPMOMHJHGMHN = 8926;
+    CmdChallengePeakGroupDataUpdateScNotify = 8901;
+    CmdTakeChallengePeakRewardCsReq = 8947;
+    CmdGetCurChallengePeakCsReq = 8902;
+}

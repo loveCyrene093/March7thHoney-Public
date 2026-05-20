@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMultipleDropType {
+    FLPPNJGEMFN_PCPDHELPKEM = 0;
+    CmdMultipleDropInfoScNotify = 4694;
+    CmdMultipleDropInfoNotify = 4618;
+    CmdGetMultipleDropInfoCsReq = 4691;
+    CmdGetPlayerReturnMultiDropInfoScRsp = 4614;
+    CmdGetPlayerReturnMultiDropInfoCsReq = 4695;
+    CmdGetMultipleDropInfoScRsp = 4610;
+}

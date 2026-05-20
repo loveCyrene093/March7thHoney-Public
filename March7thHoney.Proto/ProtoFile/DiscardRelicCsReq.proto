@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RelicDiscardType.proto";
+
+message DiscardRelicCsReq {
+    uint64 MHMFIIPEMJD = 2;
+    bool Discarded = 6;
+    repeated uint32 relic_ids = 7;
+    RelicDiscardType HHHLMNLMAGC = 11;
+}

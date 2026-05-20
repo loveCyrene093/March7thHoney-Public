@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdLobbyType {
+    LADMLLPIABE_PCPDHELPKEM = 0;
+    CmdLobbyJoinScRsp = 7377;
+    CmdOHCJBDGLPMK = 7385;
+    CmdLobbySyncInfoScNotify = 7352;
+    CmdLobbyInteractScNotify = 7399;
+    CmdOGGBENIJKOF = 7388;
+    CmdFPDFPCDCKHB = 7365;
+    CmdFLNKHEMBJOG = 7369;
+    CmdMNHCLKHLAHM = 7368;
+    CmdIDLCDBNPCBG = 7386;
+    CmdBGKIEFCLGDF = 7353;
+    CmdLobbyGetInfoScRsp = 7366;
+    CmdLobbyCreateScRsp = 7357;
+    CmdLobbyKickOutCsReq = 7397;
+    CmdLobbyGetInfoCsReq = 7400;
+    CmdLobbyInviteCsReq = 7394;
+    CmdPLMMDNCJHBG = 7351;
+    CmdLobbyModifyPlayerInfoCsReq = 7355;
+    CmdPIJFMEMDDDF = 7356;
+    CmdLobbyJoinCsReq = 7380;
+    CmdCKMIGEIACIO = 7371;
+    CmdLobbyCreateCsReq = 7363;
+    CmdLobbyQuitCsReq = 7395;
+    CmdHKFDCBOOEIO = 7381;
+}

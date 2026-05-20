@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightLayerInfo.proto";
+
+message GridFightLevelSyncInfo {
+    uint32 section_id = 1;
+    uint32 DCPKPNLKGMM = 3;
+    GridFightLayerInfo grid_fight_layer_info = 8;
+}

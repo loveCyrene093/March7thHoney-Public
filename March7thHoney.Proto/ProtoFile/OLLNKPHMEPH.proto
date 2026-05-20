@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OLLNKPHMEPH {
+    uint32 main_mission_id = 2;
+    uint32 retcode = 9;
+}

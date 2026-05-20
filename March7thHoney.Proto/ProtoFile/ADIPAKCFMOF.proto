@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ADIPAKCFMOF {
+    int32 DAIPENEGCBD = 1;
+    int32 DAMHMDPODLD = 14;
+    uint32 FDPMIGNAFIM = 15;
+}

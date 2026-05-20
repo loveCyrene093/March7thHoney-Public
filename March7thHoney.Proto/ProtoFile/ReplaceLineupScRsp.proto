@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ReplaceLineupScRsp {
+    uint32 retcode = 4;
+    uint32 PODLDPEIKKI = 13;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CBELDECDCCI.proto";
+import "PMNGJCDCGMM.proto";
+
+message CAKGOGMEJOF {
+    repeated PMNGJCDCGMM message_datas = 1;
+    map<uint32, uint32> BLMPNONPLNI = 2;
+    repeated CBELDECDCCI OMBLPOCHCHM = 3;
+    uint32 area_id = 4;
+    uint32 difficulty_level = 5;
+}

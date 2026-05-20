@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EraFlipperDataList.proto";
+
+message PNKDIILAIPB {
+    uint32 retcode = 4;
+    EraFlipperDataList data = 14;
+}

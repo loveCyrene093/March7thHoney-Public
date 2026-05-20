@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FOFBDBJBEJE.proto";
+import "OBOKDHDOKAD.proto";
+
+message AddRelicFilterPlanCsReq {
+    bool is_marked = 4;
+    string name = 5;
+    OBOKDHDOKAD HMIHLDPMPOM = 6;
+    FOFBDBJBEJE JHHHONJIKGL = 8;
+    uint32 BHPLKHAMBIG = 9;
+}

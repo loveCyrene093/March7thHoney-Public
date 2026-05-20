@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FriendSimpleInfo.proto";
+
+message SyncHandleFriendScNotify {
+    bool is_accept = 2;
+    FriendSimpleInfo friend_info = 12;
+    uint32 uid = 15;
+}

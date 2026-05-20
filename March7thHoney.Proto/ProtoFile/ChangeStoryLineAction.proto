@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ChangeStoryLineAction {
+    ChangeStoryLineAction_None = 0;
+    ChangeStoryLineAction_FinishAction = 1;
+    ChangeStoryLineAction_Client = 2;
+    ChangeStoryLineAction_CustomOP = 3;
+    ChangeStoryLineAction_Raid = 4;
+    ChangeStoryLineAction_HKFKAFPAJCO = 5;
+}

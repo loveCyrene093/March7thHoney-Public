@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PileItem.proto";
+
+message ItemCost {
+    oneof item {
+        uint32 equipment_unique_id = 8;
+        PileItem pile_item = 11;
+        uint32 relic_unique_id = 13;
+    }
+}

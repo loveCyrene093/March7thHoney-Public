@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EKOIHOMFMDE.proto";
+
+message FNABDKEBCOC {
+    repeated EKOIHOMFMDE CLKAILDCPJC = 2;
+    uint32 OOPCHIHIIFE = 4;
+    uint32 ALCBHJEMCPC = 5;
+    uint32 ODHJKLKICFL = 6;
+    EKOIHOMFMDE JHKMLGJKIIM = 7;
+    repeated uint32 GFDDBPAEAOI = 15;
+}

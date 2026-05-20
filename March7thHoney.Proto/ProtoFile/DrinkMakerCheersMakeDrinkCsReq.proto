@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIGKBDIGGOI.proto";
+
+message DrinkMakerCheersMakeDrinkCsReq {
+    bool FNNMELEEABI = 5;
+    CIGKBDIGGOI IHDMLHFAEKH = 7;
+    uint32 group_id = 13;
+    uint32 NMKJBKCEIGP = 15;
+}

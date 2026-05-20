@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ExtraLineupType.proto";
+import "LineupSlotData.proto";
+
+message ReplaceLineupCsReq {
+    uint32 leader_slot = 1;
+    bool FLFJMCFACKN = 5;
+    bool BJADHCOFLGI = 6;
+    uint32 index = 8;
+    bool is_virtual = 9;
+    repeated LineupSlotData lineup_slot_list = 11;
+    uint32 game_story_line_id = 12;
+    uint32 plane_id = 14;
+    ExtraLineupType extra_lineup_type = 15;
+}

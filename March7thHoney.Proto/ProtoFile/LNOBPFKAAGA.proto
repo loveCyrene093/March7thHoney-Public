@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HDNOFFGMDNJ.proto";
+import "NEIIDDAMPGL.proto";
+
+message LNOBPFKAAGA {
+    repeated NEIIDDAMPGL CGLIPMIMMJG = 4;
+    uint32 use_item_id = 5;
+    repeated HDNOFFGMDNJ DIBNKMICOOD = 7;
+    uint32 IJGJODCIDJA = 12;
+}

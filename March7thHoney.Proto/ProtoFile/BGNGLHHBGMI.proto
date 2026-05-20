@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GAPBBJCLMGP.proto";
+import "PFODGDGFBBN.proto";
+
+message BGNGLHHBGMI {
+    uint32 IPDCMHIEKIJ = 1;
+    GAPBBJCLMGP EIHHLAOKAPH = 2;
+    uint32 GDNIKJGAEBH = 3;
+    PFODGDGFBBN grid_update_src = 4;
+}

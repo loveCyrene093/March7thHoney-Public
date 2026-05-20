@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NNFJAOJKKFO {
+    uint32 enhanced_id = 9;
+    uint32 avatar_id = 12;
+}

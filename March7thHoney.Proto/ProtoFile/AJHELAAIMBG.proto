@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AJHELAAIMBG {
+    repeated uint32 HINGMEBIBDL = 10;
+}

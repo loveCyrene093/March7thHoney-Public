@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "StatType.proto";
+
+message UpgradeAreaStatCsReq {
+    uint32 level = 7;
+    StatType DGFGNMJALGJ = 12;
+    uint32 area_id = 14;
+}

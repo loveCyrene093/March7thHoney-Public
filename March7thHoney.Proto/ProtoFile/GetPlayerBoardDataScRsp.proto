@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DisplayAvatarVec.proto";
+import "HeadFrameInfo.proto";
+import "HeadIconData.proto";
+
+message GetPlayerBoardDataScRsp {
+    uint32 current_head_icon_id = 2;
+    uint32 current_personal_card_id = 3;
+    HeadFrameInfo head_frame_info = 4;
+    string signature = 6;
+    repeated uint32 unlocked_personal_card_list = 7;
+    uint32 retcode = 8;
+    repeated HeadIconData unlocked_head_icon_list = 9;
+    repeated uint32 assist_avatar_id_list = 14;
+    DisplayAvatarVec display_avatar_vec = 15;
+}

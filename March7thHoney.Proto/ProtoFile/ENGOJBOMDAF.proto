@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ENGOJBOMDAF {
+    ENGOJBOMDAF_PCPDHELPKEM = 0;
+    ENGOJBOMDAF_OAGADCONINC = 1;
+}

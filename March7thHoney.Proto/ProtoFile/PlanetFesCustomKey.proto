@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum PlanetFesCustomKey {
+    ONMKDPCEFJE_PCPDHELPKEM = 0;
+    ONMKDPCEFJE_HKNHNJOJGBL = 1;
+    ONMKDPCEFJE_AEKPGLJLOHM = 2;
+    ONMKDPCEFJE_CALNCGIFFCB = 3;
+    ONMKDPCEFJE_MIGMLOKEPGL = 4;
+}

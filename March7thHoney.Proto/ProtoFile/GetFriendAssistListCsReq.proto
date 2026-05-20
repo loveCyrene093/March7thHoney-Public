@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IPGFCGHIIKN.proto";
+
+message GetFriendAssistListCsReq {
+    repeated uint32 IPMGLMJFGNP = 1;
+    IPGFCGHIIKN NJAAPGJANCI = 2;
+    uint32 target_side = 7;
+    bool ICHENOJECAP = 13;
+    repeated uint32 NLEEIBAPFAA = 14;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PPPFOMBLOIF.proto";
+
+message ABIPCNKGFNI {
+    repeated PPPFOMBLOIF FLHLJMEMIHL = 1;
+    int64 end_time = 4;
+    uint32 gift_type = 8;
+    int64 DNNHCNCKJCM = 11;
+}

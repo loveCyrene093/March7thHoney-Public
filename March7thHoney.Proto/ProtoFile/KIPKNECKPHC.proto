@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RogueAdventureRoomGameplayWolfGunTarget.proto";
+
+message KIPKNECKPHC {
+    repeated RogueAdventureRoomGameplayWolfGunTarget battle_target_list = 5;
+    uint32 AOBPFLEHBOH = 15;
+}

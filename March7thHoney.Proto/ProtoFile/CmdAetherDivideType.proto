@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdAetherDivideType {
+    FIBGNBKGHNF_PCPDHELPKEM = 0;
+    CmdTakeOffSkillCoreScRsp = 4816;
+    CmdClearAetherDividePassiveSkillCsReq = 4850;
+    CmdSwitchAetherDivideLineUpSlotScRsp = 4821;
+    CmdNPBNPOKGNCI = 4827;
+    CmdStartAetherDivideStageBattleScRsp = 4815;
+    CmdAetherDivideTakeChallengeRewardScRsp = 4840;
+    CmdAetherDivideTainerInfoScNotify = 4837;
+    CmdAetherDivideRefreshEndlessScRsp = 4820;
+    CmdStartAetherDivideChallengeBattleScRsp = 4801;
+    CmdGetAetherDivideChallengeInfoScRsp = 4809;
+    CmdAetherDivideSpiritInfoScNotify = 4808;
+    CmdAetherDivideSpiritExpUpScRsp = 4826;
+    CmdGetAetherDivideChallengeInfoCsReq = 4833;
+    CmdSetAetherDivideLineUpCsReq = 4818;
+    CmdSwitchAetherDivideLineUpSlotCsReq = 4831;
+    CmdAetherDivideTakeChallengeRewardCsReq = 4846;
+    CmdStartAetherDivideChallengeBattleCsReq = 4805;
+    CmdGetAetherDivideInfoCsReq = 4802;
+    CmdAetherDivideSkillItemScNotify = 4848;
+    CmdSetAetherDivideLineUpScRsp = 4845;
+    CmdAetherDivideLineupScNotify = 4843;
+    CmdAetherDivideRefreshEndlessScNotify = 4822;
+    CmdStartAetherDivideSceneBattleScRsp = 4838;
+    CmdIAKBLOMJELJ = 4807;
+    CmdEquipSkillCoreScRsp = 4803;
+    CmdLeaveAetherDivideSceneCsReq = 4830;
+    CmdGetAetherDivideInfoScRsp = 4844;
+    CmdAetherDivideFinishChallengeScNotify = 4804;
+    CmdAetherDivideRefreshEndlessCsReq = 4839;
+    CmdStartAetherDivideStageBattleCsReq = 4849;
+    CmdStartAetherDivideSceneBattleCsReq = 4835;
+    CmdAetherDivideSpiritExpUpCsReq = 4806;
+    CmdEquipAetherDividePassiveSkillCsReq = 4836;
+    FIBGNBKGHNF_LMEOEKDAMAM = 4813;
+}

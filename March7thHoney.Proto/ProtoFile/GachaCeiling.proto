@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GachaCeilingAvatar.proto";
+
+message GachaCeiling {
+    repeated GachaCeilingAvatar avatar_list = 8;
+    uint32 ceiling_num = 11;
+    bool is_claimed = 15;
+}

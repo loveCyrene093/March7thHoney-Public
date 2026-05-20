@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Goods.proto";
+
+message Shop {
+    repeated Goods goods_list = 1;
+    uint32 city_exp = 2;
+    int64 end_time = 4;
+    uint64 city_taken_level_reward = 7;
+    uint32 shop_id = 8;
+    int64 begin_time = 13;
+    uint32 city_level = 14;
+}

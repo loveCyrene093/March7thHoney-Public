@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NECGMCGFANN.proto";
+import "OEEEAEJBENB.proto";
+
+message UpdatePlayerSetting {
+    oneof MONPGNBOHFC {
+        bool CCNGHBADHBL = 2;
+        bool CHCNEDNCIDJ = 4;
+        bool COIGOCJHBOP = 5;
+        bool PFJMEECGJMM = 8;
+        bool NHLKFBOBDOM = 9;
+        bool FIJNAPNICJF = 10;
+        OEEEAEJBENB EHKLNPCMMHE = 11;
+        bool CPOGDKALGOM = 13;
+        bool MFCPDJGGCMO = 14;
+        bool LPEPIDNJDEM = 15;
+        bool BMEHFMDNKLE = 268;
+        bool BKDCFBDMNIJ = 458;
+        bool KFBLHCCGEPO = 602;
+        bool LENKIEBIIHP = 622;
+        NECGMCGFANN HGHFECOMJNA = 1017;
+        bool EJDGNLEOBCN = 1360;
+    }
+}

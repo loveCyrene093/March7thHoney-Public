@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DKBNGDHCNCH.proto";
+
+message DOBIOOHLGAA {
+    uint32 passenger_id = 3;
+    DKBNGDHCNCH DGFGNMJALGJ = 5;
+    uint32 IANGBIBHJDF = 13;
+}

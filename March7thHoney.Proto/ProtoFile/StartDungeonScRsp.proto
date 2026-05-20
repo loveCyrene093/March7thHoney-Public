@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+import "PDPALPDALDG.proto";
+
+message StartDungeonScRsp {
+    uint32 target_side = 3;
+    uint32 retcode = 6;
+    repeated PDPALPDALDG LBCIKPEFAIP = 8;
+    repeated GKDEKJKOIJN OICEJIMEONG = 10;
+    repeated GKDEKJKOIJN CPOMNGJDBCL = 11;
+}

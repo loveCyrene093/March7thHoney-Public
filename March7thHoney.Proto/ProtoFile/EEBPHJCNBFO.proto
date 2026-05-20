@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarType.proto";
+
+message EEBPHJCNBFO {
+    uint32 id = 3;
+    AvatarType avatar_type = 4;
+    uint32 assist_uid = 6;
+}

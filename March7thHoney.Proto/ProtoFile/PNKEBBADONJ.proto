@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AJAEJNHDNFD.proto";
+import "AOIKKHJLKJF.proto";
+import "CNJHCICPAIC.proto";
+import "GCHIOMAJIPI.proto";
+import "JDJODLAJBKP.proto";
+import "KKFANGIJAOF.proto";
+import "MICOMIBPIOA.proto";
+import "NALJFANPFMA.proto";
+import "PBMHMEADLEC.proto";
+import "PGJNBNANDEE.proto";
+import "POIFGDAHJCJ.proto";
+
+message PNKEBBADONJ {
+    PBMHMEADLEC ABIJBGENKHA = 2;
+    POIFGDAHJCJ EMFDMIKFIBF = 3;
+    JDJODLAJBKP OGAFLPPJIOB = 4;
+    MICOMIBPIOA lineup = 6;
+    KKFANGIJAOF MMAOONPAPDP = 7;
+    PGJNBNANDEE item_value = 9;
+    AOIKKHJLKJF level = 10;
+    NALJFANPFMA MKPEBDAJAJN = 11;
+    CNJHCICPAIC BAAANBEIPBG = 13;
+    GCHIOMAJIPI HKKIJABGCNA = 14;
+    AJAEJNHDNFD BDGOOPLHFAG = 15;
+}

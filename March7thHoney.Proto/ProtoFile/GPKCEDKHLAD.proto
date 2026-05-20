@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GPKCEDKHLAD {
+    repeated uint32 DDIDEEAKCPP = 9;
+    uint32 retcode = 10;
+}

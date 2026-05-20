@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BattleTarget.proto";
+
+message ChallengeBossPhaseSettleNotify {
+    bool is_reward = 1;
+    uint32 star = 3;
+    bool is_second_half = 4;
+    uint32 phase = 6;
+    uint32 challenge_id = 7;
+    uint32 page_type = 8;
+    uint32 score_two = 10;
+    repeated BattleTarget battle_target_list = 11;
+    bool is_win = 13;
+    uint32 challenge_score = 15;
+}

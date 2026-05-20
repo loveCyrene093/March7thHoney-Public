@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKPPDJEFBPA.proto";
+import "KEHGPHDBOBD.proto";
+
+message ElfRestaurantPlantSeedScRsp {
+    repeated KEHGPHDBOBD MIMFMIICDGL = 1;
+    uint32 retcode = 3;
+    repeated GKPPDJEFBPA HNJFLFPLINI = 11;
+}

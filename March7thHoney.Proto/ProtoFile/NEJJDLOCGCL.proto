@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IFMGFPICGGH.proto";
+
+message NEJJDLOCGCL {
+    repeated IFMGFPICGGH LCEHDGBBDJL = 7;
+    uint32 FOOLMIADMMH = 13;
+}

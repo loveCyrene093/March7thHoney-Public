@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BBBJMJJOJDP.proto";
+import "BBIINELNDKH.proto";
+import "BCMKANNIKDP.proto";
+import "CAHPBBLMDCJ.proto";
+import "CEOELEOKPOF.proto";
+import "CKHFNKJNMLO.proto";
+import "CNEMCBJHACK.proto";
+import "FEBMHKKEHDG.proto";
+import "FJJNFNALLGA.proto";
+import "FLOEMBHNEPP.proto";
+import "GNJBMILMKMB.proto";
+import "GODMJGAGNPA.proto";
+import "HLNCNCNJGDL.proto";
+import "IHBGAHNNEKI.proto";
+import "JFIAMODBOIJ.proto";
+import "OMBGOODFIHB.proto";
+import "PLECMCJNPIL.proto";
+
+message OMMELGEBNOG {
+    uint32 queue_position = 1;
+    uint32 CHNHLKKKJHA = 2;
+    oneof GBFCMPACOPJ {
+        HLNCNCNJGDL marble_game_begin = 101;
+        GNJBMILMKMB marble_game_end = 102;
+        CNEMCBJHACK marble_game_round = 103;
+        BBIINELNDKH marble_game_turn = 104;
+        FJJNFNALLGA cake_race_section_begin = 201;
+        BBBJMJJOJDP cake_race_section_end = 202;
+        PLECMCJNPIL cake_race_room_section_settle = 203;
+        CEOELEOKPOF dice_combat_begin = 251;
+        CKHFNKJNMLO dice_combat_turn_end = 252;
+        CAHPBBLMDCJ dice_combat_end = 253;
+        IHBGAHNNEKI dice_combat_v_2_begin = 261;
+        JFIAMODBOIJ dice_combat_v_2_end = 262;
+        GODMJGAGNPA dice_combat_v_2_turn_end = 263;
+        OMBGOODFIHB dice_combat_v_2_tactics_point_change = 264;
+        BCMKANNIKDP dice_combat_v_2_tactics_card_change = 265;
+        FLOEMBHNEPP dice_combat_v_2_dice_change_request = 266;
+        FEBMHKKEHDG dice_combat_v_2_dice_change = 267;
+    }
+}

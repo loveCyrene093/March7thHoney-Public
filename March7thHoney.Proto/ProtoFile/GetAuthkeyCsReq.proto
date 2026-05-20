@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetAuthkeyCsReq {
+    uint32 authkey_ver = 3;
+    uint32 sign_type = 7;
+    string auth_appid = 15;
+}

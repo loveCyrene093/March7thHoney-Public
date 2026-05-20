@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGKINCFGKGI.proto";
+
+message GetRogueInitialScoreScRsp {
+    uint32 retcode = 2;
+    BGKINCFGKGI AHBFAAMNKNO = 10;
+}

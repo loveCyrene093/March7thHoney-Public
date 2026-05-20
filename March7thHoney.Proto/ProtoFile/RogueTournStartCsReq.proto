@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HDDBJIKNEPF.proto";
+
+message RogueTournStartCsReq {
+    bool KBJAHFLOOIJ = 5;
+    uint32 area_id = 6;
+    repeated HDDBJIKNEPF avatar_list = 7;
+    bool PNNKFBILIEH = 11;
+}

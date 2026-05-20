@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PlanetFesLargeBonusInteractCsReq {
+    uint32 HGIAGJMHDOB = 9;
+    uint32 PFOPCGAKMJP = 12;
+    uint32 BCOPJHFNDBF = 14;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdFightActivityType {
+    NACBOEPEICM_PCPDHELPKEM = 0;
+    CmdTakeFightActivityRewardScRsp = 3609;
+    CmdTakeFightActivityRewardCsReq = 3618;
+    CmdGetFightActivityDataCsReq = 3691;
+    CmdGetFightActivityDataScRsp = 3610;
+    CmdEnterFightActivityStageCsReq = 3695;
+    CmdEnterFightActivityStageScRsp = 3614;
+    CmdFightActivityDataChangeScNotify = 3694;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GHLDNDDFEIE {
+    uint32 area_id = 1;
+    repeated uint32 verify_step_id_list = 14;
+}

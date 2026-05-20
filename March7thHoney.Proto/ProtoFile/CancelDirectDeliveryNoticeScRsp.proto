@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CancelDirectDeliveryNoticeScRsp {
+    uint32 retcode = 6;
+    uint32 OECCPKANHMN = 8;
+}

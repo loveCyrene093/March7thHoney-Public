@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGKDOOJAHAM.proto";
+import "KJAGLIIDBGP.proto";
+import "MAGHEFEELAB.proto";
+import "NDPGKDLGBFB.proto";
+import "NJINCNAGALP.proto";
+import "PNCBGGJKKAF.proto";
+
+message AHNGIOFDJNL {
+    repeated MAGHEFEELAB BFHJHAKFBIG = 2;
+    repeated uint32 NDGDEKEAFCC = 5;
+    BGKDOOJAHAM story_info = 7;
+    repeated PNCBGGJKKAF JJAABLCMFLP = 9;
+    repeated NDPGKDLGBFB NIPCEAFLCAA = 11;
+    KJAGLIIDBGP CLLGHDCNPOI = 13;
+    repeated NJINCNAGALP BICPNKOCHGN = 15;
+}

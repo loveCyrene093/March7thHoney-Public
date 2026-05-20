@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FMFMGICMPCA {
+    FMFMGICMPCA_PCPDHELPKEM = 0;
+    FMFMGICMPCA_IFPDLCOIENF = 1;
+    FMFMGICMPCA_NAHDDIEHJMA = 2;
+}

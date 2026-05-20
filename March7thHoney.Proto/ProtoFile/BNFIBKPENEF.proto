@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KBOJACAEADL.proto";
+
+message BNFIBKPENEF {
+    uint32 BOEFCCPBCDD = 4;
+    uint32 LOIJLIKOMJN = 15;
+    oneof CJFBEONJIDL {
+        uint32 LOLOEFOBOKA = 2;
+        KBOJACAEADL NANHFKEJMCJ = 11;
+    }
+}

@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdIdleLiveType {
+    INJJLAAJGDE_PCPDHELPKEM = 0;
+    CmdIdleLiveUpdateLiveRoomTitleCsReq = 9379;
+    CmdReplaceTeamCsRsp = 9388;
+    CmdIdleLiveGetPendingEquipCsReq = 9383;
+    CmdIdleLiveGetDataCsReq = 9441;
+    CmdGJBINEEABIP = 9376;
+    CmdIdleLiveGetFriendAssistListCsReq = 9380;
+    CmdIdleLiveFinishNodeBattleQuitCsReq = 9359;
+    CmdIdleLiveTakeTaskRewardCsReq = 9415;
+    CmdAPKPGIOLLNP = 9408;
+    CmdNMBGLKALLBM = 9448;
+    CmdIdleLiveTakeAssistRewardScRsp = 9353;
+    CmdHandlePendingEquipScRsp = 9446;
+    CmdGetFriendNewAssistRewardScNotify = 9442;
+    CmdIdleLiveHandlePendingEquipReq = 9439;
+    CmdIdleLiveManualFinishQuestionCsReq = 9427;
+    CmdIdleLiveEndDungeonCsReq = 9399;
+    CmdIdleLiveTakeAssistRewardCsReq = 9386;
+    CmdIdleLiveStartNodeCsReq = 9444;
+    CmdTakeTaskRewardScRsp = 9423;
+    CmdUpgradeTeamSlotCsRsp = 9409;
+    CmdIdleLiveGetStatisticCsReq = 9407;
+    CmdUpdateCustomInfoScRsp = 9362;
+    CmdNFPEDBOOFFF = 9445;
+    CmdIdleLiveTakeContentRewardCsReq = 9429;
+    CmdIdleLiveStartNodeBattleCsReq = 9364;
+    CmdIdleLiveReplaceTeamCsReq = 9354;
+    CmdTakeContentScRsp = 9370;
+    CmdEndDungeonScRsp = 9416;
+    CmdIdleLiveDressSpecialEquipCsReq = 9394;
+    CmdLCFGFGFDLOF = 9351;
+    CmdIdleLiveCollectIncomeCsReq = 9422;
+    CmdGetFriendDungeonRankingInfosScRsp = 9361;
+    CmdStartDungeonScRsp = 9352;
+    CmdTechTreeChangeNodeStateCsRsp = 9358;
+    CmdIdleLiveOpenChestReq = 9357;
+    CmdFinishQuestionRsp = 9366;
+    CmdIdleLiveTakeQuestEquipCsReq = 9374;
+    CmdIdleLiveDoGachaCsReq = 9367;
+    CmdDoGachaScRsp2 = 9401;
+    CmdStartNodeBattleScRsp = 9368;
+    CmdSyncChangeNtf = 9378;
+    CmdIdleLiveFinishFinalActCsReq = 9389;
+    CmdIdleLiveGetFriendDungeonRankingInfosCsReq = 9355;
+    CmdIdleLiveGetFriendAssistListScRsp = 9421;
+    CmdIdleLiveChangeTechTreeNodeCsReq = 9403;
+    CmdIdleLiveUpgradeSlotCsReq = 9392;
+    CmdIdleLiveFinishNodeEventCsReq = 9413;
+    CmdHBCMBPKGBJK = 9382;
+    CmdTakeQuestEquipCsRsp = 9428;
+    CmdGPKCEDKHLAD = 9371;
+    CmdJFKMFGLOPOF = 9411;
+    CmdIdleLiveStartDungeonCsReq = 9443;
+    CmdIdleLiveGetDataScRsp = 9360;
+    CmdDressSpecialEquipScRsp = 9450;
+}

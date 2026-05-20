@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ContentPackageInfo.proto";
+
+message ContentPackageData {
+    uint32 cur_content_id = 13;
+    repeated ContentPackageInfo content_package_list = 14;
+}

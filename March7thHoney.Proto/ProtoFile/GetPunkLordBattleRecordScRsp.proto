@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JLLIDDIBOHI.proto";
+import "PHOCECJOBHH.proto";
+import "TryDownLoadReplay.proto";
+
+message GetPunkLordBattleRecordScRsp {
+    repeated TryDownLoadReplay PACIODONHGJ = 3;
+    JLLIDDIBOHI JIPALBLOPFI = 4;
+    repeated PHOCECJOBHH DFIDPJEIBJK = 8;
+    uint32 retcode = 12;
+}

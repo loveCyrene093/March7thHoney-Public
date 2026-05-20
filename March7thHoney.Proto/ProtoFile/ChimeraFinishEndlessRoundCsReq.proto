@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FHCCCHJHHKL.proto";
+import "HAMEJPGCIJI.proto";
+import "PCAOLJLFPBA.proto";
+
+message ChimeraFinishEndlessRoundCsReq {
+    HAMEJPGCIJI stt = 5;
+    bool OIPLJJIODIL = 6;
+    FHCCCHJHHKL lineup = 10;
+    uint32 NKBDDIDFPNE = 11;
+    repeated PCAOLJLFPBA KMAFDFBJCJI = 14;
+    repeated uint32 LNAOHDBGENO = 15;
+}

@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BBOCLMGMNEB.proto";
+import "EPJMBDHODLE.proto";
+import "HADCALJHOFI.proto";
+import "HAPBNLELOBI.proto";
+import "INLBCJHIPCI.proto";
+import "MBLOIHLJGML.proto";
+import "POPPEFJIAJC.proto";
+
+message ClockParkHandleWaitPlaceDiceOperationCsReq {
+    uint32 script_id = 1;
+    uint32 NNFAMOJAHCH = 5;
+    oneof ENMNAMOIEEP {
+        EPJMBDHODLE KILGAJCFIME = 2;
+        INLBCJHIPCI IKOMEFMEKMC = 3;
+        MBLOIHLJGML GNMMEFKMHHD = 4;
+        HADCALJHOFI HBPAIJHIGOL = 6;
+        uint32 FAHDMHFECMK = 7;
+        BBOCLMGMNEB DGANABKPHAI = 8;
+        HAPBNLELOBI BLEFCAFOIBG = 10;
+        POPPEFJIAJC HJAPLMGAMCO = 14;
+    }
+}

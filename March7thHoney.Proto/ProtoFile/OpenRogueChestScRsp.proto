@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "NNOIJJNCHJB.proto";
+
+message OpenRogueChestScRsp {
+    uint32 retcode = 1;
+    ItemList reward = 2;
+    ItemList drop_data = 7;
+    NNOIJJNCHJB HICNFJDGGGL = 12;
+}

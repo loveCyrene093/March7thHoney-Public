@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NpcStatus.proto";
+
+message GetNpcStatusScRsp {
+    uint32 retcode = 1;
+    repeated NpcStatus npc_status_list = 9;
+}

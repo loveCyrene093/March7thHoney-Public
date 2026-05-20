@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengePeakBossClearance.proto";
+
+message ChallengePeakBoss {
+    uint32 LJGDCGBFNKN = 1;
+    repeated uint32 finished_target_list = 2;
+    ChallengePeakBossClearance hard_mode = 6;
+    bool hard_mode_has_passed = 7;
+    ChallengePeakBossClearance easy_mode = 14;
+}

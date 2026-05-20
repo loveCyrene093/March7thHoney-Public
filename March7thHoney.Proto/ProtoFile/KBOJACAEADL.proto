@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGBLLFGOBKE.proto";
+
+message KBOJACAEADL {
+    uint32 type = 1;
+    AGBLLFGOBKE AOONGKJPKOB = 8;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdSwitchHandType {
+    INMKGNMPOED_PCPDHELPKEM = 0;
+    CmdGetSwitchHandResetHandPosScRsp = 8118;
+    CmdSwitchHandResetGameCsReq = 8104;
+    CmdSwitchHandStartScRsp = 8110;
+    CmdINDKHMAOAKM = 8119;
+    CmdSwitchHandUpdateCsReq = 8114;
+    CmdSwitchHandResetTransformCsReq = 8111;
+    CmdSwitchHandStartCsReq = 8102;
+    CmdSwitchHandCoinUpdateCsReq = 8107;
+    CmdSwitchHandFinishCsReq = 8115;
+    CmdSwitchHandFinishScRsp = 8108;
+    CmdGetSwitchHandDataScRsp = 8120;
+    CmdSwitchHandDataCsReq = 8101;
+    CmdGetSwitchHandResetGameScRsp = 8103;
+    CmdGetSwitchHandUpdateScRsp = 8117;
+}

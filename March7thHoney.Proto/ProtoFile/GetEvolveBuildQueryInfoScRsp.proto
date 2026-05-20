@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CJLJDKLCNDA.proto";
+import "JCFPONBDCLG.proto";
+
+message GetEvolveBuildQueryInfoScRsp {
+    repeated CJLJDKLCNDA HLLEIPKMJKM = 4;
+    JCFPONBDCLG OIAPHBBDPHL = 14;
+    uint32 retcode = 15;
+}

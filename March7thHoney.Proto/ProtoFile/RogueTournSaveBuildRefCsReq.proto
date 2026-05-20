@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AKCFLPEANJB.proto";
+
+message RogueTournSaveBuildRefCsReq {
+    uint32 KKGIEENCOIC = 9;
+    string name = 13;
+    AKCFLPEANJB EOGACILLEBO = 14;
+}

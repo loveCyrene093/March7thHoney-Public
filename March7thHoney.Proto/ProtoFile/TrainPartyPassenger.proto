@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TrainPartyPassenger {
+    uint32 passenger_id = 2;
+    uint32 record_id = 6;
+    bool DELEKCIJMIL = 13;
+    repeated uint32 DACEDNGJLBM = 14;
+}

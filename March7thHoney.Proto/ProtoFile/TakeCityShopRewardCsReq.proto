@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TakeCityShopRewardCsReq {
+    uint32 shop_id = 4;
+    uint32 level = 13;
+}

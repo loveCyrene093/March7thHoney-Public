@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdBoxingClubType {
+    NCGDADBFAOA_PCPDHELPKEM = 0;
+    CmdGiveUpBoxingClubChallengeCsReq = 4209;
+    CmdChooseBoxingClubStageOptionalBuffScRsp = 4238;
+    CmdGetBoxingClubInfoScRsp = 4210;
+    CmdGiveUpBoxingClubChallengeScRsp = 4298;
+    CmdMatchBoxingClubOpponentScRsp = 4295;
+    CmdStartBoxingClubBattleScRsp = 4218;
+    CmdChooseBoxingClubResonanceScRsp = 4201;
+    CmdGetBoxingClubInfoCsReq = 4291;
+    CmdBoxingClubChallengeUpdateScNotify = 4226;
+    CmdChooseBoxingClubResonanceCsReq = 4239;
+    CmdMatchBoxingClubOpponentCsReq = 4294;
+    CmdStartBoxingClubBattleCsReq = 4214;
+    CmdSetBoxingClubResonanceLineupCsReq = 4274;
+    CmdChooseBoxingClubStageOptionalBuffCsReq = 4204;
+    CmdBoxingClubRewardScNotify = 4263;
+    CmdSetBoxingClubResonanceScRsp = 4237;
+}

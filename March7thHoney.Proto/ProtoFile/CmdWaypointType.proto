@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdWaypointType {
+    DCEEDHMEPMC_PCPDHELPKEM = 0;
+    DCEEDHMEPMC_DBLIMCCNLAC = 498;
+    DCEEDHMEPMC_FIBGCOBDNKG = 414;
+    CmdJGLMANJEMJA = 463;
+    CmdNKIOIPMCONG = 495;
+    CmdKPOCAINFJDA = 418;
+    DCEEDHMEPMC_HDINDJGMCLB = 494;
+    CmdOLDMKCIINGH = 410;
+    DCEEDHMEPMC_NJMCPCIEDGD = 491;
+    CmdDEBHHHIFIHK = 409;
+}

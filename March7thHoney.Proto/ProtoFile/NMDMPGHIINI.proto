@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NMDMPGHIINI {
+    uint32 ILIPGAECPPC = 3;
+    uint32 ICDFDOKFLAK = 8;
+    bool AMOOPCLGKGD = 10;
+}

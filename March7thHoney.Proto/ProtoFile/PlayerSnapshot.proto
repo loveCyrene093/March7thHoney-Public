@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfoSnapshot.proto";
+
+message PlayerSnapshot {
+    MotionInfoSnapshot motion_info = 1;
+    uint32 map_layer = 2;
+}

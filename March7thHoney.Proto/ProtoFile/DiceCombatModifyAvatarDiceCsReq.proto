@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DiceCombatModifyAvatarDiceCsReq {
+    uint32 KNOPNCFBPEG = 10;
+    uint32 avatar_id = 14;
+}

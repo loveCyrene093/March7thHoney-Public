@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightSectionCampRecordInfo {
+    uint32 PMOGHFIGKPO = 5;
+    uint32 GDHHGKIAMNE = 14;
+}

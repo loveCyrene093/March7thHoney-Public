@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BJKJKGAGDAC {
+    uint32 DBBAEOHIAPA = 1;
+    uint32 GBOCDPDNFLF = 2;
+    uint32 IBLNHMFCLPP = 4;
+    uint32 DIOGJKODMPK = 5;
+    uint32 DOBENIECLNN = 7;
+}

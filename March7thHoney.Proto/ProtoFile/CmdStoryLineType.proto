@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdStoryLineType {
+    AHJHAMOKMKH_PCPDHELPKEM = 0;
+    CmdStoryLineTrialAvatarChangeScNotify = 6209;
+    CmdStoryLineInfoScNotify = 6294;
+    CmdChangeStoryLineFinishScNotify = 6218;
+    CmdEDIHEAFLFAO = 6210;
+    CmdGetStoryLineInfoCsReq = 6291;
+}

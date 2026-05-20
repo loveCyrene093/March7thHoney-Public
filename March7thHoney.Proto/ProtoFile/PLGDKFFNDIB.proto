@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PLGDKFFNDIB {
+    uint32 interact_id = 1;
+    repeated uint64 IFIJBPOLLPJ = 2;
+}

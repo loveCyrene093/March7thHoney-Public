@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GrowthTartgetFuncType.proto";
+
+message AJLCAJEKAGP {
+    repeated GrowthTartgetFuncType DHAIJLJCJAF = 7;
+    uint32 MMOPCKLPHIO = 11;
+}

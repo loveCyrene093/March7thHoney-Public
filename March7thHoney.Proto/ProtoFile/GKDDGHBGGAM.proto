@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGBLLFGOBKE.proto";
+
+message GKDDGHBGGAM {
+    AGBLLFGOBKE EJCEIOMIOOP = 5;
+    int32 BILBCIJBACN = 13;
+    int32 unique_id = 15;
+}

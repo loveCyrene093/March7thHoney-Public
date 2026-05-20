@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum AGFFLADPOIJ {
+    AGFFLADPOIJ_HFMBLMOGOKB = 0;
+    AGFFLADPOIJ_FMCALCMLEND = 1;
+    AGFFLADPOIJ_HMAJLPEIKFL = 2;
+    AGFFLADPOIJ_KLGGOJPLIEB = 3;
+    AGFFLADPOIJ_PKAMAFJPHFK = 4;
+}

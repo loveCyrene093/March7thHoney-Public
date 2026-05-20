@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BuffInfo {
+    uint32 count = 2;
+    uint32 buff_id = 4;
+    uint64 add_time_ms = 6;
+    uint32 level = 9;
+    map<string, float> dynamic_values = 10;
+    uint32 buff_summon_entity_id = 13;
+    float life_time = 14;
+    uint32 base_avatar_id = 15;
+}

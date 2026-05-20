@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DGKNDMAHMAP.proto";
+import "OBCJLDDEBHL.proto";
+
+message HipplenCycleResultScNotify {
+    repeated uint32 MPEMBDAGJJO = 1;
+    uint32 DKPCDLDDONG = 2;
+    repeated OBCJLDDEBHL IGNLJNLMPHH = 7;
+    uint32 IPOEIGADLJN = 8;
+    repeated uint32 grid_fight_trait_info = 10;
+    DGKNDMAHMAP DGFGNMJALGJ = 11;
+    repeated OBCJLDDEBHL EENEEPKCJPH = 13;
+}

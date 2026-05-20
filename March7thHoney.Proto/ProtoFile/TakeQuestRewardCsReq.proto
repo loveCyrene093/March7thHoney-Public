@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TakeQuestRewardCsReq {
+    repeated uint32 succ_quest_id_list = 14;
+}

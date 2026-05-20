@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CHDHAFCLEDB.proto";
+import "GDEEEEAGDIP.proto";
+import "GHNALAMKDLA.proto";
+import "KEGJMEJBNCJ.proto";
+
+message OFPGJKEDKEB {
+    uint32 queue_position = 7;
+    oneof BGGBIMBKHEI {
+        GDEEEEAGDIP ANLLMAPBJFN = 781;
+        CHDHAFCLEDB DJGAPFPHFII = 1306;
+        GHNALAMKDLA MBOGNPKAMIF = 1394;
+        KEGJMEJBNCJ BDPHIHBLJON = 1672;
+    }
+}

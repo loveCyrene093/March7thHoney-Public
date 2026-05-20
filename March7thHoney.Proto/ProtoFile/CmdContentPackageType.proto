@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdContentPackageType {
+    CGDHKGPIDLM_PCPDHELPKEM = 0;
+    CmdContentPackageSyncDataScNotify = 7530;
+    CmdContentPackageGetDataCsReq = 7513;
+    CmdContentPackageGetDataScRsp = 7507;
+    CmdContentPackageTransferScNotify = 7538;
+}

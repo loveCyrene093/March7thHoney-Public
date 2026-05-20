@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HBPFFKNNLBC {
+    uint32 panel_id = 3;
+    uint32 KAPGHPNEOEK = 6;
+    bool CNJEEKKMLJK = 7;
+    bool is_taken_reward = 11;
+}

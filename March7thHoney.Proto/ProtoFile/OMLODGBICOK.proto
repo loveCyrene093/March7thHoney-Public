@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum OMLODGBICOK {
+    OMLODGBICOK_ODAJBJNJAMD = 0;
+    OMLODGBICOK_IIANIGDMKIO = 1;
+    OMLODGBICOK_PKNBCFPBINF = 2;
+}

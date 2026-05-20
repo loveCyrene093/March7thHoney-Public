@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+
+message EIBNPIKGCJN {
+    MotionInfo motion = 3;
+    uint32 id = 6;
+}

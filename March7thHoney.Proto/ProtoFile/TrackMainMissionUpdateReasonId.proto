@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum TrackMainMissionUpdateReasonId {
+    DJEOGLFDJIF_DPDFIINEAFF = 0;
+    DJEOGLFDJIF_NDGEDJJBPBH = 1;
+    DJEOGLFDJIF_MDLEKKLKBCB = 2;
+    DJEOGLFDJIF_MPBEIDJHLHA = 3;
+}

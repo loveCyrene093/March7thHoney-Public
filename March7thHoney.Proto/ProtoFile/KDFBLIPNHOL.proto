@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KDFBLIPNHOL {
+    uint32 panel_id = 7;
+    uint32 OGHFMOALPEO = 12;
+    uint32 group_id = 13;
+    uint32 retcode = 14;
+}

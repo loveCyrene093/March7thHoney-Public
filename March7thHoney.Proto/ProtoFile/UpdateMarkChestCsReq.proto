@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MarkChestInfo.proto";
+
+message UpdateMarkChestCsReq {
+    uint32 trigger_param_id = 1;
+    uint32 func_id = 2;
+    repeated MarkChestInfo mark_chest_info_list = 10;
+}

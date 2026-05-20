@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FFBKMFFHFPB {
+    repeated uint32 LPLFPJHOPKK = 2;
+    uint32 retcode = 5;
+}

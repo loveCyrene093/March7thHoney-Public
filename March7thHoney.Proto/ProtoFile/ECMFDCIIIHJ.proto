@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BDDBAKBOMKP.proto";
+import "CAIODCNEMHO.proto";
+
+message ECMFDCIIIHJ {
+    repeated BDDBAKBOMKP CIGCKKGMLID = 1;
+    repeated uint32 EMBGAEMHDPA = 2;
+    repeated CAIODCNEMHO BDAOCNNKOJF = 4;
+    uint32 FHADIOPDMHP = 7;
+    uint32 LMEEJJNOFIE = 11;
+    uint32 PEJMPHMPPKO = 12;
+    uint32 NMCACNNNBND = 14;
+    bool DIDPABJPDLJ = 15;
+}

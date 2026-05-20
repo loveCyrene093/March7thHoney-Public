@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IPFAGFAPCCD.proto";
+import "MotionInfo.proto";
+
+message MFKKGOCBACJ {
+    uint32 PJMLJPAPIIK = 2;
+    IPFAGFAPCCD FBOGMBOKPHJ = 3;
+    uint32 PJNFFBKCGEM = 6;
+    MotionInfo MJDMNDIEKHK = 9;
+}

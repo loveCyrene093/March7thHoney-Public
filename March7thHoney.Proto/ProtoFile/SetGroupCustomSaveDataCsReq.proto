@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetGroupCustomSaveDataCsReq {
+    string save_data = 8;
+    uint32 entry_id = 9;
+    uint64 interact_id = 12;
+    uint32 group_id = 14;
+}

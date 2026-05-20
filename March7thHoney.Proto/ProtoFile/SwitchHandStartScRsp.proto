@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SwitchHandStartScRsp {
+    uint32 retcode = 3;
+    uint32 config_id = 10;
+}

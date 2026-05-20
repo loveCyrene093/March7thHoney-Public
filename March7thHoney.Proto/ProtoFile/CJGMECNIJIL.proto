@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DMLKEKFKNPL.proto";
+
+message CJGMECNIJIL {
+    uint32 trait_id = 1;
+    repeated DMLKEKFKNPL KBMBFJOLBBN = 2;
+    double damage = 3;
+    double BOIEGPAPHOP = 4;
+}

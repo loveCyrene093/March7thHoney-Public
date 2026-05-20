@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DPENFEFPEBI {
+    DPENFEFPEBI_KHEEJBBPICD = 0;
+    DPENFEFPEBI_DABGPBMKGJB = 1;
+    DPENFEFPEBI_DLECHGNKOMB = 2;
+}

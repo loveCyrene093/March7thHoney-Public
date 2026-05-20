@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HLDONLICNOB {
+    HLDONLICNOB_MNELHMEBHPK = 0;
+    HLDONLICNOB_NMIHNMAPKGI = 1;
+    HLDONLICNOB_MHCMMOPPALJ = 2;
+    HLDONLICNOB_OJGEICBOGJP = 3;
+    HLDONLICNOB_BLJMJHPHEAF = 4;
+    HLDONLICNOB_FMPEFGJPHKC = 5;
+}

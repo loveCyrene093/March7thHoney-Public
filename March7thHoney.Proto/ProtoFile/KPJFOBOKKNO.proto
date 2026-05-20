@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KPJFOBOKKNO {
+    bool HDKIHMEBNDC = 5;
+    bool ACMGBNNEACJ = 7;
+    uint32 DKKOBPDNCLC = 8;
+    bool LPHDBPBILKE = 10;
+    uint32 CDKEDFPEFIJ = 11;
+    uint32 NHDDHMGGKBO = 12;
+    uint32 MFMJBFDFMHG = 14;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EJCCHHAAGNH.proto";
+import "ILEJGEDBEKF.proto";
+
+message ChessRogueEnterScRsp {
+    uint32 retcode = 1;
+    uint32 id = 4;
+    EJCCHHAAGNH stage_info = 5;
+    ILEJGEDBEKF LJMFGDFBLCK = 6;
+}

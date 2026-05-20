@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TreasureDungeonFinishScNotify {
+    map<uint32, uint32> DPAJMLNHDDG = 2;
+    uint32 DEOBOJCCPFB = 6;
+    map<uint32, uint32> GCGALKPCHCP = 7;
+    bool is_win = 8;
+    uint32 DCKEEAKEOLC = 12;
+    uint32 BHMJFLGMICK = 14;
+    uint32 target_side = 15;
+}

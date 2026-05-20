@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APDPAECJPIH.proto";
+import "GridFightArchiveData.proto";
+
+message GridFightGetArchiveScRsp {
+    uint32 retcode = 3;
+    repeated GridFightArchiveData KGKIDDOPHEO = 10;
+    APDPAECJPIH type = 12;
+}

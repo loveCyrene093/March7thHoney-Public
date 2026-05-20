@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NHFOGDPBOHN.proto";
+
+message BDEKEIKAKML {
+    repeated uint32 relic_ids = 1;
+    NHFOGDPBOHN DFIEHPIHEEE = 8;
+    uint32 avatar_id = 15;
+}

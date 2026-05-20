@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum KGFMBNIIPPA {
+    KGFMBNIIPPA_HHHAKHMOHBB = 0;
+    KGFMBNIIPPA_IENCNGOAMBL = 1;
+    KGFMBNIIPPA_DEKDENFMCMP = 2;
+    KGFMBNIIPPA_KPPJMJEHAFB = 3;
+}

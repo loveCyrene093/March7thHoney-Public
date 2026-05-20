@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PBPIOFGODHC.proto";
+
+message TravelBrochureGetDataScRsp {
+    map<uint32, PBPIOFGODHC> LNDBNIHAICB = 3;
+    uint32 retcode = 13;
+    uint32 custom_value = 14;
+    map<uint32, uint32> CIBCCOJLLIA = 15;
+}

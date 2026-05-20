@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ECKIDLIFAFG {
+    uint32 PCPELPMKMCI = 1;
+    uint32 MGIAPAEKOMB = 2;
+    uint32 IPGMEHBCJCO = 3;
+    uint32 MKALAGHLBPF = 4;
+    uint32 BNEOOJJKKFM = 5;
+    uint32 LGIKOOEFLJM = 6;
+    uint32 BJBPFMMNDCM = 7;
+    uint32 EAJKJJADFLP = 8;
+    uint32 BEDFEJONFNK = 9;
+    uint32 OFAPPJDDIMM = 10;
+    uint32 CHCJICCNKBJ = 11;
+    uint32 OCJEMODOHIK = 12;
+    uint32 JFBPCDGCBNL = 13;
+    uint32 AKPAPLCNPDC = 14;
+}

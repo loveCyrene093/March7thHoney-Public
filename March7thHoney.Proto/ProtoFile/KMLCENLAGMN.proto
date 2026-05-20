@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum KMLCENLAGMN {
+    KMLCENLAGMN_PCPDHELPKEM = 0;
+    KMLCENLAGMN_AFGENAOJBLD = 1;
+    KMLCENLAGMN_GJFJKLAMKIH = 2;
+    KMLCENLAGMN_IAHIEBCFPCD = 3;
+}

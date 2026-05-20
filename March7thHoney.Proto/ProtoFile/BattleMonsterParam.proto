@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BattleMonsterParam {
+    uint32 hard_level_group = 1;
+    uint32 level = 2;
+    uint32 elite_group = 3;
+    uint32 OPJAFNEFJDC = 4;
+    uint32 BDCCEFHMFHO = 5;
+}

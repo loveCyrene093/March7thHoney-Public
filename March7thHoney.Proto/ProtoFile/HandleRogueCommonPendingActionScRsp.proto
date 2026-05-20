@@ -1,0 +1,83 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AJGGFCJFKEL.proto";
+import "AOGMCBOFNMO.proto";
+import "BLDLMHPFBCM.proto";
+import "CFIKJKGABEI.proto";
+import "DIKAEDCJHFM.proto";
+import "DPHIINCNKEI.proto";
+import "EFDADBFIABN.proto";
+import "FOHHEPOECML.proto";
+import "GACNMNIKJBF.proto";
+import "GCFNNAKLMPD.proto";
+import "GEDCCGBPOFL.proto";
+import "GJEFKOGFNCH.proto";
+import "HAHKCDIPGJH.proto";
+import "HBAMALALOGG.proto";
+import "HGFKGMPPOIM.proto";
+import "IADIBNIPHBO.proto";
+import "IKEBEPBJHCE.proto";
+import "IOGMLLBFDPG.proto";
+import "JAMNDEJMILO.proto";
+import "JDKNKIBFHAF.proto";
+import "JICGMEBFBJF.proto";
+import "JNPGMMLHGJH.proto";
+import "JPPGLJPCFNC.proto";
+import "LGKDBECKMBM.proto";
+import "LIDKGPCEDHE.proto";
+import "LJFFAHEHFDJ.proto";
+import "MAGNIAAPANO.proto";
+import "MBHMOJNPHEJ.proto";
+import "MMHMPNEJFOP.proto";
+import "MPPDGFLMDEB.proto";
+import "NFPOEAEPHIJ.proto";
+import "NLNOGDMKBOD.proto";
+import "OHMDKPCOAEC.proto";
+import "PBCOPDHBMLJ.proto";
+
+message HandleRogueCommonPendingActionScRsp {
+    uint32 MJPCBEAAABJ = 2;
+    uint32 queue_position = 13;
+    uint32 retcode = 14;
+    oneof BPIHFAJCLOC {
+        JICGMEBFBJF ECBDOFCDHKK = 36;
+        OHMDKPCOAEC JKDHIJFLHAJ = 47;
+        JNPGMMLHGJH PEMHIBDBCGG = 63;
+        MMHMPNEJFOP LKBHNGLPEGP = 124;
+        DPHIINCNKEI FGAEOEEOIFD = 129;
+        BLDLMHPFBCM IJOMKIDEOEG = 183;
+        LJFFAHEHFDJ KCCIDNOGPPA = 341;
+        CFIKJKGABEI CMHGGDOMAAK = 408;
+        AJGGFCJFKEL BFMONEFDILP = 435;
+        MAGNIAAPANO KMFILFDMILI = 558;
+        GACNMNIKJBF IJHKIDFCAHO = 729;
+        LIDKGPCEDHE CICIDMFLIHL = 773;
+        NFPOEAEPHIJ MCOPMAMMAKP = 786;
+        NLNOGDMKBOD PKBFJJJOEBD = 860;
+        MBHMOJNPHEJ BOJPHPFIPNK = 963;
+        HBAMALALOGG FBJMOIEEHFF = 1010;
+        FOHHEPOECML KMALKBCNJHK = 1017;
+        DIKAEDCJHFM OPKPJCIDFIC = 1033;
+        HGFKGMPPOIM DEIDEEJDJLB = 1085;
+        AOGMCBOFNMO ILAKOOPEODP = 1138;
+        MAGNIAAPANO DOBFKCAGMJB = 1157;
+        JDKNKIBFHAF LAJICPMLKCA = 1200;
+        MPPDGFLMDEB BBEPLGMEJGN = 1206;
+        GCFNNAKLMPD CEPBLFDKFFJ = 1207;
+        GEDCCGBPOFL KHNAKEMGNJM = 1214;
+        IOGMLLBFDPG BBEHJAJPHBK = 1379;
+        IKEBEPBJHCE JLIINFBLMKI = 1438;
+        PBCOPDHBMLJ HJCJCEACDHJ = 1474;
+        HAHKCDIPGJH NKMIGFDPFNJ = 1610;
+        JPPGLJPCFNC CCGGGDCAIGJ = 1750;
+        JAMNDEJMILO OFEECJDAHLB = 1850;
+        IADIBNIPHBO DDAKCDJJOPI = 1928;
+        EFDADBFIABN BAKPFNPNMOP = 1975;
+        LGKDBECKMBM IPPOGINBKIE = 1986;
+        GJEFKOGFNCH FMAJDANLJEB = 2040;
+    }
+}

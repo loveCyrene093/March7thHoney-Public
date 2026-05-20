@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightDropType {
+    HIOLCNPOPON_PCPDHELPKEM = 0;
+    HIOLCNPOPON_HHNBGNFBDHO = 1;
+    HIOLCNPOPON_HOLOJHGGIOG = 2;
+    HIOLCNPOPON_NOKNNMPMGGN = 3;
+    HIOLCNPOPON_NOFPIDPIKLJ = 4;
+    HIOLCNPOPON_BIKHOEGFEFD = 5;
+    HIOLCNPOPON_MKPPCDPCHIE = 6;
+    HIOLCNPOPON_BHJOKLLJLPL = 7;
+}

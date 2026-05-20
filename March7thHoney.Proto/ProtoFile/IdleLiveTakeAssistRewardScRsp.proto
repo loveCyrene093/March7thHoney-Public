@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "MBICBKAFGIK.proto";
+
+message IdleLiveTakeAssistRewardScRsp {
+    ItemList reward = 7;
+    uint32 retcode = 10;
+    repeated MBICBKAFGIK CADPJMANPCA = 15;
+}

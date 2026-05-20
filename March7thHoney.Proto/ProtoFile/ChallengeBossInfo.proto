@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeBossAvatarRelicInfo.proto";
+import "ChallengeBossEquipmentInfo.proto";
+import "ChallengeBossSingleNodeInfo.proto";
+import "EEBPHJCNBFO.proto";
+
+message ChallengeBossInfo {
+    ChallengeBossSingleNodeInfo second_node = 2;
+    repeated EEBPHJCNBFO ABNDFKFIKCI = 4;
+    map<uint32, ChallengeBossAvatarRelicInfo> challenge_avatar_relic_map = 5;
+    repeated uint32 first_lineup = 6;
+    map<uint32, ChallengeBossEquipmentInfo> challenge_avatar_equipment_map = 7;
+    repeated EEBPHJCNBFO BKNKLEOCJNO = 10;
+    ChallengeBossSingleNodeInfo first_node = 11;
+    repeated uint32 second_lineup = 13;
+    bool unk1 = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FKANCDDCALO {
+    FKANCDDCALO_PCPDHELPKEM = 0;
+    FKANCDDCALO_PCPKFCDOJPD = 1;
+    FKANCDDCALO_HPJEBFFHJNP = 2;
+    FKANCDDCALO_KLHDCOPPLNG = 3;
+}

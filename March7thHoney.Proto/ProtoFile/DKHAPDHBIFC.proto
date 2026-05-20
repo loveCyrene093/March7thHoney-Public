@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DKHAPDHBIFC {
+    DKHAPDHBIFC_IJAPPFEELPA = 0;
+    DKHAPDHBIFC_IGMOIKNLAME = 1;
+    DKHAPDHBIFC_LKOBBFMCPLK = 2;
+}

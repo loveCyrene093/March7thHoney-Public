@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GLAAJKHKMHB.proto";
+import "JCFDCEKLBFH.proto";
+
+message ANIOMKDCOEP {
+    repeated GLAAJKHKMHB BDMNHFNKMDA = 6;
+    repeated JCFDCEKLBFH shop_goods_list = 7;
+    bool EBKLPKNANLN = 8;
+    uint32 item_value = 9;
+    uint32 FDMEFIIJLCK = 11;
+    uint32 AAABOOFAFLJ = 14;
+    bool GOCGFMALEOP = 15;
+}

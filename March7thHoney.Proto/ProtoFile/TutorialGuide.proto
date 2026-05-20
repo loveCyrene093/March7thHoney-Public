@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TutorialGuideType.proto";
+import "TutorialStatus.proto";
+
+message TutorialGuide {
+    TutorialStatus status = 9;
+    TutorialGuideType type = 12;
+    uint32 id = 13;
+}

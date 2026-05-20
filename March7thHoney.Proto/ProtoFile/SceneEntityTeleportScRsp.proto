@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EntityMotion.proto";
+
+message SceneEntityTeleportScRsp {
+    uint32 retcode = 2;
+    EntityMotion entity_motion = 3;
+    uint32 client_pos_version = 13;
+}

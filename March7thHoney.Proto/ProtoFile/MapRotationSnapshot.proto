@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RotationMapInfoSnapshot.proto";
+
+message MapRotationSnapshot {
+    int32 region_id = 1;
+    uint32 pose_id = 2;
+    RotationMapInfoSnapshot map_info = 3;
+}

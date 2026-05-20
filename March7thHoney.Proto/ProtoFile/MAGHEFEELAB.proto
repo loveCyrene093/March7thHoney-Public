@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JEBLAAGCNHN.proto";
+import "OGNJNBBBPIF.proto";
+
+message MAGHEFEELAB {
+    repeated uint32 EJOMFAHEMNH = 2;
+    JEBLAAGCNHN record_info = 3;
+    bool ADKBEOPNBIO = 4;
+    uint32 area_id = 9;
+    uint32 GFNCKBGNLNC = 12;
+    bool is_taken_reward = 13;
+    OGNJNBBBPIF ECCGJDMOGAN = 14;
+    bool CEBPAJAAJPP = 15;
+}

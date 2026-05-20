@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ActivityScheduleData {
+    int64 begin_time = 6;
+    uint32 panel_id = 11;
+    int64 end_time = 12;
+    uint32 activity_id = 15;
+}

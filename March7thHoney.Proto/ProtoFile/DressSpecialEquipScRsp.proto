@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GKDEKJKOIJN.proto";
+
+message DressSpecialEquipScRsp {
+    uint32 retcode = 7;
+    repeated GKDEKJKOIJN CPOMNGJDBCL = 14;
+}

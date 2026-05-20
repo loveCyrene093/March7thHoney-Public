@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KEOLEHHLHHM.proto";
+
+message PlayerReturnSignCsReq {
+    repeated KEOLEHHLHHM DMHGDPBAALN = 1;
+}

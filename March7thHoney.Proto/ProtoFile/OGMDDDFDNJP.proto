@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DPDDLAOBMBH.proto";
+
+message OGMDDDFDNJP {
+    uint32 unique_id = 4;
+    uint32 retcode = 10;
+    oneof BPIHFAJCLOC {
+        string name = 3;
+        DPDDLAOBMBH relic_list = 8;
+    }
+}

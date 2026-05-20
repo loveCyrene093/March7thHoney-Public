@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GFNMAKHPAOE.proto";
+
+message LobbyMarchInfo {
+    uint32 NLOCDHMLGJH = 1;
+    bool GIKABEMCFAO = 2;
+    uint32 GJIKBFAHEAK = 3;
+    uint32 FBJPJKBDCLB = 4;
+    GFNMAKHPAOE ONJKBENNMFC = 5;
+}

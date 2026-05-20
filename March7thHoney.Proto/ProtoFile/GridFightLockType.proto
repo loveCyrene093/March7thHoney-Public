@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GridFightLockType {
+    PJBMHHNLCLB_LNLOOHDEAEO = 0;
+    PJBMHHNLCLB_EHFHDGPOCNH = 6;
+    PJBMHHNLCLB_IAOBLNOEKKH = 7;
+    PJBMHHNLCLB_EBEKPGLFIIM = 8;
+}

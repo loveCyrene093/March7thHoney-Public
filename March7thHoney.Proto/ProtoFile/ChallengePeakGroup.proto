@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengePeak.proto";
+import "ChallengePeakBoss.proto";
+import "FCPEKKEEKFI.proto";
+import "WaitConfirmData.proto";
+
+message ChallengePeakGroup {
+    uint32 peak_group_id = 2;
+    uint32 count_of_peaks = 3;
+    WaitConfirmData wait_confirm_data = 4;
+    ChallengePeakBoss peak_boss = 5;
+    repeated ChallengePeak peaks = 6;
+    bool disable_hard_mode = 10;
+    FCPEKKEEKFI PLJLPOHJHEE = 11;
+    repeated uint32 taken_star_rewards = 13;
+    uint32 obtained_stars = 14;
+}

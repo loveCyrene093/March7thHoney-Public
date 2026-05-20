@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdItemType {
+    FPPPIALGGKL_PCPDHELPKEM = 0;
+    CmdSetTurnFoodSwitchCsReq = 520;
+    CmdSpecialComposeItemCsReq = 574;
+    CmdKFDGNFBAOGN = 529;
+    CmdCmdLockEquipmentCsReq = 514;
+    CmdMarkRelicFilterPlanScRsp = 577;
+    CmdExpUpRelicScRsp = 538;
+    CmdRelicReforgeCsReq = 506;
+    CmdDestroyItemScRsp = 553;
+    CmdGetBagCsReq = 591;
+    CmdGetBagScRsp = 510;
+    CmdExpUpEquipmentCsReq = 539;
+    CmdMarkItemScRsp = 525;
+    CmdComposeLimitNumUpdateScNotify = 565;
+    CmdILJJBGNEMHH = 590;
+    CmdGetRelicFilterPlanCsReq = 536;
+    CmdHKJGDIKJIGI = 588;
+    CmdRankUpEquipmentCsReq = 563;
+    CmdMarkItemCsReq = 551;
+    CmdGetRecycleTimeCsReq = 557;
+    CmdADCEACIMKLG = 593;
+    CmdUseItemCsReq = 509;
+    CmdGetMarkItemListScRsp = 517;
+    CmdExpUpEquipmentScRsp = 501;
+    CmdAddRelicFilterPlanScRsp = 524;
+    CmdAddEquipmentScRsp = 596;
+    CmdBatchRankUpEquipmentCsReq = 569;
+    CmdSellItemScRsp = 561;
+    CmdComposeLimitNumCompleteScNotify = 528;
+    CmdComposeSelectedRelicCsReq = 600;
+    CmdRechargeSuccNotify = 507;
+    CmdModifyRelicFilterPlanCsReq = 578;
+    CmdAddRelicFilterPlanCsReq = 592;
+    CmdOPDNMLKMNBB = 526;
+    CmdACONIFJJKCG = 516;
+    CmdCmdSellItemCsReq = 533;
+    CmdDeleteRelicFilterPlanCsReq = 559;
+    CmdCmdLockRelicCsReq = 572;
+    CmdGHCIOGMHOPP = 541;
+    CmdGetRelicFilterPlanScRsp = 503;
+    CmdComposeItemScRsp = 537;
+    CmdDMJNAGEKONA = 595;
+    CmdDestroyItemCsReq = 573;
+    CmdDiscardRelicScRsp = 566;
+    CmdExpUpRelicCsReq = 504;
+    CmdGetRecyleTimeScRsp = 521;
+    CmdRelicReforgeConfirmCsReq = 552;
+    CmdModifyRelicFilterPlanScRsp = 542;
+    CmdCancelMarkItemNotify = 554;
+    CmdUseItemScRsp = 598;
+    CmdNLDDLGDEBMO = 518;
+    CmdPromoteEquipmentCsReq = 594;
+    CmdComposeSelectedRelicScRsp = 589;
+    CmdEBDDJOBGDHD = 532;
+    CmdExchangeHcoinCsReq = 558;
+    CmdMarkRelicFilterPlanCsReq = 512;
+    CmdExchangeHcoinScRsp = 544;
+    CmdGeneralVirtualItemDataNotify = 502;
+    CmdSyncTurnFoodNotify = 579;
+    CmdDiscardRelicCsReq = 549;
+    CmdGetMarkItemListCsReq = 508;
+}

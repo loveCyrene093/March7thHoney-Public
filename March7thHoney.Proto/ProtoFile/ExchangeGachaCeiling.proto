@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GachaCeiling.proto";
+import "ItemList.proto";
+
+message ExchangeGachaCeiling {
+    uint32 retcode = 2;
+    ItemList transfer_item_list = 3;
+    GachaCeiling gacha_ceiling = 6;
+    uint32 gacha_type = 8;
+    uint32 avatar_id = 9;
+}

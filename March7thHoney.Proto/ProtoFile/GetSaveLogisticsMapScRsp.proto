@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CCBKGJGNDCL.proto";
+
+message GetSaveLogisticsMapScRsp {
+    uint32 retcode = 7;
+    repeated CCBKGJGNDCL JOBIHKPLHEN = 12;
+}

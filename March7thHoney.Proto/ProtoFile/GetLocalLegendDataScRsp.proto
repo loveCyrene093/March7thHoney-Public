@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MMPJHLJHMNP.proto";
+
+message GetLocalLegendDataScRsp {
+    uint32 retcode = 2;
+    repeated MMPJHLJHMNP level_data_list = 6;
+}

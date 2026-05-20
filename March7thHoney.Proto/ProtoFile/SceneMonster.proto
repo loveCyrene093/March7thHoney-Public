@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MEHAOMGBOMC.proto";
+
+message SceneMonster {
+    uint32 max_hp = 7;
+    MEHAOMGBOMC extra_info = 8;
+    uint32 cur_hp = 11;
+    uint32 monster_id = 15;
+}

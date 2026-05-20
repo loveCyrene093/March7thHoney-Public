@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "NCCLJBCHBBP.proto";
+
+message SwordTrainingGameSettleScNotify {
+    uint32 game_story_line_id = 3;
+    uint32 FHKINAKGBBK = 5;
+    uint32 NCPKPHMOHIM = 6;
+    uint32 LDKGJBALGKC = 8;
+    repeated uint32 PGAHFBAJAPF = 9;
+    repeated uint32 LEGLOIMNPEC = 11;
+    NCCLJBCHBBP reason = 13;
+    ItemList reward = 14;
+}

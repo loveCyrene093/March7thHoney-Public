@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NBMFOJAKMGP.proto";
+
+message GBFGABHFBCN {
+    uint32 retcode = 4;
+    NBMFOJAKMGP relic_plan = 8;
+}

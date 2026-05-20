@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MessageChatData.proto";
+
+message AiPamTeamExplainCsReq {
+    bool BHFBIGFEDHL = 4;
+    MessageChatData message_datas = 5;
+    bool ELBDJNLMEFN = 9;
+    string NMLIMJJHOPK = 11;
+    bool LLLCJNJHEPE = 13;
+}

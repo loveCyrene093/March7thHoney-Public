@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ExpeditionInfo.proto";
+import "ItemList.proto";
+
+message AcceptMultipleExpeditionScRsp {
+    int64 KAMBBFDEBAM = 7;
+    uint32 retcode = 11;
+    repeated ItemList HALFGLGLDLO = 14;
+    repeated ExpeditionInfo accept_multi_expedition = 15;
+}

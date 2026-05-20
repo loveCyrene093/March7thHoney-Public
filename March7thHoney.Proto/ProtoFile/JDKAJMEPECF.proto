@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ActiveTraitSourceList.proto";
+
+message JDKAJMEPECF {
+    repeated ActiveTraitSourceList EFOLENMOFKP = 7;
+    uint32 trait_id = 9;
+}

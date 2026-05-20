@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EEBPHJCNBFO.proto";
+
+message IJKEGEJFKAJ {
+    uint32 GGALMCJNCNM = 4;
+    repeated EEBPHJCNBFO avatar_list = 7;
+}

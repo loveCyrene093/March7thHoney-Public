@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message Item {
+    uint32 rank = 1;
+    uint32 level = 3;
+    uint32 unique_id = 5;
+    uint32 item_id = 9;
+    uint32 promotion = 12;
+    uint32 num = 13;
+    uint32 main_affix_id = 14;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdBattleCollegeType {
+    BKHGOOJKNGI_PCPDHELPKEM = 0;
+    CmdGetBattleCollegeDataCsReq = 5791;
+    CmdStartBattleCollegeScRsp = 5714;
+    CmdGetBattleCollegeDataScRsp = 5710;
+    CmdSyncBattleCollegeDataChangeScNotify = 5794;
+    CmdStartBattleCollegeCsReq = 5795;
+}

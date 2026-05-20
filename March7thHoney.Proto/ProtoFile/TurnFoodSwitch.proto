@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum TurnFoodSwitch {
+    HINDKODOBAA_PCPDHELPKEM = 0;
+    HINDKODOBAA_KEBPGFMOCDD = 1;
+    HINDKODOBAA_EMLCFOEIAHM = 2;
+}

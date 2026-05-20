@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CMLNFIGFMHL {
+    uint32 client_res_version = 2;
+    uint32 uid = 3;
+    uint32 account_ip = 4;
+    uint64 ODKFCCOHAFM = 5;
+    uint32 platform = 7;
+    uint32 account_ip_port = 11;
+    uint32 KFMAEGNNJDL = 12;
+    string IHJGLGCLANM = 13;
+}

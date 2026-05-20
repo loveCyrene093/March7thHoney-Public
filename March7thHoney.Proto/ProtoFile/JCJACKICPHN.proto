@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message JCJACKICPHN {
+    bool has_passed = 9;
+    uint32 id = 11;
+}

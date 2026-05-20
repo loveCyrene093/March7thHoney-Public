@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ALHGCBPJLMO {
+    oneof IIGFMDHKBAD {
+        uint32 unique_id = 4;
+        uint32 KGGOBNFHEPF = 6;
+    }
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HLJMCIBOBJO.proto";
+import "SpBarInfo.proto";
+
+message DLFPFFOOHKP {
+    HLJMCIBOBJO type = 1;
+    uint32 id = 2;
+    SpBarInfo sp_bar = 3;
+}

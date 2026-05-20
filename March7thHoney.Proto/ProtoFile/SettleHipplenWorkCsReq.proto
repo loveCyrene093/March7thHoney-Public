@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CJEAIHMINMJ.proto";
+import "KJBGALBCAEG.proto";
+import "OJOLPAEPBDN.proto";
+import "ONCIMHEMJDD.proto";
+
+message SettleHipplenWorkCsReq {
+    oneof HDACCIEIJFO {
+        CJEAIHMINMJ PGJIAGGHBBA = 2;
+        ONCIMHEMJDD MNIMAFBIGGP = 3;
+        OJOLPAEPBDN PPJOJOKOOBF = 10;
+        KJBGALBCAEG BJGDFMJDJMH = 13;
+    }
+}

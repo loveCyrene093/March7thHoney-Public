@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FinishChessRogueSubStoryScRsp {
+    uint32 retcode = 4;
+    uint32 FAPFKFJIELE = 7;
+    uint32 IENBKIAGPBA = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GOFFLGEJEND {
+    uint32 JDPHBPHAPKH = 4;
+    uint32 OCGOCBGLLEI = 13;
+    uint32 NGBNIPEMHMD = 14;
+}

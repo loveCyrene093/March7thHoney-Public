@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FCMCJAKGPCG.proto";
+
+message PFBKJICJGBI {
+    uint32 avatar_id = 1;
+    repeated FCMCJAKGPCG GHMJCDADNIA = 2;
+    uint32 slot = 3;
+    uint32 MAONLHBKOFK = 4;
+}

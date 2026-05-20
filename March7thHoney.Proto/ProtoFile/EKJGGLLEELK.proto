@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EKJGGLLEELK {
+    uint32 forge_target_index = 11;
+}

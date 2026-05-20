@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum DifficultyAdjustmentType {
+    NJAAEOFICML_CGKEIAIPAEK = 0;
+    NJAAEOFICML_APHCACPJMOF = 1;
+}

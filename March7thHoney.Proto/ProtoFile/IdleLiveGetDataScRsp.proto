@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AOHPHEKEJMC.proto";
+import "BCJFAIHEBEM.proto";
+import "BNNGELPBHAO.proto";
+import "CDAILEHLPEJ.proto";
+import "EDGGKGPFLNP.proto";
+import "HKJECENOHBI.proto";
+import "HLIBFMJMDAH.proto";
+import "HLJMFGGKMDM.proto";
+import "JKONPIILNJK.proto";
+import "LCFDGFOCHOJ.proto";
+import "PPCKPAHOBCB.proto";
+
+message IdleLiveGetDataScRsp {
+    LCFDGFOCHOJ IKJGDMGMIML = 1;
+    HKJECENOHBI EBDHLJAONNJ = 2;
+    BCJFAIHEBEM GMDLCGODDCL = 3;
+    HLIBFMJMDAH OJMIFIDACHA = 4;
+    uint32 retcode = 5;
+    PPCKPAHOBCB OKHLAELKJCH = 6;
+    CDAILEHLPEJ GNAINKJAGHN = 7;
+    AOHPHEKEJMC KIHKABCFBLO = 8;
+    BNNGELPBHAO DMDPNHLOLMO = 10;
+    HLJMFGGKMDM LPNOKDOGFMI = 13;
+    JKONPIILNJK BCMJCFPKKAF = 14;
+    EDGGKGPFLNP PLAPCGBPNGH = 15;
+}

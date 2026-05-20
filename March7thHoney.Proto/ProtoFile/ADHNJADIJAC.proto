@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LobbyGameExtInfo.proto";
+import "NIIGAPILPGD.proto";
+import "PKEIDNJOLEL.proto";
+
+message ADHNJADIJAC {
+    NIIGAPILPGD basic_info = 1;
+    PKEIDNJOLEL NEBABKOGGAA = 2;
+    LobbyGameExtInfo stage_info = 3;
+}

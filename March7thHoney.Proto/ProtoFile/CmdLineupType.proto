@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdLineupType {
+    KEACHFCCAOI_PCPDHELPKEM = 0;
+    CmdChangeLineupLeaderScRsp = 704;
+    CmdSetLineupNameScRsp = 733;
+    CmdQuitLineupScRsp = 798;
+    CmdChangeLineupLeaderCsReq = 737;
+    CmdExtraLineupDestroyNotify = 789;
+    CmdGetLineupAvatarDataCsReq = 701;
+    CmdGetAllLineupDataCsReq = 761;
+    CmdVirtualLineupTrialAvatarChangeScNotify = 796;
+    CmdReplaceLineupScRsp = 800;
+    CmdGetCurLineupDataScRsp = 795;
+    CmdJoinLineupScRsp = 718;
+    CmdAJJAAMNDGEH = 710;
+    CmdSwitchLineupIndexCsReq = 738;
+    CmdSwitchLineupIndexScRsp = 772;
+    CmdJoinLineupCsReq = 714;
+    CmdGetCurLineupDataCsReq = 794;
+    CmdGetAllLineupDataScRsp = 707;
+    CmdBCNOGENAHJJ = 726;
+    CmdVirtualLineupDestroyNotify = 758;
+    CmdSwapLineupCsReq = 763;
+    KEACHFCCAOI_NNMMNMDJELK = 791;
+    CmdGetLineupAvatarDataScRsp = 774;
+    CmdReplaceLineupCsReq = 744;
+    CmdSyncLineupNotify = 739;
+    CmdQuitLineupCsReq = 709;
+    CmdSetLineupNameCsReq = 732;
+}

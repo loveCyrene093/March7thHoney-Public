@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BuyRogueShopMiracleCsReq {
+    repeated uint32 FGEKLBMLHEK = 4;
+    uint32 interacted_prop_entity_id = 9;
+}

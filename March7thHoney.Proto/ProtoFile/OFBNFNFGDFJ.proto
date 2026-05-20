@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CADKBOKEJMD.proto";
+import "DECAOHONNJG.proto";
+import "RogueStatus.proto";
+
+message OFBNFNFGDFJ {
+    uint32 IDFELNMBDBJ = 1;
+    uint32 DGPFGADEBMD = 6;
+    uint32 PGINLOFKCMD = 8;
+    CADKBOKEJMD OFOODOBJKBJ = 9;
+    uint32 map_id = 10;
+    repeated uint32 unfinished_story_line_id_list = 12;
+    DECAOHONNJG DPCBMJGBMGP = 13;
+    RogueStatus status = 14;
+    repeated uint32 base_avatar_id_list = 15;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NHPKMMDOHIH {
+    uint32 shop_id = 3;
+    uint32 OFABEGPJBJP = 4;
+    uint32 AAFLJGPKCDH = 8;
+    repeated uint32 OMGGDMMLBJL = 9;
+    repeated uint32 NCGEJEEOMFC = 11;
+    uint32 JDDMHMCHNNN = 13;
+    repeated uint32 shop_goods_list = 15;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PlayerGetFightGateCsReq {
+    uint32 player_data = 4;
+}

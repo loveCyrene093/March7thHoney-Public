@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message INACEGAAALJ {
+    uint32 FLEOCMEFANH = 8;
+    int64 unlock_timestamp = 14;
+}

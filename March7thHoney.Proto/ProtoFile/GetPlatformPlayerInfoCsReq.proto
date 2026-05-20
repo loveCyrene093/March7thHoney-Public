@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PlatformType.proto";
+
+message GetPlatformPlayerInfoCsReq {
+    repeated string PBHLHFPIACP = 1;
+    PlatformType platform = 14;
+}

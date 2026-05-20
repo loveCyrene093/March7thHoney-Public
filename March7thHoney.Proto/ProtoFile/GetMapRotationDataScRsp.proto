@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChargerInfo.proto";
+import "RotateMapInfo.proto";
+import "RotaterData.proto";
+import "RotaterEnergyInfo.proto";
+
+message GetMapRotationDataScRsp {
+    RotaterEnergyInfo energy_info = 2;
+    repeated ChargerInfo GPKABIBKJHF = 3;
+    int32 JHDLNBPNEKG = 4;
+    uint32 BCPCBHMFIIN = 5;
+    uint32 retcode = 7;
+    repeated RotaterData DJHDDOFHMCF = 9;
+    bool DIMOGLIMLBD = 10;
+    RotateMapInfo AMMJECHPGPE = 13;
+}

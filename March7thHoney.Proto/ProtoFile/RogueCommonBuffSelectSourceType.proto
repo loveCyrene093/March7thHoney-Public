@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RogueCommonBuffSelectSourceType {
+    MAFPONIDMLD_PCPDHELPKEM = 0;
+    MAFPONIDMLD_HLIDGDLNFHM = 1;
+    MAFPONIDMLD_EGFBGJGIEKM = 2;
+    MAFPONIDMLD_NPDCOJCAHPE = 3;
+    MAFPONIDMLD_GALGFIOMOIO = 4;
+}

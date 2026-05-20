@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "StrongChallengeAvatar.proto";
+
+message EnterActivityStrongChallengeCsReq {
+    uint32 stage_id = 4;
+    repeated StrongChallengeAvatar avatar_list = 5;
+    repeated uint32 buff_list = 8;
+}

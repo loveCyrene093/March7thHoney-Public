@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DisplayEquipmentInfo {
+    uint32 exp = 2;
+    uint32 rank = 8;
+    uint32 level = 9;
+    uint32 tid = 11;
+    uint32 promotion = 13;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CNHNGLEEBKP.proto";
+import "ItemList.proto";
+
+message FinishAeonDialogueGroupScRsp {
+    ItemList reward = 3;
+    uint32 retcode = 12;
+    CNHNGLEEBKP IMPBELJGDJH = 13;
+}

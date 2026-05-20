@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum KGDIMPEOGOL {
+    KGDIMPEOGOL_IMIIGJBMDOP = 0;
+    KGDIMPEOGOL_NPNJDBKDFCO = 1;
+    KGDIMPEOGOL_KNCJNIHBHEH = 2;
+    KGDIMPEOGOL_AEMMNHPMGDI = 3;
+    KGDIMPEOGOL_BJKOMHKNCAE = 4;
+    KGDIMPEOGOL_ACLNPCDGMIB = 5;
+}

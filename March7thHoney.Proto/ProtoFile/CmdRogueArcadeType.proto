@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRogueArcadeType {
+    JEJMOKKEGLI_PCPDHELPKEM = 0;
+    CmdRogueArcadeGetInfoScRsp = 7677;
+    CmdRogueArcadeRestartCsReq = 7681;
+    CmdRogueArcadeGetInfoCsReq = 7651;
+    CmdRogueArcadeStartCsReq = 7687;
+    CmdRogueArcadeRestartScRsp = 7698;
+    CmdRogueArcadeLeaveScRsp = 7655;
+    CmdRogueArcadeStartScRsp = 7668;
+    CmdRogueArcadeLeaveCsReq = 7657;
+}

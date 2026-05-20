@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LHDOBOHHKMB.proto";
+
+message KCEICIPHOPN {
+    repeated LHDOBOHHKMB BICPNKOCHGN = 8;
+}

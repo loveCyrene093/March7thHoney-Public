@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HDNOFFGMDNJ.proto";
+import "NEIIDDAMPGL.proto";
+
+message CDFOGMAMFGF {
+    repeated NEIIDDAMPGL CGLIPMIMMJG = 1;
+    HDNOFFGMDNJ PLMHAPPKLGA = 7;
+    uint32 cur_index = 9;
+    HDNOFFGMDNJ BMNDBKBHIOC = 15;
+}

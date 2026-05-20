@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DBHPNLHPCMD.proto";
+import "FKMKIGFJODF.proto";
+import "FOKOPECFCOP.proto";
+import "KNNODAPAKJA.proto";
+
+message GetMuseumInfoScRsp {
+    repeated uint32 CKDACHPJLJD = 1;
+    uint32 cur_fund = 3;
+    uint32 retcode = 4;
+    uint32 exp = 5;
+    repeated uint32 AAOKFFGNBNE = 6;
+    uint32 ABIJHKNBGHJ = 7;
+    repeated FKMKIGFJODF BODAPOLFADF = 8;
+    DBHPNLHPCMD GPEAFAJGCPH = 9;
+    uint32 NOGABDKMAGB = 10;
+    KNNODAPAKJA OKMGHNCGPOL = 11;
+    uint32 DJFLHFMJPCD = 12;
+    uint32 ANBEHCINFLD = 13;
+    repeated FOKOPECFCOP area_list = 14;
+    uint32 level = 15;
+}

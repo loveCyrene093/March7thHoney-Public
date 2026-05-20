@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ElationActivityAvatar.proto";
+
+message EnterElationActivityStageCsReq {
+    repeated ElationActivityAvatar player_selected_avatar_list = 7;
+    repeated ElationActivityAvatar fixed_avatar_list = 8;
+    uint32 level_id = 11;
+}

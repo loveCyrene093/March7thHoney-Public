@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SceneGroupState {
+    uint32 group_id = 4;
+    uint32 state = 5;
+    bool is_default = 10;
+}

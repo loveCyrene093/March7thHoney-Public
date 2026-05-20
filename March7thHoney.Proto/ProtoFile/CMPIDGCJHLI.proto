@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OFPGJKEDKEB.proto";
+
+message CMPIDGCJHLI {
+    OFPGJKEDKEB pending_action = 8;
+}

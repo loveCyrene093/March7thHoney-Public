@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GCACHJFLGHH.proto";
+import "OHAOFLALHBL.proto";
+
+message NOAMCBLCAMH {
+    OHAOFLALHBL CCAHGLDMHGI = 2;
+    repeated GCACHJFLGHH quest_list = 12;
+}

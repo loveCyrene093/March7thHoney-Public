@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BCICEMDDGEM.proto";
+
+message JHFIFNOEMDJ {
+    uint32 EPNMKCAGLAB = 2;
+    repeated BCICEMDDGEM FLHLJMEMIHL = 7;
+    uint32 BKCMKIKBAEP = 9;
+}

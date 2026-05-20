@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetFriendMarkScRsp {
+    uint32 uid = 4;
+    uint32 retcode = 5;
+    bool KBNKNAHGPHG = 8;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Quest.proto";
+
+message GetQuestDataScRsp {
+    uint32 retcode = 3;
+    repeated Quest quest_list = 5;
+    uint32 total_achievement_exp = 14;
+}

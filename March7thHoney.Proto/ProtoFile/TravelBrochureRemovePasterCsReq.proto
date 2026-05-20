@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TravelBrochureRemovePasterCsReq {
+    uint32 HBCJPCMJPHE = 6;
+    uint64 unique_id = 8;
+    uint32 item_id = 15;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMarbleType {
+    JGIOJDGDAOD_PCPDHELPKEM = 0;
+    CmdMarbleGetDataScRsp = 8290;
+    CmdMarblePvpDataUpdateScNotify = 8287;
+    CmdMarbleGetDataCsReq = 8271;
+    CmdMarbleUpdateShownSealCsReq = 8277;
+    CmdMarbleShopBuyScRsp = 8278;
+    CmdMarbleUnlockSealScNotify = 8284;
+    CmdMarbleUpdateShownSealScRsp = 8289;
+    CmdPCPJKOHFECE = 8280;
+    CmdIFJDJKMMABL = 8272;
+    CmdMarbleShopBuyCsReq = 8285;
+}

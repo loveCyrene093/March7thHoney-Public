@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OfferingInfo.proto";
+
+message SubmitOfferingItemScRsp {
+    OfferingInfo offering_info = 7;
+    uint32 retcode = 13;
+}

@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMapRotationType {
+    BCLPPGOKGGC_PCPDHELPKEM = 0;
+    CmdPLIEDJPPCPF = 6810;
+    CmdGetMapRotationDataCsReq = 6839;
+    CmdDHKGDFNBKDD = 6872;
+    CmdRemoveRotatorCsReq = 6832;
+    CmdBHKJAFGHMID = 6833;
+    CmdResetMapRotationRegionCsReq = 6874;
+    CmdGDFPENLOOFL = 6804;
+    CmdRotateMapCsReq = 6809;
+    CmdJDLDLGJPNEO = 6837;
+    CmdIBFANGLHMEA = 6898;
+    CmdLeaveMapRotationRegionCsReq = 6863;
+    CmdJMGMOACPCCH = 6818;
+    CmdGAEJBMCFBMJ = 6895;
+    CmdOMPICHHJDKO = 6838;
+    CmdEnterMapRotationRegionCsReq = 6891;
+    CmdDeployRotatorCsReq = 6814;
+    CmdGOKDLLADELB = 6861;
+    CmdInteractChargerCsReq = 6894;
+    CmdCEMJJCNMCBI = 6826;
+    CmdJMMCBDAGEKP = 6801;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SyncMuseumTargetRewardNotify {
+    uint32 item_id = 3;
+    uint32 item_count = 13;
+    uint32 LPAGKHGCCFH = 14;
+}

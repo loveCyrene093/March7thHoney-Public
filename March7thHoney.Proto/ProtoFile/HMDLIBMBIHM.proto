@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarType.proto";
+
+message HMDLIBMBIHM {
+    uint32 level = 8;
+    AvatarType avatar_type = 11;
+    uint32 id = 14;
+    bool JLFLCDCGCOL = 15;
+}

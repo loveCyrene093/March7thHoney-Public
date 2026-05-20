@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum IFAENKOLDCI {
+    IFAENKOLDCI_AMMKHIENNOJ = 0;
+    IFAENKOLDCI_OCKEMHMFFBF = 1;
+    IFAENKOLDCI_NNABMPMMGMC = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NOJLPMLALPI.proto";
+
+message Match3GetDataGetDataScRsp {
+    uint32 retcode = 7;
+    NOJLPMLALPI KJHGGPEMPHM = 14;
+}

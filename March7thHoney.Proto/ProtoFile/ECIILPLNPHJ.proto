@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ADIPAKCFMOF.proto";
+
+message ECIILPLNPHJ {
+    repeated ADIPAKCFMOF HOPLDJJMGLM = 12;
+}

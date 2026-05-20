@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PHNHEEOLADL.proto";
+import "PlayerSimpleInfo.proto";
+import "PlayingState.proto";
+
+message FriendSimpleInfo {
+    PlayerSimpleInfo player_info = 1;
+    string remark_name = 7;
+    bool is_marked = 9;
+    PlayingState playing_state = 11;
+    int64 create_time = 12;
+    PHNHEEOLADL FCKDHFFMECC = 14;
+}

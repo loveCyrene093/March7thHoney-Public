@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FriendRecommendInfo.proto";
+
+message GetFriendRecommendListInfoScRsp {
+    repeated FriendRecommendInfo friend_recommend_list = 4;
+    uint32 retcode = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "LHMHFNBOAGC.proto";
+
+message ShareScRsp {
+    LHMHFNBOAGC CCDAMJKBCGC = 3;
+    ItemList reward = 13;
+    uint32 retcode = 14;
+}

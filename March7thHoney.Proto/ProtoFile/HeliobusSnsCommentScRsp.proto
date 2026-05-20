@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DLFOGJGCCGP.proto";
+
+message HeliobusSnsCommentScRsp {
+    uint32 retcode = 9;
+    DLFOGJGCCGP IGIPAKELJFD = 14;
+}

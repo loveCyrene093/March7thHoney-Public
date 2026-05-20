@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FDLCFFPCHBN.proto";
+
+message IMKOOMMHAML {
+    repeated FDLCFFPCHBN buff_list = 13;
+}

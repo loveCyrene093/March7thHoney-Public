@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KMPCIKLJIHH.proto";
+
+message GetRogueHandbookDataScRsp {
+    uint32 retcode = 2;
+    KMPCIKLJIHH IGFPODGEPIB = 9;
+}

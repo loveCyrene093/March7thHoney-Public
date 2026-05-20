@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message PlayerReturnTakePointRewardScRsp {
+    ItemList BGPKPKHCGKE = 1;
+    uint32 EDIGJGGPPON = 3;
+    uint32 retcode = 4;
+    uint32 HDABMKCNJJK = 9;
+}

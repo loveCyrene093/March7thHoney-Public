@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum AIGKBKIPCNH {
+    AIGKBKIPCNH_PCPDHELPKEM = 0;
+    AIGKBKIPCNH_LEDEEAHCDKI = 1;
+    AIGKBKIPCNH_HCEKFEENNCA = 2;
+}

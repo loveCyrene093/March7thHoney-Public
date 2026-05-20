@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BasicModuleSync {
+    uint32 LPLEBJKDEIC = 11;
+    uint32 stamina = 13;
+}

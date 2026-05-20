@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum NODNMNCIBFG {
+    NODNMNCIBFG_PCPDHELPKEM = 0;
+    NODNMNCIBFG_NCLLNEJNACM = 1;
+    NODNMNCIBFG_APHGBHIAPJC = 2;
+}

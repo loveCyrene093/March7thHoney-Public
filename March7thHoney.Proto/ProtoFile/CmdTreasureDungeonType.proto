@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTreasureDungeonType {
+    CEPPBODAFLG_PCPDHELPKEM = 0;
+    CmdFightTreasureDungeonMonsterCsReq = 4472;
+    CmdOpenTreasureDungeonGridScRsp = 4438;
+    CmdQuitTreasureDungeonCsReq = 4444;
+    CmdFightTreasureDungeonMonsterScRsp = 4432;
+    CmdGHNHLNICAOI = 4500;
+    CmdUseTreasureDungeonItemScRsp = 4458;
+    CmdGetTreasureDungeonActivityDataScRsp = 4401;
+    CmdInteractTreasureDungeonGridScRsp = 4461;
+    CmdEnterTreasureDungeonCsReq = 4474;
+    CmdInteractTreasureDungeonGridCsReq = 4433;
+    CmdTreasureDungeonFinishScNotify = 4410;
+    CmdEnterTreasureDungeonScRsp = 4437;
+    CmdTreasureDungeonDataScNotify = 4491;
+    CmdUseTreasureDungeonItemCsReq = 4407;
+    CmdOpenTreasureDungeonGridCsReq = 4404;
+    CmdGetTreasureDungeonActivityDataCsReq = 4439;
+}

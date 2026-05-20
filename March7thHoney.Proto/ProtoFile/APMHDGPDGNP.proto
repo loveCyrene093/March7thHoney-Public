@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BCIFMHFCDMG.proto";
+import "HPMJCOCCBJJ.proto";
+import "KGABJENCFDC.proto";
+import "KHILIFOOIGH.proto";
+import "PNKEBBADONJ.proto";
+
+message APMHDGPDGNP {
+    PNKEBBADONJ LPHOAIJFPNP = 3;
+    KGABJENCFDC NLILNONCNFC = 10;
+    oneof BPIHFAJCLOC {
+        HPMJCOCCBJJ KFPBACEHAMH = 636;
+        BCIFMHFCDMG OPDJKKPPPOD = 1042;
+        KHILIFOOIGH CIMGCEEGDCF = 1742;
+    }
+}

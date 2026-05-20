@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RotaterData.proto";
+import "RotaterEnergyInfo.proto";
+
+message RemoveRotaterScRsp {
+    RotaterEnergyInfo energy_info = 1;
+    RotaterData rotater_data = 9;
+    uint32 retcode = 15;
+}

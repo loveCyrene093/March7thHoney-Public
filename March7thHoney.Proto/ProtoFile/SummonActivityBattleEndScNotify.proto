@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SummonActivityBattleEndScNotify {
+    uint32 group_id = 2;
+    uint32 NIIEKCMBENI = 7;
+    uint32 star = 8;
+    uint32 INOMFFAIEOA = 15;
+}

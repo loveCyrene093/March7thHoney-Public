@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DKFAEKPKADH.proto";
+
+message RogueGetGambleInfoScRsp {
+    DKFAEKPKADH CFADFLLLOPC = 3;
+    uint32 retcode = 5;
+}

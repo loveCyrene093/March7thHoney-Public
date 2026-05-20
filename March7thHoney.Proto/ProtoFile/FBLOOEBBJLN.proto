@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FBLOOEBBJLN {
+    uint32 event_id = 6;
+    uint32 display_value = 15;
+}

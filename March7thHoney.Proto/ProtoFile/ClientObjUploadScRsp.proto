@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ClientObjDownloadData.proto";
+
+message ClientObjUploadScRsp {
+    uint32 retcode = 10;
+    ClientObjDownloadData data = 13;
+}

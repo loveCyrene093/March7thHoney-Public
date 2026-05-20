@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AreaDynamicInfo {
+    uint32 diy_dynamic_id = 10;
+    uint32 dice_slot_id = 11;
+}

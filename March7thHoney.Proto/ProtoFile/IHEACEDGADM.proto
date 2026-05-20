@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NODNMNCIBFG.proto";
+
+message IHEACEDGADM {
+    NODNMNCIBFG AFNMOJOAFMN = 1;
+}

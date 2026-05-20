@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+import "FBBMDFDOEEF.proto";
+
+message HLLCDBLCIPK {
+    EFEGKDHEMFN item_value = 6;
+    map<uint32, uint32> JONDOIHPNEA = 8;
+    repeated FBBMDFDOEEF item_list = 13;
+}

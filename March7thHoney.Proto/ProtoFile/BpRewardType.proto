@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BpRewardType {
+    FAAJKCACGCD_OEJCECBCHLC = 0;
+    FAAJKCACGCD_FOOHDABHDKM = 1;
+    FAAJKCACGCD_GIIMBEOPDFB = 2;
+    FAAJKCACGCD_PBOMGOKANJD = 3;
+    FAAJKCACGCD_JFMBNEMIDFK = 4;
+}

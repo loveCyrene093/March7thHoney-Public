@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetOrigamiPropInfoCsReq {
+    repeated uint32 MELNPBKAABI = 1;
+    uint32 content_id = 3;
+    uint32 GFGFLIHCCOD = 6;
+}

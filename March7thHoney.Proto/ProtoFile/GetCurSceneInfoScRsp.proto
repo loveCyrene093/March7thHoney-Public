@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneInfo.proto";
+
+message GetCurSceneInfoScRsp {
+    SceneInfo scene = 3;
+    uint32 retcode = 7;
+}

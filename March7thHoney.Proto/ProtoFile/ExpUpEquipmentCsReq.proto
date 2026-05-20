@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message ExpUpEquipmentCsReq {
+    uint32 equipment_unique_id = 9;
+    ItemCostData cost_data = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NCFGENOFLHC {
+    uint32 dice_slot_id = 13;
+}

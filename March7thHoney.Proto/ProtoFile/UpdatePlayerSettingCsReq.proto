@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "UpdatePlayerSetting.proto";
+
+message UpdatePlayerSettingCsReq {
+    UpdatePlayerSetting player_setting = 3;
+}

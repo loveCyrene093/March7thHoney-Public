@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LOCEJAIMMGG.proto";
+
+message AFDBEFKBBFM {
+    repeated LOCEJAIMMGG JPNALKEFHOH = 2;
+    uint32 level_id = 8;
+}

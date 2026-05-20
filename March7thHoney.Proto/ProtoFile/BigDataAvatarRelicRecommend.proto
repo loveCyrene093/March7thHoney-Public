@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BKODLDOFMMJ.proto";
+import "FNBJPMGMJDP.proto";
+
+message BigDataAvatarRelicRecommend {
+    uint32 avatar_id = 1;
+    repeated FNBJPMGMJDP outer_set_list = 2;
+    repeated BKODLDOFMMJ sphere_main_property_list = 4;
+    repeated BKODLDOFMMJ rope_main_property_list = 7;
+    repeated FNBJPMGMJDP inner_set_list = 9;
+    repeated BKODLDOFMMJ foot_main_property_list = 13;
+    repeated BKODLDOFMMJ body_main_property_list = 15;
+}

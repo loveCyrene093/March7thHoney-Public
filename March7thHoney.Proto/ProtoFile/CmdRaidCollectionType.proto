@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRaidCollectionType {
+    MBPPIIEBBDJ_PCPDHELPKEM = 0;
+    CmdFBKMLBAFKFL = 6942;
+    CmdRaidCollectionEnterNextRaidScRsp = 6955;
+    CmdRaidCollectionEnterNextRaidCsReq = 6950;
+    CmdRaidCollectionDataScRsp = 6960;
+    CmdRaidCollectionDataCsReq = 6941;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MovieRacingType.proto";
+
+message BNIGIAJOPGC {
+    uint32 CEEGGCPPAFJ = 1;
+    uint32 ILHDBHMAAMO = 6;
+    uint32 level = 13;
+    MovieRacingType type = 14;
+}

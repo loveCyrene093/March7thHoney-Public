@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DrinkMakerCheersEnterNextGroupScRsp {
+    uint32 retcode = 3;
+    uint32 HKEABJLEIPM = 4;
+}

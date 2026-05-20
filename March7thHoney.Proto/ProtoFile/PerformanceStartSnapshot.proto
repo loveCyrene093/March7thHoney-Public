@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DialogSnapshot.proto";
+import "EraFlipperSnapshot.proto";
+import "FloorCustomValueSnapshot.proto";
+import "GroupSnapshot.proto";
+import "MapRotationSnapshot.proto";
+import "MissionSnapshot.proto";
+import "PlayerSnapshot.proto";
+import "SwitchHandSnapshot.proto";
+
+message PerformanceStartSnapshot {
+    uint32 performance_id = 1;
+    uint32 performance_type = 2;
+    uint32 plane_id = 3;
+    uint32 floor_id = 4;
+    uint32 dimension_id = 5;
+    uint32 story_line_id = 6;
+    uint32 content_id = 7;
+    uint32 entry_id = 8;
+    uint32 version = 9;
+    PlayerSnapshot player = 10;
+    MissionSnapshot mission = 11;
+    EraFlipperSnapshot era_flipper = 12;
+    repeated GroupSnapshot server_group_list = 13;
+    repeated GroupSnapshot client_group_list = 14;
+    repeated GroupSnapshot server_legacy_group_list = 15;
+    repeated GroupSnapshot client_legacy_group_list = 16;
+    map<string, int32> floor_saved_value_list = 17;
+    map<string, FloorCustomValueSnapshot> floor_custom_value_list = 18;
+    MapRotationSnapshot map_rotation = 19;
+    uint32 world_id = 20;
+    DialogSnapshot dialog = 21;
+    uint32 owner_group_id = 22;
+    SwitchHandSnapshot switch_hand = 23;
+}

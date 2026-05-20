@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OECPLDABABL {
+    uint32 DMPGNLIBNDE = 5;
+    uint32 EHJBMNMOFLF = 7;
+    int32 FGFBJLADLJB = 8;
+    uint32 IGFIHLBNDNM = 9;
+}

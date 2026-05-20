@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CALIPIKFDEJ.proto";
+import "ItemCostData.proto";
+
+message MICOMIBPIOA {
+    repeated CALIPIKFDEJ BAGFAOJMPHE = 3;
+    ItemCostData EBMKBDJMAAF = 8;
+}

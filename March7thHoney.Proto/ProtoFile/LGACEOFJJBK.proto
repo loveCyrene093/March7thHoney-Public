@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LGACEOFJJBK {
+    repeated uint32 GNOKOBPNANM = 15;
+}

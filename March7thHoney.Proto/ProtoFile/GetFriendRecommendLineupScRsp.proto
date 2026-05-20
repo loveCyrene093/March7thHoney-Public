@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HBJCPIOLEIC.proto";
+import "NFKEJJIHOCJ.proto";
+
+message GetFriendRecommendLineupScRsp {
+    uint32 retcode = 1;
+    uint32 key = 3;
+    NFKEJJIHOCJ type = 4;
+    repeated HBJCPIOLEIC DAOKDPJACJF = 5;
+    bool OEDONMBJFCG = 15;
+}

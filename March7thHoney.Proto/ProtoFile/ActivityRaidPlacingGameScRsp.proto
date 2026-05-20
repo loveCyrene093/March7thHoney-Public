@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ActivityRaidPlacingGameScRsp {
+    uint32 retcode = 1;
+    oneof DLOMKFLEEIC {
+        uint32 OBPNDKPPFGG = 8;
+        uint32 MFMHHAPPPJJ = 10;
+    }
+}

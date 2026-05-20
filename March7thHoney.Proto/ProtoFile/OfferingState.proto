@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum OfferingState {
+    OFFERING_STATE_NONE = 0;
+    OFFERING_STATE_LOCK = 1;
+    OFFERING_STATE_OPEN = 2;
+}

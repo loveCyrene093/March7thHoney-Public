@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRogueEndlessType {
+    GBIEIHAAFFI_IEMIGJIKEIJ = 0;
+    CmdRogueEndlessActivityBattleEndScNotify = 6005;
+    CmdTakeRogueEndlessActivityPointRewardScRsp = 6002;
+    CmdEnterRogueEndlessActivityStageScRsp = 6007;
+    CmdGetRogueEndlessActivityDataCsReq = 6009;
+    CmdGetRogueEndlessActivityDataScRsp = 6010;
+    CmdTakeRogueEndlessActivityAllBonusRewardCsReq = 6006;
+    CmdTakeRogueEndlessActivityPointRewardCsReq = 6004;
+    CmdTakeRogueEndlessActivityAllBonusRewardScRsp = 6003;
+    CmdEnterRogueEndlessActivityStageCsReq = 6001;
+}

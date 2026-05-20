@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MessageSectionStatus.proto";
+
+message SectionStatus {
+    uint32 section_id = 4;
+    MessageSectionStatus section_status = 11;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Vector.proto";
+import "Vector4.proto";
+
+message RotateMapInfo {
+    Vector4 JOGBJIBEEEB = 8;
+    Vector LGKMEPOJACI = 11;
+}

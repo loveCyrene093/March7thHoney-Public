@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LGOPLIAFLCK.proto";
+
+message INDJDBNFNIM {
+    LGOPLIAFLCK LLIAJHMEJKI = 14;
+    LGOPLIAFLCK BDBILIBBHMP = 15;
+}

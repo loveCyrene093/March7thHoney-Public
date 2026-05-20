@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ADHNJADIJAC.proto";
+import "FIKNLFBIPHK.proto";
+import "FightGameMode.proto";
+import "NJBNHHAPKHB.proto";
+import "PBICJCPDLGD.proto";
+import "PFNAOGJDEMN.proto";
+
+message HKIJCGOMLEA {
+    uint64 id = 1;
+    FightGameMode IBPLHNAAEIB = 2;
+    repeated ADHNJADIJAC LMNKCJEHEMN = 3;
+    PFNAOGJDEMN type = 4;
+    uint64 MGDNOACBFOE = 5;
+    uint64 BGHICIBOLLI = 6;
+    NJBNHHAPKHB OFCKCNDOBOM = 8;
+    PBICJCPDLGD POFOCMIHJIA = 9;
+    FIKNLFBIPHK MGFMLBDEHNL = 11;
+}

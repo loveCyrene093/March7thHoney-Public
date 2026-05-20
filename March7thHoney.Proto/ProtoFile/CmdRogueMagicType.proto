@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRogueMagicType {
+    NFJEJPNLLAM_AMFJBBNJPLI = 0;
+    CmdRogueMagicReviveCostUpdateScNotify = 7733;
+    CmdLMGJDLDGKMM = 7796;
+    CmdFGCBMGEIGFL = 7749;
+    CmdRogueMagicReviveAvatarCsReq = 7761;
+    CmdRogueMagicGetMiscRealTimeDataScRsp = 7793;
+    NFJEJPNLLAM_NPJIONDJKGA = 7708;
+    CmdRogueMagicStartCsReq = 7791;
+    CmdRogueMagicScepterTakeOffUnitCsReq = 7757;
+    CmdRogueMagicStoryInfoUpdateScNotify = 7766;
+    CmdRogueMagicEnterLayerCsReq = 7739;
+    CmdRogueMagicLevelInfoUpdateScNotify = 7774;
+    CmdRogueMagicUnitComposeCsReq = 7728;
+    CmdRogueMagicReviveAvatarScRsp = 7707;
+    CmdRogueMagicBattleFailSettleInfoScNotify = 7732;
+    CmdRogueMagicStartScRsp = 7710;
+    CmdRogueMagicLeaveScRsp = 7718;
+    CmdJEPAJCEGPAD = 7721;
+    CmdRogueMagicSetAutoDressInMagicUnitScRsp = 7779;
+    CmdRogueMagicSettleScRsp = 7798;
+    CmdRogueMagicEnterLayerScRsp = 7701;
+    CmdKBDIBKLEBKP = 7753;
+    CmdRogueMagicAutoDressInMagicUnitChangeScNotify = 7705;
+    CmdRogueMagicScepterDressInUnitCsReq = 7789;
+    CmdRogueMagicEnableTalentCsReq = 7751;
+    CmdRogueMagicEnterRoomCsReq = 7763;
+    CmdRogueMagicAreaUpdateScNotify = 7737;
+    CmdRogueMagicEnterRoomScRsp = 7726;
+    CmdRogueMagicEnterScRsp = 7795;
+    CmdRogueMagicEnableTalentScRsp = 7725;
+    CmdRogueMagicLeaveCsReq = 7714;
+    NFJEJPNLLAM_CGFBFEIIHMO = 7773;
+    CmdRogueMagicGetMiscRealTimeDataCsReq = 7720;
+    CmdEAHJLOANBPD = 7717;
+    CmdRogueMagicQueryScRsp = 7744;
+    CmdRogueMagicUnitComposeScRsp = 7765;
+    CmdRogueMagicSetAutoDressInMagicUnitCsReq = 7754;
+    CmdRogueMagicAutoDressInUnitCsReq = 7702;
+    CmdRogueMagicQueryCsReq = 7758;
+    CmdRogueMagicEnterCsReq = 7794;
+    CmdRogueMagicSettleCsReq = 7709;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightFinishInfo.proto";
+
+message GridFightArchiveData {
+    uint32 AJMBOLHDGHK = 2;
+    bool PDLBECHDJBL = 6;
+    uint32 season = 9;
+    uint32 BMPCCPCCJJO = 12;
+    GridFightFinishInfo EDKJMPACHNJ = 13;
+    uint32 CALIMAKGGHJ = 14;
+    int64 DKCFJNDCBEP = 15;
+}

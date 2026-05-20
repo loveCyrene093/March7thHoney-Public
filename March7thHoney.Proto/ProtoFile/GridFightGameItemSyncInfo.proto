@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightConsumableInfo.proto";
+import "GridFightConsumableUpdateInfo.proto";
+import "GridFightEquipmentInfo.proto";
+import "GridGameForgeItemInfo.proto";
+
+message GridFightGameItemSyncInfo {
+    repeated GridGameForgeItemInfo grid_game_forge_item_list = 4;
+    repeated GridFightEquipmentInfo grid_fight_equipment_list = 9;
+    repeated GridFightConsumableInfo grid_fight_consumable_list = 10;
+    repeated GridFightConsumableUpdateInfo update_grid_fight_consumable_list = 12;
+}

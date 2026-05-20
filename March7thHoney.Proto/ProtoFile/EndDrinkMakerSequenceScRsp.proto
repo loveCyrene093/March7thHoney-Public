@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "JLMCNJKMCFG.proto";
+import "POHIEKPHMGH.proto";
+
+message EndDrinkMakerSequenceScRsp {
+    uint32 exp = 1;
+    uint32 level = 2;
+    ItemList reward = 3;
+    repeated JLMCNJKMCFG DANFIBMHMND = 5;
+    uint32 LPDMPNABBEN = 6;
+    uint32 EDBOHDJDJAA = 7;
+    uint32 retcode = 8;
+    POHIEKPHMGH PDPMLDMOMPH = 11;
+}

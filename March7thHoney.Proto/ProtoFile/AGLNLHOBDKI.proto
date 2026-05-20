@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum AGLNLHOBDKI {
+    AGLNLHOBDKI_JODHOLNLEJJ = 0;
+    AGLNLHOBDKI_AIGCCAHHKBF = 1;
+    AGLNLHOBDKI_DBNAOOPMMHP = 2;
+}

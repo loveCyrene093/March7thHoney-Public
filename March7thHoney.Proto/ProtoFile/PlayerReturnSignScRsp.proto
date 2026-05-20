@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "KEOLEHHLHHM.proto";
+
+message PlayerReturnSignScRsp {
+    uint32 retcode = 10;
+    repeated ItemList EBCAEFONDJC = 13;
+    repeated KEOLEHHLHHM DMHGDPBAALN = 15;
+}

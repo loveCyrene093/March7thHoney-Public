@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarSync.proto";
+import "BasicModuleSync.proto";
+import "DPBEGBNICPG.proto";
+import "Equipment.proto";
+import "IEBAILGKMLB.proto";
+import "ItemList.proto";
+import "LAEHDNHPGCC.proto";
+import "Material.proto";
+import "MissionSync.proto";
+import "PFFDAFJLNOO.proto";
+import "PlayerBasicInfo.proto";
+import "PlayerBoardModuleSync.proto";
+import "PlayerOutfitInfo.proto";
+import "Quest.proto";
+import "Relic.proto";
+import "SyncStatus.proto";
+import "WaitDelResource.proto";
+
+message PlayerSyncScNotify {
+    AvatarSync avatar_sync = 1;
+    MissionSync mission_sync = 4;
+    repeated Relic relic_list = 5;
+    repeated Equipment equipment_list = 6;
+    repeated uint32 CJEFCMACJLG = 7;
+    repeated WaitDelResource wait_del_resource_list = 9;
+    repeated uint32 del_relic_list = 10;
+    BasicModuleSync basic_module_sync = 11;
+    repeated Material material_list = 12;
+    repeated Quest quest_list = 13;
+    PlayerBasicInfo basic_info = 14;
+    repeated DPBEGBNICPG IIBDADNFLFP = 34;
+    ItemList EDAHGEAMDCF = 69;
+    IEBAILGKMLB FFEENBPPGNG = 220;
+    repeated Material GHGKCFIFMBB = 231;
+    SyncStatus sync_status = 322;
+    uint32 total_achievement_exp = 1013;
+    PlayerOutfitInfo PlayerOutfitData = 1170;
+    repeated PFFDAFJLNOO PEFMKLKKCFJ = 1287;
+    PlayerBoardModuleSync playerboard_module_sync = 1335;
+    repeated uint32 del_equipment_list = 1474;
+    repeated LAEHDNHPGCC NAJNBCDBIHO = 1836;
+}

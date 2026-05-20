@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DNJFGOLLCCB {
+    string LGMNKILABNL = 1;
+    string CJBODNKDFAG = 2;
+    string AJLGJKMEFJL = 3;
+    string GNCPFFHBIPN = 4;
+    string COOFHIGHJDN = 5;
+    string NMBNLPOHJCM = 6;
+    string CDNBELIAJFN = 7;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message StartTrackPhotoStageScRsp {
+    uint32 retcode = 10;
+    uint32 MDILDJMPNGH = 12;
+}

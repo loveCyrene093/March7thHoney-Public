@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IJKNDKJLMEN.proto";
+
+message SyncRogueMapRoomScNotify {
+    IJKNDKJLMEN ABHDOOJJICM = 9;
+    uint32 map_id = 11;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ClockParkPlayStatus.proto";
+import "SceneBattleInfo.proto";
+
+message ClockParkHandleWaitOperationScRsp {
+    ClockParkPlayStatus NKAHDEEOHAO = 2;
+    uint32 retcode = 7;
+    uint32 NDEEBDDEOFA = 8;
+    SceneBattleInfo battle_info = 11;
+    uint32 NNFAMOJAHCH = 12;
+    uint32 IHNMHNPMHJG = 15;
+}

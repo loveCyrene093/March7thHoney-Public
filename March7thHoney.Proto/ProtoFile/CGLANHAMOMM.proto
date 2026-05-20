@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CGLANHAMOMM {
+    uint32 MOOOPAMBOFK = 3;
+    uint32 level = 7;
+    uint32 skill_id = 13;
+}

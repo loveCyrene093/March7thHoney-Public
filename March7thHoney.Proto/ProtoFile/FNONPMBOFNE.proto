@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FNONPMBOFNE {
+    bool FMIGAEFJBOK = 1;
+    uint32 unique_id = 7;
+    repeated uint32 monster_list = 10;
+    bool LJKGCMOPHIF = 13;
+    uint32 affix_id = 15;
+}

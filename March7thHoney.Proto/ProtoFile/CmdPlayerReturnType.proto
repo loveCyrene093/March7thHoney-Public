@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdPlayerReturnType {
+    GKIPMIMPDLE_PCPDHELPKEM = 0;
+    CmdPlayerReturnTakePointRewardCsReq = 4514;
+    CmdTakeReturnExtraHcoinRewardCsReq = 4533;
+    CmdTakeReturnExtraHcoinRewardScRsp = 4561;
+    CmdPlayerReturnInfoQueryScRsp = 4526;
+    CmdPlayerReturnPointChangeScNotify = 4595;
+    GKIPMIMPDLE_MKANLBAGGEO = 4558;
+    CmdPlayerReturnTakeExtraHcoinScNotify = 4537;
+    CmdPlayerReturnExtraHcoinProgressScNotify = 4507;
+    CmdPlayerReturnSignCsReq = 4510;
+    CmdHIBLMDNPOMN = 4591;
+    CmdPlayerReturnInfoQueryCsReq = 4563;
+    CmdPlayerReturnTakeRelicScRsp = 4574;
+    CmdPlayerReturnTakePointRewardScRsp = 4518;
+    CmdPlayerReturnTakeRelicCsReq = 4501;
+    CmdPlayerReturnTakeCustomRelicCsReq = 4504;
+    CmdPlayerReturnTakeCustomRelicScRsp = 4538;
+    CmdNEOADMEAIDK = 4544;
+    CmdPlayerReturnTakeRewardCsReq = 4509;
+    CmdPlayerReturnSignScRsp = 4594;
+    CmdPlayerReturnTakeRewardScRsp = 4598;
+    CmdPlayerReturnForceFinishScNotify = 4539;
+}

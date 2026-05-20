@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CECIAMENDCB {
+    CECIAMENDCB_IKLFHANDCIP = 0;
+    CECIAMENDCB_ELIDBCGHBDK = 1;
+}

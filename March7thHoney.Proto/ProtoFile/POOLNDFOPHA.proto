@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum POOLNDFOPHA {
+    POOLNDFOPHA_PCPDHELPKEM = 0;
+    POOLNDFOPHA_NOKNNMPMGGN = 1;
+    POOLNDFOPHA_IAPBMEIOHGG = 2;
+    POOLNDFOPHA_DEAHALKOCBD = 3;
+    POOLNDFOPHA_MEPKJNKAHOA = 4;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EEBPHJCNBFO.proto";
+
+message StartRaidCsReq {
+    repeated EEBPHJCNBFO BDBJKKOJODC = 2;
+    uint32 is_save = 3;
+    uint32 prop_entity_id = 4;
+    uint32 world_level = 8;
+    uint32 raid_id = 9;
+    repeated uint32 avatar_list = 11;
+}

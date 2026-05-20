@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EquipRelic.proto";
+
+message ChallengePeakBuild {
+    uint32 equipment_unique_id = 4;
+    repeated EquipRelic relic_list = 5;
+    uint32 avatar_type = 6;
+    uint32 CBHKFOEOMFF = 12;
+    uint32 avatar_id = 13;
+}

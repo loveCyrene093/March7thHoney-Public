@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightConsumableUpdateInfo {
+    int32 item_stack_count = 10;
+    uint32 num = 11;
+    uint32 item_id = 14;
+}

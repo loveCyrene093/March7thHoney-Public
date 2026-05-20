@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MessageChatData.proto";
+import "SourceData.proto";
+import "ChatMessageExtra.proto";
+
+message ChatMessageData {
+    uint64 create_time = 4;
+    SourceData SourceData = 8;
+    repeated MessageChatData message_datas = 9;
+    ChatMessageExtra extra_a = 10;
+    ChatMessageExtra extra_b = 11;
+}

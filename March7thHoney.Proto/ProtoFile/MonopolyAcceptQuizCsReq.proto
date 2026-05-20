@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NOKKAPGBNHP.proto";
+
+message MonopolyAcceptQuizCsReq {
+    repeated NOKKAPGBNHP NNKHMIEJPOI = 15;
+}

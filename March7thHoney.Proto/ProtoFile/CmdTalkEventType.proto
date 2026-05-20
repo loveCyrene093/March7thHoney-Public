@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTalkEventType {
+    KPDFEMPKMAD_CCINLAACDAL = 0;
+    CmdFinishFirstTalkByPerformanceNpcCsReq = 2174;
+    CmdFinishFirstTalkNpcScRsp = 2198;
+    CmdKBEEJOEHONO = 2163;
+    CmdGetTalkEventRewardCsReq = 2194;
+    CmdGetFirstTalkNpcCsReq = 2114;
+    CmdCHKNIKPEPAM = 2126;
+    CmdFinishFirstTalkNpcCsReq = 2109;
+    CmdFinishFirstTalkByPerformanceNpcScRsp = 2137;
+    CmdGetNpcTakenRewardScRsp = 2110;
+    CmdTakeTalkRewardScRsp = 2195;
+    CmdGetReceivedTalkEventsCsReq = 2191;
+    CmdGetFirstTalkByPerformanceNpcCsReq = 2139;
+    CmdGetFirstTalkNpcScRsp = 2118;
+    CmdGetFirstTalkByPerformanceNpcScRsp = 2101;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetBattleCollegeDataScRsp {
+    uint32 LCDALEEEDJJ = 5;
+    uint32 retcode = 6;
+    repeated uint32 finished_college_id_list = 12;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IADMEOMIIFI {
+    uint32 battle_event_id = 7;
+}

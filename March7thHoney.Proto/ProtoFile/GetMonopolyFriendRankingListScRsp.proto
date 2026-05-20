@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GetMonopolyFriendRankingListCsReq.proto";
+
+message GetMonopolyFriendRankingListScRsp {
+    uint32 retcode = 2;
+    repeated GetMonopolyFriendRankingListCsReq JPNALKEFHOH = 4;
+    GetMonopolyFriendRankingListCsReq KNNIAEBMHGM = 6;
+}

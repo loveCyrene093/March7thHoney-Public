@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JEEHBJPIAKE.proto";
+import "JFPBEDFKINJ.proto";
+import "JIKDCCPDJPG.proto";
+import "MLKBKNNKFEA.proto";
+import "OPGJPLKHLKJ.proto";
+
+message GICMHIBPIGI {
+    uint32 PFCMBDCFFMG = 12;
+    oneof OGJDIOHNFDE {
+        JFPBEDFKINJ LLCHEAMGFBN = 147;
+        JEEHBJPIAKE LCHAOHEJBOC = 570;
+        OPGJPLKHLKJ KHHKJKADACB = 1245;
+        JIKDCCPDJPG finish_info = 1537;
+        MLKBKNNKFEA KGKOHNAACEN = 1654;
+    }
+}

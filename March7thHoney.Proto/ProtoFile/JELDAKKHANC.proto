@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NANODNMFFFH.proto";
+
+message JELDAKKHANC {
+    NANODNMFFFH JDOMCFFACAL = 6;
+    NANODNMFFFH AOPAKLIFBAL = 15;
+}

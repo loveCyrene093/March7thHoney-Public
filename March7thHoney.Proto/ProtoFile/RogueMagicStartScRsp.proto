@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AHOLOHCLLKD.proto";
+import "JKAIDKIGEGP.proto";
+
+message RogueMagicStartScRsp {
+    JKAIDKIGEGP AFLJJJFCBIN = 1;
+    uint32 retcode = 9;
+    AHOLOHCLLKD HHDLEADBJGN = 14;
+}

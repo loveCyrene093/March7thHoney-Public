@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+
+message ComposeSelectedRelicCsReq {
+    uint32 compose_relic_id = 1;
+    uint32 count = 2;
+    uint32 compose_id = 3;
+    ItemCostData compose_item_list = 7;
+    uint32 main_affix_id = 11;
+    repeated uint32 sub_affix_id_list = 12;
+    ItemCostData wr_item_list = 14;
+}

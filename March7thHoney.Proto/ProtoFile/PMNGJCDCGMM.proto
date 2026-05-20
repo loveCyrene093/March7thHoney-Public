@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGCEJDCHKBA.proto";
+import "DENBKAOHBAM.proto";
+
+message PMNGJCDCGMM {
+    BGCEJDCHKBA type = 1;
+    uint32 config_id = 2;
+    uint32 unique_id = 3;
+    uint32 level = 4;
+    repeated DENBKAOHBAM switch_list = 5;
+}

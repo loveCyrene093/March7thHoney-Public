@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMuseumType {
+    ODOODGHAIJN_PCPDHELPKEM = 0;
+    CmdSetStuffToAreaCsReq = 4314;
+    CmdUpgradeAreaStatCsReq = 4304;
+    CmdIBFCJBCKENI = 4400;
+    CmdFinishCurTurnCsReq = 4339;
+    CmdMuseumRandomEventSelectCsReq = 4358;
+    CmdSyncMuseumTargetStartNotify = 4389;
+    CmdSetStuffToAreaScRsp = 4318;
+    CmdSyncMuseumRandomEventStartScNotify = 4333;
+    CmdTakeCollectRewardRsp = 4328;
+    CmdGetMuseumInfoCsReq = 4391;
+    CmdBuyNpcStuffScRsp = 4395;
+    CmdTakeCollectRewardCsReq = 4321;
+    CmdMuseumRandomEventSelectScRsp = 4344;
+    CmdSyncMuseumFundsChangedScNotify = 4332;
+    CmdMuseumRandomEventQueryCsReq = 4361;
+    CmdFinishCurTurnScRsp = 4301;
+    CmdSyncGetExhibitScNotify = 4326;
+    CmdGetMuseumInfoScRsp = 4310;
+    CmdUpgradeAreaCsReq = 4374;
+    CmdSyncMuseumTargetRewardNotify = 4357;
+    CmdBuyNpcStuffCsReq = 4394;
+    CmdUpgradeAreaStatScRsp = 4338;
+    CmdRemoveStuffFromAreaScRsp = 4398;
+    CmdRemoveStuffFromAreaCsReq = 4309;
+    CmdMuseumRandomEventQueryScRsp = 4307;
+    CmdSyncMuseumInfoChangedScNotify = 4372;
+    CmdUpgradeAreaScRsp = 4337;
+    CmdSyncMuseumTargetMissionFinishNotify = 4396;
+    CmdSyncGetStuffScNotify = 4363;
+}

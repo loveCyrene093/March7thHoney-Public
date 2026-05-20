@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JBJIKJGEBAH.proto";
+import "KNHKBHADJGE.proto";
+
+message TakeOffSkillCoreScRsp {
+    uint32 retcode = 2;
+    JBJIKJGEBAH GCNDOIMACAN = 11;
+    KNHKBHADJGE HKOHIHCBGAA = 13;
+}

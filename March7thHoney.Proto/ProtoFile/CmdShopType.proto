@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdShopType {
+    FMOJCFMPCNA_PCPDHELPKEM = 0;
+    CmdEFLGLOKNBKP = 1518;
+    CmdCityShopInfoScNotify = 1509;
+    CmdBuyGoodsCsReq = 1594;
+    CmdTakeCityShopRewardCsReq = 1514;
+    CmdBuyGoodsScRsp = 1595;
+    CmdGetShopListScRsp = 1510;
+    CmdGetShopListCsReq = 1591;
+}

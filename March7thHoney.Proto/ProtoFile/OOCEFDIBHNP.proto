@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum OOCEFDIBHNP {
+    OOCEFDIBHNP_PCPDHELPKEM = 0;
+    OOCEFDIBHNP_LEDEEAHCDKI = 1;
+    OOCEFDIBHNP_HCEKFEENNCA = 2;
+}

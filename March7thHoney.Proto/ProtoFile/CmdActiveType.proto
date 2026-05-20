@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdActiveType {
+    DOILPDPENLJ_PCPDHELPKEM = 0;
+    CmdGetActiveActivityDataScRsp = 9570;
+    CmdActiveActivityDataChangeScNotify = 9565;
+    CmdTakeActiveActivityRewardCsReq = 9552;
+    CmdGetActivityActiveDataCsReq = 9551;
+    CmdTakeActiveActivityRewardScRsp = 9560;
+}

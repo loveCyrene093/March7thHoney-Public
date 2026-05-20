@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetGameplayBirthdayScRsp {
+    uint32 retcode = 12;
+    uint32 birthday = 13;
+}

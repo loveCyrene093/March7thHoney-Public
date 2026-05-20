@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ADHNJADIJAC.proto";
+import "LobbyModifyType.proto";
+
+message LobbySyncInfoScNotify {
+    LobbyModifyType type = 8;
+    uint32 uid = 9;
+    repeated ADHNJADIJAC BIEBFHECEPM = 13;
+}

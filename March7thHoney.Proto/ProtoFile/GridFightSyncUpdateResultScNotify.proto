@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightSyncResultData.proto";
+
+message GridFightSyncUpdateResultScNotify {
+    repeated GridFightSyncResultData sync_result_data_list = 8;
+}

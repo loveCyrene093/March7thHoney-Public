@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EMBCNJNGMKI.proto";
+
+message CONKDELHKGB {
+    uint32 LOIJLIKOMJN = 1;
+    uint32 rank = 2;
+    uint32 MBAFIOCLMAI = 3;
+    uint32 ADEAJENPGHN = 4;
+    repeated EMBCNJNGMKI CJECINJPIIJ = 5;
+    uint32 KHIIKNBHMHC = 6;
+}

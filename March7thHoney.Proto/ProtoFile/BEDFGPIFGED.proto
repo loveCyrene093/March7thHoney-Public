@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message BEDFGPIFGED {
+    uint32 retcode = 2;
+    uint32 NNFAMOJAHCH = 4;
+}

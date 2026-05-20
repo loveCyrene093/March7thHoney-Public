@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ServerPrefs {
+    uint32 server_prefs_id = 8;
+    bytes data = 10;
+}

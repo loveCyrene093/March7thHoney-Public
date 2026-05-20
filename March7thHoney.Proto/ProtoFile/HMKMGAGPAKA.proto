@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HMKMGAGPAKA {
+    uint32 item_id = 5;
+    uint32 item_count = 12;
+}

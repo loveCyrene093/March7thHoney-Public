@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GBPEEKKNCOK {
+    uint32 CACHGIFMPMO = 5;
+    string CGDOBAOAHMB = 12;
+}

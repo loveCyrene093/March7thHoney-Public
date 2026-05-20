@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IdleLiveManualFinishQuestionCsReq {
+    uint32 KOEDCMICKNJ = 3;
+    bool OFOCDHEPMOI = 7;
+    uint32 CBOJNKCBEDH = 12;
+    uint32 MLDBDNCCJDD = 15;
+}

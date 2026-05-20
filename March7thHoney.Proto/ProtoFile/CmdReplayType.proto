@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdReplayType {
+    EDFKEEKMFIB_PCPDHELPKEM = 0;
+    CmdGetReplayTokenCsReq = 3591;
+    CmdAHCAHFFNHLD = 3595;
+    EDFKEEKMFIB_MLJMDFDNOOE = 3594;
+    CmdEKGAMNCMOEJ = 3510;
+}

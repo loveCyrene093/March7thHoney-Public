@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum PunkLordAttackerStatus {
+    IHDHFKJHAAH_PCPDHELPKEM = 0;
+    IHDHFKJHAAH_BIIOKJHNBPN = 1;
+    IHDHFKJHAAH_GHDILMMHECB = 2;
+    IHDHFKJHAAH_CBEDCEDMJHA = 3;
+}

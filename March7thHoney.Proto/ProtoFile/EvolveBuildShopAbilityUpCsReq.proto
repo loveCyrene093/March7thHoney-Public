@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EvolveBuildShopAbilityUpCsReq {
+    uint32 NJPCMDNHOFL = 3;
+    uint32 level = 5;
+}

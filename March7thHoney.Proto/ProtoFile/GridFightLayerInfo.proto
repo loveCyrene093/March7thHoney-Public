@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightRouteInfo.proto";
+
+message GridFightLayerInfo {
+    bool route_is_pending = 11;
+    GridFightRouteInfo route_info = 1965;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LobbyGridFightInfo {
+    repeated uint32 IHGBBHEBLKL = 1;
+    uint32 gold = 2;
+    uint32 score_id = 3;
+    string FCFGBADCGCC = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetRollShopInfoScRsp {
+    repeated uint32 shop_group_id_list = 2;
+    uint32 gacha_random = 3;
+    uint32 roll_shop_id = 7;
+    uint32 retcode = 12;
+}

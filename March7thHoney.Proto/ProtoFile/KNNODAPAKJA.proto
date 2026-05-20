@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AFFIMBGBMBJ.proto";
+
+message KNNODAPAKJA {
+    uint32 OODPDEBICHF = 3;
+    repeated uint32 JILAADEFNGD = 4;
+    repeated AFFIMBGBMBJ PADDEJDLFLA = 7;
+}

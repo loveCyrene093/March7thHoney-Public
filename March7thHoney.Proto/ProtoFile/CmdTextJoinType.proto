@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdTextJoinType {
+    CKCEEBOKLJJ_PCPDHELPKEM = 0;
+    CmdINCJNJGEHCD = 3810;
+    CmdTextJoinBatchSaveScRsp = 3818;
+    CmdTextJoinBatchSaveCsReq = 3814;
+    CmdTextJoinQueryScRsp = 3895;
+    CmdTextJoinQueryCsReq = 3894;
+    CKCEEBOKLJJ_LNEAFFIAJJL = 3891;
+}

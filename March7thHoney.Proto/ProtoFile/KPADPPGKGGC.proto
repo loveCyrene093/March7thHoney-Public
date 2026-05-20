@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+import "OLJJJBCKLDK.proto";
+import "RogueCommonBuffSelectSourceType.proto";
+
+message KPADPPGKGGC {
+    uint32 LJEECOOPMLM = 1;
+    uint32 MCHAFKKFEDK = 2;
+    bool OJAPMNAPIFG = 3;
+    uint32 OPIDHKEKPKB = 4;
+    ItemCostData NICEPKDHFDE = 5;
+    repeated OLJJJBCKLDK BKBKLONBPOB = 7;
+    uint32 MMINJCFNADK = 8;
+    repeated uint32 CHPFCFGNCAG = 9;
+    uint32 KOOHHHAOBEO = 10;
+    RogueCommonBuffSelectSourceType ALFHNEHOBJA = 11;
+    uint32 EJALOMHNGCJ = 12;
+    uint32 LDMEEJCCKIH = 13;
+    uint32 MDHOHBHBGNC = 14;
+}

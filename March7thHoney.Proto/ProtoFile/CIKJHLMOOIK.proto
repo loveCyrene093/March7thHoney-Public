@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JOLDDNMGBHD.proto";
+import "PunkLordAttackerStatus.proto";
+import "PunkLordMonsterBasicInfo.proto";
+
+message CIKJHLMOOIK {
+    PunkLordAttackerStatus DHHALBIANOG = 2;
+    uint32 GGGOOMKOJBF = 4;
+    PunkLordMonsterBasicInfo basic_info = 11;
+    JOLDDNMGBHD FHPOILIMKII = 12;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DCMJCNOKKNN.proto";
+import "GEOAAAOAPGK.proto";
+import "MKPDCILELAA.proto";
+import "PLIEEDKHGNN.proto";
+
+message GetAlleyInfoScRsp {
+    GEOAAAOAPGK HBMJIGGBFKP = 1;
+    uint32 level = 4;
+    uint32 JONKHPKNNLD = 5;
+    repeated DCMJCNOKKNN PADDEJDLFLA = 6;
+    uint32 cur_fund = 7;
+    MKPDCILELAA JKCDJIPNLPI = 8;
+    repeated uint32 IBNPANJGKOI = 10;
+    PLIEEDKHGNN NLEJPMEDBNH = 11;
+    map<uint32, uint32> BENEIFAHIGJ = 12;
+    repeated uint32 LAFIBGBIIIE = 13;
+    repeated uint32 GCFECPJKDMK = 14;
+    uint32 retcode = 15;
+}

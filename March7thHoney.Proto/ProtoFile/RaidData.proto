@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "RaidTargetInfo.proto";
+
+message RaidData {
+    uint32 world_level = 6;
+    uint32 raid_id = 7;
+    repeated RaidTargetInfo raid_target_info = 15;
+}

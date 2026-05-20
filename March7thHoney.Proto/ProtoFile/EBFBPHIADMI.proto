@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EBFBPHIADMI {
+    uint32 visitor_id = 1;
+    bool is_meet = 2;
+    uint32 FGCOHAAGIEG = 11;
+}

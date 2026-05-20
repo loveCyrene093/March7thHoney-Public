@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetPhoneDataScRsp {
+    uint32 retcode = 1;
+    repeated uint32 owned_phone_themes = 2;
+    uint32 cur_phone_case = 3;
+    uint32 cur_phone_theme = 5;
+    repeated uint32 owned_phone_cases = 7;
+    repeated uint32 owned_chat_bubbles = 8;
+    uint32 cur_chat_bubble = 9;
+}

@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdFriendType {
+    GEGHIEHNEEP_PCPDHELPKEM = 0;
+    CmdGetFriendApplyListInfoScRsp = 2918;
+    CmdSyncHandleFriendScNotify = 2901;
+    CmdGetPlatformPlayerInfoScRsp = 2949;
+    CmdGetFriendRecommendListInfoScRsp = 2961;
+    CmdGetFriendRecommendLineupDetailCsReq = 2952;
+    CmdGetAssistListCsReq = 2928;
+    CmdTakeAssistRewardScRsp = 2920;
+    CmdABNLKIDDIOK = 3000;
+    CmdDeleteFriendCsReq = 2974;
+    CmdGetAssistListScRsp = 2965;
+    CmdReportPlayerCsReq = 2944;
+    CmdGetPlayerDetailInfoCsReq = 2994;
+    CmdGetFriendDevelopmentInfoCsReq = 2977;
+    CmdGetFriendApplyListInfoCsReq = 2914;
+    CmdGetFriendRecommendLineupScRsp = 2988;
+    CmdGetCurAssistScRsp = 2917;
+    CmdSetFriendMarkCsReq = 2971;
+    CmdGetPlatformPlayerInfoCsReq = 2902;
+    CmdAddBlacklistCsReq = 2938;
+    CmdGetFriendRecommendLineupCsReq = 2906;
+    CmdGetFriendLoginInfoCsReq = 2966;
+    CmdSetFriendRemarkNameCsReq = 2907;
+    CmdCurAssistChangedNotify = 2993;
+    CmdGetFriendListInfoCsReq = 2991;
+    CmdGetAssistHistoryScRsp = 2925;
+    CmdSyncDeleteFriendScNotify = 2904;
+    CmdGetFriendBattleRecordDetailScRsp = 2912;
+    CmdSyncAddBlacklistScNotify = 2932;
+    CmdSetFriendMarkScRsp = 2936;
+    CmdTakeAssistRewardCsReq = 2979;
+    CmdDeleteFriendScRsp = 2937;
+    CmdApplyFriendScRsp = 2998;
+    CmdSearchPlayerCsReq = 2957;
+    CmdSetAssistCsReq = 2973;
+    CmdSyncApplyFriendScNotify = 2963;
+    CmdGetFriendAssistListCsReq = 2903;
+    CmdHandleFriendScRsp = 2939;
+    CmdDeleteBlacklistScRsp = 2996;
+    CmdGetFriendBattleRecordDetailCsReq = 2929;
+    CmdGetFriendAssistListScRsp = 2992;
+    CmdDeleteBlacklistCsReq = 2989;
+    CmdApplyFriendCsReq = 2909;
+    CmdGetFriendRecommendLineupDetailScRsp = 2990;
+    CmdSetAllowOtherApplyFriendCsReq = 2911;
+    CmdHandleFriendCsReq = 2926;
+    CmdGetCurAssistCsReq = 2908;
+    CmdGetFriendListInfoScRsp = 2910;
+    CmdSetFriendRemarkNameScRsp = 2958;
+    CmdGetAssistHistoryCsReq = 2951;
+    CmdSetForbidOtherApplyFriendScRsp = 2930;
+    CmdGetPlayerDetailInfoScRsp = 2995;
+    CmdGetFriendDevelopmentInfoScRsp = 2916;
+    CmdAddBlacklistScRsp = 2972;
+    CmdGetFriendRecommendListInfoCsReq = 2933;
+    CmdGetFriendLoginInfoScRsp = 2905;
+    CmdSetAssistScRsp = 2953;
+    CmdSearchPlayerScRsp = 2921;
+    CmdNewAssistHistoryNotify = 2954;
+}

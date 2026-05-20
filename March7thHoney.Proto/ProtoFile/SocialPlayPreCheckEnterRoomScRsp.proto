@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SocialPlayPreCheckEnterRoomScRsp {
+    uint32 retcode = 2;
+    int64 DHLGCEGONIB = 6;
+}

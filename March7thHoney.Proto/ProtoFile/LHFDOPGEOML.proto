@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LHFDOPGEOML {
+    uint32 ANLGPLOLMOH = 3;
+    map<string, uint32> OGHGLMGJGEM = 4;
+}

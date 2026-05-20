@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GEEMGPFMHHI {
+    GEEMGPFMHHI_LHGABCOIGJA = 0;
+    GEEMGPFMHHI_IIOOAJANMGG = 1;
+    GEEMGPFMHHI_HCMJKBDKJNK = 2;
+}

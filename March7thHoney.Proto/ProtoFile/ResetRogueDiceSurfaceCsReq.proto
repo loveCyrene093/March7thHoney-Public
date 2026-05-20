@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GLENEKHDKLJ.proto";
+
+message ResetRogueDiceSurfaceCsReq {
+    GLENEKHDKLJ BDJDBMICKKP = 6;
+}

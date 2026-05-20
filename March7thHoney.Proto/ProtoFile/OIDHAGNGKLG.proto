@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OIDHAGNGKLG {
+    int32 x = 1;
+    int32 z = 2;
+    int32 y = 12;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MotionInfo.proto";
+import "Vector.proto";
+
+message HIBBBJBENHC {
+    MotionInfo motion = 11;
+    uint32 BIAGIFIKDNA = 12;
+    repeated Vector BLLLDCMOAAI = 13;
+    bool PIJMKHMDHAE = 14;
+}

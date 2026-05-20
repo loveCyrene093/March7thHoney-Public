@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PCEJGBDBEDH {
+    uint32 KGKFADDEGNJ = 4;
+    uint32 dress_role_unique_id = 6;
+    uint32 role_id = 15;
+}

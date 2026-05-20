@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message TrainRefreshTimeNotify {
+    uint64 train_refresh_time = 3;
+}

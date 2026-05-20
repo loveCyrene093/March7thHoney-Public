@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChangeStoryLineAction.proto";
+
+message ChangeStoryLineFinishScNotify {
+    uint32 KHDNGFKOFLH = 4;
+    ChangeStoryLineAction action = 5;
+    bool GOHCEOLEHLG = 9;
+    uint32 cur_story_line_id = 13;
+}

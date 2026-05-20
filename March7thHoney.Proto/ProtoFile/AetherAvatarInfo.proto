@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HLJMCIBOBJO.proto";
+import "SpBarInfo.proto";
+
+message AetherAvatarInfo {
+    uint32 id = 1;
+    uint32 index = 2;
+    uint32 promotion = 3;
+    repeated uint32 OKMFEGDIONG = 4;
+    HLJMCIBOBJO KBNCLFCGHCK = 5;
+    SpBarInfo sp_bar = 6;
+}

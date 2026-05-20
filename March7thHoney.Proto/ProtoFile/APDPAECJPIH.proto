@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum APDPAECJPIH {
+    APDPAECJPIH_AOBEDAEIJKH = 0;
+    APDPAECJPIH_ALNIBPOODKH = 1;
+    APDPAECJPIH_PPGKHPEAKFN = 2;
+}

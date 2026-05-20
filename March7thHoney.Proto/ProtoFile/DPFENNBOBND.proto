@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GNANMEADPBD.proto";
+import "ItemList.proto";
+
+message DPFENNBOBND {
+    ItemList reward = 6;
+    GNANMEADPBD EFJBFBENGKG = 9;
+    uint32 retcode = 11;
+    repeated uint32 BLKACGBDAHB = 14;
+}

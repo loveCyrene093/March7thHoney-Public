@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TrainPartyPassengerInfo.proto";
+
+message TrainPartyGamePlaySettleNotify {
+    repeated uint32 IENGEPCHHMC = 5;
+    uint32 unlock_area_num = 9;
+    uint32 record_id = 10;
+    TrainPartyPassengerInfo FIJHIEOANNM = 12;
+}

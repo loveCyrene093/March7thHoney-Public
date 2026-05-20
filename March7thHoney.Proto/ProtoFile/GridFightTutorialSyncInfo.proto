@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightCurrentTask.proto";
+
+message GridFightTutorialSyncInfo {
+    oneof KCOCCGEOECO {
+        GridFightCurrentTask current_task = 9;
+        uint32 start_grid_fight_tutorial_id = 10;
+        uint32 finish_grid_fight_tutorial_id = 11;
+    }
+}

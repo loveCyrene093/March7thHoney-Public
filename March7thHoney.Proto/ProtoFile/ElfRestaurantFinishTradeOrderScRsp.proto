@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemCostData.proto";
+import "ItemList.proto";
+
+message ElfRestaurantFinishTradeOrderScRsp {
+    uint32 IIMKIFDKJHO = 2;
+    ItemList PPMAFCBNAJF = 5;
+    uint32 retcode = 9;
+    ItemCostData KBEFKONPKGJ = 15;
+}

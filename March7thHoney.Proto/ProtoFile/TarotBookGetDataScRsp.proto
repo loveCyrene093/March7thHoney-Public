@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CDHOKMAAMFD.proto";
+import "GBPBMFCODPF.proto";
+
+message TarotBookGetDataScRsp {
+    uint32 FBOFMOPCMCD = 2;
+    CDHOKMAAMFD CPEMLIAGBKB = 3;
+    uint32 JGKCBGBGMOD = 7;
+    GBPBMFCODPF JNKHOKJHBBO = 8;
+    uint32 retcode = 9;
+    uint32 energy_info = 13;
+    map<uint32, uint32> CJLGPCAOPFC = 14;
+    map<uint32, uint32> CCCKMACKLKG = 15;
+}

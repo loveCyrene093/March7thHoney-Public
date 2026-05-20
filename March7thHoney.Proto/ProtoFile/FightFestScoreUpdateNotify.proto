@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FightFestScoreUpdateNotify {
+    uint32 LLIAPBILLLM = 13;
+    uint32 score_id = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KFGAPLDLHPF.proto";
+
+message GFADBCMGFFF {
+    repeated KFGAPLDLHPF HBNECEELJBJ = 3;
+    uint32 panel_id = 13;
+}

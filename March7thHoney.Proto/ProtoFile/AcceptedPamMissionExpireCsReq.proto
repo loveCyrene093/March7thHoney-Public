@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AcceptedPamMissionExpireCsReq {
+    uint32 main_mission_id = 6;
+}

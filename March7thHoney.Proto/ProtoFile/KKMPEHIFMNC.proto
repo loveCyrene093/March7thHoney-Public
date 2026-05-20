@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KKMPEHIFMNC {
+    uint32 JBNFILFNFMC = 7;
+    bool DKJFDLKJLBE = 9;
+    uint32 CAHNHPANKIC = 13;
+    uint32 PAMHEDDIEJA = 14;
+}

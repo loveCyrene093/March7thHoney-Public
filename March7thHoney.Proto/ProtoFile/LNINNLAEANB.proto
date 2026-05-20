@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message LNINNLAEANB {
+    ItemList item_list = 4;
+    uint32 ICDFDOKFLAK = 5;
+    uint32 JFNNPEODINO = 13;
+}

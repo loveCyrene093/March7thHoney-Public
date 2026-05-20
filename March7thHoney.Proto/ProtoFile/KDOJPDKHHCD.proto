@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AAPCAHCHMFN.proto";
+import "AHDICMGKLMB.proto";
+import "BLMLCCDEOPP.proto";
+import "CIDLPPKAJPO.proto";
+import "COBPAMNPPNH.proto";
+import "DEEMOEKEECM.proto";
+import "DIMKCEBGKKN.proto";
+import "DJDACJOJGLE.proto";
+import "EPJMDNCPJME.proto";
+import "FCLDNHOHPII.proto";
+import "FLGENHNODNI.proto";
+import "GCGFNMNAFEK.proto";
+import "HBLLDKAFIII.proto";
+import "HHMMGJABOCB.proto";
+import "ICCCIJAKOJL.proto";
+import "LKDFOOJMHIE.proto";
+import "LLJODGHMADG.proto";
+import "MCAFGBPLFEH.proto";
+import "OKFLIFAODGK.proto";
+import "OKIGCEPLMKA.proto";
+import "OPDMGOACIEP.proto";
+import "PMNAALFCNMI.proto";
+import "PNDIINAHJAF.proto";
+import "POCFNJMAHMD.proto";
+
+message KDOJPDKHHCD {
+    MCAFGBPLFEH source = 208;
+    oneof NLPPPCHGGPF {
+        OKFLIFAODGK JNNCIIGOKJP = 1;
+        PMNAALFCNMI ONBNEGNKEBJ = 2;
+        uint32 KBLCCGMGKMG = 3;
+        POCFNJMAHMD MAMFDAPMOAM = 4;
+        uint32 cur_hp = 5;
+        AAPCAHCHMFN JAHLPJPCLLN = 6;
+        BLMLCCDEOPP CNDMCCDJFCF = 7;
+        HHMMGJABOCB FIOEFPCMFKE = 8;
+        DEEMOEKEECM LDBHDHFENKF = 10;
+        LKDFOOJMHIE PLJKONDBELB = 11;
+        AHDICMGKLMB PHCOBLKPMGH = 12;
+        CIDLPPKAJPO CKKGIMMDIJH = 14;
+        uint32 rogue_money = 15;
+        PNDIINAHJAF pending_action = 89;
+        ICCCIJAKOJL NIGENMMJMHN = 182;
+        DJDACJOJGLE FBCKOEIHIFH = 184;
+        OPDMGOACIEP KGLLCMIMEMF = 213;
+        HBLLDKAFIII GLJOMGJLPMH = 648;
+        uint32 JJABPPDILOK = 695;
+        uint32 JHICKEFLHNP = 727;
+        uint32 HFOEGNAMFFK = 924;
+        OKIGCEPLMKA KJDLJPIKGME = 944;
+        FCLDNHOHPII IKKMNDMELLN = 989;
+        DIMKCEBGKKN KAFMKMCPPGJ = 995;
+        COBPAMNPPNH GGHBLGFOGCA = 1442;
+        LLJODGHMADG NDOAGAKFMNL = 1488;
+        uint64 KFGBKEADAJG = 1559;
+        GCGFNMNAFEK PDHEBCMOADM = 1595;
+        EPJMDNCPJME KDCHCIFBOMG = 1644;
+        uint32 finish_pending_action_pos = 1802;
+        FLGENHNODNI BOHGEGCEGDH = 1926;
+    }
+}

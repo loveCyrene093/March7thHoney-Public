@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BJOBDIHNLPK.proto";
+import "BOCNCJANBOM.proto";
+import "CDAAOJFMALO.proto";
+import "HLJLGPIFMJD.proto";
+
+message TrainPartyHandlePendingActionCsReq {
+    uint32 queue_position = 6;
+    oneof PNKPCPFBHAA {
+        HLJLGPIFMJD MBOGNPKAMIF = 86;
+        BJOBDIHNLPK NJCHJPPFAJO = 1078;
+        CDAAOJFMALO DJGAPFPHFII = 1185;
+        BOCNCJANBOM HBKGJOAPOKB = 1601;
+    }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetChessRogueStoryAeonTalkInfoScRsp {
+    uint32 retcode = 4;
+    uint32 AHKFFCIEPDG = 9;
+    map<uint32, uint32> FOEJFEMLPPC = 11;
+}

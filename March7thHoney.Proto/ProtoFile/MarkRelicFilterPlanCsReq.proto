@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MarkRelicFilterPlanCsReq {
+    repeated uint32 IBJMBIACFEK = 2;
+    bool KBNKNAHGPHG = 10;
+    bool KIPBINBIDAE = 15;
+}

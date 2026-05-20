@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PKJGGAPLONC.proto";
+
+message ChallengePeakBossFriendLineupRecommendation {
+    repeated PKJGGAPLONC avatar_list = 1;
+    repeated uint32 finished_target_list = 2;
+    bool is_hard_mode = 8;
+    uint32 buff_id = 9;
+    bool hard_mode_has_passed = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FCMOACFMHCK {
+    uint32 id = 1;
+    uint32 JKCGCAMIFIA = 2;
+    uint32 total_progress = 3;
+}

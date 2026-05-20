@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message NNOIJJNCHJB {
+    repeated uint32 relic_ids = 1;
+    ItemList return_item_list = 9;
+    bool CIACHEIMDDM = 14;
+}

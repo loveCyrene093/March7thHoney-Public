@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KINHLMIMDIG.proto";
+import "NAKGMGHLKFP.proto";
+
+message JIKDCCPDJPG {
+    repeated KINHLMIMDIG LGIIKHCKBME = 1;
+    uint32 FBCJCKEAHCM = 3;
+    bool is_win = 5;
+    NAKGMGHLKFP DEMGBJCJGNO = 7;
+    int32 DHFKOKJIBNE = 13;
+    uint32 AKGLMBNKHLG = 14;
+    bool NHLGOCGMKBP = 15;
+}

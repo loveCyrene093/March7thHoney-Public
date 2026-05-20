@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HABFLMJEEKL.proto";
+
+message CHDLBDDHKDJ {
+    uint32 avatar_id = 1;
+    HABFLMJEEKL HLHCKPPNPNH = 2;
+    HABFLMJEEKL BNDGGNDMEMC = 3;
+    string stop_desc = 4;
+}

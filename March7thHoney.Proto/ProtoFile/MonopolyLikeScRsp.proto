@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message MonopolyLikeScRsp {
+    ItemList reward_list = 4;
+    uint32 teleport_id = 11;
+    uint32 retcode = 13;
+}

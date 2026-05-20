@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightCurrentInfo.proto";
+
+message INHDFEIOBNK {
+    GridFightCurrentInfo fight_current_info = 11;
+    uint32 retcode = 15;
+}

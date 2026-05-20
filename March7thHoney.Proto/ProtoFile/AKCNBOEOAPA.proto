@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message AKCNBOEOAPA {
+    int32 JECHJDDNHML = 6;
+    uint32 key = 7;
+}

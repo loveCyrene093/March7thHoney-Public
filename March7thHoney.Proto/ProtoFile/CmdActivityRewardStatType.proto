@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdActivityRewardStatType {
+    GMGGDILEKBN_IHBKKJGNDOF = 0;
+    CmdGetActivityRewardCountDataScRsp = 9114;
+    CmdGetActivityHotDataCsReq = 9119;
+    CmdGetActivityHotDataScRsp = 9120;
+    CmdGetActivityRewardCountDataCsReq = 9115;
+    CmdGetAllActivityRewardCountDataScRsp = 9117;
+    CmdGetAllActivityRewardCountDataCsReq = 9111;
+}

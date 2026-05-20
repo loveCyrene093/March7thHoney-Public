@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ANHCDHLNEJN.proto";
+import "FeatureSwitchType.proto";
+
+message CENOIEMJPKK {
+    FeatureSwitchType type = 1;
+    repeated ANHCDHLNEJN JKMBDCBOFOG = 2;
+    bool OOPCLHPKJBO = 3;
+}

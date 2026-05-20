@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightRecycleRoleCsReq {
+    uint32 unique_id = 4;
+}

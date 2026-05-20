@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "NNOIJJNCHJB.proto";
+
+message RogueTournUseSuperRewardKeyScRsp {
+    NNOIJJNCHJB HICNFJDGGGL = 1;
+    uint32 retcode = 13;
+    ItemList drop_data = 14;
+    ItemList reward = 15;
+}

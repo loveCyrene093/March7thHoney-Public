@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KIEGBDIBDCE {
+    uint32 event_id = 7;
+    uint32 NMOECEHNLAC = 10;
+    uint32 KOEDCMICKNJ = 11;
+    repeated uint32 LPFDKHDHLCD = 12;
+    uint32 KEKAEPDEJJP = 13;
+}

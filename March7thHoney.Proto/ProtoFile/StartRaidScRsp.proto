@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FNJJCIGJIKC.proto";
+
+message StartRaidScRsp {
+    uint32 retcode = 10;
+    FNJJCIGJIKC scene = 14;
+}

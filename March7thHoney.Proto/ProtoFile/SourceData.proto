@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BKACBGFDDDA.proto";
+import "COOCLIPGCEH.proto";
+
+message SourceData {
+    BKACBGFDDDA NIHAJMHKOBC = 1;
+    oneof FPCDPDPHKJJ {
+        uint32 uid = 11;
+        COOCLIPGCEH role_goods_info = 12;
+    }
+}

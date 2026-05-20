@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OMJLLILGAEP {
+    float y = 2;
+    uint64 KHAJDKDHPGD = 3;
+    float x = 5;
+    float KCCFCMAKDLL = 9;
+    float z = 10;
+}

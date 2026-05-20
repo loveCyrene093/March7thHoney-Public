@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ODONLHDAPKB.proto";
+
+message DailyFirstEnterMonopolyActivityScRsp {
+    ODONLHDAPKB EOBENDPKFBO = 3;
+    uint32 LFGMMAPKDIC = 4;
+    uint32 retcode = 9;
+    bool LNEPHGMEJHJ = 13;
+    int64 CILPIJNOIAG = 14;
+}

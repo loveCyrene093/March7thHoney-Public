@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeStageInfo.proto";
+
+message Challenge {
+    uint32 score_two = 1;
+    bool DIOHKMPPKHA = 2;
+    uint32 record_id = 5;
+    uint32 taken_reward = 6;
+    uint32 score_id = 8;
+    uint32 challenge_id = 9;
+    ChallengeStageInfo stage_info = 10;
+    uint32 star = 14;
+}

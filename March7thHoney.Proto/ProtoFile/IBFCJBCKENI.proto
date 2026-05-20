@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IBFCJBCKENI {
+    uint32 GBHLNDOOLLG = 2;
+    uint32 cur_fund = 9;
+    uint32 GKFEGIBGEGI = 12;
+    uint32 DOBCFDEIMKA = 15;
+}

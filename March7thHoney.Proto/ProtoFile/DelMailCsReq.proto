@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DelMailCsReq {
+    repeated uint32 id_list = 7;
+}

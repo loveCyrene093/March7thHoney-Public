@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message IdleLiveUpdateLiveRoomTitleCsReq {
+    oneof NLPPPCHGGPF {
+        string title = 2;
+        uint32 FCOKOGNOGCA = 8;
+    }
+}

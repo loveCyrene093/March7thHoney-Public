@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GBHHOMHNLKD.proto";
+import "JIBMJCBNDKK.proto";
+
+message SyncRogueCommonDialogueOptionFinishScNotify {
+    uint32 AMADFJNHMFF = 6;
+    GBHHOMHNLKD KAMMBMPFAEC = 10;
+    JIBMJCBNDKK LFPLCDMNNAP = 11;
+    uint32 HOHANPJNANA = 14;
+}

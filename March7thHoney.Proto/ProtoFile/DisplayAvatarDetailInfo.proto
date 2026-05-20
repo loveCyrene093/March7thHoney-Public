@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarSkillTree.proto";
+import "DisplayEquipmentInfo.proto";
+import "DisplayRelicInfo.proto";
+
+message DisplayAvatarDetailInfo {
+    uint32 dressed_skin_id = 1;
+    uint32 rank = 2;
+    uint32 pos = 5;
+    uint32 level = 7;
+    uint32 exp = 8;
+    uint32 enhanced_id = 9;
+    repeated AvatarSkillTree skilltree_list = 11;
+    DisplayEquipmentInfo equipment = 12;
+    repeated DisplayRelicInfo relic_list = 13;
+    uint32 avatar_id = 14;
+    uint32 promotion = 15;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DOJACNBCEEH.proto";
+import "KOPNFPPIFCI.proto";
+
+message FateHouguSelectReq {
+    uint32 queue_position = 12;
+    oneof IHNMHNPMHJG {
+        DOJACNBCEEH CICGMNHMLME = 6;
+        KOPNFPPIFCI COHMGGPHIHN = 9;
+    }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum IPFAGFAPCCD {
+    IPFAGFAPCCD_PCPDHELPKEM = 0;
+    IPFAGFAPCCD_MLEMOAKKJJH = 1;
+    IPFAGFAPCCD_BAOGAMKCLMO = 2;
+}

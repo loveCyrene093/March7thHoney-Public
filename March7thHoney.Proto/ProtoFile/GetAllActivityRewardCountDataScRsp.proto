@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GFADBCMGFFF.proto";
+
+message GetAllActivityRewardCountDataScRsp {
+    uint32 retcode = 5;
+    repeated GFADBCMGFFF content_package_list = 15;
+}

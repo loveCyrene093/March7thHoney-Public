@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PICILIIFKBE {
+    uint32 DMMFMNKHFHH = 3;
+    uint32 script_id = 13;
+}

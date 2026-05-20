@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GNANMEADPBD.proto";
+
+message DOHJCPAMAFL {
+    GNANMEADPBD EFJBFBENGKG = 3;
+    uint32 retcode = 14;
+}

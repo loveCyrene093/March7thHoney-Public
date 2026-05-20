@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LHMHFNBOAGC.proto";
+
+message GetShareDataScRsp {
+    uint32 retcode = 7;
+    repeated LHMHFNBOAGC HBDKOFIEJLK = 12;
+}

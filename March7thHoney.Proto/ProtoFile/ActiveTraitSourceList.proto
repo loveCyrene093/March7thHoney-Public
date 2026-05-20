@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APHLJPLBOIF.proto";
+
+message ActiveTraitSourceList {
+    uint32 cnt = 6;
+    APHLJPLBOIF source = 14;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EMHALJPDDBL {
+    bool HNFNOKILNFE = 4;
+    repeated uint32 DOHLLMLDLMP = 7;
+    bool LBPLNLDHCBO = 9;
+    uint32 GPJHJOOIJJC = 12;
+    uint64 GIAOIMOFALH = 13;
+}

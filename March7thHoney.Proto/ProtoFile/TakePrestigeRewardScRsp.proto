@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message TakePrestigeRewardScRsp {
+    uint32 retcode = 4;
+    uint32 level = 12;
+    ItemList reward = 15;
+}

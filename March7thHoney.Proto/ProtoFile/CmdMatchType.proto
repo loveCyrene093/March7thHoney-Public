@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMatchType {
+    PCGFLPCNCLM_PCPDHELPKEM = 0;
+    CmdGetCrossInfoCsReq = 7338;
+    CmdCancelMatchCsReq = 7330;
+    CmdStartMatchCsReq = 7313;
+    CmdAAHCMMKMENA = 7307;
+    CmdJOLDJBKMHGA = 7327;
+    CmdGetCrossInfoScRsp = 7305;
+    CmdJOEPJJKIPJC = 7335;
+}

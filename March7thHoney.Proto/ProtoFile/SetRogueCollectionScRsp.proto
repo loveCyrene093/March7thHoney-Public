@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EPLGMCCNALG.proto";
+import "MMPOOBGAEKE.proto";
+
+message SetRogueCollectionScRsp {
+    repeated MMPOOBGAEKE IBNNOAJMAKE = 1;
+    repeated EPLGMCCNALG LNINOMPEBOB = 8;
+    uint32 retcode = 15;
+}

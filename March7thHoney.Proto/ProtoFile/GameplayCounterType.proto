@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GameplayCounterType {
+    GAMEPLAY_COUNTER_NONE = 0;
+    GAMEPLAY_COUNTER_MONSTER_SNEAK_VISION = 280001;
+}

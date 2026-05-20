@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CPEOBFICKMC {
+    CPEOBFICKMC_IACHJDCLJEH = 0;
+    CPEOBFICKMC_NPGIGPMEHBH = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightSupplyRoleInfo {
+    repeated uint32 grid_fight_item_list = 2;
+    uint32 role_id = 3;
+}

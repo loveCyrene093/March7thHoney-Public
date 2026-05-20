@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DailyActivityInfo.proto";
+
+message DailyActiveInfoNotify {
+    uint32 daily_active_point = 2;
+    repeated DailyActivityInfo daily_active_level_list = 9;
+    repeated uint32 daily_active_quest_id_list = 12;
+}

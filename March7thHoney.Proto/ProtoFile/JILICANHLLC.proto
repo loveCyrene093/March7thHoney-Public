@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum JILICANHLLC {
+    JILICANHLLC_PCPDHELPKEM = 0;
+    JILICANHLLC_HPJEBFFHJNP = 1;
+    JILICANHLLC_KLHDCOPPLNG = 2;
+}

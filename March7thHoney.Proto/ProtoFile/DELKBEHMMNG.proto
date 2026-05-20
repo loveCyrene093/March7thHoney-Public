@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HEKPNLEJADB.proto";
+
+message DELKBEHMMNG {
+    uint32 FEOBEPGGMEF = 10;
+    HEKPNLEJADB type = 11;
+}

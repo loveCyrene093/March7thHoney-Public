@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdDiceCombatType {
+    JPBCLHJEFMK_PCPDHELPKEM = 0;
+    CmdModifyAvatarDiceRsp = 9263;
+    CmdDiceCombatUpgradeAvatarCsReq = 9289;
+    CmdGetDiceCombatSystemDataReq = 9267;
+    CmdEJEAJOAAEMB = 9282;
+    CmdDiceCombatMainPageRollDiceCsReq = 9261;
+    CmdDiceCombatBuyShopGoodReq = 9290;
+    CmdBuyShopGoodScRsp = 9266;
+    CmdAIPEMEEDHAK = 9288;
+    CmdDiceCombatFinishPveStageCsReq = 9262;
+    CmdLAOOIHPKMOO = 9264;
+    CmdGetSystemDataRsp = 9275;
+    CmdDiceCombatModifyAvatarDiceCsReq = 9268;
+    CmdGetDiceCombatShopDataReq = 9273;
+    CmdUpgradeAvatarRsp = 9276;
+    CmdGetShopDataScRsp = 9277;
+    CmdFinishPveStageScRsp = 9265;
+    CmdAddItemRsp = 9278;
+    CmdV2FinishPveStageCsReq = 9298;
+    CmdV2FinishPveStageScRsp = 9280;
+}

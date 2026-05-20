@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message QuickStartFarmElementCsReq {
+    uint32 Count = 2;
+    uint32 world_level = 9;
+    uint32 FarmElementId = 15;
+}

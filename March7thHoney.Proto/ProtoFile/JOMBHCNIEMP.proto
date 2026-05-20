@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "EFEGKDHEMFN.proto";
+
+message JOMBHCNIEMP {
+    uint32 retcode = 7;
+    EFEGKDHEMFN FENLGGAMAPA = 12;
+}

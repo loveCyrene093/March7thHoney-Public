@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ReplayInfo.proto";
+
+message AHCAHFFNHLD {
+    uint32 retcode = 12;
+    repeated ReplayInfo LLFIBOHPAHB = 13;
+}

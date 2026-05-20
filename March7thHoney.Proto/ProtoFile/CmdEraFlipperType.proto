@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdEraFlipperType {
+    FINOGKEDFKG_PCPDHELPKEM = 0;
+    CmdResetEraFlipperDataCsReq = 6553;
+    CmdChangeEraFlipperDataCsReq = 6552;
+    CmdChangeEraFlipperDataScRsp = 6564;
+    CmdPNKDIILAIPB = 6554;
+    CmdResetEraFlipperDataScRsp = 6558;
+    CmdGetEraFlipperDataCsReq = 6551;
+    CmdEnterEraFlipperRegionScRsp = 6559;
+    CmdEnterEraFlipperDataCsReq = 6560;
+    CmdEraFlipperDataChangeScNotify = 6569;
+}

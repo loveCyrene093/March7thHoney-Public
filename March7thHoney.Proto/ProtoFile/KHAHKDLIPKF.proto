@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JDKAJMEPECF.proto";
+
+message KHAHKDLIPKF {
+    repeated JDKAJMEPECF OKBLCNGFHCL = 2;
+    repeated uint32 JNLDPFHMOJL = 13;
+}

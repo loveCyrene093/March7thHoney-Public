@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DoGachaCsReq {
+    uint32 gacha_random = 2;
+    uint32 simulate_magic = 10;
+    uint32 gacha_id = 12;
+    uint32 gacha_num = 15;
+}

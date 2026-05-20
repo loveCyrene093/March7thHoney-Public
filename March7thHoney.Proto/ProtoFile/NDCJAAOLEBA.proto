@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "APHLJPLBOIF.proto";
+
+message NDCJAAOLEBA {
+    map<uint32, double> BBJCMOFGBFI = 7;
+    APHLJPLBOIF source = 9;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NNHGOBLNCIE.proto";
+import "SceneEntityGroupInfo.proto";
+import "SceneEntityRefreshInfo.proto";
+import "SceneGroupRefreshType.proto";
+
+message GroupRefreshInfo {
+    SceneEntityGroupInfo unk1 = 1;
+    SceneGroupRefreshType refresh_type = 8;
+    uint32 group_id = 9;
+    repeated NNHGOBLNCIE DCLAKCFJCPJ = 11;
+    repeated SceneEntityRefreshInfo refresh_entity = 12;
+    uint32 state = 13;
+}

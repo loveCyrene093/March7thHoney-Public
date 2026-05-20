@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JDKJPFGJOBI.proto";
+
+message TechTreeChangeNodeStateCsRsp {
+    uint32 retcode = 3;
+    JDKJPFGJOBI op_type = 5;
+    uint32 NLGNAKKCDGO = 6;
+}

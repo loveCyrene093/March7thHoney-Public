@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChestType.proto";
+
+message ChestInfo {
+    uint32 exist_num = 4;
+    uint32 opened_num = 5;
+    ChestType chest_type = 7;
+}

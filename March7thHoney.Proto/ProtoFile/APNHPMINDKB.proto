@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BAIKMOMEJMB.proto";
+
+message APNHPMINDKB {
+    repeated BAIKMOMEJMB JJAABLCMFLP = 10;
+}

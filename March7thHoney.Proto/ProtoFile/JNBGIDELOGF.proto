@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FBBMDFDOEEF.proto";
+import "FIGFDNBIHCF.proto";
+
+message JNBGIDELOGF {
+    repeated FIGFDNBIHCF transfer_item_list = 1;
+    repeated FBBMDFDOEEF item_list = 15;
+}

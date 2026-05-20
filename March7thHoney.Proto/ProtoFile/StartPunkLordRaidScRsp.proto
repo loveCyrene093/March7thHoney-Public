@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CIKJHLMOOIK.proto";
+import "FNJJCIGJIKC.proto";
+
+message StartPunkLordRaidScRsp {
+    CIKJHLMOOIK FFCDPHMJJKG = 4;
+    uint32 retcode = 6;
+    int64 KGJJCABAHOG = 8;
+    repeated uint32 GDBIIMNJLBA = 9;
+    bool GEALJOJCJFN = 12;
+    FNJJCIGJIKC scene = 15;
+}

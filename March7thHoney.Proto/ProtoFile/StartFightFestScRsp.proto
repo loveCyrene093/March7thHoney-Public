@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FightFestType.proto";
+import "SceneBattleInfo.proto";
+
+message StartFightFestScRsp {
+    SceneBattleInfo battle_info = 6;
+    uint32 id = 8;
+    FightFestType type = 9;
+    uint32 retcode = 11;
+    uint32 event_id = 14;
+}

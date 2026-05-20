@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DAPDOHOADDB {
+    uint32 pos = 4;
+    uint32 NLOCDHMLGJH = 8;
+    uint32 count = 9;
+    uint32 BOFOOKJCJGG = 11;
+}

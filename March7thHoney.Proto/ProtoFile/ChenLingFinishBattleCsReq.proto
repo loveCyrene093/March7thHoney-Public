@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LKFNDAOGMMO.proto";
+
+message ChenLingFinishBattleCsReq {
+    uint32 PJLADGOOFKE = 6;
+    uint32 DKMPDLPEIJB = 8;
+    repeated LKFNDAOGMMO HAIOHANDIKI = 9;
+    uint32 LMIICENMOBI = 10;
+    bool is_win = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GFNMAKHPAOE.proto";
+
+message OIFJHEPAFOO {
+    GFNMAKHPAOE ONJKBENNMFC = 1;
+}

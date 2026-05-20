@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NPOFLIHNANM {
+    uint64 client_time_ms = 1;
+    uint32 retcode = 6;
+    uint64 server_time_ms = 12;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneIdentifier.proto";
+
+message EnterSceneScRsp {
+    SceneIdentifier scene_identifier = 2;
+    uint32 retcode = 10;
+    bool is_close_map = 13;
+    bool is_over_map = 14;
+}

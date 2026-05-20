@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MKPDCILELAA {
+    uint32 MDFOADMKJDL = 1;
+    uint32 PDAIGDFNPPN = 10;
+    map<uint32, uint32> AOMDBDNMBFC = 14;
+}

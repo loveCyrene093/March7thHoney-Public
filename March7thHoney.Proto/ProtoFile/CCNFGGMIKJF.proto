@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DFKBFAICDJG.proto";
+import "FightMarbleHpChangeType.proto";
+import "GPIOFJJJAMF.proto";
+import "KGCLNMHAAMM.proto";
+
+message CCNFGGMIKJF {
+    int32 attack = 1;
+    int32 max_hp = 2;
+    DFKBFAICDJG MLDGPGGEDBK = 3;
+    float time = 4;
+    uint32 skill_id = 5;
+    int32 hp = 6;
+    uint32 KDJEEKJBPAO = 7;
+    uint32 BCIEHPOHPDP = 8;
+    KGCLNMHAAMM IKAGBDAAMAG = 9;
+    KGCLNMHAAMM OAIMADEEEPE = 10;
+    GPIOFJJJAMF JALKBDBKOKC = 11;
+    KGCLNMHAAMM MBAFIOCLMAI = 12;
+    KGCLNMHAAMM IJJAKDLIPAL = 13;
+    uint32 id = 14;
+    KGCLNMHAAMM GFKKHOIMECF = 15;
+    uint32 PIPPIIFDEHA = 247;
+    bool OLKBHJNOIAD = 486;
+    uint32 level = 535;
+    float KHNNELPGKIM = 612;
+    bool IPACGBDKFNA = 686;
+    bool NBEKCEIHJAC = 706;
+    uint32 text_id = 722;
+    uint32 KFAEMIBBPHA = 763;
+    FightMarbleHpChangeType PGOIGOFLCDG = 910;
+    uint32 APEBCDDKGOG = 1015;
+    uint32 buff_id = 1144;
+    uint32 HPEOJNOOHDD = 1396;
+    uint32 EMPIGIEDOMO = 1616;
+    float ICLJEMJOOLP = 1753;
+    uint32 AKHDCMLBGKN = 1996;
+    int32 CCNJKIAOMFF = 2028;
+}

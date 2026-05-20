@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+import "MailType.proto";
+
+message ClientMail {
+    int64 time = 1;
+    uint32 id = 2;
+    bool is_read = 3;
+    string content = 4;
+    repeated string para_list = 6;
+    int64 expire_time = 7;
+    MailType mail_type = 9;
+    uint32 template_id = 10;
+    string sender = 11;
+    string title = 12;
+    ItemList attachment = 15;
+}

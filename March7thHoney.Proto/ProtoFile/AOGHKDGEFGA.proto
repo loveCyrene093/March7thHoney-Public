@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NBMFOJAKMGP.proto";
+
+message AOGHKDGEFGA {
+    repeated NBMFOJAKMGP relic_plan_list = 2;
+    uint32 avatar_id = 8;
+    uint32 retcode = 11;
+}

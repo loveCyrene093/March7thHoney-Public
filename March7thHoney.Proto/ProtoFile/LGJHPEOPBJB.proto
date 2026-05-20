@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "OBECBMMMDHC.proto";
+
+message LGJHPEOPBJB {
+    uint32 gacha_random = 1;
+    uint32 JOOLIKGDJJF = 7;
+    OBECBMMMDHC NJELGEBHAOP = 8;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DHKCDCCHLHP.proto";
+import "ItemList.proto";
+
+message TakeRechargeBenefitRewardScRsp {
+    ItemList reward = 4;
+    uint32 retcode = 6;
+    DHKCDCCHLHP FIFHCICHDOH = 10;
+}

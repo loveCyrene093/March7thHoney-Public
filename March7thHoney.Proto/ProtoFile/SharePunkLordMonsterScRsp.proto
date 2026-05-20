@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PunkLordShareType.proto";
+
+message SharePunkLordMonsterScRsp {
+    uint32 monster_id = 4;
+    PunkLordShareType share_type = 6;
+    uint32 retcode = 9;
+    uint32 uid = 13;
+}

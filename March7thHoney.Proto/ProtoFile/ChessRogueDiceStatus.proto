@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum ChessRogueDiceStatus {
+    HPHBEGJDIID_EOBBBBEHNNH = 0;
+    HPHBEGJDIID_NBDBAGCOKPN = 1;
+    HPHBEGJDIID_MENJPEGIBNC = 2;
+    HPHBEGJDIID_JEJKOOGGEHA = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum BKACBGFDDDA {
+    BJLEJCIGLAO_PCPDHELPKEM = 0;
+    BJLEJCIGLAO_AGJBLPLJGPD = 1;
+    BJLEJCIGLAO_ACBOMNNALDK = 2;
+}

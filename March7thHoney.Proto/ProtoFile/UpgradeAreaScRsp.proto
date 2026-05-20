@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message UpgradeAreaScRsp {
+    uint32 level = 4;
+    uint32 retcode = 7;
+    uint32 area_id = 14;
+}

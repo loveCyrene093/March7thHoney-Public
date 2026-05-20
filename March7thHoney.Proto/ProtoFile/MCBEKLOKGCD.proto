@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message MCBEKLOKGCD {
+    uint32 NOEINMPONOL = 7;
+    uint32 value = 15;
+}

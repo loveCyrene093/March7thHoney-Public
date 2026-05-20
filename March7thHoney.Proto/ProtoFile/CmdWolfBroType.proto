@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdWolfBroType {
+    JIOOLBKBEPC_PCPDHELPKEM = 0;
+    CmdEJGAINKKBFM = 6536;
+    CmdJLJHOOBHDHP = 6513;
+    CmdKHOHCMMCMBL = 6519;
+    CmdBLGNJJNFDEA = 6503;
+    CmdBNEGEEBJCMD = 6550;
+    CmdEEGAIOCCMKM = 6535;
+    CmdIPNAEODCPDD = 6505;
+    CmdMOMAEPPEAJA = 6502;
+    CmdMGDAGAPAIEJ = 6531;
+    CmdHBPBHNPIEAK = 6518;
+    CmdPCHLKJCNCEN = 6516;
+    CmdPPBJILGAPBF = 6544;
+    CmdNJMPAPFMNFM = 6538;
+    CmdEIBNPIKGCJN = 6530;
+    CmdDNDHIDKFBKA = 6507;
+    CmdDPPDCNBILMN = 6501;
+    CmdCMOHIGKKNEN = 6527;
+    CmdOFFBNGEIDFM = 6545;
+    CmdBCGIHFGIAEM = 6547;
+}

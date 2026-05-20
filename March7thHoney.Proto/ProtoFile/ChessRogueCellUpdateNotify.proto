@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BGOBBOMLJCM.proto";
+import "NAKIGLPGKBA.proto";
+import "RogueModifierSourceType.proto";
+
+message ChessRogueCellUpdateNotify {
+    repeated NAKIGLPGKBA DDPKJKHEDLH = 5;
+    BGOBBOMLJCM reason = 11;
+    uint32 OHHGAAKGLDO = 14;
+    RogueModifierSourceType FPAFHBPBHEF = 15;
+}

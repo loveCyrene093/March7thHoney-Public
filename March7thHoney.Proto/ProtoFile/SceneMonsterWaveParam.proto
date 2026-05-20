@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SceneMonsterWaveParam {
+    uint32 hard_level_group = 5;
+    uint32 BDCCEFHMFHO = 7;
+    uint32 elite_group = 10;
+    uint32 level = 14;
+    uint32 OPJAFNEFJDC = 15;
+}

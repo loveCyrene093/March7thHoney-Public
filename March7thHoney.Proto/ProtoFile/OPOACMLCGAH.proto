@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message OPOACMLCGAH {
+    uint32 retcode = 4;
+    bytes LFIMIHLOLNB = 6;
+    uint32 LAHAIAIKPJN = 15;
+}

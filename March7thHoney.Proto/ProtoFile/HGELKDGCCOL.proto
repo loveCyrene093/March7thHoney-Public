@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message HGELKDGCCOL {
+    uint32 value = 2;
+    uint32 type = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ChallengeAvatarInfo.proto";
+
+message ChallengeLineupList {
+    repeated ChallengeAvatarInfo avatar_list = 15;
+}

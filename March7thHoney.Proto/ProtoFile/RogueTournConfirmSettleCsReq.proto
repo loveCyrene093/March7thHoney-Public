@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message RogueTournConfirmSettleCsReq {
+    uint32 area_id = 4;
+    string name = 7;
+    uint32 KKGIEENCOIC = 13;
+}

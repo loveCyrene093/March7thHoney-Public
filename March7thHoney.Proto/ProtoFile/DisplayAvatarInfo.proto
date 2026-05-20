@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DisplayAvatarInfo {
+    uint32 CBHKFOEOMFF = 11;
+    uint32 avatar_id = 15;
+}

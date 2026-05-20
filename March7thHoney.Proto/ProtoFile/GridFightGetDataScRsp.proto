@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightCurrentInfo.proto";
+import "GridFightSystemInfo.proto";
+
+message GridFightGetDataScRsp {
+    uint32 retcode = 2;
+    GridFightSystemInfo rogue_get_info = 4;
+    GridFightCurrentInfo fight_current_info = 13;
+}

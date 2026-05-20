@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "TreasureDungeonRecordType.proto";
+
+message JCEEENOLDIF {
+    TreasureDungeonRecordType type = 3;
+    uint32 CMAPCGGABJI = 8;
+    uint32 GHAIGLAHMHO = 10;
+    uint32 PNIDNOGHMBH = 12;
+    uint32 HAFFDDDPFGA = 14;
+}

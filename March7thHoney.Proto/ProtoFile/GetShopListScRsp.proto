@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Shop.proto";
+
+message GetShopListScRsp {
+    uint32 retcode = 1;
+    uint32 shop_type = 3;
+    repeated Shop shop_list = 15;
+}

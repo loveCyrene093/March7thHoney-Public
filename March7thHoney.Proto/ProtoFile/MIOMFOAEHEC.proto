@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BLKAIEHOCBC.proto";
+
+message MIOMFOAEHEC {
+    BLKAIEHOCBC IPHHGMECAKB = 5;
+    uint32 MAGCGPMHHEA = 6;
+    BLKAIEHOCBC IJAEBDCFEMG = 12;
+}

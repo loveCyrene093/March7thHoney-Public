@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GGFCMMIFOHM.proto";
+import "ILMJJCJMIPB.proto";
+import "PileItem.proto";
+
+message KKNDEDPDFFL {
+    uint32 LCDALEEEDJJ = 1;
+    bool CAGMJCAPAAL = 2;
+    repeated uint32 OCEKFIEFMJD = 3;
+    repeated uint32 BKCLBLBGEMK = 4;
+    uint32 JPFKOBEAJOG = 5;
+    int64 finish_time = 6;
+    uint32 BDHGHALJJHC = 7;
+    uint32 world_level = 8;
+    int64 DNNHCNCKJCM = 9;
+    GGFCMMIFOHM status = 10;
+    repeated uint32 BJIBAOBEAJJ = 11;
+    bool is_taken_reward = 12;
+    repeated PileItem IPGLGFPMANL = 13;
+    uint32 GOEOGCJDACN = 14;
+    bool GODBPOHKDOH = 736;
+    uint32 GGALMCJNCNM = 783;
+    uint32 NMEFGMICHON = 897;
+    bool BFEDHCOIOPN = 1035;
+    ILMJJCJMIPB JOBDOFHGGLN = 1038;
+    uint32 PPCAPBMKGAC = 1269;
+    uint32 GEEFOKFBPDK = 2038;
+}

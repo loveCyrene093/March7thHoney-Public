@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KKJNFIPPDDO {
+    uint32 unique_id = 5;
+    uint32 KLOOFAEJGKD = 9;
+    repeated uint32 BOFOMAPKKHM = 11;
+    uint32 level = 14;
+}

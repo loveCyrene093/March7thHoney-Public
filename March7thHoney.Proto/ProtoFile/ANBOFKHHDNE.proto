@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message ANBOFKHHDNE {
+    uint32 CJOPNFDBJHD = 1;
+    uint32 unique_id = 5;
+    uint32 display_value = 7;
+    uint32 JBPCICCFPGE = 9;
+}

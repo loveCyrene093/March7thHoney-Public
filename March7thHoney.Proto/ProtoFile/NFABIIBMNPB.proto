@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message NFABIIBMNPB {
+    uint32 pos = 1;
+    uint32 role_id = 2;
+    uint32 role_star = 3;
+    repeated uint32 grid_fight_item_list = 4;
+    map<string, uint32> grid_fight_value_init_component = 5;
+}

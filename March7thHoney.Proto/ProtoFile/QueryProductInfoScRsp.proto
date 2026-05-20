@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "Product.proto";
+
+message QueryProductInfoScRsp {
+    uint64 month_card_out_date_time = 6;
+    repeated Product product_list = 8;
+    uint32 IFKKKLCFOBK = 10;
+    uint32 retcode = 13;
+    uint32 BAMOOGPNJEH = 15;
+}

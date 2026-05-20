@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "KAIELJPMGHL.proto";
+
+message FiveDimGameDataUpdateScNotify {
+    uint32 client_pos_version = 12;
+    KAIELJPMGHL OIAPHBBDPHL = 14;
+    bool PBOBBPEKBLK = 15;
+}

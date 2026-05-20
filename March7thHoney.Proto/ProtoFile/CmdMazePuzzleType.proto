@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdMazePuzzleType {
+    FOPABKIFKCA_PCPDHELPKEM = 0;
+    CmdFiveDimFluteDataChangeNotify = 9056;
+    CmdGetChenLingGameBoyDataScRsp = 9057;
+    FOPABKIFKCA_KHCPFLLNIBD = 9097;
+    FOPABKIFKCA_EOHHIEMGIFL = 9052;
+    CmdGDABFHAALML = 9069;
+    CmdJOGJDGHDKLO = 9094;
+    CmdPDAHKAKLPGF = 9065;
+    FOPABKIFKCA_PDNBIKIKEJE = 9080;
+    FOPABKIFKCA_HGIEKKAMPBH = 9099;
+    CmdMazeCrossFloorConditionChangeScNotify = 9076;
+    FOPABKIFKCA_IIMGAMGJICE = 9063;
+    CmdBLKKAGMOJGP = 9051;
+    CmdFinishFiveDimMiniGameScRsp = 9053;
+    FOPABKIFKCA_PKIODIAODEL = 9081;
+    CmdChenLingGameBoyGetFriendRankingInfoScRsp = 9088;
+    CmdGetFiveDimMiniGameDataScRsp = 9095;
+    CmdGetFiveDimFluteDataScRsp = 9066;
+    FOPABKIFKCA_MDEEBDEEFAK = 9085;
+    FOPABKIFKCA_HEEJKOEIEBA = 9086;
+    CmdJKPKDPHIPHD = 9071;
+    CmdGetFiveDimMiniGameDataCsReq = 9055;
+    FOPABKIFKCA_NLAPCEIDFCM = 9100;
+    FOPABKIFKCA_GOMBKJBHMAF = 9068;
+    CmdFinishChenLingGameBoyScRsp = 9077;
+}

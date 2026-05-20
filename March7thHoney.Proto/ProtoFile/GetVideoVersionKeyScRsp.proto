@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "VideoKeyInfo.proto";
+
+message GetVideoVersionKeyScRsp {
+    uint32 retcode = 5;
+    repeated VideoKeyInfo activity_video_key_info_list = 6;
+    repeated VideoKeyInfo video_key_info_list = 8;
+}

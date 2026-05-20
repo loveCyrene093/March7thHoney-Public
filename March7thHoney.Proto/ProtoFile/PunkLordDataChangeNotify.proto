@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message PunkLordDataChangeNotify {
+    uint32 CLMONEEIEJE = 4;
+    uint32 EJFEBCKDNNH = 7;
+    uint32 DBAKNBHLNJK = 12;
+}

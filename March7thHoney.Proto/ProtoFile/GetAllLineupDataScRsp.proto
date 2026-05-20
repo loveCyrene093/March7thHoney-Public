@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LineupInfo.proto";
+
+message GetAllLineupDataScRsp {
+    uint32 retcode = 6;
+    repeated LineupInfo lineup_list = 10;
+    uint32 cur_index = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "NCIFDEHCMBK.proto";
+
+message DrinkMakerCheersGetDataScRsp {
+    uint32 HKEABJLEIPM = 3;
+    uint32 retcode = 7;
+    uint32 EEDGBJFEECA = 8;
+    repeated NCIFDEHCMBK MFEPAEKOPNN = 11;
+}

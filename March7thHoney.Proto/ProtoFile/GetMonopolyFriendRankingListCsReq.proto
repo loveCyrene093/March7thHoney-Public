@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetMonopolyFriendRankingListCsReq {
+    uint32 CHNPMIBHOAA = 2;
+    uint32 FKAKCCJCGAF = 3;
+    uint32 NNAOHMMIBEB = 5;
+    uint32 DLDGHJEJDPF = 11;
+    uint32 uid = 15;
+}

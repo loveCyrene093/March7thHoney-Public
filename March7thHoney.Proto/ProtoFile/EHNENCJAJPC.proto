@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EHNENCJAJPC {
+    oneof FFGIEFNOLHN {
+        uint32 FHDJFAMMNOF = 11;
+        uint32 CGOABGKCBEF = 14;
+    }
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AKCFLPEANJB.proto";
+
+message BKNMOOFGGKH {
+    uint32 KKGIEENCOIC = 2;
+    AKCFLPEANJB EOGACILLEBO = 3;
+    int64 ALMALADADFB = 4;
+    string name = 6;
+    int64 time = 7;
+}

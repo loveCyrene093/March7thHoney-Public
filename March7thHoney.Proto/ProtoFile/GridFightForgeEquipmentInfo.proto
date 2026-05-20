@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightForgeEquipmentInfo {
+    uint32 grid_fight_equipment_id = 4;
+}

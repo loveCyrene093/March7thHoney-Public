@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ICIKHNKEELJ.proto";
+
+message DFLMKFIFHKB {
+    repeated ICIKHNKEELJ EFIJDEBFFNF = 2;
+    uint32 dice_slot_id = 6;
+    string BOINMJJEBBE = 7;
+    string name = 8;
+    bytes LENCLJPKDAO = 9;
+}

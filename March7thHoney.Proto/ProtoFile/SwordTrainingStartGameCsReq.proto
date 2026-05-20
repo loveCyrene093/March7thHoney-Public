@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SwordTrainingStartGameCsReq {
+    uint32 game_story_line_id = 11;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HeadFrameInfo.proto";
+import "PlatformType.proto";
+
+message MBICBKAFGIK {
+    string remark_name = 1;
+    HeadFrameInfo head_frame_info = 3;
+    uint32 CLDNGAEIBDF = 4;
+    string nickname = 5;
+    uint32 uid = 6;
+    uint32 level = 7;
+    uint32 GKDPLCCALMH = 9;
+    string ICJIGHOMDNL = 10;
+    PlatformType platform = 12;
+    uint32 head_icon = 14;
+}

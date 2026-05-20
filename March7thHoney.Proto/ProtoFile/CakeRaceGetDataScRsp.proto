@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message CakeRaceGetDataScRsp {
+    uint32 retcode = 3;
+    uint32 LCHDAPELPGO = 5;
+    repeated uint32 IHGBBHEBLKL = 8;
+    uint32 score_id = 11;
+    repeated uint32 PKOCDLHBPIM = 13;
+    uint32 item_value = 14;
+}

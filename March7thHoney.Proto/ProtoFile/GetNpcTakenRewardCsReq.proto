@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetNpcTakenRewardCsReq {
+    uint32 npc_id = 12;
+}

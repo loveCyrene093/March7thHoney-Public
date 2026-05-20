@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JMGCDIANLGK.proto";
+
+message CancelSyncExpiredItemCsReq {
+    JMGCDIANLGK type = 3;
+    repeated uint32 COOOFFKIDMC = 6;
+    repeated string JLLKNNFAPEE = 14;
+}

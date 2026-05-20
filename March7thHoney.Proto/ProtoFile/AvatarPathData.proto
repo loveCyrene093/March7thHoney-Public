@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AvatarPathSkillTree.proto";
+import "EquipRelic.proto";
+
+message AvatarPathData {
+    repeated AvatarPathSkillTree avatar_path_skill_tree = 1;
+    uint32 dressed_skin_id = 8;
+    repeated EquipRelic equip_relic_list = 9;
+    uint32 avatar_id = 10;
+    uint32 rank = 11;
+    uint64 unlock_timestamp = 12;
+    uint32 path_equipment_id = 13;
+    uint32 unk_enhanced_id = 14;
+}

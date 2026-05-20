@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "PropExtraInfo.proto";
+
+message ScenePropInfo {
+    uint32 life_time_ms = 1;
+    uint32 prop_state = 2;
+    repeated string trigger_name_list = 6;
+    PropExtraInfo extra_info = 9;
+    uint64 create_time_ms = 12;
+    uint32 prop_id = 15;
+}

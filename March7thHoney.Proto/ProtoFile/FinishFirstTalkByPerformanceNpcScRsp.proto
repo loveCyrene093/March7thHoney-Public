@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message FinishFirstTalkByPerformanceNpcScRsp {
+    uint32 performance_id = 1;
+    uint32 retcode = 4;
+    ItemList reward = 10;
+}

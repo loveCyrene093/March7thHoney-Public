@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "CMLEPLPBJCC.proto";
+
+message BMPOHNCLHMF {
+    uint32 content_id = 4;
+    uint32 retcode = 6;
+    uint32 GFGFLIHCCOD = 9;
+    repeated CMLEPLPBJCC CFKFFEDJDDG = 13;
+}

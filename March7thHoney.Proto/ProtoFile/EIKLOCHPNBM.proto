@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "JNBGIDELOGF.proto";
+
+message EIKLOCHPNBM {
+    JNBGIDELOGF EFBAMGJDAEH = 5;
+    repeated uint32 NLHDFBNLJHJ = 15;
+}

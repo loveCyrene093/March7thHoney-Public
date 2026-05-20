@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message SetHipplenAgendaCsReq {
+    repeated uint32 CLKAILDCPJC = 7;
+}

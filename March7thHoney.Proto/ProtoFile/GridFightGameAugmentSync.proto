@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridGameAugmentInfo.proto";
+
+message GridFightGameAugmentSync {
+    repeated GridGameAugmentInfo sync_augment_info = 6;
+}

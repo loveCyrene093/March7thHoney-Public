@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdDrinkMakerType {
+    GEBLECMFGGA_PCPDHELPKEM = 0;
+    CmdGetDrinkMakerDayEndScNotify = 6987;
+    CmdMakeDrinkScRsp = 6990;
+    CmdMakeMissionDrinkCsReq = 6994;
+    CmdDrinkMakerCheersGetDataScRsp = 6983;
+    CmdGetDrinkMakerDataScRsp = 7000;
+    CmdDrinkMakerCheersMakeDrinkScRsp = 6993;
+    CmdDrinkMakerChallengeCsReq = 6999;
+    CmdGetDrinkMakerDataCsReq = 6981;
+    CmdMakeMissionDrinkScRsp = 6997;
+    CmdDrinkMakerCheersEnterNextGroupScRsp = 6992;
+    CmdEndDrinkMakerSequenceCsReq = 6995;
+    CmdDrinkMakerChallengeScRsp = 6991;
+    CmdMakeDrinkCsReq = 6982;
+    CmdDrinkMakerCheersMakeDrinkCsReq = 6989;
+    CmdDrinkMakerUpdateTipsNotify = 6998;
+    CmdEndDrinkMakerSequenceScRsp = 6988;
+    CmdDrinkMakerCheersGetDataCsReq = 6984;
+    CmdDrinkMakerCheersEnterNextGroupCsReq = 6985;
+}

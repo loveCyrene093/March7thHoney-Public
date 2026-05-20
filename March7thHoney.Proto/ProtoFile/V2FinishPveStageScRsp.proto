@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message V2FinishPveStageScRsp {
+    uint32 retcode = 4;
+    uint32 MMLKFJIAKKH = 8;
+    ItemList reward = 9;
+    bool is_win = 13;
+}

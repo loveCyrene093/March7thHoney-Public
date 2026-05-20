@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message EFBIMNFGMBM {
+    uint32 AFAHDBPGJLL = 2;
+    uint32 avatar_id = 9;
+    uint32 LNNNCEILCAA = 11;
+}

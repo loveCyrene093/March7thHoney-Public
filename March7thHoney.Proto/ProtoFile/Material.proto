@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message Material {
+    uint32 tid = 11;
+    uint32 num = 12;
+    uint64 expire_time = 13;
+}

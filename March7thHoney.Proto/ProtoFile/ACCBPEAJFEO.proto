@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "LBMLLJHFEHB.proto";
+import "OFHPKJDHOMF.proto";
+import "OJEJCHBHCJL.proto";
+
+message ACCBPEAJFEO {
+    LBMLLJHFEHB status = 1;
+    uint32 KEDIMMAGFBO = 4;
+    uint32 NLMMFJOPBFC = 5;
+    OFHPKJDHOMF reason = 8;
+    repeated OJEJCHBHCJL FHLJEHDHJLI = 13;
+    uint32 APMIAKDPHJL = 14;
+}

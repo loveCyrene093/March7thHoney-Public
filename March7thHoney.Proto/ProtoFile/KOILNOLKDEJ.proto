@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message KOILNOLKDEJ {
+    uint32 card_id = 1;
+    double display_value = 2;
+    bool PMDFFJCICOI = 3;
+    repeated double switch_list = 4;
+}

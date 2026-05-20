@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GDMLNIJOFEE.proto";
+
+message RogueTournAreaUpdateScNotify {
+    repeated GDMLNIJOFEE BFHJHAKFBIG = 6;
+}

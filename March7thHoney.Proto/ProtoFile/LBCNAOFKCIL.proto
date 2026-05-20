@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message LBCNAOFKCIL {
+    uint32 GNDEPOKFHPE = 11;
+    uint32 OMNFDNBEPLA = 13;
+    uint32 HJMGGLANHML = 15;
+}

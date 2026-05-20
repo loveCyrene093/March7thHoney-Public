@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetFiveDimMoneyScRsp {
+    uint32 HFMLMJALLPC = 11;
+    uint32 retcode = 12;
+    uint32 HLLKKGIFIPC = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum HeartDialUnlockStatus {
+    HEART_DIAL_UNLOCK_STATUS_LOCK = 0;
+    HEART_DIAL_UNLOCK_STATUS_UNLOCK_SINGLE = 1;
+    HEART_DIAL_UNLOCK_STATUS_UNLOCK_ALL = 2;
+}

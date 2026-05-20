@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DGFNONPBIOF {
+    uint32 HEANLLDNNIP = 12;
+}

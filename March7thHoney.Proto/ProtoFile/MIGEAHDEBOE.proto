@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightTalentInfo.proto";
+import "NHDKLMIMLKC.proto";
+
+message MIGEAHDEBOE {
+    GridFightTalentInfo OJLAODIALLE = 1;
+    NHDKLMIMLKC IMNOJIDJBNG = 8;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AreaDynamicInfo.proto";
+import "AreaStepInfo.proto";
+
+message TrainPartyArea {
+    repeated uint32 step_id_list = 7;
+    repeated AreaDynamicInfo dynamic_info = 8;
+    AreaStepInfo area_step_info = 10;
+    uint32 area_id = 11;
+    repeated uint32 static_prop_id_list = 12;
+    repeated uint32 verify_step_id_list = 13;
+    uint32 progress = 15;
+}

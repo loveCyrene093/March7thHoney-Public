@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AGJPCOOMPGH.proto";
+import "MOFDANDCGHJ.proto";
+import "NILDPLJDLLJ.proto";
+import "NNHPDNACICF.proto";
+
+message MLAJNANGALB {
+    MOFDANDCGHJ source = 10;
+    NNHPDNACICF DHHLINHKJKC = 13;
+    uint32 HPEOJNOOHDD = 14;
+    oneof FABBIGDKAIN {
+        AGJPCOOMPGH EOJHLPDEPPJ = 181;
+        NILDPLJDLLJ DCFDMKEBEMC = 415;
+        uint32 CDKMMHGKJFI = 1648;
+    }
+}

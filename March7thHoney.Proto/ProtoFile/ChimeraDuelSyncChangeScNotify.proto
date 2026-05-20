@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AEBNLKAPDLB.proto";
+
+message ChimeraDuelSyncChangeScNotify {
+    repeated AEBNLKAPDLB CJFBLHNPHAK = 3;
+}

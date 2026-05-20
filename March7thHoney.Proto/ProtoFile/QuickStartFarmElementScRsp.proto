@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneBattleInfo.proto";
+
+message QuickStartFarmElementScRsp {
+    uint32 world_level = 6;
+    uint32 FarmElementId = 7;
+    SceneBattleInfo battle_info = 9;
+    uint32 retcode = 14;
+}

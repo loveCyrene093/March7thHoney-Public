@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message FateShopSellBuffCsReq {
+    bool PHGCDAOHLDA = 4;
+    uint32 OIBPLMKKGGL = 12;
+    uint32 NPMAANOOCOJ = 13;
+}

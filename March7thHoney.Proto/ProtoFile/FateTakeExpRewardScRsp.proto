@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ItemList.proto";
+
+message FateTakeExpRewardScRsp {
+    repeated uint32 AKCJLIELLCC = 2;
+    ItemList reward = 7;
+    repeated uint32 NLCDIKNHMJM = 9;
+    uint32 retcode = 11;
+}

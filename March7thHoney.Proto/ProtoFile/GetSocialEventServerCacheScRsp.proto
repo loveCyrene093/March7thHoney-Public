@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "FKGGCHGFLAD.proto";
+
+message GetSocialEventServerCacheScRsp {
+    uint32 retcode = 11;
+    repeated FKGGCHGFLAD HMEODJMENEG = 15;
+}

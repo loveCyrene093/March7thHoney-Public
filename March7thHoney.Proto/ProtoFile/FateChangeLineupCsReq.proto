@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "HAJAOGGPCJC.proto";
+
+message FateChangeLineupCsReq {
+    repeated HAJAOGGPCJC avatar_list = 10;
+}

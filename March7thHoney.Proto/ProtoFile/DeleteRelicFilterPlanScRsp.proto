@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message DeleteRelicFilterPlanScRsp {
+    uint32 retcode = 2;
+    repeated uint32 IBJMBIACFEK = 4;
+    bool KIPBINBIDAE = 10;
+}

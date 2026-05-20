@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum GKHEHCOMHCM {
+    GKHEHCOMHCM_PCPDHELPKEM = 0;
+    GKHEHCOMHCM_NMBCDILDGNK = 1;
+    GKHEHCOMHCM_KLHDCOPPLNG = 2;
+}

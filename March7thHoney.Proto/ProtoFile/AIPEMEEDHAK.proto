@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "IAMALMLBOEI.proto";
+import "IFLOGJBONHI.proto";
+
+message AIPEMEEDHAK {
+    uint32 EPLBCNFMLIL = 1;
+    uint32 stage_id = 3;
+    bool is_win = 4;
+    repeated IFLOGJBONHI JMIKPCPIFCD = 9;
+    repeated IAMALMLBOEI ICHMKFMAIBB = 11;
+}

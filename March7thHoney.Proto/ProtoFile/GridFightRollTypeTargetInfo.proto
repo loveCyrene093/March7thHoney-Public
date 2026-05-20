@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightRollTypeTargetInfo {
+    uint32 dress_equipment_unique_id = 4;
+    uint32 dress_role_unique_id = 7;
+}

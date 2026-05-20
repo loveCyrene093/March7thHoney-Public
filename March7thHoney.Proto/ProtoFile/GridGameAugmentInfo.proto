@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "GridFightGameItemInfo.proto";
+
+message GridGameAugmentInfo {
+    bool NDCFBKJDPAH = 3;
+    bool MHMLMKDFJLN = 9;
+    uint32 augment_id = 10;
+    repeated GridFightGameItemInfo PHPOLHLJGFM = 14;
+}

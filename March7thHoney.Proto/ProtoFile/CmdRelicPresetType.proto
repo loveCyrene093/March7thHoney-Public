@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRelicPresetType {
+    LBJIAPDMOAH_PCPDHELPKEM = 0;
+    CmdGBFGABHFBCN = 9850;
+    CmdRelicPresetAddPlanCsReq = 9842;
+    CmdAOGHKDGEFGA = 9860;
+    CmdRelicPresetDeletePlanCsReq = 9855;
+    CmdAIODMENCPKA = 9847;
+    CmdRelicPresetGetPlanCsReq = 9841;
+    CmdRelicPresetUpdatePlanCsReq = 9854;
+    CmdOGMDDDFDNJP = 9857;
+    CmdHLPMDOPHNOG = 9848;
+}

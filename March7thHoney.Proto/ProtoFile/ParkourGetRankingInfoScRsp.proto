@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AFDBEFKBBFM.proto";
+
+message ParkourGetRankingInfoScRsp {
+    repeated AFDBEFKBBFM DEHBAPFMBMB = 2;
+    AFDBEFKBBFM IMDCEFEGIPB = 4;
+    uint32 retcode = 6;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GetUnlockTeleportScRsp {
+    repeated uint32 unlock_teleport_list = 2;
+    uint32 retcode = 10;
+}

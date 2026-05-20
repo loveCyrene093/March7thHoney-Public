@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum FBKBOKHCLLF {
+    FBKBOKHCLLF_NMJBKOMIPNP = 0;
+    FBKBOKHCLLF_DDFFNBPHDMI = 1;
+    FBKBOKHCLLF_MHPFEGDKIKC = 2;
+    FBKBOKHCLLF_ADEAMNAHBPE = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "DICJKJNENCP.proto";
+
+message MMPOOBGAEKE {
+    uint32 MKBIOANPMKE = 8;
+    DICJKJNENCP status = 11;
+}

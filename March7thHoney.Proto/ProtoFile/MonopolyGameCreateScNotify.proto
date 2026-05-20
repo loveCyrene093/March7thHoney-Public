@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "BAFPNCPHNFF.proto";
+import "KHCHPPLOFJN.proto";
+
+message MonopolyGameCreateScNotify {
+    KHCHPPLOFJN BMKAEFAKNFJ = 8;
+    BAFPNCPHNFF DDLFLPKNLPL = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "SceneEntityInfo.proto";
+
+message SceneEntityGroupInfo {
+    uint32 group_id = 2;
+    map<string, int32> OPLJDFOOMGF = 8;
+    repeated SceneEntityInfo entity_list = 12;
+    uint32 state = 15;
+}

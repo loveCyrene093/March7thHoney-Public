@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "MCPPIEJEBEF.proto";
+
+message PlayBackGroundMusicScRsp {
+    MCPPIEJEBEF JILKOPINLDC = 8;
+    uint32 retcode = 12;
+}

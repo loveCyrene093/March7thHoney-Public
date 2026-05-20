@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "AHPCJPMMEMN.proto";
+import "SpBarInfo.proto";
+
+message KNHKBHADJGE {
+    uint32 IMMHJMDHDGC = 1;
+    uint32 IPEBMMPKJLF = 2;
+    SpBarInfo sp_bar = 5;
+    uint32 promotion = 9;
+    uint32 exp = 10;
+    repeated AHPCJPMMEMN OKMFEGDIONG = 14;
+}

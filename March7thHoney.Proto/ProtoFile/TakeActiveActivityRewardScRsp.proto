@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+import "ActiveActivityData.proto";
+import "ItemList.proto";
+
+message TakeActiveActivityRewardScRsp {
+    ItemList reward = 6;
+    uint32 retcode = 10;
+    ActiveActivityData MLBLPBLIJCA = 15;
+}

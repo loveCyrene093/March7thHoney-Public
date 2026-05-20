@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum CmdRogueCommon {
+    CANOHPGPCGJ_BPNKNCLAKAG = 0;
+    CmdRogueGetGambleInfoScRsp = 5675;
+    CANOHPGPCGJ_LOAAMJBIEOH = 5658;
+    CmdRogueShopBeginBattleCsReq = 5650;
+    CmdPLHGBLKJNOL = 5698;
+    CmdSetRogueCollectionScRsp = 5613;
+    CmdOOCOMIOPINM = 5626;
+    CmdTakeRogueMiracleHandbookRewardScRsp = 5602;
+    CmdRogueWorkbenchHandleFuncScRsp = 5660;
+    CmdSelectRogueCommonDialogueOptionScRsp = 5688;
+    CmdTakeEventHandbookRewardScRsp = 5666;
+    CmdGetRogueShopBuffInfoScRsp = 5609;
+    CmdSetRogueExhibitionScRsp = 5683;
+    CmdRogueGetGambleInfoCsReq = 5697;
+    CmdGetRogueCommonDialogueDataScRsp = 5616;
+    CmdRogueDoGambleCsReq = 5648;
+    CmdCommonRogueQueryScRsp = 5629;
+    CANOHPGPCGJ_IAMCNCIEHGG = 5644;
+    CmdRogueWorkbenchGetInfoCsReq = 5670;
+    CmdHandleRogueCommonPendingActionScRsp = 5642;
+    CmdGetRogueShopMiracleInfoScRsp = 5614;
+    CmdFHEKPIAGNIN = 5690;
+    CmdRogueShopBeginBattleScRsp = 5619;
+    CmdGetRogueShopFormulaInfoScRsp = 5627;
+    CmdBuyRogueShopBuffScRsp = 5639;
+    CmdNEELNABJPGE = 5694;
+    CmdSelectRogueBonusReq = 5678;
+    CmdSyncRogueCommonPendingActionScNotify = 5611;
+    CmdCommonRogueVirtualItemInfoScNotify = 5636;
+    CmdIAGFLEBBOGB = 5674;
+    CmdLHEFHJLBHGK = 5696;
+    CmdGetRogueShopMiracleInfoCsReq = 5695;
+    CmdRogueDoGambleScRsp = 5676;
+    CmdUpdateRogueAdventureRoomScoreCsReq = 5630;
+    CmdBuyRogueShopMiracleCsReq = 5623;
+    CmdSetRogueExhibitionCsReq = 5631;
+    CmdGetRogueShopBuffInfoCsReq = 5618;
+    CmdSelectRogueCommonDialogueOptionCsReq = 5606;
+    CmdTakeEventHandbookRewardCsReq = 5649;
+    CmdBuyRogueShopFormulaScRsp = 5667;
+    CmdGetRogueCommonDialogueDataCsReq = 5677;
+    CmdTakeRogueMiracleHandbookRewardCsReq = 5693;
+    CmdRogueWorkbenchReforgeBuffReq = 5682;
+    CmdBuyRogueShopMiracleScRsp = 5663;
+    CANOHPGPCGJ_NBEEENFFEME = 5607;
+    CmdCommonRogueQueryCsReq = 5659;
+    CmdPrepareRogueAdventureRoomCsReq = 5610;
+    CmdIFPKEPIAOFP = 5691;
+    CmdRogueWorkbenchGetInfoScRsp = 5668;
+    CmdSyncRogueCommonDialogueDataScNotify = 5669;
+    CmdEJGHKFDHGGC = 5604;
+    CmdGetRogueHandbookDataCsReq = 5654;
+    CmdNDHFHFFHJIH = 5671;
+    CmdGetRogueHandbookDataScRsp = 5679;
+    CmdSetRogueCollectionCsReq = 5699;
+    CmdRogueNpcDisappearCsReq = 5601;
+    CmdSyncRogueCommonDialogueOptionFinishScNotify = 5641;
+    CmdGetRogueAdventureRoomInfoCsReq = 5637;
+    CmdSyncRogueCommonActionResultScNotify = 5605;
+    CmdCommonRogueUpdateScNotify = 5612;
+    CmdGetRogueShopFormulaInfoCsReq = 5687;
+    CmdSyncRogueHandbookDataUpdateScNotify = 5620;
+    CmdFinishRogueCommonDialogueCsReq = 5652;
+    CmdStopRogueAdventureRoomCsReq = 5689;
+    CANOHPGPCGJ_LLAEEOHFPED = 5700;
+}

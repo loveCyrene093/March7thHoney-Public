@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message GridFightRecommendEquipmentActionResult {
+    uint32 select_equipment_id = 7;
+}

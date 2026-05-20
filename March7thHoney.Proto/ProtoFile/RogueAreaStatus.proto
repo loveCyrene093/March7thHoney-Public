@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+enum RogueAreaStatus {
+    FDPOAPLBFKC_DKLPAAFFLEE = 0;
+    FDPOAPLBFKC_NGMMICOGDFP = 1;
+    FDPOAPLBFKC_ONMIBBEMGJO = 2;
+    FDPOAPLBFKC_CLPHMAJJILA = 3;
+}

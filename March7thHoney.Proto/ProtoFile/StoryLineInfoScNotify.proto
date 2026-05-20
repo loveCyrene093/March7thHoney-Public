@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "March7thHoney.Proto";
+
+
+
+message StoryLineInfoScNotify {
+    repeated uint32 trial_avatar_id_list = 1;
+    uint32 JBBJBGGNALE = 2;
+    uint32 cur_story_line_id = 9;
+    repeated uint32 unfinished_story_line_id_list = 11;
+}
