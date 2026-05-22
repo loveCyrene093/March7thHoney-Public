@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message IdleLiveDoGachaCsReq {
-    uint32 gacha_count = 11;
-}

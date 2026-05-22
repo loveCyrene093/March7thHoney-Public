@@ -1,0 +1,61 @@
+using Google.Protobuf.Reflection;
+
+namespace March7thHoney.Proto;
+
+public enum DFKBFAICDJG
+{
+	[OriginalName("DFKBFAICDJG_PCMNNONNJIO")]
+	Pcmnnonnjio,
+	[OriginalName("DFKBFAICDJG_HCABPIIMPMC")]
+	Hcabpiimpmc,
+	[OriginalName("DFKBFAICDJG_CGHHBEBGFNB")]
+	Cghhbebgfnb,
+	[OriginalName("DFKBFAICDJG_NCDJBECHGLF")]
+	Ncdjbechglf,
+	[OriginalName("DFKBFAICDJG_EMBHCPIJLCL")]
+	Embhcpijlcl,
+	[OriginalName("DFKBFAICDJG_OJENBJPLJNI")]
+	Ojenbjpljni,
+	[OriginalName("DFKBFAICDJG_ILODNIBILID")]
+	Ilodnibilid,
+	[OriginalName("DFKBFAICDJG_LNHAOAHAMEO")]
+	Lnhaoahameo,
+	[OriginalName("DFKBFAICDJG_DFIDKMFEMKC")]
+	Dfidkmfemkc,
+	[OriginalName("DFKBFAICDJG_CNEJFABNFPN")]
+	Cnejfabnfpn,
+	[OriginalName("DFKBFAICDJG_JANOJMBBLKB")]
+	Janojmbblkb,
+	[OriginalName("DFKBFAICDJG_FJHNALAOBEM")]
+	Fjhnalaobem,
+	[OriginalName("DFKBFAICDJG_IJCEAJDNHPF")]
+	Ijceajdnhpf,
+	[OriginalName("DFKBFAICDJG_KECNNAMCAKL")]
+	Kecnnamcakl,
+	[OriginalName("DFKBFAICDJG_PLFDECBHIJB")]
+	Plfdecbhijb,
+	[OriginalName("DFKBFAICDJG_HPMMOMPLEFK")]
+	Hpmmomplefk,
+	[OriginalName("DFKBFAICDJG_COGHNOCBFBE")]
+	Coghnocbfbe,
+	[OriginalName("DFKBFAICDJG_GEIOBKAHLHI")]
+	Geiobkahlhi,
+	[OriginalName("DFKBFAICDJG_JBBLIOOAMKN")]
+	Jbbliooamkn,
+	[OriginalName("DFKBFAICDJG_NABKGIJEFPG")]
+	Nabkgijefpg,
+	[OriginalName("DFKBFAICDJG_NCNPBNLMAEC")]
+	Ncnpbnlmaec,
+	[OriginalName("DFKBFAICDJG_JGMGLGIOFHI")]
+	Jgmglgiofhi,
+	[OriginalName("DFKBFAICDJG_IKCHLHGLCPN")]
+	Ikchlhglcpn,
+	[OriginalName("DFKBFAICDJG_PLONEEOKBEN")]
+	Ploneeokben,
+	[OriginalName("DFKBFAICDJG_FMBGNMJPDGF")]
+	Fmbgnmjpdgf,
+	[OriginalName("DFKBFAICDJG_NLMAKGDKHCP")]
+	Nlmakgdkhcp,
+	[OriginalName("DFKBFAICDJG_HGOHGLBFJAB")]
+	Hgohglbfjab
+}

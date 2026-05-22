@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message BatchGetQuestDataCsReq {
-    repeated uint32 quest_list = 5;
-}

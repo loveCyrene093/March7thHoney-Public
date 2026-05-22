@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message ALBHOIEJOIN {
-    uint32 KFJEMIOJLPJ = 13;
-}

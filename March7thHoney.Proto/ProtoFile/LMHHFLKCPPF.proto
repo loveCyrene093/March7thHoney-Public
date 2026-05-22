@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message LMHHFLKCPPF {
-    uint32 retcode = 3;
-}

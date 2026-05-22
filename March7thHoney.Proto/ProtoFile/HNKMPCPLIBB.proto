@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message HNKMPCPLIBB {
-    repeated uint32 region_list = 6;
-}

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message LFFHOPOPFJD {
-    uint32 IFDANJOHBJE = 9;
-}

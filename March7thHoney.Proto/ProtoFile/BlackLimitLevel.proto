@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-enum BlackLimitLevel {
-    BLACK_LIMIT_LEVEL_ALL = 0;
-}

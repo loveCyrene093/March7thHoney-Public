@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message SyncRogueAreaUnlockScNotify {
-    uint32 area_id = 1;
-}

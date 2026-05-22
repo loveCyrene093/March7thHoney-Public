@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message GridFightSummonProjectionCsReq {
-    uint32 JCMFPHMFAON = 5;
-}

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message GridFightWeeklyExtraSeasonExpScRsp {
-    uint32 cur_taken_extra_exp = 15;
-}

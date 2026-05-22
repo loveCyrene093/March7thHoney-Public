@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message OpenChestScNotify {
-    uint32 chest_id = 5;
-}

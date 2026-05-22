@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message ChenLingQuitStageCsReq {
-    uint32 PJLADGOOFKE = 8;
-}

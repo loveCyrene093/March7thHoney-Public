@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message RelicReforgeScRsp {
-    uint32 retcode = 5;
-}

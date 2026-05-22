@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message TrainCakeCatchSearchCsReq {
-    uint32 HCJPDNDOHAM = 12;
-}

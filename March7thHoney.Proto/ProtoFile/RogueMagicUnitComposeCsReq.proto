@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message RogueMagicUnitComposeCsReq {
-    repeated uint32 IGEABMFLCGC = 7;
-}

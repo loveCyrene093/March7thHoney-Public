@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message FinishFirstTalkByPerformanceNpcCsReq {
-    uint32 performance_id = 8;
-}

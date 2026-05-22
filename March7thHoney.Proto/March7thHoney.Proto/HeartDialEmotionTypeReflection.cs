@@ -1,0 +1,23 @@
+using System;
+using System.Runtime.CompilerServices;
+using Google.Protobuf.Reflection;
+
+namespace March7thHoney.Proto;
+
+public static class HeartDialEmotionTypeReflection
+{
+	private static FileDescriptor descriptor;
+
+	public static FileDescriptor Descriptor => descriptor;
+
+	static HeartDialEmotionTypeReflection()
+	{
+		InlineArray5<string> buffer = default(InlineArray5<string>);
+		global::_003CPrivateImplementationDetails_003E.InlineArrayElementRef<InlineArray5<string>, string>(ref buffer, 0) = "ChpIZWFydERpYWxFbW90aW9uVHlwZS5wcm90byqgAQoUSGVhcnREaWFsRW1v";
+		global::_003CPrivateImplementationDetails_003E.InlineArrayElementRef<InlineArray5<string>, string>(ref buffer, 1) = "dGlvblR5cGUSIQodSEVBUlRfRElBTF9FTU9USU9OX1RZUEVfUEVBQ0UQABIh";
+		global::_003CPrivateImplementationDetails_003E.InlineArrayElementRef<InlineArray5<string>, string>(ref buffer, 2) = "Ch1IRUFSVF9ESUFMX0VNT1RJT05fVFlQRV9BTkdFUhABEiEKHUhFQVJUX0RJ";
+		global::_003CPrivateImplementationDetails_003E.InlineArrayElementRef<InlineArray5<string>, string>(ref buffer, 3) = "QUxfRU1PVElPTl9UWVBFX0hBUFBZEAISHwobSEVBUlRfRElBTF9FTU9USU9O";
+		global::_003CPrivateImplementationDetails_003E.InlineArrayElementRef<InlineArray5<string>, string>(ref buffer, 4) = "X1RZUEVfU0FEEANCFqoCE01hcmNoN3RoSG9uZXkuUHJvdG9iBnByb3RvMw==";
+		descriptor = FileDescriptor.FromGeneratedCode(Convert.FromBase64String(string.Concat(global::_003CPrivateImplementationDetails_003E.InlineArrayAsReadOnlySpan<InlineArray5<string>, string>(in buffer, 5))), new FileDescriptor[0], new GeneratedClrTypeInfo(new Type[1] { typeof(HeartDialEmotionType) }, null, null));
+	}
+}

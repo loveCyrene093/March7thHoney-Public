@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message RogueDoGambleCsReq {
-    uint32 prop_entity_id = 11;
-}

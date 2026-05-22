@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message CakeRaceLikeFriendRankingInfoCsReq {
-    uint32 teleport_id = 5;
-}

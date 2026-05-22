@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message GetRecycleTimeCsReq {
-    repeated uint32 FGLKMDNFFEG = 4;
-}

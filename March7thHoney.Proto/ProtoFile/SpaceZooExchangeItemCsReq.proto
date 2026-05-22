@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message SpaceZooExchangeItemCsReq {
-    uint32 item_id = 12;
-}

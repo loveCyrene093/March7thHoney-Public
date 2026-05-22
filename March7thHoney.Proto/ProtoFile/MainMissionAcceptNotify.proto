@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message MainMissionAcceptNotify {
-    repeated uint32 sub_mission_id_list = 12;
-}

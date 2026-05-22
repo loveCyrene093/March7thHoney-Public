@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message OPPNAHLPAFG {
-    uint32 DINMKEIINLM = 13;
-}

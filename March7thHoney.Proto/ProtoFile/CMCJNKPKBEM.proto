@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option csharp_namespace = "March7thHoney.Proto";
-
-
-
-message CMCJNKPKBEM {
-    map<string, uint32> CFNPGNMPNDN = 15;
-}

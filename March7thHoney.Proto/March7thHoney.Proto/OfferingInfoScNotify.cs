@@ -1,0 +1,200 @@
+using System;
+using System.CodeDom.Compiler;
+using System.Diagnostics;
+using Google.Protobuf;
+using Google.Protobuf.Reflection;
+
+namespace March7thHoney.Proto;
+
+[DebuggerDisplay("{ToString(),nq}")]
+public sealed class OfferingInfoScNotify : IMessage<OfferingInfoScNotify>, IMessage, IEquatable<OfferingInfoScNotify>, IDeepCloneable<OfferingInfoScNotify>, IBufferMessage
+{
+	private static readonly MessageParser<OfferingInfoScNotify> _parser = new MessageParser<OfferingInfoScNotify>(() => new OfferingInfoScNotify());
+
+	private UnknownFieldSet _unknownFields;
+
+	public const int OfferingInfoFieldNumber = 7;
+
+	private OfferingInfo offeringInfo_;
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public static MessageParser<OfferingInfoScNotify> Parser => _parser;
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public static MessageDescriptor Descriptor => OfferingInfoScNotifyReflection.Descriptor.MessageTypes[0];
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	MessageDescriptor IMessage.Descriptor => Descriptor;
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public OfferingInfo OfferingInfo
+	{
+		get
+		{
+			return offeringInfo_;
+		}
+		set
+		{
+			offeringInfo_ = value;
+		}
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public OfferingInfoScNotify()
+	{
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public OfferingInfoScNotify(OfferingInfoScNotify other)
+		: this()
+	{
+		offeringInfo_ = ((other.offeringInfo_ != null) ? other.offeringInfo_.Clone() : null);
+		_unknownFields = UnknownFieldSet.Clone(other._unknownFields);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public OfferingInfoScNotify Clone()
+	{
+		return new OfferingInfoScNotify(this);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public override bool Equals(object other)
+	{
+		return Equals(other as OfferingInfoScNotify);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public bool Equals(OfferingInfoScNotify other)
+	{
+		if (other == null)
+		{
+			return false;
+		}
+		if (other == this)
+		{
+			return true;
+		}
+		if (!object.Equals(OfferingInfo, other.OfferingInfo))
+		{
+			return false;
+		}
+		return object.Equals(_unknownFields, other._unknownFields);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public override int GetHashCode()
+	{
+		int num = 1;
+		if (offeringInfo_ != null)
+		{
+			num ^= OfferingInfo.GetHashCode();
+		}
+		if (_unknownFields != null)
+		{
+			num ^= _unknownFields.GetHashCode();
+		}
+		return num;
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public override string ToString()
+	{
+		return JsonFormatter.ToDiagnosticString(this);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public void WriteTo(CodedOutputStream output)
+	{
+		output.WriteRawMessage(this);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	void IBufferMessage.InternalWriteTo(ref WriteContext output)
+	{
+		if (offeringInfo_ != null)
+		{
+			output.WriteRawTag(58);
+			output.WriteMessage(OfferingInfo);
+		}
+		if (_unknownFields != null)
+		{
+			_unknownFields.WriteTo(ref output);
+		}
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public int CalculateSize()
+	{
+		int num = 0;
+		if (offeringInfo_ != null)
+		{
+			num += 1 + CodedOutputStream.ComputeMessageSize(OfferingInfo);
+		}
+		if (_unknownFields != null)
+		{
+			num += _unknownFields.CalculateSize();
+		}
+		return num;
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public void MergeFrom(OfferingInfoScNotify other)
+	{
+		if (other == null)
+		{
+			return;
+		}
+		if (other.offeringInfo_ != null)
+		{
+			if (offeringInfo_ == null)
+			{
+				OfferingInfo = new OfferingInfo();
+			}
+			OfferingInfo.MergeFrom(other.OfferingInfo);
+		}
+		_unknownFields = UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	public void MergeFrom(CodedInputStream input)
+	{
+		input.ReadRawMessage(this);
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("protoc", null)]
+	void IBufferMessage.InternalMergeFrom(ref ParseContext input)
+	{
+		uint num;
+		while ((num = input.ReadTag()) != 0 && (num & 7) != 4)
+		{
+			if (num != 58)
+			{
+				_unknownFields = UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+				continue;
+			}
+			if (offeringInfo_ == null)
+			{
+				OfferingInfo = new OfferingInfo();
+			}
+			input.ReadMessage(OfferingInfo);
+		}
+	}
+}
